@@ -1,0 +1,2014 @@
+﻿
+DisplayName "大劇場"
+
+
+
+EVENT   60
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,337,29,44,0,0)
+  ChangeSwitch(31,31,1)
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,337,30,44,0,0)
+  ChangeSwitch(31,31,1)
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,625,7,13,0,0)
+  0()
+
+
+
+EVENT   190
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【おやじ】")
+  ShowMessage("サキちゃーん！　サキちゃぁぁぁぁ～～ん！！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【おやじ】")
+  ShowMessage("ここで待っているのさ、サキちゃんが戻ってくる日を……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("次のコンサートも、よろしくね☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【おやじ】")
+  ShowMessage("も、もちろんです！")
+  ShowMessage("女房を道具屋で売ってでも行きます！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   191
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("サキちゃーん！　ウォォォー！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("サキちゃん……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("元気がないぞッ☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【青年】")
+  ShowMessage("ホォォァァァァ――！！")
+  ShowMessage("サキちゃんだァ――ッ！！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   192
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【シーフ】")
+  ShowMessage("サキちゃーん！　サキちゃーん！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   193
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("サキちゃん、キラッ☆")
+  ShowMessage("キラッ☆　キラキラキラッ☆")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("キラッ☆　キララッ☆　キラキラキラッ☆")
+  ShowMessage("キラキラキラキラキラ……☆☆☆☆☆☆")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("目が死んでいる……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",2,0,2,3)
+  ShowMessage("【サキ】")
+  ShowMessage("魅惑しすぎちゃったかな……？")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   195
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("サキちゃんに届け、僕のこの想い！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   196
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士】")
+  ShowMessage("おぉぉぉ……！　ウォォォー！！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士】")
+  ShowMessage("ぉぉぉ……ぉぉぉ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("元気出して、またコンサートするから☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【兵士】")
+  ShowMessage("おぉぉぉ……！　ウォォォー！！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   197
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【男の子】")
+  ShowMessage("サキちゃん、だいすきー！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("118")
+  ShowMessageFace("meia_fc1",1,0,2,2)
+  ShowMessage("【メイア】")
+  ShowMessage("まあ、子供にも人気があるんですね……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   194
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【老人】")
+  ShowMessage("サキちゃんは神の使いじゃ……")
+  ShowMessage("おお、神々しい……")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   182
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【おじさん】")
+  ShowMessage("サキちゃーん！　ハァハァ、サキちゃ～ん！！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   202
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【支配人】")
+  ShowMessage("私は、伝統ある大劇場の支配人。")
+  ShowMessage("しかし今は、ヤケ飲みするだけの毎日です……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【支配人】")
+  ShowMessage("衛兵もみんな洗脳され、引き上げてしまう有様。")
+  ShowMessage("スケジュールはメチャクチャで、怒りの声が殺到しています。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【支配人】")
+  ShowMessage("旅の方、どうかサキちゃんを無理矢理にでも……！")
+  ShowMessage("あっ……ステージの上で流血は勘弁して下さいね。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("57")
+  ShowMessageFace("inp_fc3",0,0,2,4)
+  ShowMessage("【ルミ】")
+  ShowMessage("顔じゃなくて、ボディーにしとく……")
+  EndEventProcessing()
+  DefineLabel("141")
+  ShowMessageFace("mino_fc1",2,0,2,5)
+  ShowMessage("【ミナ】")
+  ShowMessage("流血させずに、どうやって血祭りに上げろってんだよ……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【支配人】")
+  ShowMessage("サキちゃんが去ってから、客足がめっきり遠のいて……")
+  ShowMessage("やっぱり、ヤケ飲みするだけの毎日です……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【支配人】")
+  ShowMessage("ああ、サキちゃんが戻ってきてくれれば……")
+  ShowMessage("ステージの占拠さえしなければ、最高のスターだったのに……")
+  If(4,155,0)
+   ShowMessageFace("saki_fc1",0,0,2,3)
+   ShowMessage("【サキ】")
+   ShowMessage("そこまで言われたら、奇跡のカムバック☆")
+   ShowMessage("サキがひと肌、脱いであげる♪")
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【支配人】")
+   ShowMessage("ああっ、サキちゃーん！")
+   ShowMessage("もう、いつでも大歓迎だよー！")
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【支配人】")
+   ShowMessage("それに、お付きの方々も……")
+   ShowMessage("何か一芸などあれば、ステージを用意致しますよ。")
+   ShowMessageFace("ruka_fc1",0,0,2,6)
+   ShowMessage("【ルカ】")
+   ShowMessage("えっ、僕達も！？")
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【支配人】")
+   ShowMessage("サキちゃん、もう一つ頼みがあるんだけど……")
+   ShowMessage("例の、夜のアレもできないかなぁ？")
+   ShowMessageFace("saki_fc1",3,0,2,8)
+   ShowMessage("【サキ】")
+   ShowMessage("アレって、夜のライブ？")
+   ShowMessage("うん、まかせてっ☆")
+   ShowMessageFace("ruka_fc1",0,0,2,9)
+   ShowMessage("【ルカ】")
+   ShowMessage("夜のライブって、なんだろう……")
+   ShowMessageFace("",0,0,2,10)
+   ShowMessage("仲間達はステージで公演できるようになった！")
+   ShowMessage("また、サキは「夜のライブ」を開催できるようだ！")
+   ChangeVariable(1030,1030,0,0,3)
+   EndEventProcessing()
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,11)
+   ShowMessage("【ルカ】")
+   ShowMessage("……………………")
+   ShowMessageFace("",0,0,2,12)
+   ShowMessage("支配人は、サキに戻ってきてほしいようだ……")
+   ShowMessage("ここに連れてきてみようか。")
+   0()
+  EndIf()
+  0()
+ PAGE   3
+  // condition: variable 1030 >= 3
+  ChangeSwitch(601,700,1)
+  ChangeSwitch(31,31,1)
+  ChangeSwitch(32,32,1)
+  ChangeSwitch(33,33,1)
+  ChangeSwitch(34,34,1)
+  ChangeSwitch(35,35,1)
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【支配人】")
+  ShowMessage("公演を行いますか？")
+  ShowMessage("それとも、「サキちゃん夜のライブ」を楽しみますか？")
+  355("unlimited_choices(11, [\"ステージ1\",")
+  655("\"ステージ2\",\"ステージ3\",\"ステージ4\",")
+  655("\"ステージ5\", \"ステージ6\", \"ステージ7\", \"ステージ8\", ")
+  655("\"サキちゃん夜のライブ\", \"やめる\"])")
+  If(1,11,0,0,0)
+   RunCommonEvent(121)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,1,0)
+   RunCommonEvent(122)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,2,0)
+   RunCommonEvent(123)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,3,0)
+   RunCommonEvent(124)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,4,0)
+   RunCommonEvent(125)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,5,0)
+   RunCommonEvent(126)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,6,0)
+   RunCommonEvent(127)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,7,0)
+   RunCommonEvent(128)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,8,0)
+   If(0,25,1)
+    ShowMessageFace(binary"",0,0,2,2)
+    ShowMessage("前章と統合していないため、夜のライブは行えません。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   ShowChoices(strings("ひみつコース（100G）","勝負コース（500G）","本番コース（1000G）","やめる"),4)
+   IfPlayerPicksChoice(0,null)
+    If(8,527)
+     ShowMessageFace("",0,0,2,3)
+     ShowMessage("【支配人】")
+     ShowMessage("おや、サキちゃんパスを持っていますね。")
+     ShowMessage("ならばお代は頂きません。")
+     ShowMessageFace("",0,0,2,4)
+     ShowMessage("【支配人】")
+     ShowMessage("それでは、サキちゃん夜のライブを楽しんで下さいね！")
+     242(1)
+     355("call_novel_scene(319)")
+     EndEventProcessing()
+     0()
+    Else()
+     If(7,100,0)
+      125(1,0,100)
+      ShowMessageFace("",0,0,2,5)
+      ShowMessage("【支配人】")
+      ShowMessage("それでは、サキちゃん夜のライブを楽しんで下さいね！")
+      242(1)
+      355("call_novel_scene(319)")
+      EndEventProcessing()
+      0()
+     Else()
+      ShowMessageFace("",0,0,2,6)
+      ShowMessage("【支配人】")
+      ShowMessage("おや、お金が足りないようですね……")
+      EndEventProcessing()
+      0()
+     EndIf()
+     0()
+    EndIf()
+    0()
+   IfPlayerPicksChoice(1,null)
+    If(8,527)
+     ShowMessageFace("",0,0,2,7)
+     ShowMessage("【支配人】")
+     ShowMessage("おや、サキちゃんパスを持っていますね。")
+     ShowMessage("ならばお代は頂きません。")
+     ShowMessageFace("",0,0,2,8)
+     ShowMessage("【支配人】")
+     ShowMessage("それでは、サキちゃん夜のライブを楽しんで下さいね！")
+     242(1)
+     355("call_novel_scene(320)")
+     EndEventProcessing()
+     0()
+    Else()
+     If(7,500,0)
+      125(1,0,500)
+      ShowMessageFace("",0,0,2,9)
+      ShowMessage("【支配人】")
+      ShowMessage("それでは、サキちゃん夜のライブを楽しんで下さいね！")
+      242(1)
+      355("call_novel_scene(320)")
+      EndEventProcessing()
+      0()
+     Else()
+      ShowMessageFace("",0,0,2,10)
+      ShowMessage("【支配人】")
+      ShowMessage("おや、お金が足りないようですね……")
+      EndEventProcessing()
+      0()
+     EndIf()
+     0()
+    EndIf()
+    0()
+   IfPlayerPicksChoice(2,null)
+    If(8,527)
+     ShowMessageFace("",0,0,2,11)
+     ShowMessage("【支配人】")
+     ShowMessage("おや、サキちゃんパスを持っていますね。")
+     ShowMessage("ならばお代は頂きません。")
+     ShowMessageFace("",0,0,2,12)
+     ShowMessage("【支配人】")
+     ShowMessage("それでは、サキちゃん夜のライブを楽しんで下さいね！")
+     242(1)
+     355("call_novel_scene(321)")
+     EndEventProcessing()
+     0()
+    Else()
+     If(7,1000,0)
+      125(1,0,1000)
+      ShowMessageFace("",0,0,2,13)
+      ShowMessage("【支配人】")
+      ShowMessage("それでは、サキちゃん夜のライブを楽しんで下さいね！")
+      242(1)
+      355("call_novel_scene(321)")
+      EndEventProcessing()
+      0()
+     Else()
+      ShowMessageFace("",0,0,2,14)
+      ShowMessage("【支配人】")
+      ShowMessage("おや、お金が足りないようですね……")
+      EndEventProcessing()
+      0()
+     EndIf()
+     0()
+    EndIf()
+    0()
+   IfPlayerPicksChoice(3,null)
+    EndEventProcessing()
+    0()
+   404()
+   0()
+  EndIf()
+  If(1,11,0,9,0)
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+ PAGE   4
+  // condition: switch 2119 is ON
+  0()
+
+
+
+EVENT   75
+ PAGE   1
+  PictureDisplay(5,"ct_saki2",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  If(2,"A",1)
+   ShowMessageFace("saki_fc1",3,0,2,1)
+   ShowMessage("【サキ】")
+   ShowMessage("抱きしめてあげる♪　指を絡めて心のスミまで♪")
+   ShowMessage("抱きしめてあげる♪　唇重ねて問答無用よ♪")
+   PictureDisplay(5,"ct_saki1",0,0,0,0,100,100,255,0)
+   ShowMessageFace("saki_fc1",3,0,2,2)
+   ShowMessage("【サキ】")
+   ShowMessage("連れて行ってあげる♪　空の彼方♪")
+   ShowMessage("連れて行ってあげる♪　夢の深淵♪")
+   PictureDisplay(5,"80_saki_st03",0,0,0,0,100,100,255,0)
+   ShowMessageFace("saki_fc1",2,0,2,3)
+   ShowMessage("【サキ】")
+   ShowMessage("……ちょっと、何なの？")
+   ShowMessage("おさわりは、お断りだよっ……！")
+   ShowMessageFace("ruka_fc1",0,0,2,4)
+   ShowMessage("【ルカ】")
+   ShowMessage("あの、ステージを乗っ取るのはやめてくれないかな……")
+   ShowMessage("支配人や、他のみんなも迷惑してるんだよ。")
+   PictureDisplay(5,"80_saki_st01",0,0,0,0,100,100,255,0)
+   ShowMessageFace("saki_fc1",0,0,2,5)
+   ShowMessage("【サキ】")
+   ShowMessage("迷惑じゃないよね？")
+   ShowMessage("みんな、サキを応援してくれてるよねー♪")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【ファンＡ】")
+   ShowMessage("ウォォォォー！！")
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【ファンＢ】")
+   ShowMessage("サキちゃーん！")
+   PictureDisplay(5,"80_saki_st03",0,0,0,0,100,100,255,0)
+   ShowMessageFace("saki_fc1",2,0,2,8)
+   ShowMessage("【サキ】")
+   ShowMessage("ほら、みんな応援してくれてるんだから。")
+   ShowMessage("それでも、サキの邪魔をするっていうの……？")
+   ShowChoices(strings("邪魔をする","邪魔をしない","サキちゃーん！"),2)
+   IfPlayerPicksChoice(0,null)
+    ShowMessageFace("saki_fc1",2,0,2,9)
+    ShowMessage("【サキ】")
+    ShowMessage("ほんと、困ったヒトだなぁ……")
+    ShowMessage("もしかして、サキのストーカーさん？")
+    PictureDisplay(5,"80_saki_st04",0,0,0,0,100,100,255,0)
+    ShowMessageFace("saki_fc1",3,0,2,10)
+    ShowMessage("【サキ】")
+    ShowMessage("それじゃあ、サキがやっつけちゃうよ♪")
+    ShowMessage("ファンのみんな、サキを応援してねー☆")
+    ShowMessageFace("",0,0,2,11)
+    ShowMessage("【ファンＡ】")
+    ShowMessage("ウォォォォー！！")
+    ShowMessageFace("",0,0,2,12)
+    ShowMessage("【ファンＢ】")
+    ShowMessage("サキちゃーん！")
+    If(4,155,0)
+     ShowMessageFace("saki_fc1",0,0,2,13)
+     ShowMessage("【サキ】")
+     ShowMessage("あれっ？　サキのそっくりさんかなぁ？")
+     ShowMessageFace("saki_fc1",0,0,2,14)
+     ShowMessage("【サキ’】")
+     ShowMessage("ただのそっくりさんかどうか……")
+     ShowMessage("あなたもサキなんだから、すぐ分かるはずだよね？")
+     ShowMessageFace("saki_fc1",3,0,2,15)
+     ShowMessage("【サキ】")
+     ShowMessage("確かに、サキの目は誤魔化せないよね。")
+     ShowMessage("あなたは偽物じゃなくて、本物のサキちゃん☆")
+     ShowMessageFace("saki_fc1",0,0,2,16)
+     ShowMessage("【サキ’】")
+     ShowMessage("ダブルサキで、デュエットしちゃおうよ☆")
+     0()
+    EndIf()
+    PictureClear(5)
+    SetBattleBGM(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x73,0x61,0x6b,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+    ChangeSwitch(22,22,0)
+    Battle(0,251,false,false)
+    ChangeSwitch(22,22,1)
+    SetBattleBGM(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x62,0x61,0x74,0x74,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+    241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x10,0x73,0x63,0x65,0x6e,0x65,0x5f,0x63,0x6f,0x6d,0x69,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+    PictureDisplay(5,"80_saki_st03",0,0,0,0,100,100,0,0)
+    PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+    ChangeSelfSwitch("A",0)
+    355("gain_medal(27)")
+    ShowMessageFace("saki_fc1",2,0,2,17)
+    ShowMessage("【サキ】")
+    ShowMessage("サキ、負けちゃったぁ……")
+    ShowMessage("ファンのみんな、ごめんね……")
+    ShowMessageFace("",0,0,2,18)
+    ShowMessage("【ファンＡ】")
+    ShowMessage("ウォォォォー！！")
+    ShowMessageFace("",0,0,2,19)
+    ShowMessage("【ファンＢ】")
+    ShowMessage("サキちゃーん！")
+    ShowMessageFace("saki_fc1",2,0,2,20)
+    ShowMessage("【サキ】")
+    ShowMessage("サキの夢は、世界のトップアイドルになる事なのに……")
+    ShowMessage("こんなところで、夢が終わっちゃうなんて……")
+    If(0,6,0)
+     ShowMessageFace("sonia_fc2",2,0,2,21)
+     ShowMessage("【ソニア】")
+     ShowMessage("そんな大それた話じゃなくて……")
+     ShowMessage("ステージの占拠をやめてほしいだけなんだけど。")
+     0()
+    Else()
+     ShowMessageFace("ruka_fc1",0,0,2,22)
+     ShowMessage("【ルカ】")
+     ShowMessage("そんな大それた話じゃなくて……")
+     ShowMessage("ステージの占拠をやめてほしいだけなんだけど。")
+     0()
+    EndIf()
+    PictureDisplay(5,"80_saki_st01",0,0,0,0,100,100,255,0)
+    ShowMessageFace("saki_fc1",0,0,2,23)
+    ShowMessage("【サキ】")
+    ShowMessage("ねぇ、あなた達は旅人だよね。")
+    ShowMessage("サキも連れて行ってくれない？")
+    DefineLabel("仲間")
+    ShowMessageFace("ruka_fc1",0,0,2,24)
+    ShowMessage("【ルカ】")
+    ShowMessage("えっと……")
+    ShowChoices(strings("連れて行く","断る"),2)
+    IfPlayerPicksChoice(0,null)
+     PictureDisplay(5,"80_saki_st04",0,0,0,0,100,100,255,0)
+     ShowMessageFace("saki_fc1",3,0,2,25)
+     ShowMessage("【サキ】")
+     ShowMessage("サキ、大感激☆")
+     ShowMessage("これからも、よろしくねー♪")
+     PictureClear(5)
+     205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x09,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x0f,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+     355("add_actor_ex(155)")
+     249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+     ShowMessageFace("",0,0,2,26)
+     ShowMessage("サキが仲間に加わった！")
+     Wait(60)
+     ShowMessageFace("",0,0,2,27)
+     ShowMessage("【ファンＡ】")
+     ShowMessage("そんな……")
+     ShowMessage("サキちゃんのステージが終わっちゃうなんて……")
+     ShowMessageFace("",0,0,2,28)
+     ShowMessage("【ファンＢ】")
+     ShowMessage("いいや、これは始まりなんだ！")
+     ShowMessage("サキちゃんは全国ツアーで伝説を作るんだ！")
+     ShowMessageFace("",0,0,2,29)
+     ShowMessage("【ファンＣ】")
+     ShowMessage("ウォォォォー！　どこまでもついていくぜー！")
+     ShowMessageFace("saki_fc1",3,0,2,30)
+     ShowMessage("【サキ】")
+     ShowMessage("みんな、応援ありがとね☆")
+     ShowMessageFace("",0,0,2,31)
+     ShowMessage("【ファン全員】")
+     ShowMessage("ウォォォォー！")
+     If(0,6,0)
+      ShowMessageFace("sonia_fc4",0,0,2,32)
+      ShowMessage("【ソニア】")
+      ShowMessage("……それじゃあ、行きましょうか。")
+      0()
+     Else()
+      ShowMessageFace("ruka_fc1",0,0,2,33)
+      ShowMessage("【ルカ】")
+      ShowMessage("……それじゃあ、行こうか。")
+      0()
+     EndIf()
+     ChangeVariable(1030,1030,0,0,2)
+     250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+     TeleportPlayer(0,337,29,44,2,0)
+     EndEventProcessing()
+     0()
+    IfPlayerPicksChoice(1,null)
+     PictureDisplay(5,"80_saki_st03",0,0,0,0,100,100,255,0)
+     ShowMessageFace("saki_fc1",2,0,2,34)
+     ShowMessage("【サキ】")
+     ShowMessage("そんなぁ……")
+     ShowMessage("サキ、かなしいよぉ……")
+     241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x73,0x61,0x6b,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+     PictureDisplay(5,"80_saki_st04",0,0,0,0,100,100,255,0)
+     ShowMessageFace("saki_fc1",3,0,2,35)
+     ShowMessage("【サキ】")
+     ShowMessage("この悲しみを、歌にしたよ！")
+     ShowMessage("……ぐっすん☆トゥナイト♪")
+     ShowMessageFace("saki_fc1",3,0,2,36)
+     ShowMessage("【サキ】")
+     ShowMessage("涙の中にね♪　ぐっすんトゥナイト♪")
+     ShowMessage("お星様の夜には……")
+     If(0,6,0)
+      ShowMessageFace("sonia_fc3",2,0,2,37)
+      ShowMessage("【ソニア】")
+      ShowMessage("ちょっと！　まだステージ乗っ取り続ける気！？")
+      0()
+     Else()
+      ShowMessageFace("ruka_fc1",0,0,2,38)
+      ShowMessage("【ルカ】")
+      ShowMessage("まだステージを乗っ取り続けるの……？")
+      0()
+     EndIf()
+     ShowMessageFace("",0,0,2,39)
+     ShowMessage("【ファンＡ】")
+     ShowMessage("ウォォォォー！！")
+     ShowMessageFace("",0,0,2,40)
+     ShowMessage("【ファンＢ】")
+     ShowMessage("サキちゃーん！")
+     PictureClear(5)
+     EndEventProcessing()
+     0()
+    404()
+    0()
+   IfPlayerPicksChoice(1,null)
+    PictureDisplay(5,"80_saki_st04",0,0,0,0,100,100,255,0)
+    ShowMessageFace("saki_fc1",3,0,2,41)
+    ShowMessage("【サキ】")
+    ShowMessage("分かってくれて、サキうれしいっ♪")
+    ShowMessage("みんなと一緒に応援してくれたら、サキもっとうれしいな☆")
+    205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x15,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+    241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x73,0x61,0x6b,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+    PictureClear(5)
+    EndEventProcessing()
+    0()
+   IfPlayerPicksChoice(2,null)
+    PictureDisplay(5,"80_saki_st04",0,0,0,0,100,100,255,0)
+    ShowMessageFace("saki_fc1",3,0,2,42)
+    ShowMessage("【サキ】")
+    ShowMessage("応援、ありがとっ♪")
+    ShowMessage("でもステージには上がらないでね♪")
+    205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x15,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+    241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x73,0x61,0x6b,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+    PictureClear(5)
+    EndEventProcessing()
+    0()
+   404()
+   0()
+  Else()
+   ShowMessageFace("saki_fc1",3,0,2,43)
+   ShowMessage("【サキ】")
+   ShowMessage("抱きしめてあげる♪　指を絡めて心のスミまで♪")
+   ShowMessage("抱きしめてあげる♪　唇重ねて問答無用よ♪")
+   PictureDisplay(5,"80_saki_st01",0,0,0,0,100,100,255,0)
+   ShowMessageFace("saki_fc1",0,0,2,44)
+   ShowMessage("【サキ】")
+   ShowMessage("……あっ、またあなた達ね。")
+   ShowMessage("サキを、全国ツアーに連れて行ってくれるの？")
+   JumpToLabel("仲間")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【踊り子】")
+  ShowMessage("とどけ、私のハァァァト……キラッ☆")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("ちょっとハートが足りないかな……？")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   183
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("ウォォォー！　サキちゃーん！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("ウォォォー！　サキちゃーん！")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【青年】")
+  ShowMessage("……分かってる、サキちゃんはもういないんだ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,3)
+  ShowMessage("【サキ】")
+  ShowMessage("ここにいるぞっ☆")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【青年】")
+  ShowMessage("わわわ……！　サキちゃん！！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   181
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【老人】")
+  ShowMessage("サキちゃーん！")
+  ShowMessage("はぁはぁ……サキちゃーん！！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   203
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,337,29,44,0,0)
+  ChangeSwitch(31,31,1)
+  0()
+
+
+
+EVENT   198
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【剣士】")
+  ShowMessage("ウォォォォォォー！！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【剣士】")
+  ShowMessage("心が沸き立たない……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("また、火を付けてあげようか……？")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【剣士】")
+  ShowMessage("オォォォォー！！")
+  ShowMessage("燃えちゃうー！！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   184
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【身なりの良い男】")
+  ShowMessage("ハートにズッキューン！　サキちゃーん！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【身なりの良い男】")
+  ShowMessage("そろそろ帰ろうかな……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",0,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("途中で帰るのは失礼だよ。")
+  ShowMessage("ちゃんと終わりまで見ようね☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【身なりの良い男】")
+  ShowMessage("おぉぉ……サキちゃぁん！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   185
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若い娘】")
+  ShowMessage("キャー！　ステキー！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   186
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【あらくれ】")
+  ShowMessage("おぉぉぉぉ……！　サキちゃぁぁぁぁん！！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【あらくれ】")
+  ShowMessage("サキちゃぁぁぁぁん！！　カムバァァァァック！！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("戻ってきたよー☆")
+  ShowMessage("ちょっと顔出しただけなんだけど……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【あらくれ】")
+  ShowMessage("応援してます！")
+  ShowMessage("次のコンサートも、絶対行きますから！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   187
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("サキちゃーん！　あ、あぁぁあっぁぁ～～！")
+  ShowMessage("あぁぁ～！　さ、ササササキちゃ～ん～！！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("うわぁ、盛り上がってないな……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",2,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("本当に盛り上がってないね……")
+  ShowMessage("ちょっと責任感じるかも。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   189
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【神父】")
+  ShowMessage("サキちゃんこそ神だ！")
+  ShowMessage("ああ神よ！　あなたこそサキちゃーん！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("26")
+  ShowMessageFace("iriasu_fc4",2,0,2,2)
+  ShowMessage("【イリアス】")
+  ShowMessage("神はここにいます。")
+  ShowMessage("ここにいますよ……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   188
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【吟遊詩人】")
+  ShowMessage("張り裂けそう、この想い！")
+  ShowMessage("サキちゃんが私を裂く！！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   204
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【バニー】")
+  ShowMessage("サキちゃん、キラッ☆")
+  0()
+
+
+
+EVENT   76
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【踊り子】")
+  ShowMessage("踊り子と吟遊詩人をマスターすると、スーパースターになれるわ。")
+  ShowMessage("便利な踊りや歌を色々と覚えるらしいわよ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【踊り子】")
+  ShowMessage("あこがれるわね……うっとり……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("59")
+  ShowMessageFace("mdg_fc1",0,0,2,3)
+  ShowMessage("【ラゴラ】")
+  ShowMessage("スーパースター！　憧れるわね……")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,4)
+  ShowMessage("【サキ】")
+  ShowMessage("サキはもちろん、スーパースター☆")
+  ShowMessage("歌や踊りでサポートするよっ♪")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   205
+ PAGE   1
+  If(1,1030,0,1,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【バニー】")
+   ShowMessage("サキちゃんのステージは大盛況なんだけど……")
+   ShowMessage("キャンセルになった芸人さんや踊り子さんがお怒りなのよ。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【バニー】")
+   ShowMessage("支配人さん、違約金の支払いで大変みたい……")
+   ShowMessage("いっそサキちゃんを大々的に売り出せばいいのにねぇ。")
+   0()
+  EndIf()
+  If(1,1030,0,2,1)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【バニー】")
+   ShowMessage("サキちゃんが去った後、劇場は閑古鳥。")
+   ShowMessage("うまくいかないものよね、世の中って……")
+   0()
+  EndIf()
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("143")
+  ShowMessageFace("eva_fc1",0,0,2,4)
+  ShowMessage("【エヴァ】")
+  ShowMessage("上手くいってない人を見ると、なんだか安心するわよね。")
+  EndEventProcessing()
+  DefineLabel("181")
+  ShowMessageFace("gaistvine_fc1",0,0,2,5)
+  ShowMessage("【リザ】")
+  ShowMessage("見たところ、由緒正しい大劇場……")
+  ShowMessage("そう簡単に、商業的判断も出来ないのでしょうね。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   206
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【バニー】")
+  ShowMessage("いらっしゃい、いっぱい飲んでいってね♪")
+  Shop(0,428,0,0,false)
+  605(0,431,0,0)
+  0()
+
+
+
+EVENT   207
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【芸人】")
+  ShowMessage("これじゃ、商売あがったりだぜ……")
+  ShowMessage("でも、サキちゃんかわいい……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【芸人】")
+  ShowMessage("……サキちゃん、キラッ☆")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("78")
+  ShowMessageFace("syesta_fc1",0,0,2,3)
+  ShowMessage("【シェスタ】")
+  ShowMessage("キラッ……？")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【芸人】")
+  ShowMessage("……サキちゃん、キラッ☆")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("525")
+  ShowMessageFace("sonia_fc4",0,0,2,2)
+  ShowMessage("【ソニア】")
+  ShowMessage("着実に感染してるみたいね……")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,3)
+  ShowMessage("【サキ】")
+  ShowMessage("応援、ありがとね☆")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   199
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("やっぱりサキちゃーんは最高だな！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   200
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士】")
+  ShowMessage("熱いパトスを感じるぜ！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士】")
+  ShowMessage("悪くはないですが……")
+  ShowMessage("やはりサキちゃんと比べると……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",0,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("サキはサキ、あの娘はあの娘♪")
+  ShowMessage("よかった探ししよっ☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【兵士】")
+  ShowMessage("そうだ……俺は、あの踊り子にサキちゃんの姿を重ねていた……")
+  ShowMessage("あの娘はサキちゃんじゃない、俺は幻影を追っていただけだったんだ！")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc3",2,0,2,4)
+   ShowMessage("【ソニア】")
+   ShowMessage("キモッ！")
+   0()
+  EndIf()
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   208
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("サキちゃんはサキュバスだけど……")
+  ShowMessage("アイドルだから、男の精液なんて吸わないのさ。")
+  ShowChoices(strings("その通りだ","そうは思わない"),0)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【青年】")
+   ShowMessage("サキちゃんはサキュバスじゃなく、天使なのかもしれない……")
+   ShowMessage("サキちゃん……ああ……サキちゃん……")
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【青年】")
+   ShowMessage("あんたは何も分かってない！")
+   ShowMessage("何が分かってないのかさえ分かっていないんだ！")
+   0()
+  404()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("ああ、サキちゃん……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",0,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("呼んだ？")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【青年】")
+  ShowMessage("幻が……麗しい幻が見える……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   209
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【男】")
+  ShowMessage("サキちゃんの歌声を聞いていると、心が綺麗になっていくようだ……")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【男】")
+  ShowMessage("サキちゃんの歌声を聞いていないから、心が汚れていくようだ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("その心、ちょっとだけリフレッシュ☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【男】")
+  ShowMessage("ああ、心が清らかになっていく……")
+  ShowMessage("恵まれない人のため、教会で炊き出しでもしてこよう……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   210
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【紳士】")
+  ShowMessage("まさか、この歳になってもこんなトキメキが……")
+  ShowMessage("うそ……わたし、恋してる……？")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【紳士】")
+  ShowMessage("なんとも物足りない、この感じ……")
+  ShowMessage("家内もとても寂しそうです。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("全国ツアー、待っててね☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【紳士】")
+  ShowMessage("もちろん、行きますとも！")
+  ShowMessage("財産を全て使い果たしてでも……！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   211
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【淑女】")
+  ShowMessage("あのような小娘のどこが良いというのです。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【淑女】")
+  ShowMessage("……サキちゃん、キラッ☆")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【淑女】")
+  ShowMessage("……サキちゃん、キラッ☆")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("応援、ありがとね☆")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   212
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若い女】")
+  ShowMessage("サキちゃん様……ああ、ステキですわ……")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   213
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【男】")
+  ShowMessage("サキちゃんは天が遣わしたひとひらの流れ星だ。")
+  ShowMessage("キラッ☆と輝いて、僕達に幸せの魔法をかけるのさ……")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【男】")
+  ShowMessage("ひとひらの流れ星は、宇宙（そら）の彼方に消えていった。")
+  ShowMessage("でも、幸せの魔法は解けないままさ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("幸せの魔法、これからもアップデートしてあげる☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【男】")
+  ShowMessage("太陽が語り掛ける、麗しい女性の姿で……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   215
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("わーい！　サキちゃん、キラッ☆")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("53")
+  ShowMessageFace("slime_fc1",0,0,2,2)
+  ShowMessage("【ライム】")
+  ShowMessage("あたしも、いっしょにキラッ☆")
+  EndEventProcessing()
+  DefineLabel("54")
+  ShowMessageFace("bunnyslime_fc1",1,0,2,3)
+  ShowMessage("【うさ】")
+  ShowMessage("うさうさ、キラッ☆")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   214
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("わわわーい！　サキちゃん、キラッ☆")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("53")
+  ShowMessageFace("slime_fc1",0,0,2,2)
+  ShowMessage("【ライム】")
+  ShowMessage("あたしも、いっしょにキラッ☆")
+  EndEventProcessing()
+  DefineLabel("54")
+  ShowMessageFace("bunnyslime_fc1",1,0,2,3)
+  ShowMessage("【うさ】")
+  ShowMessage("うさうさ、キラッ☆")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   217
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【老人】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("反応がない。")
+  ShowMessage("興奮のあまり心臓が停止したようだ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("118")
+  ShowMessageFace("meia_fc1",3,0,2,3)
+  ShowMessage("【メイア】")
+  ShowMessage("あら、大変。")
+  EndEventProcessing()
+  DefineLabel("133")
+  ShowMessageFace("zonbe_fc3",3,0,2,4)
+  ShowMessage("【ゾンビーズ】")
+  ShowMessage("なかま……なかま……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   218
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("オォォォォー！　サキちゃぁぁん！！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   219
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【シーフ】")
+  ShowMessage("俺は大切なものをサキちゃんに盗まれてしまった……！")
+  ShowMessage("それは、俺の心だ！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【シーフ】")
+  ShowMessage("サキちゃんのコンサートなんか、凄まじいものだった。")
+  ShowMessage("隣にいた爺さんなんか、興奮のあまり心臓が止まったんだぜ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【シーフ】")
+  ShowMessage("その爺さん……？　蘇生したって話だぜ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",0,0,2,3)
+  ShowMessage("【サキ】")
+  ShowMessage("よかった……")
+  ShowMessage("コンサートで死人なんて、イヤだよね☆")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   220
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学生】")
+  ShowMessage("もうレポートなんか、どうでもいい！")
+  ShowMessage("人生よりサキちゃんの方が大切だ！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   221
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("大学？　そんなの知らんよ……")
+  ShowMessage("そんなことより、サキちゃんだ！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   222
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("脳細胞がみなぎっていく……！")
+  ShowMessage("サキちゃんの歌が、踊りが私の脳を活性化する……！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("41")
+  ShowMessageFace("stein_fc2",0,0,2,2)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("私の脳細胞は、何も活性化されませんが……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   216
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("ハァハァ、サキちゃん……")
+  ShowMessage("ハァハァハァ……ウッ！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("109")
+  ShowMessageFace("kani_fc1",0,0,2,2)
+  ShowMessage("【ソープ】")
+  ShowMessage("こんなところで、汚いよ……")
+  ShowMessage("……洗ってあげようか？")
+  EndEventProcessing()
+  DefineLabel("120")
+  ShowMessageFace("page257_fc1",2,0,2,3)
+  ShowMessage("【ヨーコ】")
+  ShowMessage("最低ですね……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("サキちゃん……戻ってきて……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("たまに、ここにも戻ってくるから……")
+  ShowMessage("……それまで、いい子で待っててね☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【青年】")
+  ShowMessage("サキちゃぁぁぁん！")
+  ShowMessage("俺、いい子にするよ！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   223
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【吟遊詩人】")
+  ShowMessage("このハートのときめきを、私は全世界に伝えたいと思います。")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   224
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若い娘】")
+  ShowMessage("ああ、憧れるわ……")
+  ShowMessage("私もサキちゃんになりたい……")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   225
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【メイド】")
+  ShowMessage("世界デビューも夢ではありません。")
+  ShowMessage("サキちゃんの歌と踊りが世界を癒すのですよ！")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   226
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【商人】")
+  ShowMessage("仕事があるのに……")
+  ShowMessage("この劇場から離れられなくなりました……")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   227
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【おじさん】")
+  ShowMessage("ああ、天にも昇るかのようだ……")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【おじさん】")
+  ShowMessage("まあまあだね。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("それじゃあ、またサキの歌を聴きに来てね。")
+  ShowMessage("最高のコンサート、ヤっちゃうから☆")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【おじさん】")
+  ShowMessage("イク――ッ！！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   228
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【屈強な男】")
+  ShowMessage("俺のハートはサキちゃんにノックアウトされた。")
+  ShowMessage("もうキラキラだぜ……")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【屈強な男】")
+  ShowMessage("あれじゃ俺のハートには響かねぇな……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,2)
+  ShowMessage("【サキ】")
+  ShowMessage("それじゃあ、またサキのコンサートに来ちゃう？")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【屈強な男】")
+  ShowMessage("イグゥゥゥゥ――！！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   229
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【あらくれ】")
+  ShowMessage("これは間違いなく神話になるな……")
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   230
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   231
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士】")
+  ShowMessage("この男はサキちゃんに猥褻な言葉を吐きかけましたので成敗しました。")
+  ShowMessage("いえいえ、当然のことです。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("88")
+  ShowMessageFace("jack_fc1",2,0,2,2)
+  ShowMessage("【かぼちゃ】")
+  ShowMessage("熱狂的だね、なんだかこわいよう……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   232
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("……ったく、サキちゃんは神聖なる存在なんだよ。")
+  ShowMessage("汚れなき天使に向かって、何てことを言うんだ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("86")
+  ShowMessageFace("name_s_fc1",2,0,2,2)
+  ShowMessage("【ロザリオ】")
+  ShowMessage("もはや崇拝ですね。")
+  ShowMessage("罪深き事です……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   233
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【あらくれ】")
+  ShowMessage("まったく、ふざけやがって……")
+  ShowMessage("二度とサキちゃんの前に姿を現すんじゃねーぞ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("122")
+  ShowMessageFace("sisterlamia_fc1",2,0,2,2)
+  ShowMessage("【ソフィア】")
+  ShowMessage("暴力と退廃が支配するソドムの町……")
+  ShowMessage("ああ、どうかお救いを……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  0()
+
+
+
+EVENT   235
+ PAGE   1
+  If(1,1030,0,1,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【身なりの良い男性】")
+   ShowMessage("こちらはカジノになります。")
+   ShowMessage("サキちゃんの歌で酔いしれた後、楽しんでみては？")
+   0()
+  EndIf()
+  If(1,1030,0,2,1)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【身なりの良い男性】")
+   ShowMessage("こちらはカジノになります。")
+   ShowMessage("どうぞ、お楽しみを。")
+   0()
+  EndIf()
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("103")
+  ShowMessageFace("kamuro_fc1",2,0,2,3)
+  ShowMessage("【かむろ】")
+  ShowMessage("こんなところで遊んで、怒られないかな……")
+  EndEventProcessing()
+  DefineLabel("121")
+  ShowMessageFace("page65537_fc1",2,0,2,4)
+  ShowMessage("【コーネリア】")
+  ShowMessage("さて、行きましょうか……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   236
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【支配人の妻】")
+  ShowMessage("今日もお客さんがいっぱいだ、バリバリ働くよー！")
+  ShowMessage("……今日もダンナは泣き言みたいだね。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("64")
+  ShowMessageFace("pramia_fc1",0,0,2,2)
+  ShowMessage("【プチ】")
+  ShowMessage("うちのおかみさんみたい……")
+  ShowMessage("実質、この人が仕切ってるのかな？")
+  EndEventProcessing()
+  DefineLabel("140")
+  ShowMessageFace("taran_fc1",0,0,2,3)
+  ShowMessage("【ラチュラ】")
+  ShowMessage("ずいぶんたくましいわね……")
+  ShowMessage("商売人は、これくらい気骨がないとダメなのかしら？")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【支配人の妻】")
+  ShowMessage("人生七転び八起き、バリバリ働くよー！")
+  ShowMessage("……相変わらずダンナは泣き言みたいだね。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("64")
+  ShowMessageFace("pramia_fc1",0,0,2,2)
+  ShowMessage("【プチ】")
+  ShowMessage("おかみさん、毎度お疲れ様です！")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【支配人の妻】")
+  ShowMessage("……おかみさん？")
+  EndEventProcessing()
+  DefineLabel("103")
+  ShowMessageFace("kamuro_fc1",0,0,2,4)
+  ShowMessage("【かむろ】")
+  ShowMessage("なんと力強いリーダーシップ……")
+  ShowMessage("私も、見習わなくては。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   238
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【メイド】")
+  ShowMessage("奥様はいつでもポジティブです。")
+  ShowMessage("その分、旦那様は非常に打たれ弱いですが……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("108")
+  ShowMessageFace("kai_fc1",0,0,2,2)
+  ShowMessage("【シェリー】")
+  ShowMessage("そのような旦那様を立てるのも、良妻のたしなみ。")
+  ShowMessage("立てるって、変な意味じゃありませんよ……")
+  EndEventProcessing()
+  DefineLabel("141")
+  ShowMessageFace("mino_fc1",0,0,2,3)
+  ShowMessage("【ミナ】")
+  ShowMessage("ったく、困ったダンナだな！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   239
+ PAGE   1
+  If(1,1030,0,1,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【メイド】")
+   ShowMessage("いつかデビューする日を夢見て……！")
+   ShowMessage("今は下働きに身をやつす毎日です。")
+   0()
+  EndIf()
+  If(1,1030,0,2,1)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【メイド】")
+   ShowMessage("サキちゃんがいない今、私が華々しくデビューを……！")
+   ShowMessage("いや時期尚早、もう少し下働きを続けます。")
+   0()
+  EndIf()
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("59")
+  ShowMessageFace("mdg_fc1",0,0,2,3)
+  ShowMessage("【ラゴラ】")
+  ShowMessage("私も、デビューを夢見て地面に埋まる日々よ。")
+  EndEventProcessing()
+  DefineLabel("143")
+  ShowMessageFace("eva_fc1",2,0,2,4)
+  ShowMessage("【エヴァ】")
+  ShowMessage("下働きとか、よくやるわよねぇ……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   269
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(428,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   270
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(30,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,625,7,13,0,0)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,625,7,13,0,0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  If(1,1030,0,1,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【ピアノ弾き】")
+   ShowMessage("ああ、私の魂が弾ける……！")
+   ShowMessage("サキちゃんのハートに反応して、この指が燃える……！")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【ピアノ弾き】")
+   ShowMessage("バーニング！　私の魂がバーニング！")
+   ShowMessage("サキちゃーん！　あああ、サキちゃーん！！")
+   0()
+  EndIf()
+  If(1,1030,0,2,1)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【ピアノ弾き】")
+   ShowMessage("魂が弾けませんし、ハートも反応しません……")
+   ShowMessage("普通に楽譜に合わせてピアノを弾くだけです……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  // condition: switch 1075 is ON
+  // condition: switch 1074 is ON
+  If(2,"A",1)
+   ChangeSelfSwitch("A",0)
+   ChangeVariable(1037,1037,1,0,1)
+   0()
+  EndIf()
+  ShowMessageFace("hituzi_fc1",3,0,2,1)
+  ShowMessage("【メリー】")
+  ShowMessage("酔えば酔うほど強くなる……")
+  ShowMessage("ぐびぐび……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("これ、うちのヒツジだ……")
+  ShowMessageFace("hituzi_fc1",3,0,2,3)
+  ShowMessage("【メリー】")
+  ShowMessage("ウェヘヘヘヘ……")
+  ShowMessageFace("hituzi_fc1",7,0,2,4)
+  ShowMessage("【メリー】")
+  ShowMessage("ぐびぐびぐび……")
+  ShowMessageFace("hituzi_fc1",3,0,2,5)
+  ShowMessage("【メリー】")
+  ShowMessage("ウェヘヘヘヘ……")
+  ChangeSwitch(31,31,0)
+  If(6,-1,6)
+   205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x46,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x08,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x09,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x15,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   0()
+  EndIf()
+  217()
+  205(8,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x12,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x08,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x29,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x16,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  RunCommonEvent(312)
+  205(8,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x46,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x26,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x07,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x31,0x3b,0x0c,0x5b,0x06,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x21,0x3b,0x0c,0x5b,0x06,0x69,0x24,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x46,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x27,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  RunCommonEvent(313)
+  0()
+ PAGE   2
+  // condition: party contains actor #74
+  0()
+ PAGE   3
+  // condition: party contains actor #75
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【踊り子】")
+  ShowMessage("あのサキって子、なんなのよ！")
+  ShowMessage("今日は私のステージだったのに！！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("111")
+  ShowMessageFace("suika_fc1",0,0,2,2)
+  ShowMessage("【メロン】")
+  ShowMessage("スイカでも食べて、落ち着きなよ……")
+  EndEventProcessing()
+  DefineLabel("142")
+  ShowMessageFace("bander_fc1",0,0,2,3)
+  ShowMessage("【バナッチ】")
+  ShowMessage("成功者の陰で、歯軋りする者あり……")
+  ShowMessage("……少し違うか？")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【踊り子】")
+  ShowMessage("こんなに客のノリが悪いステージ、初めてよ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("100")
+  ShowMessageFace("rahure_fc1",1,0,2,2)
+  ShowMessage("【フレシア】")
+  ShowMessage("フローラルな香りで盛り上げようか……？")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,3)
+  ShowMessage("【サキ】")
+  ShowMessage("ゴメンね☆")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若い娘】")
+  ShowMessage("ふん、何がサキちゃんよ……")
+  ShowMessage("世の男連中は、見る目がないわね！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("99")
+  ShowMessageFace("namazu_fc1",0,0,2,2)
+  ShowMessage("【ギギ】")
+  ShowMessage("その怒りを、バネにできればいいのだがな……")
+  ShowMessage("たいがいは他者の足を引っ張る方に向かってしまいよる。")
+  EndEventProcessing()
+  DefineLabel("163")
+  ShowMessageFace("lily_fc1",3,0,2,3)
+  ShowMessage("【リリィ】")
+  ShowMessage("嫉妬は醜いわね……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1030 >= 2
+  If(1,1001,0,29,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【若い娘】")
+   ShowMessage("サキちゃんが去った今だからこそ分かる……")
+   ShowMessage("私は、あの娘に嫉妬してたのね。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("99")
+   ShowMessageFace("namazu_fc1",0,0,2,2)
+   ShowMessage("【ギギ】")
+   ShowMessage("己の醜さを認めてこそ、成長はあるのかもしれんな。")
+   EndEventProcessing()
+   DefineLabel("120")
+   ShowMessageFace("page257_fc1",0,0,2,3)
+   ShowMessage("【ヨーコ】")
+   ShowMessage("ジェラシー上等ではないですか……")
+   ShowMessage("嫉妬がなければ、恋愛小説は半分の薄さになってしまいます。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,30,1)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【若い娘】")
+   ShowMessage("この劇場は、いつ来ても変わらないわね。")
+   ShowMessage("みんな忘れたいのよ、世の中の不安を……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  If(1,1030,0,1,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【商人】")
+   ShowMessage("サキちゃんの握手券を売れば……")
+   ShowMessage("これはいい、いけるぞ……！")
+   0()
+  EndIf()
+  If(1,1030,0,2,1)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【商人】")
+   ShowMessage("サキちゃんの握手券……")
+   ShowMessage("たくさん売ったのはいいけど、本人がいなくなって……")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【商人】")
+   ShowMessage("……代わりに、私が握手するしかないんですかね？")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("102")
+   ShowMessageFace("youko_fc1",2,0,2,4)
+   ShowMessage("【きつね】")
+   ShowMessage("暴動になりそう……")
+   EndEventProcessing()
+   DefineLabel("155")
+   ShowMessageFace("saki_fc1",2,0,2,5)
+   ShowMessage("【サキ】")
+   ShowMessage("私、許可してないから……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  // condition: switch 31 is ON
+  0()

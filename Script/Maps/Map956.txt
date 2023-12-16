@@ -1,0 +1,250 @@
+﻿
+
+
+EVENT   7
+ PAGE   1
+  // condition: variable 1212 >= 6
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x4d,0x61,0x67,0x69,0x63,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,932,19,29,8,1)
+  0()
+ PAGE   2
+  // condition: variable 1212 >= 8
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  // condition: switch 4 is ON
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  0()
+ PAGE   3
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  Wait(60)
+  ShowMessageFace("succubusq_fc1",1,0,2,1)
+  ShowMessage("【夢魔Ａ】")
+  ShowMessage("あぁぁ……とろけちゃいそう……")
+  ShowMessageFace("succubusm_fc1",1,0,2,2)
+  ShowMessage("【夢魔Ｂ】")
+  ShowMessage("はぅぅ……気持ちいいわぁ……")
+  If(0,4,0)
+   PictureDisplay(5,"80_tamamo_st61b",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,60,true)
+   ShowMessageFace("tamamo_fc3",0,0,2,3)
+   ShowMessage("【玉藻】")
+   ShowMessage("まあ、こんなところか……")
+   ShowMessage("快楽しか受け付けんとは、面妖な者どもよ。")
+   ShowMessageFace("dakki_fc1",0,0,2,4)
+   ShowMessage("【妲己】")
+   ShowMessage("流石は同族……大した手並よな。")
+   ShowMessageFace("tamamo_fc3",0,0,2,5)
+   ShowMessage("【玉藻】")
+   ShowMessage("お主は、異界の九尾か。")
+   ShowMessage("ここで顔を合わせるは、異なる縁……")
+   ShowMessageFace("tamamo_fc3",0,0,2,6)
+   ShowMessage("【玉藻】")
+   ShowMessage("話でもしたいが、時間がない。")
+   ShowMessage("この世界におられる時は、限られているのでな……")
+   ShowMessageFace("dakki_fc1",0,0,2,7)
+   ShowMessage("【妲己】")
+   ShowMessage("正規の手法で、この世界に来ているのではないのか。")
+   ShowMessage("異世界への不法侵入とは、器用な事をやりおる……")
+   ShowMessageFace("tamamo_fc3",0,0,2,8)
+   ShowMessage("【玉藻】")
+   ShowMessage("其方と違い、主ある身……")
+   ShowMessage("それでは、さらばだ。")
+   PictureClear(5)
+   Wait(30)
+   212(11,542,false)
+   Wait(60)
+   ChangeSwitch(31,31,0)
+   Wait(30)
+   ShowMessageFace("",0,0,2,9)
+   ShowMessage("玉藻はこの世界から消失した――")
+   0()
+  EndIf()
+  If(0,5,0)
+   PictureDisplay(5,"80_rafaera_st21",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,60,true)
+   ShowMessageFace("rafaera_fc3",0,0,2,10)
+   ShowMessage("【ラファエラ】")
+   ShowMessage("うふふっ……結構なお点前でした。")
+   Wait(30)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x4d,0x61,0x67,0x69,0x63,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   224(bytes(0x04,0x08,0x75,0x3a,0x0a,0x43,0x6f,0x6c,0x6f,0x72,0x25,0x00,0x00,0x00,0x00,0x00,0xe0,0x6f,0x40,0x00,0x00,0x00,0x00,0x00,0xe0,0x6f,0x40,0x00,0x00,0x00,0x00,0x00,0xe0,0x6f,0x40,0x00,0x00,0x00,0x00,0x00,0xe0,0x6f,0x40),60,false)
+   Wait(30)
+   PictureDisplay(5,"80_rafaera_st02",0,0,0,0,100,100,255,0)
+   Wait(30)
+   ShowMessageFace("",0,0,2,11)
+   ShowMessage("ラファエラは、天使の姿に戻った――")
+   Wait(60)
+   ShowMessageFace("dakki_fc1",0,0,2,12)
+   ShowMessage("【妲己】")
+   ShowMessage("相性的に不利なのではなかったか……？")
+   ShowMessage("まったく、ヌシも大層な狐よな。")
+   ShowMessageFace("rafaera_fc1",1,0,2,13)
+   ShowMessage("【ラファエラ】")
+   ShowMessage("……さて、ここは片付きました。")
+   ShowMessage("あなたは敵ではないのでしょう、九尾……？")
+   ShowMessageFace("dakki_fc1",0,0,2,14)
+   ShowMessage("【妲己】")
+   ShowMessage("聞いていたはず、事を構える気はない。")
+   ShowMessage("そちらから仕掛けてくるなら別だがのう……")
+   ShowMessageFace("rafaera_fc1",1,0,2,15)
+   ShowMessage("【ラファエラ】")
+   ShowMessage("こちらとて、そのつもりはありません。")
+   ShowMessage("それでは、異世界の勇者達によろしくお伝えを……")
+   PictureClear(5)
+   Wait(30)
+   212(11,501,false)
+   Wait(30)
+   ChangeSwitch(31,31,0)
+   Wait(60)
+   ShowMessageFace("",0,0,2,16)
+   ShowMessage("ラファエラはこの世界から消失した――")
+   0()
+  EndIf()
+  Wait(60)
+  ShowMessageFace("dakki_fc1",0,0,2,17)
+  ShowMessage("【妲己】")
+  ShowMessage("……まったく、食えぬ奴ばかりよ。")
+  Wait(90)
+  242(1)
+  221()
+  Wait(120)
+  ChangeSwitch(31,31,1)
+  ChangeSwitch(2918,2918,0)
+  211(1)
+  281(0)
+  TeleportPlayer(0,933,22,32,2,2)
+  222()
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  0()

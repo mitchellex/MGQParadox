@@ -1,0 +1,5 @@
+﻿// EVENT 0910
+Name "ボス階層通常宝箱"
+
+RunCommonEvent(903)
+0()

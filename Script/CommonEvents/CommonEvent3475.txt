@@ -1,0 +1,5 @@
+﻿// EVENT 3475
+Name "エスト"
+
+RunCommonEvent(3491)
+0()

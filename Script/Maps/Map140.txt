@@ -1,0 +1,2251 @@
+﻿
+
+
+EVENT   3
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,3,11,0,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,4,11,0,0)
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,3,37,0,0)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,4,37,0,0)
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,139,22,31,0,0)
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,139,34,14,0,0)
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,139,33,25,0,0)
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,139,12,33,0,0)
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  If(1,1001,0,12,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【武器屋のおやじ】")
+   ShowMessage("おう、八代続く老舗武器屋「世界屋」にようこそ！")
+   ShowMessage("船が出なくて困りモンだが、この程度じゃヘタれないぜ。")
+   0()
+  EndIf()
+  If(1,1001,0,13,1)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【武器屋のおやじ】")
+   ShowMessage("おう、八代続く老舗武器屋「世界屋」にようこそ！")
+   0()
+  EndIf()
+  Shop(1,6,0,0,false)
+  605(1,58,0,0)
+  605(1,193,0,0)
+  605(1,209,0,0)
+  605(1,365,0,0)
+  605(1,402,0,0)
+  605(1,441,0,0)
+  605(1,476,0,0)
+  605(1,556,0,0)
+  605(1,661,0,0)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【武器屋のおばさん】")
+  ShowMessage("老舗武器屋「世界屋」にようこそ！")
+  ShowMessage("さあ、防具を見ていって下さいな。")
+  Shop(2,20,0,0,false)
+  605(2,56,0,0)
+  605(2,123,0,0)
+  605(2,148,0,0)
+  605(2,183,0,0)
+  605(2,193,0,0)
+  605(2,234,0,0)
+  605(2,274,0,0)
+  605(2,280,0,0)
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("さっき、町外れでキツネを見掛けたんだ。")
+  ShowMessage("そんなに田舎でもないのに、びっくりしたよ。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,2)
+   ShowMessage("【アリス】")
+   ShowMessage("……狐なんぞ、鍋にしてしまえ。")
+   ShowMessageFace("ruka_fc1",0,0,2,3)
+   ShowMessage("【ルカ】")
+   ShowMessage("アリス、狐は嫌いなのか……？")
+   ShowMessageFace("alice_fc5",3,0,2,4)
+   ShowMessage("【アリス】")
+   ShowMessage("ああ……ちょっとな。")
+   ShowMessageFace("ruka_fc1",0,0,2,5)
+   ShowMessage("【ルカ】")
+   ShowMessage("…………？")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【町娘】")
+  ShowMessage("キャプテン・セレーネ……百年前、世界中の海を荒らした伝説の海賊です。")
+  ShowMessage("なんと女の身でありながら、数百人の荒くれの頂点に君臨したとか。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【町娘】")
+  ShowMessage("しかし彼女の海賊船は、航海の途中で消息を絶ったのです。")
+  ShowMessage("魔物に襲われたとも、嵐に巻き込まれたとも言われています。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【町娘】")
+  ShowMessage("最後の航海では、なにかいわくつきの財宝を探し求めていたとか。")
+  ShowMessage("それが原因で、船が沈んでしまったという噂も聞いたことがあります。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【町娘】")
+  ShowMessage("……別に、海賊マニアってわけじゃありませんよ。")
+  ShowMessage("ちょっと憧れているだけです。")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【向かいの青年】")
+  ShowMessage("……いや、明らかに海賊マニアだよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("118")
+  ShowMessageFace("meia_fc1",2,0,2,6)
+  ShowMessage("【メイア】")
+  ShowMessage("まあ、ロマンがありますね♪")
+  EndEventProcessing()
+  DefineLabel("144")
+  ShowMessageFace("saboresu_fc1",0,0,2,7)
+  ShowMessage("【サニー】")
+  ShowMessage("あたしも、海賊になりたいな～♪")
+  EndEventProcessing()
+  DefineLabel("202")
+  ShowMessageFace("bonny_fc1",1,0,2,8)
+  ShowMessage("【ボニー】")
+  ShowMessage("あたしも、海賊史に名前を残してやるぞ！")
+  EndEventProcessing()
+  DefineLabel("536")
+  ShowMessageFace("serene_fc1",4,0,2,9)
+  ShowMessage("【セレーネ】")
+  ShowMessage("ふふっ……")
+  ShowMessage("ここに本人がいる事はナイショにしておきましょう。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("海賊に関する本が、ぎっしりと並んでいる……")
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("この辺の魔物は、イリアス大陸で最も強い。")
+  ShowMessage("イリアス神殿から最も離れた地域だから、当然だがな。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("そして北に行くにつれ、魔物はどんどん強くなっていく。")
+  ShowMessage("最北に魔王城があるから、それも当然だがな。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("93")
+  ShowMessageFace("liot_fc1",1,0,2,3)
+  ShowMessage("【ライオット】")
+  ShowMessage("ふふっ、腕が鳴るじゃないか……！")
+  EndEventProcessing()
+  DefineLabel("95")
+  ShowMessageFace("delh_a_fc1",0,0,2,4)
+  ShowMessage("【ロナ】")
+  ShowMessage("まあ、修行には最適よね……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  If(1,1001,0,12,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【旅のエルフ】")
+   ShowMessage("船が出ないせいで、しばらくここで足止めよ。")
+   ShowMessage("どこの魔物だか知らないけど、ろくな事しないわよね。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【旅のエルフ】")
+   ShowMessage("でも、船を沈めるほどの嵐って……")
+   ShowMessage("きっと、かなり強い妖魔の仕業よね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,29,2)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【旅のエルフ】")
+   ShowMessage("船を沈めるほどのサキュバスを退治するなんて……")
+   ShowMessage("すごい冒険者がいるものよね。")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",0,0,2,4)
+    ShowMessage("【アリス】")
+    ShowMessage("我等が倒したわけではないのだが……")
+    ShowMessage("モリガンとかいう淫魔は、この海域から消えたようだな。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,5)
+    ShowMessage("【イリアス】")
+    ShowMessage("私達が倒したわけではないのですが……")
+    ShowMessage("モリガンは、この海域から撤退したようですね。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(1,1001,0,30,1)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【旅のエルフ】")
+   ShowMessage("四大国が、同時に魔王軍の攻撃を受けるなんて……")
+   ShowMessage("予定は取りやめ、当分はここに駐留よ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  If(1,1001,0,12,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【老剣士】")
+   ShowMessage("やれやれ、困ったものじゃのう……")
+   ShowMessage("あくまで噂じゃが、サキュバスが嵐を起こすのを見た船員がいるらしい。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【老剣士】")
+   ShowMessage("そこまで強力なサキュバスの退治など、儂等では厳しいのう。")
+   ShowMessage("しかし、何が目的でそんな事をしておるのか……")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",3,0,2,3)
+    ShowMessage("【アリス】")
+    ShowMessage("船を沈没させるほどの嵐……")
+    ShowMessage("まさか、アルマエルマか……？")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,4)
+    ShowMessage("【イリアス】")
+    ShowMessage("船を沈没させるほどの嵐ですか。")
+    ShowMessage("明らかに、アルマエルマの仕業ですね……")
+    0()
+   EndIf()
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,29,2)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【老剣士】")
+   ShowMessage("ようやく、往復船が復旧したとか。")
+   ShowMessage("いよいよセントラ大陸に行けるのう……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,30,1)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【老剣士】")
+   ShowMessage("軍資金不足で、セントラ大陸の渡航が延び延びになっていたが……")
+   ShowMessage("今の大国の惨状を見ると、ここに留まって正解かのう。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若者】")
+  ShowMessage("八代続く老舗武器屋「世界屋」へようこそ！")
+  ShowMessage("九代目予定の僕ですが、鍛冶ならお任せを！")
+  355("call_synthesize(7)")
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【得意客の戦士】")
+  ShowMessage("ここの鍛冶屋は、若いが非常に腕が良い。")
+  ShowMessage("ヤマタイの妖狐に弟子入りして、土属性の鋳造術を修得したって話だ。")
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【店主】")
+  ShowMessage("いらっしゃい、品揃えはあまり良くないよ……")
+  Shop(0,1,0,0,false)
+  605(0,11,0,0)
+  605(0,13,0,0)
+  605(0,14,0,0)
+  605(0,15,0,0)
+  605(0,17,0,0)
+  605(0,23,0,0)
+  605(0,35,0,0)
+  605(0,101,0,0)
+  If(1,1005,0,11,0)
+   If(0,2065,0)
+    If(4,66,0)
+     ShowMessageFace("vgirl_fc1",0,0,2,2)
+     ShowMessage("【ヴァニラ】")
+     ShowMessage("はじめまして、商人のヴァニラです。")
+     ShowMessage("手裏剣の仕入れに関して、話を伺いたいのですが……")
+     ShowMessageFace("",0,0,2,3)
+     ShowMessage("【店主】")
+     ShowMessage("ああ、うちの手裏剣かい？")
+     ShowMessage("ヤマタイ出身の職人と専属契約してるんだよ。")
+     ShowMessageFace("",0,0,2,4)
+     ShowMessage("【店主】")
+     ShowMessage("専属契約なんで、悪いが紹介できないなぁ。")
+     ShowMessage("手作りだから、ウチに納入してる分で全てだしね。")
+     ShowMessageFace("vgirl_fc1",0,0,2,5)
+     ShowMessage("【ヴァニラ】")
+     ShowMessage("うむむ、それは残念だけど……")
+     ShowMessage("お話、参考になりました！")
+     ShowMessageFace("vgirl_fc1",0,0,2,6)
+     ShowMessage("【ヴァニラ】")
+     ShowMessage("ヤマタイ出身の職人か……")
+     ShowMessage("同じような人が、どこかにいないかな？")
+     ShowMessageFace("ruka_fc1",0,0,2,7)
+     ShowMessage("【ルカ】")
+     ShowMessage("イリアス神殿に、ヤマタイ出身の暇そうな侍がいたよね。")
+     ShowMessage("確か、職業を説明してくれる部屋だったかな……")
+     ShowMessageFace("vgirl_fc1",0,0,2,8)
+     ShowMessage("【ヴァニラ】")
+     ShowMessage("さっそく、行ってみるのだ！")
+     ChangeSwitch(2064,2064,0)
+     EndEventProcessing()
+     0()
+    EndIf()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(2,"A",1)
+   ChangeSelfSwitch("A",0)
+   ShowMessageFace("",0,0,2,9)
+   ShowMessage("【店主】")
+   ShowMessage("知っての通り、往復船が止まっててね。")
+   ShowMessage("品揃えはあんまり良くないんだ……")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc1",0,0,2,10)
+    ShowMessage("【ソニア】")
+    ShowMessage("そうなんですか？")
+    ShowMessage("他の店と同じくらいだと思いますけど……")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,11)
+    ShowMessage("【ルカ】")
+    ShowMessage("そうなんですか？")
+    ShowMessage("他の店と同じくらいだと思いますけど……")
+    0()
+   EndIf()
+   ShowMessageFace("",0,0,2,12)
+   ShowMessage("【店主】")
+   ShowMessage("他の店と同じ程度しか、品物が入らないんだよ。")
+   ShowMessage("以前は、うちの店はイリアス大陸一の品揃えだったんだ……")
+   ShowMessageFace("",0,0,2,13)
+   ShowMessage("【店主】")
+   ShowMessage("ナタリアポートにも、ここ一年は行ってないんだよなぁ……")
+   ShowMessage("人魚パブが恋しいなぁ。マーメイドのマナちゃん、元気かなぁ……")
+   205(14,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x15,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   ShowMessageFace("",0,0,2,14)
+   ShowMessage("【店主の奥さん】")
+   ShowMessage("マーメイドのマナちゃんが、なんだって……？")
+   205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x18,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   ShowMessageFace("",0,0,2,15)
+   ShowMessage("【店主】")
+   ShowMessage("ち、違うんだ。これは……")
+   221()
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x44,0x61,0x6d,0x61,0x67,0x65,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   ShowMessageFace("",0,0,2,16)
+   ShowMessage("【店主】")
+   ShowMessage("ぎゃぁぁぁぁぁぁぁぁぁぁ――！！")
+   205(14,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x46,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x46,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   Wait(30)
+   222()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  If(1,1001,0,12,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【店主の奥さん】")
+   ShowMessage("往復船は止まってるけど、アクセサリは良いのが揃ってるよ。")
+   ShowMessage("あんまり頻繁に動く商品じゃないからねぇ。")
+   0()
+  EndIf()
+  If(1,1001,0,13,1)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【店主の奥さん】")
+   ShowMessage("いらっしゃい、良いアクセサリが揃ってるよ！")
+   0()
+  EndIf()
+  Shop(2,1054,0,0,false)
+  605(2,1723,0,0)
+  605(2,1725,0,0)
+  605(2,1730,0,0)
+  605(2,1732,0,0)
+  605(2,1733,0,0)
+  605(2,1735,0,0)
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【宿の主】")
+  ShowMessage("10Gになります。")
+  ShowMessage("泊まっていかれますか？\\$")
+  ShowChoices(strings("はい","いいえ"),2)
+  IfPlayerPicksChoice(0,null)
+   If(7,10,0)
+    125(1,0,10)
+    221()
+    249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x08,0x49,0x6e,0x6e,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+    Wait(150)
+    314(0,0)
+    222()
+    0()
+   Else()
+    ShowMessageFace("",0,0,2,2)
+    ShowMessage("【宿の主】")
+    ShowMessage("おや、お金が足りませんよ……")
+    0()
+   EndIf()
+   0()
+  IfPlayerPicksChoice(1,null)
+   0()
+  404()
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("魔導科学研究所")
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,68,32,0,0)
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,69,32,0,0)
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,70,32,0,0)
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("書庫・倉庫")
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("気象・地質学研究所")
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("医学研究所")
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,68,62,0,0)
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,69,62,0,0)
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,70,62,0,0)
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,69,5,0,0)
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,70,5,0,0)
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("生物学研究所")
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,69,33,0,0)
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,139,34,38,0,0)
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,69,33,0,0)
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,140,69,33,0,0)
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【医学者】")
+  ShowMessage("困りましたね、エルフィリンの備蓄が不足しています……")
+  ShowMessage("あれがないと、患者さんに薬が出せなくなります。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【医学者】")
+  ShowMessage("あなた達は、世界を旅しているのですよね。")
+  ShowMessage("どこかでエルフィリンを手に入れたら、譲って頂けませんか？")
+  ShowChoices(strings("はい","いいえ"),2)
+  IfPlayerPicksChoice(0,null)
+   If(8,512)
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【医学者】")
+    ShowMessage("おお、譲って頂けるのですか！")
+    ShowMessage("ありがとうございます！")
+    ChangeInventory_Item(512,1,0,1)
+    ShowMessageFace("",0,0,2,4)
+    ShowMessage("ルカは医学者にエルフィリンを渡した！")
+    ShowMessageFace("",0,0,2,5)
+    ShowMessage("【医学者】")
+    ShowMessage("それでは、学内通行許可を取り付けましょう。")
+    ShowMessage("これで、上の階にも行けるようになるはずです。")
+    ShowMessageFace("",0,0,2,6)
+    ShowMessage("【医学者】")
+    ShowMessage("何かありましたら、私にご相談下さい。")
+    ShowMessage("出来る限りの事はさせて頂きますので……")
+    ChangeSwitch(2063,2063,0)
+    EndEventProcessing()
+    0()
+   Else()
+    ShowMessageFace("",0,0,2,7)
+    ShowMessage("【医学者】")
+    ShowMessage("そうですか、助かります。")
+    ShowMessage("エルフィリンは、エルフの薬師ならば調合できるはず……")
+    ShowMessageFace("",0,0,2,8)
+    ShowMessage("【医学者】")
+    ShowMessage("そう言えば迷いの森の奥に、エルフ達の隠れ里があると聞きますね。")
+    ShowMessage("彼女達の元を訪れてみるのはどうでしょうか。")
+    ShowMessageFace("",0,0,2,9)
+    ShowMessage("【医学者】")
+    ShowMessage("大したお礼はできませんが……")
+    ShowMessage("譲って頂ければ、学内の通行許可を取り付けましょう。")
+    ShowMessageFace("",0,0,2,10)
+    ShowMessage("【医学者】")
+    ShowMessage("どうか、よろしくお願いします。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,11)
+   ShowMessage("【医学者】")
+   ShowMessage("私のような医学者でなければ、使わないような薬品です。")
+   ShowMessage("一般には使い道はありませんし、売買も不可能でしょう……")
+   ShowMessageFace("",0,0,2,12)
+   ShowMessage("【医学者】")
+   ShowMessage("大したお礼はできませんが……")
+   ShowMessage("譲って頂ければ、学内の通行許可を取り付けましょう。")
+   ShowMessageFace("",0,0,2,13)
+   ShowMessage("【医学者】")
+   ShowMessage("どうか、よろしくお願いします。")
+   EndEventProcessing()
+   0()
+  404()
+  0()
+ PAGE   2
+  // condition: switch 2063 is ON
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【医学者】")
+  ShowMessage("何かありましたら、私にご相談下さい。")
+  ShowMessage("出来る限りの事はさせて頂きますので……")
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  If(2,"A",1)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【マキナ学者】")
+   ShowMessage("最近、発掘された2つのマキナの実働試験が終了しました。")
+   ShowMessage("どうやら、両方とも兵器だったようです。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【マキナ学者】")
+   ShowMessage("我が大学は智を探究する場所。")
+   ShowMessage("兵器など保管しておきたくはありません……")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【マキナ学者】")
+   ShowMessage("しかし処分するとなると、なかなか面倒ですね。")
+   ShowMessage("さて、どうしたものか……")
+   ShowChoices(strings("下さい","興味ない"),2)
+   IfPlayerPicksChoice(0,null)
+    If(8,613)
+     ShowMessageFace("",0,0,2,4)
+     ShowMessage("【マキナ学者】")
+     ShowMessage("なるほど、マキナ取り扱いの資格をお持ちのようですね。")
+     ShowMessage("ならば、あなた達に委ねましょう。")
+     ChangeSelfSwitch("A",0)
+     250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+     ChangeInventory_Item(706,0,0,1)
+     ChangeInventory_Item(707,0,0,1)
+     ShowMessageFace("",0,0,2,5)
+     ShowMessage("【マキナ学者】")
+     ShowMessage("お役に立てば幸いです。")
+     ShowMessage("扱いには気をつけて下さいね。")
+     EndEventProcessing()
+     0()
+    Else()
+     ShowMessageFace("",0,0,2,6)
+     ShowMessage("【マキナ学者】")
+     ShowMessage("いえいえ、マキナの素人に委ねるなど危険この上ない……")
+     ShowMessage("マキナ取り扱いの免許を持っているのなら話は別ですが。")
+     EndEventProcessing()
+     0()
+    EndIf()
+    0()
+   IfPlayerPicksChoice(1,null)
+    EndEventProcessing()
+    0()
+   404()
+   0()
+  Else()
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【マキナ学者】")
+   ShowMessage("お役に立てば幸いです。")
+   ShowMessage("扱いには気をつけて下さいね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  If(1,1019,0,1,2)
+   ShowMessageFace("mob_nasu1_fc1",0,0,2,1)
+   ShowMessage("【ナイチンゲール】")
+   ShowMessage("うふふっ……ちょっと手が離せないから、後でね？")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,811,0,2,1)
+   If(0,1554,1)
+    ShowMessageFace("mob_nasu1_fc1",0,0,2,2)
+    ShowMessage("【ナイチンゲール】")
+    ShowMessage("あなたの旅、怪我人がいっぱい出るでしょう……")
+    ShowMessage("私も行って、癒してあげましょうか……？")
+    ShowChoices(strings("仲間にする","仲間にしない"),0)
+    IfPlayerPicksChoice(0,null)
+     ShowMessageFace("mob_nasu1_fc1",0,0,2,3)
+     ShowMessage("【ナイチンゲール】")
+     ShowMessage("よろしくね……うふふっ。")
+     PictureClear(5)
+     205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x09,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x0f,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+     355("add_actor_ex(554)")
+     249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+     ShowMessageFace("",0,0,2,4)
+     ShowMessage("ナイチンゲールが仲間に加わった！")
+     Wait(60)
+     EndEventProcessing()
+     0()
+    IfPlayerPicksChoice(1,null)
+     ShowMessageFace("mob_nasu1_fc1",0,0,2,5)
+     ShowMessage("【ナイチンゲール】")
+     ShowMessage("遠慮しなくてもいいのに……うふふっ。")
+     0()
+    404()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  RunCommonEvent(7101)
+  0()
+ PAGE   2
+  // condition: party contains actor #554
+  0()
+
+
+
+EVENT   48
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【生物学者】")
+  ShowMessage("バイオ属性には毒、音波属性には混乱が付随する事がある。")
+  ShowMessage("これらの属性を使う魔物は多くはないが、注意しておくといい。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【生物学者】")
+  ShowMessage("バイオ属性はゾンビ、音波属性は人魚……")
+  ShowMessage("代表的な使用モンスターは、こんなところだな。")
+  0()
+
+
+
+EVENT   49
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【生物学者】")
+  ShowMessage("世界のどこかには、ミミックの多発地域があるという。")
+  ShowMessage("普通に歩いていると、ミミックが襲ってくる事もあるようだ。")
+  0()
+
+
+
+EVENT   50
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【妖精学者】")
+  ShowMessage("妖精は、魔法こそ強力なものの貧弱だと思われがちだが……")
+  ShowMessage("土精と呼ばれる妖精は、小さくても力自慢だと文献にある。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【妖精学者】")
+  ShowMessage("そうした妖精と戦うときは、戦法を変えないとな。")
+  ShowMessage("もちろん私はインドア派だから、そんな機会はないが……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("137")
+  ShowMessageFace("braunys_fc1",6,0,2,3)
+  ShowMessage("【ラブ＆ラム】")
+  ShowMessage("だったら、ここで力比べしてみる？")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【妖精学者】")
+  ShowMessage("か、勘弁してくれ……")
+  ShowMessage("体がバラバラになってしまうよ……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   51
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("戦士と武道家をマスターすると、バトルマスターに転職可能だ。")
+  ShowMessage("剣と拳をミックスさせた技や、連続攻撃スキルが修得可能らしい。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("68")
+  ShowMessageFace("dragonp_fc1",0,0,2,2)
+  ShowMessage("【パピ】")
+  ShowMessage("剣と拳！　すごく憧れるのだ～！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   52
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士】")
+  ShowMessage("サキュバスは、風属性の技が得意と聞きます。")
+  ShowMessage("そして、その弱点は土属性だとか。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【兵士】")
+  ShowMessage("ああ、サキュバスと戦ってみたい……")
+  ShowMessage("いえいえ、もちろん修行のためですよ！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("5")
+  ShowMessageFace("alice_fc5",0,0,2,3)
+  ShowMessage("【アリス】")
+  ShowMessage("……エロめ。")
+  EndEventProcessing()
+  DefineLabel("56")
+  ShowMessageFace("inp_fc1",0,0,2,4)
+  ShowMessage("【ラミ】")
+  ShowMessage("インプでいいなら、戦ってあげるよ～♪")
+  EndEventProcessing()
+  DefineLabel("143")
+  ShowMessageFace("eva_fc1",0,0,2,5)
+  ShowMessage("【エヴァ】")
+  ShowMessage("精液くれるなら、相手してあげてもいいわよ……？")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   53
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【シーフ】")
+  ShowMessage("シーフの「とんずら」は、普通の魔物相手なら確実に逃げられる。")
+  ShowMessage("パーティに修得している者がいると、いざという時に助かるぞ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("82")
+  ShowMessageFace("suzume_fc1",0,0,2,2)
+  ShowMessage("【ちゅん】")
+  ShowMessage("ひ弱な私には、必須ですよね……")
+  EndEventProcessing()
+  DefineLabel("93")
+  ShowMessageFace("liot_fc1",0,0,2,3)
+  ShowMessage("【ライオット】")
+  ShowMessage("ふん……敵に背など見せるものか。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   54
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【講師】")
+  ShowMessage("魔法使いをマスターすると、黒魔導師と時魔導師に進路が分かれる。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【講師】")
+  ShowMessage("黒魔導師は、魔法使いの進化形で強力な黒魔法を修得。")
+  ShowMessage("時魔導師は、時魔法と呼ばれる独自の魔法を習得するようだ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【講師】")
+  ShowMessage("なお召喚士という魔法使い系の職業があるみたいだが……")
+  ShowMessage("こちらは、転職アイテムが必要なようだな。")
+  0()
+
+
+
+EVENT   55
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【人類学者】")
+  ShowMessage("種族「人間」をマスターした猛者はいるようだが……")
+  ShowMessage("「人間」の上位種に転種したなんて話は全く聞いた事がない。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【人類学者】")
+  ShowMessage("まあ、それも当然だろうな。")
+  ShowMessage("人間の上位種なんて、存在しないんだから……")
+  0()
+
+
+
+EVENT   56
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【神父】")
+  ShowMessage("僧侶をマスターしましたが、これからどうしましょう。")
+  ShowMessage("白魔導師になって、さらに強力な白魔法を覚えるか……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【神父】")
+  ShowMessage("それとも魔法使いになって、賢者をめざすか……")
+  ShowMessage("ああ神よ、どうか道をお示し下さい。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("525")
+  If(4,525,2,44)
+   ShowMessageFace("sonia_fc1",0,0,2,3)
+   ShowMessage("【ソニア】")
+   ShowMessage("私も、そろそろ将来を考えなきゃね。")
+   ShowMessage("白魔法に磨きをかけるか、それとも賢者をめざすか……")
+   ShowMessageFace("ruka_fc1",0,0,2,4)
+   ShowMessage("【ルカ】")
+   ShowMessage("戦士になって、パワー系に進むとか……")
+   ShowMessageFace("sonia_fc2",4,0,2,5)
+   ShowMessage("【ソニア】")
+   ShowMessage("……あぁ？")
+   ShowMessageFace("ruka_fc1",0,0,2,6)
+   ShowMessage("【ルカ】")
+   ShowMessage("何もありません。")
+   0()
+  Else()
+   ShowMessageFace("sonia_fc1",0,0,2,7)
+   ShowMessage("【ソニア】")
+   ShowMessage("僧侶の次って、みんな色々と悩むものよね……")
+   ShowMessage("周囲に何が求められてるか、おのおの違ってくるし。")
+   0()
+  EndIf()
+  EndEventProcessing()
+  DefineLabel("531")
+  ShowMessageFace("saniria_fc2",0,0,2,8)
+  ShowMessage("【サン・イリア王】")
+  ShowMessage("白魔導師が良い。")
+  ShowMessage("お主は、より多くの人を癒す方が性に合っているようだ……")
+  ShowMessageFace("",0,0,2,9)
+  ShowMessage("【神父】")
+  ShowMessage("あ、あなたは……！？")
+  ShowMessageFace("saniria_fc2",0,0,2,10)
+  ShowMessage("【サン・イリア王】")
+  ShowMessage("通りすがりの、ただのメカだよ。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   57
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("妖狐は、大地の加護を受ける種族という。")
+  ShowMessage("ゆえに土属性に対する耐性は高いようだ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【戦士】")
+  ShowMessage("また土属性の攻撃を多用するので注意だな。")
+  ShowMessage("戦う際、土属性が弱点の仲間はいないかチェックしておけよ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【戦士】")
+  ShowMessage("そして、妖狐の弱点は風属性だ。")
+  ShowMessage("修得しているならば、風の技や魔法で攻めるといい。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("56")
+  ShowMessageFace("inp_fc1",0,0,2,4)
+  ShowMessage("【ラミ】")
+  ShowMessage("風属性に弱い相手なら、あたしがやっつけちゃうよ～！")
+  EndEventProcessing()
+  DefineLabel("102")
+  ShowMessageFace("youko_fc1",2,0,2,5)
+  ShowMessage("【きつね】")
+  ShowMessage("あたしの弱点、言いふらさないでよ～！")
+  ShowMessageFace("",0,0,2,6)
+  ShowMessage("【戦士】")
+  ShowMessage("す、すまない……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  If(1,1019,0,1,2)
+   ShowMessageFace("mob_gakusya1_fc1",0,0,2,1)
+   ShowMessage("【フィーズ】")
+   ShowMessage("なんでしょうか、今レポートをまとめるのに忙しくて……")
+   ShowMessage("後にしてくれませんか？")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,810,0,2,1)
+   If(0,1553,1)
+    ShowMessageFace("mob_gakusya1_fc1",0,0,2,2)
+    ShowMessage("【フィーズ】")
+    ShowMessage("あの、私もご一緒してよろしいですか？")
+    ShowMessage("研究がはかどりそうなので……")
+    ShowChoices(strings("仲間にする","仲間にしない"),0)
+    IfPlayerPicksChoice(0,null)
+     ShowMessageFace("mob_gakusya1_fc1",0,0,2,3)
+     ShowMessage("【フィーズ】")
+     ShowMessage("よろしくお願いします。")
+     ShowMessage("一生懸命がんばりますので……")
+     PictureClear(5)
+     205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x09,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x0f,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+     355("add_actor_ex(553)")
+     249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+     ShowMessageFace("",0,0,2,4)
+     ShowMessage("フィーズが仲間に加わった！")
+     Wait(60)
+     EndEventProcessing()
+     0()
+    IfPlayerPicksChoice(1,null)
+     ShowMessageFace("mob_gakusya1_fc1",0,0,2,5)
+     ShowMessage("【フィーズ】")
+     ShowMessage("そうですか、私なんて足手まといですよね……")
+     0()
+    404()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  RunCommonEvent(7091)
+  0()
+ PAGE   2
+  // condition: party contains actor #553
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("ふむ、吾輩の研究室に見学かね？")
+  ShowMessage("しかし、どいつもこいつも碩学とは程遠い顔を並べておる……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("良いか、真理の探究とは神が与え給うた究極なる理念。")
+  ShowMessage("それを知らぬ者共なぞ、路傍の石も同然なのであるぞ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【学者】")
+  ShowMessage("吾輩は一度だが、レメトン魔柱の合成に成功しておるのだ。")
+  ShowMessage("それがどういう事か、そなたらに分かるか……？")
+  If(4,41,0)
+   ShowMessageFace("stein_fc2",0,0,2,4)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("それはつまり、追試には成功していないという事でしょうか？")
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【学者】")
+   ShowMessage("……なっ！　一度は出来たのだぞ！")
+   ShowMessage("その一度にこそ、大きな価値があるのだと分からんか！？")
+   ShowMessageFace("stein_fc2",0,0,2,6)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("追試もできなければ、検証も不能……")
+   ShowMessage("そんなものは、科学の名に値しません。")
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【学者】")
+   ShowMessage("おのれ小娘、吾輩を批判するなど許さんぞ！")
+   ShowMessageFace("stein_fc2",0,0,2,8)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("科学とは批判と検証の積み重ね……")
+   ShowMessage("批判を受ける覚悟なくして、どうして科学を志すのですか？")
+   ShowMessageFace("",0,0,2,9)
+   ShowMessage("【学者】")
+   ShowMessage("おのれ、何を言うか！")
+   ShowMessage("よいか、真理の探究とは最も憎むべき知的怠惰の――")
+   ShowMessageFace("stein_fc2",0,0,2,10)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("愚者は簡単な事柄を難解な言葉で語り、")
+   ShowMessage("賢者は難解な事柄を簡単な言葉で語るもの。")
+   ShowMessageFace("stein_fc2",0,0,2,11)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("あなたの口調は、空疎な内面の裏返しにしか聞こえません。")
+   ShowMessage("中身のない言葉で煙に巻くのが、あなたの科学的姿勢ですか？")
+   ShowMessageFace("",0,0,2,12)
+   ShowMessage("【学者】")
+   ShowMessage("ええい、小娘ごときに何が分かるか！")
+   ShowMessageFace("stein_fc2",0,0,2,13)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("小娘がどうとか、ただの個人攻撃ですね。")
+   ShowMessage("論理的に反論できなくなった、という解釈で良いでしょうか？")
+   ShowMessageFace("",0,0,2,14)
+   ShowMessage("【学者】")
+   ShowMessage("ぬぐぐ……お、おのれ……！")
+   ShowMessage("い、今に見ていろ……！")
+   205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x14,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x22,0x3b,0x0c,0x5b,0x06,0x69,0x0a,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x23,0x3b,0x0c,0x5b,0x06,0x69,0x0a,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x31,0x3b,0x0c,0x5b,0x06,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   ChangeSwitch(2061,2061,0)
+   ChangeSelfSwitch("A",0)
+   ShowMessageFace("stein_fc2",0,0,2,15)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("やれやれ……程度が知れますね。")
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",0,0,2,16)
+    ShowMessage("【イリアス】")
+    ShowMessage("相変わらずの噛み付きぶりですね、プロメスティン。")
+    ShowMessage("小さい頃からこんな風で、天使達にいじめられていました……")
+    ShowMessageFace("stein_fc2",2,0,2,17)
+    ShowMessage("【プロメスティン】")
+    ShowMessage("い、いじめられていません……！")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   58
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【マナ研究家】")
+  ShowMessage("闇のマナ……いわゆる魔素を使用する闇属性は、非常に特殊。")
+  ShowMessage("使用するには、太古の盟約に基づき己の生命力を捧げる必要があります。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【マナ研究家】")
+  ShowMessage("つまり……闇の技や魔法を使うには、HPの消費が必要ということ。")
+  ShowMessage("その分、威力も絶大と文献にありますね。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",1,0,2,3)
+   ShowMessage("【アリス】")
+   ShowMessage("しかし、魔王の一族は初代様の末裔にして直系。")
+   ShowMessage("生命力を捧げる事なしに、闇の力を発動できるのだ！")
+   ShowMessageFace("alice_fc5",3,0,2,4)
+   ShowMessage("【アリス】")
+   ShowMessage("……今は力が弱っているから、そうもいかないだろうが。")
+   ShowMessage("本来の必要分の半分くらいは、HPの消費が必要だな。")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   59
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【マナ研究家】")
+  ShowMessage("聖なるマナ……いわゆる聖素を使用する聖属性は、非常に特殊。")
+  ShowMessage("使用するには、女神との盟約に基づき己の魔力を捧げる必要があります。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【マナ研究家】")
+  ShowMessage("つまり……聖なる技を使うには、MPの消費が必要ということ。")
+  ShowMessage("SPとMPの両方を消費するなんて、結構な負担ですよね。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【マナ研究家】")
+  ShowMessage("その分、威力は絶大。")
+  ShowMessage("修得する事ができれば、大きな力になるでしょうね。")
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,4)
+   ShowMessage("【イリアス】")
+   ShowMessage("しかし私は、盟約を授けた女神本人。")
+   ShowMessage("当然ながら聖属性の発動においてMP消費は必要としません。")
+   ShowMessageFace("iriasu_fc4",2,0,2,5)
+   ShowMessage("【イリアス】")
+   ShowMessage("ですが、今は力が制限された身……")
+   ShowMessage("本来の半分くらいは、MP消費が必要となるでしょう。")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   60
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("魔導の力で動くモンスターは、魔導三属性に耐性がある。")
+  ShowMessage("炎・氷・雷属性は通じにくいという事だ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("その分、自然三属性には非常に弱い。")
+  ShowMessage("魔導モンスターと戦うには、風・土・水が有効なのだ。")
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【講師】")
+  ShowMessage("防具とアビリティで、同じ効果を持つようなものがある。")
+  ShowMessage("しかし、効果が重複しないものもあるようだ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【講師】")
+  ShowMessage("例えば、「経験値2倍」だな。")
+  ShowMessage("経験値2倍のアビリティをセット、同効果のアクセサリをつけても……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【講師】")
+  ShowMessage("残念だが、もらえる経験値が4倍になったりはしない。")
+  ShowMessage("効果が重複するかどうかは、ステータス画面を確認してみろ。")
+  0()
+
+
+
+EVENT   62
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士】")
+  ShowMessage("戦士をマスターすると、剣士かパワーファイターかで道が分かれます。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【兵士】")
+  ShowMessage("剣士は、その名の通り剣のエキスパート。")
+  ShowMessage("パワーファイターは、棍や鉄球を扱う剛力の戦士です。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【兵士】")
+  ShowMessage("発展性や万能性を期待するなら剣士。")
+  ShowMessage("パワーのみを追求するなら、パワーファイターが良いですね。")
+  0()
+
+
+
+EVENT   63
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【医者】")
+  ShowMessage("医者系の職業が用いる「医術」とは、MPではなくSPを消費する回復術。")
+  ShowMessage("MPの残量に心を痛める苦しみから解放されますよ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【医者】")
+  ShowMessage("今度は、SPの確保に心を痛めなければいけませんが……")
+  ShowMessage("まあ、一長一短ですね。")
+  0()
+
+
+
+EVENT   64
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学生】")
+  ShowMessage("「学者」をマスターすると、進路が3つに分かれます。")
+  ShowMessage("まずは純粋発展系の「魔導学者」。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学生】")
+  ShowMessage("次に、錬金術を修めた「錬金術師」。")
+  ShowMessage("最後に、魔本術を学んだ「魔導司書」……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【学生】")
+  ShowMessage("就職に有利なのは、どれでしょうね……")
+  ShowMessage("冒険のことは、なおさら私には分かりません。")
+  0()
+
+
+
+EVENT   65
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("「錬金術師」とは、マナから物質を造り出す上級職だ。")
+  ShowMessage("戦闘中はMPやSPを消費してアイテムを錬金できるという。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("ただし、マナによって精製された道具は長く保存できない。")
+  ShowMessage("錬金すれば、即座に使用しなければいけないようだな。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【学者】")
+  ShowMessage("とは言え、自在にアイテムを産み出す能力には憧れるな。")
+  ShowMessage("私も修行を積んで錬金術師になり、冒険に出てみようか……")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【学者】")
+  ShowMessage("姫様を救い出したり、美しい魔物に襲われたり……")
+  ShowMessage("ウヘヘ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("167")
+  ShowMessageFace("lusia_fc1",0,0,2,5)
+  ShowMessage("【ルシア】")
+  ShowMessage("錬金術とは、夢があるでしょう……")
+  ShowMessage("あなたも錬金術師を志してみませんか？")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc4",0,0,2,6)
+   ShowMessage("【ソニア】")
+   ShowMessage("ルシアさん、本当にそれでいいの……？")
+   0()
+  EndIf()
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   66
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("「魔導司書」とは、「魔本術」を用いる学者系の上級職です。")
+  ShowMessage("「魔本術」というのは、魔法の一種ではあるのですが……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("MPではなく、「魔導書のページ」というアイテムを消費。")
+  ShowMessage("そうすれば非常に強力な術が発動できるのです。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【学者】")
+  ShowMessage("「魔導書のページ」は、専門の店で購入可能ですよ。")
+  ShowMessage("いちいち買い足すのは面倒ですが、その威力は相当のものです。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("121")
+  ShowMessageFace("page65537_fc1",0,0,2,4)
+  ShowMessage("【コーネリア】")
+  ShowMessage("普通の魔法ではなく、切り札として用いるべきでしょうね。")
+  ShowMessage("アイテムを消費する分、威力は折り紙つきですから……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   67
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学生】")
+  ShowMessage("ヤマタイ地方には、いわゆる妖怪が多く棲んでいるようですね。")
+  ShowMessage("現在は、ヤマタイ以外にも生息域を広めているようです。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学生】")
+  ShowMessage("生物学的には、亜人系のモンスターと呼ばれます。")
+  ShowMessage("生命力が高めで、氷属性に対する耐性が高いのが特徴とか。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("62")
+  ShowMessageFace("gob_fc1",0,0,2,3)
+  ShowMessage("【ゴブ】")
+  ShowMessage("ボクも、ヤマタイ出身の妖怪だよ！")
+  EndEventProcessing()
+  DefineLabel("157")
+  ShowMessageFace("oogumo_fc1",0,0,2,4)
+  ShowMessage("【アシダカ】")
+  ShowMessage("あたしは、蜘蛛の妖怪だぞ！")
+  ShowMessage("ヤマタイ出身なんだからな！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   68
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【生物学者】")
+  ShowMessage("妖魔とは、言わずと知れた知恵ある魔族。")
+  ShowMessage("他の魔物を凌駕する身体能力と魔力を誇るという。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【生物学者】")
+  ShowMessage("特に炎の技や魔法を得意とし、炎に対する耐性も高いようだ。")
+  ShowMessage("もちろん文献の知識であって、実際に目にしたことはないが……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("5")
+  ShowMessageFace("alice_fc5",1,0,2,3)
+  ShowMessage("【アリス】")
+  ShowMessage("くくく、ここにいるぞ！")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【生物学者】")
+  ShowMessage("わぁ、ちっちゃいなー。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   69
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("人形系の魔物は、多くの状態異常を無効化するそうです。")
+  ShowMessage("精神や身体が生物と全く異なるのですから、当然でしょうね。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("71")
+  ShowMessageFace("okami_fc1",2,0,2,2)
+  ShowMessage("【アマラ】")
+  ShowMessage("うらやましいな……")
+  ShowMessage("獣は状態異常に弱いから、すぐフラフラだぞ。")
+  EndEventProcessing()
+  DefineLabel("131")
+  ShowMessageFace("doll_fc1",0,0,2,3)
+  ShowMessage("【みやび】")
+  ShowMessage("その方が、いっぱいあそべるもんね……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   70
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【忍者】")
+  ShowMessage("手裏剣は投げるとなくなってしまう。")
+  ShowMessage("道具屋で買いだめしておかないとな……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【忍者】")
+  ShowMessage("おっと、手裏剣を投げられるのは忍者だけだぞ。")
+  ShowMessage("パーティに忍者がいないのなら、意味のないアイテムだからな。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("102")
+  ShowMessageFace("youko_fc1",1,0,2,3)
+  ShowMessage("【きつね】")
+  ShowMessage("にんにん！　あたしは駆け出し忍者だよ～♪")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   71
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("「陰陽師」は魔導師系の職業だが、パラメータが全般的に高い。")
+  ShowMessage("魔導師は一般的に貧弱だが、陰陽師はそうでもないようだ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("ただ、陰陽師になるには転職アイテムが必要となる。")
+  ShowMessage("東方に伝わるアイテムらしいが、なかなか入手は難しそうだな……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("103")
+  ShowMessageFace("kamuro_fc1",0,0,2,3)
+  ShowMessage("【かむろ】")
+  ShowMessage("私は、きつねの学校で教わったので……")
+  ShowMessage("見習いではありますが、陰陽師の職に就いております。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【学者】")
+  ShowMessage("すごい、本物を初めて見た！")
+  ShowMessage("符とか持ってるの？　見せて、見せて！")
+  ShowMessageFace("kamuro_fc1",2,0,2,5)
+  ShowMessage("【かむろ】")
+  ShowMessage("すごく緊張します……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   72
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(340,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   73
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(14,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   74
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventoryArmor(237,0,0,1,false)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   75
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(101,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   77
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(64,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   78
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventoryArmor(1509,0,0,1,false)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   76
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(52,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   79
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("今から千年の昔、神と悪魔の大戦争がありました。")
+  ShowMessage("イリアス様率いる天使達と、魔王率いる軍勢との戦いは熾烈を極め……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("大地を揺るがす争いの果てに、イリアス様は魔王を打ち破ったのです。")
+  ShowMessage("今も世界のあちこちには、聖魔大戦による破壊の跡が残っていますよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("26")
+  ShowMessageFace("iriasu_fc4",0,0,2,3)
+  ShowMessage("【イリアス】")
+  ShowMessage("正義とは、必ず勝利するものです。")
+  ShowMessage("ルカ、あなたも巨悪に打ち勝つのですよ。")
+  ShowMessageFace("iriasu_fc4",2,0,2,4)
+  ShowMessage("【イリアス】")
+  ShowMessage("……などと、他人事では語れないこの事情。")
+  ShowMessage("まったく、どうして私がこんな目に……")
+  EndEventProcessing()
+  DefineLabel("99")
+  ShowMessageFace("namazu_fc1",2,0,2,5)
+  ShowMessage("【ギギ】")
+  ShowMessage("地形に爪痕を残すほどとは……")
+  ShowMessage("なんと凄まじき戦争よ。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   82
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("各地のタルタロス周辺では、おかしな現象が見られます。")
+  ShowMessage("植物の生育が異常に促進される他、奇形も多くなるようです。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("滅びる前のロストルムからも、そういった報告がありました。")
+  ShowMessage("タルタロスから、未知の影響を受けていたのでしょうか……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("41")
+  ShowMessageFace("stein_fc2",0,0,2,3)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("放射線量を計測する必要がありますね。")
+  ShowMessage("もっとデータが必要ですが、こちらも手が足りません……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   83
+ PAGE   1
+  If(0,2063,1)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【警備員】")
+   ShowMessage("上の階では、魔導科学の研究を行っております。")
+   ShowMessage("危険な品も多く、一般の方は立ち入り禁止です。")
+   0()
+  Else()
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【警備員】")
+   ShowMessage("通行許可があるようですね。")
+   ShowMessage("どうぞ、お気を付けて……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   84
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【警備員】")
+  ShowMessage("上の階では、魔導科学の研究を行っております。")
+  ShowMessage("危険な品も多く、一般の方は立ち入り禁止です。")
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x06,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  0()
+ PAGE   2
+  // condition: switch 2063 is ON
+  0()
+
+
+
+EVENT   85
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【警備員】")
+  ShowMessage("上の階では、魔導科学の研究を行っております。")
+  ShowMessage("危険な品も多く、一般の方は立ち入り禁止です。")
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x06,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  0()
+ PAGE   2
+  // condition: switch 2063 is ON
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("例えば、風属性が込められた剣があるとする。")
+  ShowMessage("その剣で、風属性に弱い妖狐を攻撃したとする。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【戦士】")
+  ShowMessage("そうすると、普通の剣での攻撃と比べてどうなると思う？")
+  ShowChoices(strings("ダメージが増加する","ダメージは変わらない","分からない"),3)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【戦士】")
+   ShowMessage("その通り、弱点属性で攻撃するとダメージがアップする。")
+   ShowMessage("まあ、これは当たり前の事だ。")
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【戦士】")
+   ShowMessage("おいおい、ここで間違えると話にならないぞ……")
+   ShowMessage("弱点属性で攻撃すると、ダメージはアップするんだ。")
+   0()
+  IfPlayerPicksChoice(2,null)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【戦士】")
+   ShowMessage("おいおい、ここでつまづくと話にならないぞ……")
+   ShowMessage("弱点属性で攻撃すると、ダメージはアップするんだ。")
+   0()
+  404()
+  ShowMessageFace("",0,0,2,6)
+  ShowMessage("【戦士】")
+  ShowMessage("では同様に、風属性が込められた剣があるとする。")
+  ShowMessage("その剣で、風属性を半減するハーピーを攻撃したとする。")
+  ShowMessageFace("",0,0,2,7)
+  ShowMessage("【戦士】")
+  ShowMessage("そうすると、普通の剣での攻撃と比べてどうなると思う？")
+  ShowChoices(strings("ダメージが半減する","ダメージは変わらない","分からない"),3)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("",0,0,2,8)
+   ShowMessage("【戦士】")
+   ShowMessage("そう思ったろうが……実は、間違いだ。")
+   ShowMessage("ダメージは普通の剣と変わらない、が正解なんだ。")
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,9)
+   ShowMessage("【戦士】")
+   ShowMessage("おお、よく知っていたな。")
+   ShowMessage("ならば、これからの解説も不要かもしれないが……")
+   0()
+  IfPlayerPicksChoice(2,null)
+   ShowMessageFace("",0,0,2,10)
+   ShowMessage("【戦士】")
+   ShowMessage("ならば、よく覚えておくといい。")
+   ShowMessage("ダメージは普通の剣と変わらない、が正解なんだ。")
+   0()
+  404()
+  ShowMessageFace("",0,0,2,11)
+  ShowMessage("【戦士】")
+  ShowMessage("ここで厳密に考えてみよう。")
+  ShowMessage("風属性の剣には、風属性と物理属性が備わっているんだ。")
+  ShowMessageFace("",0,0,2,12)
+  ShowMessage("【戦士】")
+  ShowMessage("だから風属性に耐性がある相手でも、物理属性でダメージを与えられる。")
+  ShowMessage("属性が備わった剣で、逆にダメージが低くなるという事はないんだよ。")
+  ShowMessageFace("",0,0,2,13)
+  ShowMessage("【戦士】")
+  ShowMessage("世間ではそれを勘違いしているケースがよく見られるが……")
+  ShowMessage("属性武器での攻撃は、耐性がある敵にも有効なんだよ。")
+  ShowMessageFace("",0,0,2,14)
+  ShowMessage("【戦士】")
+  ShowMessage("ただ、ごく僅かな例外もある。")
+  ShowMessage("竪琴による攻撃は、音波属性のみで物理属性は含まれない。")
+  ShowMessageFace("",0,0,2,15)
+  ShowMessage("【戦士】")
+  ShowMessage("よって音波に耐性がある敵には、竪琴の攻撃も通じにくいんだ。")
+  ShowMessage("竪琴を装備している場合、音波耐性のある人魚系には要注意だな。")
+  0()
+
+
+
+EVENT   86
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【牛】")
+  ShowMessage("モ～！")
+  If(1,1142,0,62,2)
+   If(0,6,0)
+    ShowMessageFace("sonia_fc3",2,0,2,2)
+    ShowMessage("【ソニア】")
+    ShowMessage("なんで構内に牛が！？")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   87
+ PAGE   1
+  0()
+
+
+
+EVENT   80
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("俺たち愉快な地学野郎ー♪")
+  ShowMessage("山から谷まで探険だー♪")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("59")
+  ShowMessageFace("mdg_fc1",0,0,2,2)
+  ShowMessage("【ラゴラ】")
+  ShowMessage("私も一緒に歌っていい？")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【学者】")
+  ShowMessage("やめて。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学生】")
+  ShowMessage("医学部のナイチンゲールちゃん、異様にエロいよね。")
+  ShowMessage("あれでナースとか、血圧が上がっちゃうよ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("73")
+  ShowMessageFace("hiru_fc1",0,0,2,2)
+  ShowMessage("【ヒル】")
+  ShowMessage("吸い取ってあげようか……？")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【学生】")
+  ShowMessage("精はともかく、血は勘弁して……")
+  EndEventProcessing()
+  DefineLabel("166")
+  ShowMessageFace("narcubus_fc1",0,0,2,4)
+  ShowMessage("【ナビス】")
+  ShowMessage("それはいけませんね、お注射しないと♪")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   81
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学生】")
+  ShowMessage("ああ、急いで課題を仕上げないと……！")
+  ShowMessage("単位が大変な事に……！")
+  If(1,1142,0,62,2)
+   If(0,6,0)
+    ShowMessageFace("sonia_fc4",0,0,2,2)
+    ShowMessage("【ソニア】")
+    ShowMessage("そんなに大変なのに、なんでこんなところでウロウロと……")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  If(0,2061,1)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【学生】")
+   ShowMessage("うちの教授はとても高慢で、アカハラもセクハラもやり放題。")
+   ShowMessage("みんな嫌っているんだけど、僕達の進路はあいつの胸先三寸。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【学生】")
+   ShowMessage("ああ、なんとか鼻を明かせないもんかな……")
+   ShowMessage("誰かが、ガツンとやり込めてくれたらいいんだけど。")
+   EndEventProcessing()
+   0()
+  Else()
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【学生】")
+   ShowMessage("いやぁ、実に痛快だったよ。")
+   ShowMessage("あの高慢な教授の鼻をヘシ折るなんてね。")
+   If(4,41,0)
+    ShowMessageFace("stein_fc2",0,0,2,4)
+    ShowMessage("【プロメスティン】")
+    ShowMessage("いえ、少々大人げなかったかもしれませんね……")
+    ShowMessageFace("",0,0,2,5)
+    ShowMessage("【学生】")
+    ShowMessage("ところで今度、そのメガネに顔射していいかな？")
+    ShowMessageFace("stein_fc2",0,0,2,6)
+    ShowMessage("【プロメスティン】")
+    ShowMessage("精液サンプルは、こちらの試験管に。")
+    ShowMessage("実験生物の餌など、使い道は色々ありますから……")
+    If(1,1142,0,62,2)
+     If(0,6,0)
+      ShowMessageFace("sonia_fc3",0,0,2,7)
+      ShowMessage("【ソニア】")
+      ShowMessage("（この学生、きっとポルノフ出身ね……")
+      ShowMessage("　殺らなきゃ……）")
+      0()
+     EndIf()
+     0()
+    EndIf()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   89
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("三十年前の大異変に関して、データを洗ってみた。")
+  ShowMessage("地磁気の遷移、マナの拡散状況、その他色々……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("その全てが、大異変の起点はレミナである事を示している。")
+  ShowMessage("あの町で、いったい何が起きたのだ……？")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,3)
+   ShowMessage("【アリス】")
+   ShowMessage("大異変の起点はレミナ……")
+   ShowMessage("そしてタルタロスの中にあった、浸食された町も……")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,4)
+   ShowMessage("【イリアス】")
+   ShowMessage("レミナ……")
+   ShowMessage("タルタロスの中にも、あの町の成れの果てが……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   90
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("サン・イリアの大図書館に行ってみたいですね。")
+  ShowMessage("あそこには、あらゆる本が存在するとか……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("119")
+  ShowMessageFace("page17_fc1",0,0,2,2)
+  ShowMessage("【アニー】")
+  ShowMessage("意外と少ないぞ……我々、魔物にとってはな。")
+  EndEventProcessing()
+  DefineLabel("120")
+  ShowMessageFace("page257_fc1",0,0,2,3)
+  ShowMessage("【ヨーコ】")
+  ShowMessage("専門書がほとんどですので、退屈ですがね……")
+  EndEventProcessing()
+  DefineLabel("121")
+  ShowMessageFace("page65537_fc1",1,0,2,4)
+  ShowMessage("【コーネリア】")
+  ShowMessage("ぜひいらして下さい。")
+  ShowMessage("本を愛する者なら、歓迎しますよ……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   91
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("戦闘中のパーティ入れ替えは使いこなしてるかい？")
+  ShowMessage("何かあれば、臨機応変に入れ替えるってのが一流のやり方だぜ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【戦士】")
+  ShowMessage("たとえば、体力が減ってピンチに陥った仲間……")
+  ShowMessage("または、SPやMPを使い果たして役に立たない仲間……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【戦士】")
+  ShowMessage("そういうのを、控えに突っ込んで元気なメンバーを出せばいい。")
+  ShowMessage("また、状態異常になった仲間を控えに回すのも賢いやり方だ。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【戦士】")
+  ShowMessage("ただ、ターン経過で治療する状態異常の場合……")
+  ShowMessage("控えにいると自動回復しないから、その点は注意だな。")
+  0()
+
+
+
+EVENT   88
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士】")
+  ShowMessage("例えば、炎と氷属性を併せ持った剣があるとします。")
+  ShowMessage("その剣で、炎が効かず氷が弱点の敵を斬ったとしましょう。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【兵士】")
+  ShowMessage("そうすると、普通の剣での攻撃と比べてどうなると思いますか？")
+  ShowChoices(strings("大ダメージ","普通のダメージ","ダメージなし","分からない"),4)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【兵士】")
+   ShowMessage("正解です、よく分かりましたね。")
+   ShowMessage("この場合、よりダメージの高い氷属性が優先されます。")
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【兵士】")
+   ShowMessage("いいえ、間違いです。")
+   ShowMessage("この場合、よりダメージの高い氷属性が優先されるのです。")
+   0()
+  IfPlayerPicksChoice(2,null)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【兵士】")
+   ShowMessage("いいえ、間違いです。")
+   ShowMessage("この場合、よりダメージの高い氷属性が優先されるのです。")
+   0()
+  IfPlayerPicksChoice(3,null)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【兵士】")
+   ShowMessage("そうですか……")
+   ShowMessage("この場合、よりダメージの高い氷属性が優先されるのです。")
+   0()
+  404()
+  ShowMessageFace("",0,0,2,7)
+  ShowMessage("【兵士】")
+  ShowMessage("攻撃に複数属性が備わっている場合、")
+  ShowMessage("最もダメージの高い属性が優先される事になるのです。")
+  ShowMessageFace("",0,0,2,8)
+  ShowMessage("【兵士】")
+  ShowMessage("これは、複数属性を併せ持つ攻撃スキルでも同じです。")
+  ShowMessage("覚えておいて下さいね。")
+  0()
+
+
+
+EVENT   92
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【講師】")
+  ShowMessage("こちらのロビーは一般冒険者用に開放されています。")
+  ShowMessage("役立つ冒険講座を聞いていって下さいね。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("41")
+  ShowMessageFace("stein_fc2",0,0,2,2)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("冒険講座は……別にどうでもいいです。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   93
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【女武道家】")
+  ShowMessage("反撃でもSPは回復するわ。")
+  ShowMessage("だからカウンター率が高いと、SPを回復する機会が増えるわよ！")
+  0()
+
+
+
+EVENT   94
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士】")
+  ShowMessage("乱撃系の武技など、1発で複数回攻撃するスキルがありますよね？")
+  ShowMessage("ああいう乱れ撃ち技は、なかなかに強力なものですが……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【兵士】")
+  ShowMessage("防御力が高い敵に使用すると、1発あたりのダメージが格段に落ちます。")
+  ShowMessage("結果的に、威力が下がってしまうという事があるのです。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【兵士】")
+  ShowMessage("硬い敵には、乱撃スキルの使用は控えた方がいいですね。")
+  ShowMessage("そういう相手には、単発攻撃スキルを用いましょう。")
+  0()
+
+
+
+EVENT   95
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(375,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   96
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("私が思うに、魔導革命による最も優れた発明はこの壺だろう。")
+  ShowMessage("魔法の力により、中の生鮮食品をずっと保存しておく事ができるのだ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("この壺は、もはや一般家庭にまで普及している。")
+  ShowMessage("発明者はさぞかし儲かったのだろうな……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("70")
+  ShowMessageFace("nezumi_fc1",0,0,2,3)
+  ShowMessage("【ラティ】")
+  ShowMessage("この保存壺、そんな秘密があったんだ！")
+  ShowMessage("道理で食べ物が腐らないと思ってた……")
+  EndEventProcessing()
+  DefineLabel("162")
+  ShowMessageFace("mitutubo_fc1",0,0,2,4)
+  ShowMessage("【蜜壺】")
+  ShowMessage("いい壺よね。")
+  ShowMessage("私もたまには、そっちに入りたいわ……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   97
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【講師】")
+  ShowMessage("アビリティに「魔法反射○○%」というのがあります。")
+  ShowMessage("これは魔法を受けた際、数値の確率で反射するというものです。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【講師】")
+  ShowMessage("当然、反射した者は魔法ダメージを受けません。")
+  ShowMessage("魔導師相手に、有利に戦えるのは言うまでもないですね。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【講師】")
+  ShowMessage("なお、味方からの魔法は反射しません。")
+  ShowMessage("回復魔法まで弾かれるんじゃないかという心配は無用ですよ。")
+  0()
+
+
+
+EVENT   98
+ PAGE   1
+  ShowMessageFace("dog_fc1",0,0,2,1)
+  ShowMessage("【犬娘】")
+  ShowMessage("わんわん……")
+  ShowMessage("ここにいると、ちょっとエラくなった気分……")
+  If(4,60,0)
+   ShowMessageFace("dog_fc1",2,0,2,2)
+   ShowMessage("【ポチ】")
+   ShowMessage("最高学府にまで入り込んでいる我が同胞……")
+   ShowMessage("人の生活に食い込み、逆に支配しつつある……？")
+   ShowMessageFace("dog_fc1",4,0,2,3)
+   ShowMessage("【ポチ】")
+   ShowMessage("……ないか。")
+   If(2,"A",1)
+    ChangeSelfSwitch("A",0)
+    ChangeVariable(1036,1036,1,0,1)
+    If(1,1036,0,9,1)
+     RunCommonEvent(311)
+     0()
+    Else()
+     0()
+    EndIf()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   99
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【白魔導師】")
+  ShowMessage("ガードなどの補助魔法は、単体の能力を底上げしますが……")
+  ShowMessage("その上位魔法として、味方全体に効果をもたらすタイプもあるのです。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【白魔導師】")
+  ShowMessage("そういうわけで、単体補助魔法は全体補助魔法に劣る……")
+  ShowMessage("そう思ってしまいがちですが、実はそうも言い切れません。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【白魔導師】")
+  ShowMessage("実は、単体補助魔法の方が効果時間は長いんです。")
+  ShowMessage("全体補助魔法は、効果が切れるのが早いんですよ。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【白魔導師】")
+  ShowMessage("単体補助魔法は、全体補助魔法より効果時間が長い……")
+  ShowMessage("覚えておくと、役に立つかもしれませんよ。")
+  0()
+
+
+
+EVENT   100
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("なんで魔導科学なんかの研究をしてるのかって、よく言われるよ。")
+  ShowMessage("そんな事して、何になるのか……ってね。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【学者】")
+  ShowMessage("答えは一つ、真実を求める気持ちがあるからさ。")
+  ShowMessage("この世界が動いているカラクリを、解き明かしたいんだよ。")
+  If(4,41,0)
+   ShowMessageFace("stein_fc2",1,0,2,3)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("まったくもって、その通りです。")
+   ShowMessage("この世界の真の姿、そしてどう機能しているか――")
+   ShowMessageFace("stein_fc2",1,0,2,4)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("それを解き明かすたび、驚きと喜びが湧き上がります！")
+   ShowMessage("識れば識るほど、好奇心と感動はとどまる所を知りません！")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",0,0,2,5)
+    ShowMessage("【アリス】")
+    ShowMessage("しかし、よくそれで天使が務まったな……")
+    ShowMessageFace("stein_fc2",0,0,2,6)
+    ShowMessage("【プロメスティン】")
+    ShowMessage("……務まるわけないじゃないですか。")
+    ShowMessage("あの連中は好奇心を否定し、感動に触れる機会を奪います。")
+    ShowMessageFace("stein_fc2",0,0,2,7)
+    ShowMessage("【プロメスティン】")
+    ShowMessage("安易な答え、生易しい嘘、そんなものに満足して……")
+    ShowMessage("真実を求める気持ちを踏みにじる愚者達を、私は唾棄します。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",0,0,2,8)
+    ShowMessage("【イリアス】")
+    ShowMessage("プロメスティン、それでは天使は務まりませんよ……")
+    ShowMessage("あなたも私の教えを遵守し、他の天使のように励むのです。")
+    ShowMessageFace("stein_fc2",0,0,2,9)
+    ShowMessage("【プロメスティン】")
+    ShowMessage("はぁ？　冗談でしょう？")
+    ShowMessage("あの連中は好奇心を否定し、感動に触れる機会を奪います。")
+    ShowMessageFace("stein_fc2",0,0,2,10)
+    ShowMessage("【プロメスティン】")
+    ShowMessage("安易な答え、生易しい嘘、そんなものに満足して……")
+    ShowMessage("真実を求める気持ちを踏みにじる愚者達を、私は唾棄します。")
+    ShowMessageFace("iriasu_fc4",2,0,2,11)
+    ShowMessage("【イリアス】")
+    ShowMessage("（やはり、監禁に手頃な洞窟を探さねばなりませんか……）")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()

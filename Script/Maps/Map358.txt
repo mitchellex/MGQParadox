@@ -1,0 +1,1023 @@
+﻿
+DisplayName "ドン・ファーザー邸"
+
+
+
+EVENT   45
+ PAGE   1
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  0()
+
+
+
+EVENT   49
+ PAGE   1
+  ChangeSwitch(31,31,1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,358,73,11,0,0)
+  0()
+
+
+
+EVENT   51
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,337,62,21,0,0)
+  0()
+
+
+
+EVENT   52
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,337,63,21,0,0)
+  0()
+
+
+
+EVENT   50
+ PAGE   1
+  ChangeSwitch(31,31,1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,358,74,11,0,0)
+  0()
+
+
+
+EVENT   240
+ PAGE   1
+  PictureDisplay(5,"80_merlin_st01",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  If(1,1033,0,0,0)
+   ChangeVariable(1033,1033,0,0,1)
+   ChangeSwitch(100,100,0)
+   ShowMessageFace("merlin_fc1",0,0,2,1)
+   ShowMessage("【マーリン】")
+   ShowMessage("お初、お目に掛かります。")
+   ShowMessage("わたくしが、ドン・ファーザーのマーリンでございます。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc3",2,0,2,2)
+    ShowMessage("【ソニア】")
+    ShowMessage("すっごくジェントル！")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,3)
+    ShowMessage("【ルカ】")
+    ShowMessage("予想と……全然違う……")
+    0()
+   EndIf()
+   ShowMessageFace("merlin_fc1",0,0,2,4)
+   ShowMessage("【マーリン】")
+   ShowMessage("威圧や威嚇は配下の仕事。")
+   ShowMessage("そのような役目は、わたくしには無縁ゆえ……")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",0,0,2,5)
+    ShowMessage("【アリス】")
+    ShowMessage("しかし、このサバサ地方に裏社会の親玉がいたとは……")
+    ShowMessage("あの前サバサ王の目を、よく逃れていたな。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,6)
+    ShowMessage("【イリアス】")
+    ShowMessage("しかし、このサバサ地方にマフィアの帝王がいたとは……")
+    ShowMessage("あの前サバサ王の目を、よく逃れることができましたね。")
+    0()
+   EndIf()
+   ShowMessageFace("merlin_fc1",0,0,2,7)
+   ShowMessage("【マーリン】")
+   ShowMessage("コインに表と裏があるように……")
+   ShowMessage("人間社会も、かくのようになっております。")
+   ShowMessageFace("merlin_fc1",0,0,2,8)
+   ShowMessage("【マーリン】")
+   ShowMessage("前サバサ王も、その事をよく分かっておられました。")
+   ShowMessage("光あるところに、必ず影は出来るものです……")
+   ShowMessageFace("ruka_fc1",0,0,2,9)
+   ShowMessage("【ルカ】")
+   ShowMessage("前王が、マフィアをあえて放置したって事ですか……？")
+   ShowMessageFace("merlin_fc1",0,0,2,10)
+   ShowMessage("【マーリン】")
+   ShowMessage("いえいえ、前王の名誉に誓ってそこまでは申しませんが……")
+   ShowMessage("悪党は、そう簡単に消えはしないものですよ。")
+   ShowMessageFace("merlin_fc1",0,0,2,11)
+   ShowMessage("【マーリン】")
+   ShowMessage("なにせ悪というのは、人間の根本に備わる基本感情。")
+   ShowMessage("あなたも、私も、みな大なり小なり抱えているもの。")
+   ShowMessageFace("merlin_fc1",0,0,2,12)
+   ShowMessage("【マーリン】")
+   ShowMessage("それを無理に社会から消し去ろうとすれば、")
+   ShowMessage("かえって大きなひずみをもたらす……それも前王はご存じで。")
+   ShowMessageFace("merlin_fc1",0,0,2,13)
+   ShowMessage("【マーリン】")
+   ShowMessage("そして、統制された悪より統制されてない悪の方が危険。")
+   ShowMessage("あの王は、社会というものをしっかり理解しておりました。")
+   ShowMessageFace("merlin_fc1",0,0,2,14)
+   ShowMessage("【マーリン】")
+   ShowMessage("まあ、あちらとしましては……下手に組織を潰して、")
+   ShowMessage("地下に潜られたら監視しにくいともお考えだったようですが。")
+   ShowMessageFace("merlin_fc1",0,0,2,15)
+   ShowMessage("【マーリン】")
+   ShowMessage("前王陛下……つくづく、惜しい人を亡くしましたね。")
+   ShowMessage("戦火が迫っている今こそ、お国に必要な方だったでしょうに。")
+   If(4,529,0)
+    ShowMessageFace("sara_fc1",4,0,2,16)
+    ShowMessage("【サラ】")
+    ShowMessage("マフィアのボスに悼まれても、お父様は喜ばないわ……")
+    0()
+   EndIf()
+   ShowMessageFace("merlin_fc1",0,0,2,17)
+   ShowMessage("【マーリン】")
+   ShowMessage("おっと……旅人相手に、無駄話が過ぎましたね。")
+   ShowMessage("また寄って下さい、美味しいダージリンを御馳走しましょう。")
+   PictureMove(5,null,0,0,0,0,100,100,0,0,30,true)
+   PictureClear(5)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1033,0,1,1)
+   ShowMessageFace("merlin_fc1",0,0,2,18)
+   ShowMessage("【マーリン】")
+   ShowMessage("よくぞお越し頂きました、旅の方。")
+   ShowMessage("よろしいのですか、わたくしのような者と何度も会って……")
+   ShowMessageFace("merlin_fc1",0,0,2,19)
+   ShowMessage("【マーリン】")
+   ShowMessage("わたくしは構いませんが、これでも当局に監視される身。")
+   ShowMessage("そちら様にも、迷惑が掛からないとは言えないかと……")
+   PictureMove(5,null,0,0,0,0,100,100,0,0,30,true)
+   PictureClear(5)
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: variable 1001 >= 26
+  0()
+
+
+
+EVENT   241
+ PAGE   1
+  355("actor_label_jump")
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【護衛】")
+  ShowMessage("通って良し。")
+  EndEventProcessing()
+  DefineLabel("520")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【護衛】")
+  ShowMessage("お疲れ様です！")
+  ShowMessageFace("lazarus3_fc1",1,0,2,3)
+  ShowMessage("【ラザロ】")
+  ShowMessage("おう、ご苦労。")
+  EndEventProcessing()
+  DefineLabel("522")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【護衛】")
+  ShowMessage("お疲れ様です！")
+  ShowMessageFace("merlin_fc1",0,0,2,5)
+  ShowMessage("【マーリン】")
+  ShowMessage("ご苦労様です。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   242
+ PAGE   1
+  355("actor_label_jump")
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【護衛】")
+  ShowMessage("通って良し。")
+  EndEventProcessing()
+  DefineLabel("520")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【護衛】")
+  ShowMessage("お疲れ様です！")
+  ShowMessageFace("lazarus3_fc1",1,0,2,3)
+  ShowMessage("【ラザロ】")
+  ShowMessage("おう、ご苦労。")
+  EndEventProcessing()
+  DefineLabel("522")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【護衛】")
+  ShowMessage("お疲れ様です！")
+  ShowMessageFace("merlin_fc1",0,0,2,5)
+  ShowMessage("【マーリン】")
+  ShowMessage("ご苦労様です。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   243
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【派手な女】")
+   ShowMessage("ふふっ……私に手を出すと大変なことになるわよ。")
+   ShowMessage("そんな度胸のある男は……惚れちゃうかも♪")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【派手な女】")
+   ShowMessage("ドン、早く帰ってこないかなぁ……")
+   ShowMessage("うふふっ、どっちのドンだと思う？")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("520")
+   ShowMessageFace("lazarus3_fc1",1,0,2,3)
+   ShowMessage("【ラザロ】")
+   ShowMessage("もちろん、俺だよな？")
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【派手な女】")
+   ShowMessage("うふふっ、どっちかな～？")
+   EndEventProcessing()
+   DefineLabel("522")
+   ShowMessageFace("merlin_fc1",0,0,2,5)
+   ShowMessage("【マーリン】")
+   ShowMessage("当然、私ですよね？")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【派手な女】")
+   ShowMessage("うふふっ、どっちかな～？")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   245
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【護衛】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("静かに隅へと控えている。")
+  ShowMessage("まるで番犬のようだ……")
+  0()
+
+
+
+EVENT   244
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【護衛】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("静かに隅へと控えている。")
+  ShowMessage("まるで番犬のようだ……")
+  0()
+
+
+
+EVENT   246
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【幹部】")
+   ShowMessage("エルカとこの繋がりか……")
+   ShowMessage("安心しろ、エルカもファーザーの傘下だよ。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【幹部】")
+   ShowMessage("なにせ、ファーザーは裏社会の帝王だ。")
+   ShowMessage("敵対者などいないのさ。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("72")
+   ShowMessageFace("phoenix_fc1",3,0,2,3)
+   ShowMessage("【ミニ】")
+   ShowMessage("ドンよりも偉いのか……びっくりだぞ！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【幹部】")
+   ShowMessage("かなり無理して、誘惑避けのアクセサリを集めてな。")
+   ShowMessage("いろんな所に義理を作っちまったぜ……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("520")
+   ShowMessageFace("lazarus3_fc1",1,0,2,5)
+   ShowMessage("【ラザロ】")
+   ShowMessage("そう言や、エルカにも苦労を掛けたっけな。")
+   ShowMessage("焼肉屋でもおごってやるか……")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【幹部】")
+   ShowMessage("エルカさん、あれだけ働いて焼肉だけっすか……？")
+   ShowMessageFace("lazarus3_fc1",1,0,2,7)
+   ShowMessage("【ラザロ】")
+   ShowMessage("馬鹿、シノギの話だよ。")
+   ShowMessage("今度グランゴルドで、新しい焼肉屋が出来るだろうが。")
+   EndEventProcessing()
+   DefineLabel("522")
+   ShowMessageFace("merlin_fc1",0,0,2,8)
+   ShowMessage("【マーリン】")
+   ShowMessage("まあ、見返りは十分でしょう。")
+   ShowMessage("死にかけた甲斐はありましたね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: variable 1001 >= 26
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【幹部】")
+  ShowMessage("かなり無理して、誘惑避けのアクセサリを集めてな。")
+  ShowMessage("いろんな所に義理を作っちまったぜ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("520")
+  ShowMessageFace("lazarus3_fc1",1,0,2,2)
+  ShowMessage("【ラザロ】")
+  ShowMessage("そう言や、エルカにも苦労を掛けたっけな。")
+  ShowMessage("焼肉屋でもおごってやるか……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【幹部】")
+  ShowMessage("エルカさん、あれだけ働いて焼肉だけっすか……？")
+  ShowMessageFace("lazarus3_fc1",1,0,2,4)
+  ShowMessage("【ラザロ】")
+  ShowMessage("馬鹿、シノギの話だよ。")
+  ShowMessage("今度グランゴルドで、新しい焼肉屋が出来るだろうが。")
+  EndEventProcessing()
+  DefineLabel("522")
+  ShowMessageFace("merlin_fc1",0,0,2,5)
+  ShowMessage("【マーリン】")
+  ShowMessage("ずいぶん大変でしたね。")
+  ShowMessage("これからもよろしくお願いします。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   247
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【幹部】")
+   ShowMessage("ロッソの依頼だが……")
+   ShowMessage("いつも通り、馬車に爆弾を……")
+   205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x08,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x29,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x1e,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【幹部】")
+   ShowMessage("……おっと、聞かなかったよな？")
+   ShowMessage("聞かなくていいんだ。")
+   205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x08,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x18,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x28,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("64")
+   ShowMessageFace("pramia_fc1",0,0,2,3)
+   ShowMessage("【プチ】")
+   ShowMessage("聞くべきでない事は聞かないのが、メイドのたしなみ……")
+   EndEventProcessing()
+   DefineLabel("529")
+   ShowMessageFace("sara_fc1",2,0,2,4)
+   ShowMessage("【サラ】")
+   ShowMessage("いったい、何の悪巧みかしら……？")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: variable 1001 >= 26
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【幹部】")
+  ShowMessage("グランゴルドの作戦では、世話になったな。")
+  ShowMessage("……えっ？　見覚えがない？")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【幹部】")
+  ShowMessage("ああ、あの時は変装していたっけか。")
+  ShowMessage("バーテンの格好をしてただろ？")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("520")
+  ShowMessageFace("lazarus3_fc1",1,0,2,3)
+  ShowMessage("【ラザロ】")
+  ShowMessage("また何かあったら、頼むぜ。")
+  EndEventProcessing()
+  DefineLabel("522")
+  ShowMessageFace("merlin_fc1",0,0,2,4)
+  ShowMessage("【マーリン】")
+  ShowMessage("また何かあれば、お任せしますよ。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   248
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【幹部】")
+   ShowMessage("芸がないな、おめぇのやり方は……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("531")
+   ShowMessageFace("saniria_fc2",0,0,2,2)
+   ShowMessage("【サン・イリア王】")
+   ShowMessage("本当に芸がない……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【幹部】")
+   ShowMessage("例の大仕事には、色々と旨みがあってな……")
+   ShowMessage("グランゴルドの区画再建計画にも噛めるようになった。")
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【幹部】")
+   ShowMessage("これも、あんた達のおかげさ。")
+   ShowMessage("いや、皮肉で言ってるわけじゃないぜ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   249
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【護衛】")
+   ShowMessage("この上にドン・ファーザーがおられる。")
+   ShowMessage("失礼のないようにな……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   355("actor_label_jump")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【護衛】")
+   ShowMessage("ドン・ファーザーは休暇中だ。")
+   ShowMessage("部屋には入ってもいいと、言伝を預かっている……")
+   EndEventProcessing()
+   DefineLabel("520")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【護衛】")
+   ShowMessage("お疲れ様です！")
+   ShowMessageFace("lazarus3_fc1",1,0,2,4)
+   ShowMessage("【ラザロ】")
+   ShowMessage("おう、ご苦労。")
+   EndEventProcessing()
+   DefineLabel("522")
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【護衛】")
+   ShowMessage("お疲れ様です！")
+   ShowMessageFace("merlin_fc1",0,0,2,6)
+   ShowMessage("【マーリン】")
+   ShowMessage("ご苦労様です。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   251
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【組員】")
+  ShowMessage("これでも俺は、大学出なんだぜ。")
+  ShowMessage("経済に長けてなきゃ、こんなシノギはできねぇよ……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【組員】")
+  ShowMessage("帳簿だって、全部頭の中に入れておくんだよ。")
+  ShowMessage("紙に残したら、それが証拠になっちまうからな……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("66")
+  ShowMessageFace("vgirl_fc1",2,0,2,3)
+  ShowMessage("【ヴァニラ】")
+  ShowMessage("なるほど……って、こんな事を学んではダメなのだ。")
+  EndEventProcessing()
+  DefineLabel("141")
+  ShowMessageFace("mino_fc1",2,0,2,4)
+  ShowMessage("【ミナ】")
+  ShowMessage("あたしにゃ絶対にムリだな……")
+  EndEventProcessing()
+  DefineLabel("520")
+  ShowMessageFace("lazarus3_fc1",1,0,2,5)
+  ShowMessage("【ラザロ】")
+  ShowMessage("馬鹿にゃ出来ねぇ仕事だな。")
+  ShowMessage("これからも頼むぜ。")
+  EndEventProcessing()
+  DefineLabel("522")
+  ShowMessageFace("merlin_fc1",0,0,2,6)
+  ShowMessage("【マーリン】")
+  ShowMessage("その頭脳は、頼りになりますね。")
+  ShowMessage("これからも組織に尽くすように。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   252
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【組員】")
+  ShowMessage("戦争になると、この稼業は人手不足になるんだよ。")
+  ShowMessage("血の気の多い奴が、軍隊に行っちまうからなぁ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("171")
+  ShowMessageFace("lizardboss_fc1",3,0,2,2)
+  ShowMessage("【ミランダ】")
+  ShowMessage("盗賊稼業も、そういうもんだねぇ。")
+  ShowMessage("あたら若い命を散らしてんじゃないよ。")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1001 >= 26
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【組員】")
+  ShowMessage("ラザロさんは、普段は気さくな人だが……")
+  ShowMessage("マフィア・ウォーの時の、ホワイトローズ組への制裁を思い出すと……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【組員】")
+  ShowMessage("ううっ、メシが食えなくなる……")
+  ShowMessage("あれ以来、あの人と目が合わせられないんだ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   254
+ PAGE   1
+  If(4,531,0)
+   ShowMessageFace("saniria_fc2",0,0,2,1)
+   ShowMessage("【サン・イリア王】")
+   ShowMessage("……………………")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【神官】")
+   ShowMessage("ち、違います猊下……")
+   ShowMessage("これは……")
+   ShowMessageFace("saniria_fc2",0,0,2,3)
+   ShowMessage("【サン・イリア王】")
+   ShowMessage("釈明の必要はない。")
+   ShowMessage("君のことは、だいたい調べが済んでいるからな……")
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【神官】")
+   ShowMessage("そ、そんな……！")
+   0()
+  Else()
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【神官】")
+   ShowMessage("ちょ、ちょっと……！")
+   ShowMessage("今は大事な話の最中で……！")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【幹部】")
+   ShowMessage("ああ、いいんだよ。")
+   ShowMessage("そいつらはエルカのとこのだ。")
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【神官】")
+   ShowMessage("ああ、エルカ商会の……")
+   ShowMessage("私のことは内緒ですよ、立場がありますから……")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: variable 1001 >= 26
+  0()
+
+
+
+EVENT   253
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【幹部】")
+   ShowMessage("ああ、うん……分かった。")
+   ShowMessage("ちゃんと証拠は処分しただろうな？")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【神官】")
+   ShowMessage("ええ、もちろん……")
+   ShowMessage("全て回収して……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("531")
+   ShowMessageFace("saniria_fc2",0,0,2,3)
+   ShowMessage("【サン・イリア王】")
+   ShowMessage("はて、何の証拠かな？")
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【神官】")
+   ShowMessage("げ、猊下……！")
+   ShowMessage("違います、私は……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【幹部】")
+   ShowMessage("ヤクザに税金なんてねぇ。")
+   ShowMessage("俺達、税法上は無職なんだよ……")
+   If(4,143,0)
+    ShowMessageFace("eva_fc1",0,0,2,6)
+    ShowMessage("【エヴァ】")
+    ShowMessage("私も税法上は無職よ。")
+    ShowMessageFace("",0,0,2,7)
+    ShowMessage("【幹部】")
+    ShowMessage("あんたは正真正銘の無職だろ……")
+    ShowMessageFace("eva_fc1",2,0,2,8)
+    ShowMessage("【エヴァ】")
+    ShowMessage("なんで分かったの！？")
+    ShowMessageFace("",0,0,2,9)
+    ShowMessage("【幹部】")
+    ShowMessage("人が見れなきゃ、こんな椅子には座れないぜ。")
+    0()
+   EndIf()
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   255
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【幹部】")
+  ShowMessage("私は売春業を一手に取り仕切っている。")
+  ShowMessage("女を食い物にしていると、仲間内からさえ言われるが……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【幹部】")
+  ShowMessage("私達が売春を取り仕切るようになって以来、")
+  ShowMessage("スラムの性病率がどれだけ下がったか知っているかな？")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【幹部】")
+  ShowMessage("娼婦の自由気ままに任せれば、性病が蔓延し……")
+  ShowMessage("そして、彼女達自身の寿命も大幅に縮める事になる。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【幹部】")
+  ShowMessage("彼女達も立派な商品、私達がしっかり管理している。")
+  ShowMessage("娼婦を酷使しているなど、いわれもない批判なのさ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("529")
+  ShowMessageFace("sara_fc1",2,0,2,5)
+  ShowMessage("【サラ】")
+  ShowMessage("だから必要悪とでも言いたいのかしら？")
+  ShowMessage("ずいぶん身勝手な論旨よね……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1001 >= 26
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【幹部】")
+  ShowMessage("ドンは現在、ガラを隠している。")
+  ShowMessage("例の大仕事で、派手に暴れたからな……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("520")
+  ShowMessageFace("lazarus3_fc1",1,0,2,2)
+  ShowMessage("【ラザロ】")
+  ShowMessage("今は、勇者一行と旅をしてるんだよ。")
+  ShowMessage("昔を思い出すよな……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【幹部】")
+  ShowMessage("ドン、討ち死にだけは勘弁して下さいよ……")
+  ShowMessage("跡目争いなんぞ、御免ですから。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   256
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【幹部】")
+   ShowMessage("どこもかしこも悪党ばかり。")
+   ShowMessage("この稼業がなくならないわけだぜ……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【幹部】")
+   ShowMessage("ラザロさんが真のドン・ファーザーなのは、幹部しか知らない事実だ。")
+   ShowMessage("とは言えマーリンさんも影武者ってわけじゃなく、ドンとして重要な仕事をしてる。")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【幹部】")
+   ShowMessage("……と言うよりも、ラザロさんとマーリンさん、")
+   ShowMessage("二人合わせてドン・ファーザーってとこだな。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("520")
+   ShowMessageFace("lazarus3_fc1",1,0,2,4)
+   ShowMessage("【ラザロ】")
+   ShowMessage("まあ、そういう事だな。")
+   ShowMessage("元々、マーリンじいさんと二人でやり始めた仕事だ。")
+   EndEventProcessing()
+   DefineLabel("522")
+   ShowMessageFace("merlin_fc1",0,0,2,5)
+   ShowMessage("【マーリン】")
+   ShowMessage("ラザロさんの方が、リーダー向きなのですけどね……")
+   ShowMessage("一応は、表面上の顔は私が務めております。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   257
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【メイド】")
+  ShowMessage("ここでは何も聞かないのも職務のうちです。")
+  ShowMessage("破格のお給金のためなら、目も耳も閉ざしましょう……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("64")
+  ShowMessageFace("pramia_fc1",0,0,2,2)
+  ShowMessage("【プチ】")
+  ShowMessage("それがメイドの心意気……なのかな？")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   258
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【メイド】")
+  ShowMessage("マフィアの帝王宅での給仕というものだから、")
+  ShowMessage("銃弾が飛び交う世界かと思いましたが……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【メイド】")
+  ShowMessage("そんなことは全くなく、なんだか拍子抜けです。")
+  ShowMessage("ドン・ファーザーも穏やかで紳士的な方ですしね。")
+  0()
+
+
+
+EVENT   259
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【幹部】")
+   ShowMessage("この町のカジノは私の管轄です。")
+   ShowMessage("楽しんで頂ければ幸いです。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("121")
+   ShowMessageFace("page65537_fc1",2,0,2,2)
+   ShowMessage("【コーネリア】")
+   ShowMessage("ええ、大いに！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【幹部】")
+   ShowMessage("世情が暗くなるにつれ、カジノの収益は増える一方。")
+   ShowMessage("複雑な気持ちになりますなぁ……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   260
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【幹部】")
+  ShowMessage("俺達は、クスリは扱わない。")
+  ShowMessage("ルートに乗せているのは、正規の薬草だけだ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【幹部】")
+  ShowMessage("それがドン・ファーザーの方針……")
+  ShowMessage("そして、ファーザーの決定は世界のルールだ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("520")
+  ShowMessageFace("ruka_fc1",0,0,2,3)
+  ShowMessage("【ルカ】")
+  ShowMessage("なんで麻薬を扱わないの？")
+  ShowMessage("ひょっとして、一握りの良心が残ってる？")
+  ShowMessageFace("lazarus3_fc1",0,0,2,4)
+  ShowMessage("【ラザロ】")
+  ShowMessage("いいか、覚えとけ。")
+  ShowMessage("クスリを扱ったら、もう戦争なんだ。")
+  ShowMessageFace("lazarus3_fc1",0,0,2,5)
+  ShowMessage("【ラザロ】")
+  ShowMessage("官憲は、金さえ握らせばほとんどの事は見逃す。")
+  ShowMessage("脅しやゆすり、賭場も売春も何でもな。")
+  ShowMessageFace("lazarus3_fc1",0,0,2,6)
+  ShowMessage("【ラザロ】")
+  ShowMessage("土建のカスリを頂こうが、おこぼれがあれば見逃す。")
+  ShowMessage("ほとんどの場合、官憲は金で買えるんだよ。")
+  ShowMessageFace("lazarus3_fc1",0,0,2,7)
+  ShowMessage("【ラザロ】")
+  ShowMessage("だが、クスリだけは別だ。")
+  ShowMessage("クスリだけは、官憲も絶対に見逃しゃしない。")
+  ShowMessageFace("lazarus3_fc1",0,0,2,8)
+  ShowMessage("【ラザロ】")
+  ShowMessage("そうなりゃ戦争の始まりさ……")
+  ShowMessage("官憲との戦争をやるにゃ、うちはちょっと大きすぎる。")
+  ShowMessageFace("lazarus3_fc1",0,0,2,9)
+  ShowMessage("【ラザロ】")
+  ShowMessage("そういうわけで、うちじゃクスリは吸わせねぇのさ。")
+  ShowMessage("マフィア・ウォーの時代に戻るなんて御免だからな。")
+  EndEventProcessing()
+  DefineLabel("522")
+  ShowMessageFace("merlin_fc1",0,0,2,10)
+  ShowMessage("【マーリン】")
+  ShowMessage("クスリというのは、人を腐らせます。")
+  ShowMessage("ひいては市場も、扱う組織までも腐らせてしまうのです。")
+  ShowMessageFace("merlin_fc1",0,0,2,11)
+  ShowMessage("【マーリン】")
+  ShowMessage("ラザロさんは、それがよく分かっているのでしょう。")
+  ShowMessage("昨今流行の、持続可能なビジネスモデルというやつですね。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   261
+ PAGE   1
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  If(1,1033,0,1,0)
+   RunCommonEvent(308)
+   EndEventProcessing()
+   0()
+  EndIf()
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,358,73,43,0,0)
+  0()
+
+
+
+EVENT   262
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【猫】")
+  ShowMessage("にゃ！　にゃ！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("70")
+  ShowMessageFace("nezumi_fc1",2,0,2,2)
+  ShowMessage("【ラティ】")
+  ShowMessage("ひゃぁっ！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   263
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【組員】")
+  ShowMessage("よしよし、カンヅメだぞー♪")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("60")
+  ShowMessageFace("dog_fc1",1,0,2,2)
+  ShowMessage("【ポチ】")
+  ShowMessage("カンヅメ、ちょうだい！")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【組員】")
+  ShowMessage("お前の分はねぇよ……")
+  ShowMessageFace("dog_fc1",0,0,2,4)
+  ShowMessage("【ポチ】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【組員】")
+  ShowMessage("……しゃぁねぇな、ひとつだけだぞ。")
+  EndEventProcessing()
+  DefineLabel("222")
+  ShowMessageFace("nekomata_fc1",0,0,2,6)
+  ShowMessage("【たま】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,7)
+  ShowMessage("【組員】")
+  ShowMessage("……………………")
+  ShowMessageFace("nekomata_fc1",0,0,2,8)
+  ShowMessage("【たま】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,9)
+  ShowMessage("【組員】")
+  ShowMessage("しゃあねぇな……")
+  ShowMessageFace("nekomata_fc1",2,0,2,10)
+  ShowMessage("【たま】")
+  ShowMessage("にゃ～♪")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   265
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(32,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   266
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventoryWeapon(896,0,0,1,false)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   267
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventoryWeapon(521,0,0,1,false)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   268
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(331,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  If(1,1033,0,1,0)
+   RunCommonEvent(308)
+   EndEventProcessing()
+   0()
+  EndIf()
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,358,73,43,0,0)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【護衛】")
+   ShowMessage("この上にドン・ファーザーがおられる。")
+   ShowMessage("失礼のないようにな……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   355("actor_label_jump")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【護衛】")
+   ShowMessage("ドン・ファーザーは休暇中だ。")
+   ShowMessage("部屋には入ってもいいと、言伝を預かっている……")
+   EndEventProcessing()
+   DefineLabel("520")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【護衛】")
+   ShowMessage("お疲れ様です！")
+   ShowMessageFace("lazarus3_fc1",1,0,2,4)
+   ShowMessage("【ラザロ】")
+   ShowMessage("おう、ご苦労。")
+   EndEventProcessing()
+   DefineLabel("522")
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【護衛】")
+   ShowMessage("お疲れ様です！")
+   ShowMessageFace("merlin_fc1",0,0,2,6)
+   ShowMessage("【マーリン】")
+   ShowMessage("ご苦労様です。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()

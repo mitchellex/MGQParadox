@@ -1,0 +1,767 @@
+﻿
+DisplayName "コロシアム"
+
+
+
+EVENT   1
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x45,0x61,0x72,0x74,0x68,0x34,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  205(2,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x0c,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x14,0x3b,0x0c,0x5b,0x06,0x69,0x08,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x17,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x14,0x3b,0x0c,0x5b,0x06,0x69,0x08,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x18,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2a,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x54,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x11,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,484,16,15,0,0)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x45,0x61,0x72,0x74,0x68,0x34,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x0c,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x14,0x3b,0x0c,0x5b,0x06,0x69,0x08,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x17,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x14,0x3b,0x0c,0x5b,0x06,0x69,0x08,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x18,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2a,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x54,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x11,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,484,16,15,0,0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,21,1,28,6,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,21,1,28,6,0)
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,21,1,28,6,0)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,21,1,28,6,0)
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  If(1,1001,0,25,2)
+   If(1,1052,0,5,2)
+    ShowMessageFace("",0,0,2,1)
+    ShowMessage("【男】")
+    ShowMessage("大戦争に奇怪な事件、色々と大変な世相だが……")
+    ShowMessage("こういう時だからこそ、女王陛下はちゃんと武闘大会を開くだろうよ。")
+    ShowMessageFace("",0,0,2,2)
+    ShowMessage("【男】")
+    ShowMessage("グランドノアは揺るがないと、世界にアピールしなきゃな。")
+    ShowMessage("さあ、大会が楽しみだぜ！")
+    EndEventProcessing()
+    0()
+   EndIf()
+   If(1,1052,0,6,1)
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【男】")
+    ShowMessage("おお、勇者ルカじゃないか！")
+    ShowMessage("女王杯、エキサイトさせてもらったぜ！")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【男】")
+   ShowMessage("魔王との戦争に奇怪な事件、色々と大変な世相だが……")
+   ShowMessage("こういう時だからこそ、コロシアムは盛り上がるのさ。")
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【男】")
+   ShowMessage("コロシアムがある限り、グランドノアは揺るがない。")
+   ShowMessage("試合中止なんて事態になったら、それこそ世界は終わりさ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【男】")
+  ShowMessage("本当、最近はろくなニュースがないね。")
+  ShowMessage("こういう時こそ、コロシアムで燃え上がるに限るよ。")
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("大会に出場するよ～♪")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("53")
+  ShowMessageFace("slime_fc1",0,0,2,2)
+  ShowMessage("【ライム】")
+  ShowMessage("がんばってね～♪")
+  EndEventProcessing()
+  DefineLabel("110")
+  ShowMessageFace("slimelord_fc1",3,0,2,3)
+  ShowMessage("【ベス】")
+  ShowMessage("ちょっと無茶なんじゃないかなぁ……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1052 >= 6
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("優勝したいな～♪")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("53")
+  ShowMessageFace("slime_fc1",0,0,2,2)
+  ShowMessage("【ライム】")
+  ShowMessage("がんばってね～♪")
+  EndEventProcessing()
+  DefineLabel("110")
+  ShowMessageFace("slimelord_fc1",3,0,2,3)
+  ShowMessage("【ベス】")
+  ShowMessage("ちょっと無茶なんじゃないかなぁ……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1052 >= 6
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  If(1,1001,0,25,2)
+   If(1,1052,0,5,2)
+    ShowMessageFace("",0,0,2,1)
+    ShowMessage("【コロシアム通】")
+    ShowMessage("かなりのコロシアムマニアしか知らないがね……")
+    ShowMessage("実は、とんでもない実力者がいるんだ。")
+    ShowMessageFace("",0,0,2,2)
+    ShowMessage("【コロシアム通】")
+    ShowMessage("キュバというサキュバスでね……")
+    ShowMessage("ごくたまに現れては、圧勝していくんだよ。")
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【コロシアム通】")
+    ShowMessage("大会に出た事もあるが、2回戦あたりで飽きたのか棄権してしまう。")
+    ShowMessage("気まぐれすぎるが、凄まじい実力者だよ。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   If(1,1052,0,6,1)
+    ShowMessageFace("",0,0,2,4)
+    ShowMessage("【コロシアム通】")
+    ShowMessage("キュバの正体なんだが……")
+    ShowMessage("実は、魔王軍四天王の一人っていう噂があるらしい。")
+    If(4,19,0)
+     ShowMessageFace("arumaeruma_fc2",0,0,2,5)
+     ShowMessage("【アルマエルマ】")
+     ShowMessage("ふふっ、どうなのかしらね……？")
+     0()
+    EndIf()
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【コロシアム通】")
+   ShowMessage("キュバの正体が、魔王軍四天王の一人だとすると……")
+   ShowMessage("グランドノアが潰されても、コロシアムは残してくれるかもしれないな。")
+   If(4,19,0)
+    ShowMessageFace("arumaeruma_fc2",0,0,2,7)
+    ShowMessage("【アルマエルマ】")
+    ShowMessage("私に、そんな権限はないけれど……")
+    ShowMessage("コロシアムが潰れると、私も困るわね。")
+    0()
+   EndIf()
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  If(1,1052,0,5,2)
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("緊張してきたのです……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1052,0,6,1)
+   ShowMessageFace("tatunoko_k_fc1",1,0,2,2)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("コロシアムで修行を重ね、強いたつのこになるのです！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  If(1,1052,0,5,2)
+   ShowMessageFace("tatunoko_k_fc1",1,0,2,1)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("優勝したら、グリーンオーブがもらえるのです！")
+   ShowMessage("他のたつのこ達に自慢できるのです！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1052,0,6,1)
+   ShowMessageFace("tatunoko_k_fc1",1,0,2,2)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("準決勝まで勝ち進んだのです！")
+   ShowMessage("キュバに負けたけど、自信はついたのです！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  If(1,1052,0,5,2)
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("たつのこチームが、優勝いただきなのです！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1052,0,6,1)
+   ShowMessageFace("tatunoko_k_fc1",1,0,2,2)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("たつのこチームが、準決勝までいったのです！")
+   ShowMessage("周囲の見る目も変わったのです！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  ShowMessageFace("ghost2_fc1",1,0,2,1)
+  ShowMessage("【幽霊娘】")
+  ShowMessage("死んでる場合じゃないわ！")
+  ShowMessage("大会を観戦しないと！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("130")
+  ShowMessageFace("ghost_fc1",0,0,2,2)
+  ShowMessage("【キャリー】")
+  ShowMessage("私も蘇った方がいいかしら……？")
+  EndEventProcessing()
+  DefineLabel("134")
+  ShowMessageFace("chrom_fc2",5,0,2,3)
+  ShowMessage("【クロム】")
+  ShowMessage("ネクロマンサーもびっくりじゃ！")
+  EndEventProcessing()
+  DefineLabel("210")
+  ShowMessageFace("ghost2_fc1",2,0,2,4)
+  ShowMessage("【ぼたん】")
+  ShowMessage("アグレッシブな同胞ねぇ……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【出場者】")
+  ShowMessage("俺の相手は、マーメイドがいいなぁ……")
+  ShowMessage("誘惑でメロメロにされて、じっくり犯されるんだ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("5")
+  ShowMessageFace("alice_fc5",0,0,2,2)
+  ShowMessage("【アリス】")
+  ShowMessage("エロめ……")
+  EndEventProcessing()
+  DefineLabel("26")
+  ShowMessageFace("iriasu_fc4",2,0,2,3)
+  ShowMessage("【イリアス】")
+  ShowMessage("嘆かわしい……")
+  EndEventProcessing()
+  DefineLabel("525")
+  ShowMessageFace("sonia_fc1",5,0,2,4)
+  ShowMessage("【ソニア】")
+  ShowMessage("変態……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【出場者】")
+  ShowMessage("俺はラミアに巻き付かれたいな。")
+  ShowMessage("虫の息になるまで締め上げられるなんて、興奮してしまうよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("5")
+  ShowMessageFace("alice_fc5",0,0,2,2)
+  ShowMessage("【アリス】")
+  ShowMessage("エロめ……")
+  EndEventProcessing()
+  DefineLabel("26")
+  ShowMessageFace("iriasu_fc4",2,0,2,3)
+  ShowMessage("【イリアス】")
+  ShowMessage("嘆かわしい……")
+  EndEventProcessing()
+  DefineLabel("525")
+  ShowMessageFace("sonia_fc1",5,0,2,4)
+  ShowMessage("【ソニア】")
+  ShowMessage("変態……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【出場者】")
+  ShowMessage("獣系の魔物に、ワイルドに犯されたいな。")
+  ShowMessage("観客達の前で公開種付けなんて、ゾクゾクしてしまうよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("5")
+  ShowMessageFace("alice_fc5",0,0,2,2)
+  ShowMessage("【アリス】")
+  ShowMessage("エロめ……")
+  EndEventProcessing()
+  DefineLabel("26")
+  ShowMessageFace("iriasu_fc4",2,0,2,3)
+  ShowMessage("【イリアス】")
+  ShowMessage("嘆かわしい……")
+  EndEventProcessing()
+  DefineLabel("525")
+  ShowMessageFace("sonia_fc1",5,0,2,4)
+  ShowMessage("【ソニア】")
+  ShowMessage("変態……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【出場者】")
+  ShowMessage("やっぱりスキュラの触手責めを味わいたいな。")
+  ShowMessage("全身をニュルニュルに責められて、惨めに泣き叫びたいよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("5")
+  ShowMessageFace("alice_fc5",0,0,2,2)
+  ShowMessage("【アリス】")
+  ShowMessage("エロめ……")
+  EndEventProcessing()
+  DefineLabel("26")
+  ShowMessageFace("iriasu_fc4",2,0,2,3)
+  ShowMessage("【イリアス】")
+  ShowMessage("嘆かわしい……")
+  EndEventProcessing()
+  DefineLabel("525")
+  ShowMessageFace("sonia_fc1",5,0,2,4)
+  ShowMessage("【ソニア】")
+  ShowMessage("変態……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  If(1,1052,0,5,2)
+   ShowMessageFace("usagi_fc1",0,0,2,1)
+   ShowMessage("【ウサギ娘】")
+   ShowMessage("お姉さん、がんばっちゃうわよ。")
+   ShowMessage("大会で戦う事があったら、可愛がってあげるからね……♪")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1052,0,6,1)
+   ShowMessageFace("usagi_fc1",0,0,2,2)
+   ShowMessage("【ウサギ娘】")
+   ShowMessage("すっかりコロシアムにはまっちゃったわ。")
+   ShowMessage("見るのも出るのも、とっても楽しいわね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  If(1,1052,0,5,2)
+   ShowMessageFace("delh_a_fc1",1,0,2,1)
+   ShowMessage("【ダークエルフ】")
+   ShowMessage("今回の大会のために、修行を重ねてきたの。")
+   ShowMessage("音に聞く第1連隊長、デュラハンのアーサーを打ち破るためにね！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1052,0,6,1)
+   ShowMessageFace("delh_a_fc1",1,0,2,2)
+   ShowMessage("【ダークエルフ】")
+   ShowMessage("あなた、すごいわね。")
+   ShowMessage("私の仲間にならない？　……ならないか。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【シスター】")
+  ShowMessage("ああ……エキサイトしてきました！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("316")
+  ShowMessageFace("queenelf_fc1",1,0,2,2)
+  ShowMessage("【フレイヤ】")
+  ShowMessage("私もです！")
+  ShowMessageFace("queenelf_fc1",2,0,2,3)
+  ShowMessage("【フレイヤ】")
+  ShowMessage("……いえ、失言。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【商人】")
+  ShowMessage("試合に出るのかい？")
+  ShowMessage("だったら、アイテムを揃えておかなきゃ！")
+  Shop(0,2,0,0,false)
+  605(0,7,0,0)
+  605(0,11,0,0)
+  605(0,13,0,0)
+  605(0,14,0,0)
+  605(0,15,0,0)
+  605(0,16,0,0)
+  605(0,17,0,0)
+  605(0,18,0,0)
+  605(0,19,0,0)
+  605(0,20,0,0)
+  605(0,23,0,0)
+  605(0,35,0,0)
+  605(0,102,0,0)
+  605(0,109,0,0)
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【武器屋】")
+  ShowMessage("確かな武器で、試合に勝利を！")
+  Shop(1,20,0,0,false)
+  605(1,98,0,0)
+  605(1,200,0,0)
+  605(1,379,0,0)
+  605(1,451,0,0)
+  605(1,488,0,0)
+  605(1,602,0,0)
+  605(1,736,0,0)
+  605(1,876,0,0)
+  605(1,901,0,0)
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【防具屋】")
+  ShowMessage("持っててよかった、丈夫な防具！")
+  Shop(2,7,0,0,false)
+  605(2,24,0,0)
+  605(2,64,0,0)
+  605(2,80,0,0)
+  605(2,135,0,0)
+  605(2,210,0,0)
+  605(2,306,0,0)
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  ShowMessageFace("mimic_fc1",2,0,2,1)
+  ShowMessage("【ミミック娘】")
+  ShowMessage("戦いには結構自信があるけど……")
+  ShowMessage("こんな人の多い場所に、来るんじゃなかったわ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("105")
+  ShowMessageFace("mimic_fc1",1,0,2,2)
+  ShowMessage("【ミネリ】")
+  ShowMessage("無理をするから……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【出場者】")
+  ShowMessage("……？？？")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【出場者】")
+  ShowMessage("なぜに、こんな場所に宝箱が……？")
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  If(1,1001,0,25,2)
+   If(1,1052,0,5,2)
+    ShowMessageFace("",0,0,2,1)
+    ShowMessage("【戦士】")
+    ShowMessage("今年の女王杯の優勝賞品は、なんとグリーンオーブ。")
+    ShowMessage("グランドノアに伝わる秘宝として名高い宝玉だ。")
+    ShowMessageFace("",0,0,2,2)
+    ShowMessage("【戦士】")
+    ShowMessage("ただ問題は、価値が高すぎる事でな……")
+    ShowMessage("買い取ってくれる店は、おそらく存在しないだろう。")
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【戦士】")
+    ShowMessage("それほどの秘宝を賞品にするとは、今回の女王杯は気合いが入っている。")
+    ShowMessage("国威高揚イベントとして、全力を挙げているのだろうな……")
+    EndEventProcessing()
+    0()
+   EndIf()
+   If(1,1052,0,6,1)
+    ShowMessageFace("",0,0,2,4)
+    ShowMessage("【戦士】")
+    ShowMessage("グリーンオーブは、美しいか？")
+    ShowMessage("ああ、つくづく羨ましい……")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【戦士】")
+   ShowMessage("魔王の宣戦布告なんて、私には関係ない。")
+   ShowMessage("ここコロシアムで、全力を振るうのみさ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【スカウト兵】")
+  ShowMessage("そこの君、グランドノア軍に入る気はないかい？")
+  ShowMessage("外国人でも問題ないさ、戦時なら昇進も早いし大チャンスだよ？")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("201")
+  ShowMessageFace("ashel_fc1",0,0,2,2)
+  ShowMessage("【アシェル】")
+  ShowMessage("海賊を正規軍に誘われてもねぇ……")
+  EndEventProcessing()
+  DefineLabel("202")
+  ShowMessageFace("bonny_fc1",0,0,2,3)
+  ShowMessage("【ボニー】")
+  ShowMessage("断る！　あたしは団長だぞ！")
+  EndEventProcessing()
+  DefineLabel("203")
+  ShowMessageFace("tatunoko_k_fc1",1,0,2,4)
+  ShowMessage("【たつこ】")
+  ShowMessage("すでに海軍に入っているのです！")
+  EndEventProcessing()
+  DefineLabel("204")
+  ShowMessageFace("umiusi_k_fc1",0,0,2,5)
+  ShowMessage("【ステイシー】")
+  ShowMessage("私、海兵ですから……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  If(1,1001,0,25,2)
+   If(1,1052,0,5,2)
+    ShowMessageFace("",0,0,2,1)
+    ShowMessage("【あらくれ】")
+    ShowMessage("優勝賞品のグリーンオーブは、この俺が頂くぜ！")
+    EndEventProcessing()
+    0()
+   EndIf()
+   If(1,1052,0,6,1)
+    ShowMessageFace("",0,0,2,2)
+    ShowMessage("【あらくれ】")
+    ShowMessage("一回戦で敗退するなんて……")
+    ShowMessage("コロシアム初出場だったけど、レベル高いんだな……")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【あらくれ】")
+   ShowMessage("魔王なんて、勇者ルカが倒してくれるんだろ？")
+   ShowMessage("なぁなぁ、そうなんだよな？")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  If(1,1052,0,5,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【貴族の女性】")
+   ShowMessage("明日の試合は、特等席で見られますわ。")
+   ShowMessage("ふふっ、とても楽しみですわね……")
+   ShowMessageFace("ruka_fc1",0,0,2,2)
+   ShowMessage("【ルカ】")
+   ShowMessage("戦いに興味があるんですか？")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【貴族の女性】")
+   ShowMessage("ふふっ、そのようなものを見たいのではありませんわ。")
+   ShowMessage("もっともっと、素敵なお楽しみがありますのよ。")
+   ShowMessageFace("ruka_fc1",0,0,2,4)
+   ShowMessage("【ルカ】")
+   ShowMessage("…………？")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1052,0,6,1)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【貴族の女性】")
+   ShowMessage("わたくし、あなたのファンになりましたわ。")
+   ShowMessage("コロシアムを颯爽と駆ける麗しい姿、また見たいものです。")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【貴族の女性】")
+   ShowMessage("……そんなあなたが魔物に嫐られる姿も、ぜひ見たいものですけど。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  If(1,1052,0,5,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【兵士】")
+   ShowMessage("コ、コロシアムに出場するため……")
+   ShowMessage("お金を……貯めないと……")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【兵士】")
+   ShowMessage("で、出たい……")
+   ShowMessage("あぁぁぁ……早く、コロシアムに出たぁい……！")
+   ShowMessageFace("ruka_fc1",0,0,2,3)
+   ShowMessage("【ルカ】")
+   ShowMessage("あれが剣に生き、戦いに飢える男なんだね。")
+   ShowMessage("これこそ、コロシアムに己を捧げる戦士の姿！")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",0,0,2,4)
+    ShowMessage("【アリス】")
+    ShowMessage("……そうなのか？")
+    ShowMessage("なにやら煩悩の匂いがするが……")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,5)
+    ShowMessage("【イリアス】")
+    ShowMessage("ただの煩悩ですよ、嘆かわしい……")
+    0()
+   EndIf()
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1052,0,6,1)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【兵士】")
+   ShowMessage("昨日は、コロシアムでケルベロス娘に犯された……")
+   ShowMessage("もう一滴も出ないほどに搾られ尽くしたぜ……")
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【兵士】")
+   ShowMessage("今度は、誰に嫐ってもらえるかな……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("スキルの解説に、たとえば「力・速」とか書いてるよな。")
+  ShowMessage("言うまでもなく、技の威力に攻撃力と素早さの両方が影響するって事だ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("だが、中には「力or速」といった表記もある。")
+  ShowMessage("この場合、攻撃力と素早さのうち数値の大きい方が威力に影響するんだ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("片方は低くても、片方が高ければ問題ないって事だ。")
+  ShowMessage("装備品を選ぶ際は、使用スキルにも気を配りなよ。")
+  0()

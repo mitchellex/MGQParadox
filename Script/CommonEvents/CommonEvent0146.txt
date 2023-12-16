@@ -1,0 +1,17 @@
+﻿// EVENT 0146
+Name "死神：難易度変更"
+
+ShowMessageFace("sinigami_fc1",0,0,2,1)
+ShowMessage("【死神】")
+ShowMessage("世の理に手を加えるか……")
+ShowMessage("では、どのようにするのだ？")
+ShowMessageFace("",0,0,2,2)
+ShowMessage("難易度を選択して下さい。")
+RunCommonEvent(110)
+ShowMessageFace("sinigami_fc1",0,0,2,3)
+ShowMessage("【死神】")
+ShowMessage("それでは、行くがいい……")
+PictureMove(5,null,0,0,0,0,100,100,0,0,30,true)
+PictureClear(5)
+EndEventProcessing()
+0()

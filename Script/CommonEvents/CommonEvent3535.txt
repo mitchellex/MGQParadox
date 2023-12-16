@@ -1,0 +1,6 @@
+﻿// EVENT 3535
+Name "エルベティエ"
+
+ChangeVariable(35,35,0,0,2)
+RunCommonEvent(3506)
+0()

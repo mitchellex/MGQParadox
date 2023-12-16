@@ -1,0 +1,712 @@
+﻿
+DisplayName "おさかな号 1F"
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  0()
+
+
+
+EVENT   48
+ PAGE   1
+  0()
+
+
+
+EVENT   49
+ PAGE   1
+  0()
+
+
+
+EVENT   50
+ PAGE   1
+  0()
+
+
+
+EVENT   51
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,478,12,32,0,0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   53
+ PAGE   1
+  Wait(60)
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  PictureDisplay(5,"80_ashel_st01",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("ashel_fc1",0,0,2,1)
+  ShowMessage("【アシェル】")
+  ShowMessage("……おさかな号へようこそ。")
+  ShowMessage("あたしが、おさかな海賊団副団長のアシェルだ。")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc2",3,0,2,2)
+   ShowMessage("【ソニア】")
+   ShowMessage("おさかな海賊団って、討伐を依頼された海賊じゃない！")
+   ShowMessage("ひょっとして私達、海賊に拉致されちゃった……？")
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,3)
+   ShowMessage("【ルカ】")
+   ShowMessage("おさかな海賊団って、海軍に退治を依頼された……")
+   ShowMessage("先手を取って、僕達を拉致するつもりなのか！？")
+   0()
+  EndIf()
+  If(4,129,0)
+   ShowMessageFace("brunhild_fc1",0,0,2,4)
+   ShowMessage("【ヒルデ】")
+   ShowMessage("敵対行動……？")
+   ShowMessage("ただちに敵船員を排除する……？")
+   0()
+  EndIf()
+  ShowMessageFace("ashel_fc1",1,0,2,5)
+  ShowMessage("【アシェル】")
+  ShowMessage("いや、取引のために呼んだのさ。")
+  ShowMessage("討伐隊に選ばれたあんた達、どうも訳ありのようだからな……")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,6)
+   ShowMessage("【アリス】")
+   ShowMessage("ふむ……あの犬は、おさかな海賊団のスパイだったのか。")
+   ShowMessage("つまり、我々を懐柔し仲間に引き込もうと？")
+   ShowMessageFace("ashel_fc1",0,0,2,7)
+   ShowMessage("【アシェル】")
+   ShowMessage("まあ、そんなとこだな。")
+   ShowMessage("とにかく、お嬢……うちの団長に会ってやってくれ。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,8)
+   ShowMessage("【イリアス】")
+   ShowMessage("なるほど……あの犬は、おさかな海賊団のスパイでしたか。")
+   ShowMessage("それで観念し、私の足元にひざまずこうというのですね。")
+   ShowMessageFace("ashel_fc1",0,0,2,9)
+   ShowMessage("【アシェル】")
+   ShowMessage("あんた、何言ってるんだ？")
+   ShowMessage("とにかく、お嬢……うちの団長に会ってやってくれ。")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,10)
+  ShowMessage("【ルカ】")
+  ShowMessage("でも、海賊みたいな悪事を働く連中に協力なんて……")
+  ShowMessageFace("ashel_fc1",0,0,2,11)
+  ShowMessage("【アシェル】")
+  ShowMessage("あたし達は、罪のない民間船を襲ったりはしないよ。")
+  ShowMessage("奪うのは同業の海賊や、密輸業者なんかの犯罪者だけさ。")
+  ShowMessageFace("ashel_fc1",1,0,2,12)
+  ShowMessage("【アシェル】")
+  ShowMessage("正義の海賊なんて、気取った事は言いやしないが……")
+  ShowMessage("お天道様に背を向けない、ってのがあたしらの掟さ。")
+  If(4,68,0)
+   ShowMessageFace("dragonp_fc1",0,0,2,13)
+   ShowMessage("【パピ】")
+   ShowMessage("すごい！　かっこいい！")
+   0()
+  EndIf()
+  If(4,66,0)
+   ShowMessageFace("vgirl_fc1",0,0,2,14)
+   ShowMessage("【ヴァニラ】")
+   ShowMessage("我はお天道様が苦手だが……")
+   ShowMessage("その信念は憧れるぞ！")
+   0()
+  EndIf()
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,15)
+   ShowMessage("【アリス】")
+   ShowMessage("悪党だけを襲う海賊団というわけか……")
+   ShowMessage("しかし、言葉だけでは信じられんな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,16)
+   ShowMessage("【イリアス】")
+   ShowMessage("悪党しか襲わない海賊団……")
+   ShowMessage("何をどう取り繕おうが、法に従わない者は悪なのです。")
+   0()
+  EndIf()
+  ShowMessageFace("ashel_fc1",0,0,2,17)
+  ShowMessage("【アシェル】")
+  ShowMessage("ついでに船内を案内するから、見て回るといい。")
+  ShowMessage("本当に討伐の必要があるのか、その判断を兼ねてな……")
+  If(4,144,0)
+   ShowMessageFace("saboresu_fc1",1,0,2,18)
+   ShowMessage("【サニー】")
+   ShowMessage("わ～い！　海賊船、見学しようよ！")
+   0()
+  EndIf()
+  PictureClear(5)
+  205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x08,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+ PAGE   3
+  // condition: switch 2149 is ON
+  Wait(60)
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  PictureDisplay(5,"80_ashel_st02",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("ashel_fc1",1,0,2,1)
+  ShowMessage("【アシェル】")
+  ShowMessage("……来てくれたんだな。")
+  ShowMessage("おさかな海賊団は、あんた達を仲間として歓迎するよ。")
+  If(4,53,0)
+   ShowMessageFace("slime_fc1",0,0,2,2)
+   ShowMessage("【ライム】")
+   ShowMessage("よろしくね～♪")
+   0()
+  EndIf()
+  If(4,144,0)
+   ShowMessageFace("saboresu_fc1",1,0,2,3)
+   ShowMessage("【サニー】")
+   ShowMessage("やったぁ！　海賊デビュー！")
+   0()
+  EndIf()
+  ShowMessageFace("ashel_fc1",1,0,2,4)
+  ShowMessage("【アシェル】")
+  ShowMessage("それじゃあ、さっそく大海賊の洞窟に乗り込むよ。")
+  ShowMessage("その前に、お嬢に報告しなきゃな。")
+  PictureClear(5)
+  205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x09,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x0f,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  355("add_actor_ex(201)")
+  249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("アシェルが仲間に加わった！")
+  Wait(60)
+  ChangeSelfSwitch("B",0)
+  ShowMessageFace("ashel_fc1",1,0,2,6)
+  ShowMessage("【アシェル】")
+  ShowMessage("それじゃあ、お嬢に報告だな。")
+  ShowMessage("団長の部屋に行くよ！")
+  If(4,62,0)
+   ShowMessageFace("gob_fc1",0,0,2,7)
+   ShowMessage("【ゴブ】")
+   ShowMessage("おいっす！")
+   0()
+  EndIf()
+  0()
+ PAGE   4
+  // condition: self-switch B is ON
+  0()
+
+
+
+EVENT   55
+ PAGE   1
+  // condition: variable 1051 >= 4
+  0()
+
+
+
+EVENT   56
+ PAGE   1
+  // condition: variable 1051 >= 4
+  0()
+
+
+
+EVENT   52
+ PAGE   1
+  281(0)
+  If(6,-1,2)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   TeleportPlayer(0,478,20,16,0,0)
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   57
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("この階段から、船内に入れるよっ！")
+  0()
+
+
+
+EVENT   58
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("実はこの大砲、ただの飾りなの。")
+  ShowMessage("撃てるのは、4門中1門だけなのよね……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("134")
+  ShowMessageFace("chrom_fc2",2,0,2,2)
+  ShowMessage("【クロム】")
+  ShowMessage("儂に任せてくれれば、ゾンビキャノンを取り付けてやるぞ。")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,3)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("それは、遠慮しとく……")
+  EndEventProcessing()
+  DefineLabel("178")
+  ShowMessageFace("valt_fc1",0,0,2,4)
+  ShowMessage("【ヴァルト】")
+  ShowMessage("この船、私の兵装より貧弱だな……")
+  EndEventProcessing()
+  DefineLabel("185")
+  ShowMessageFace("radio_fc1",0,0,2,5)
+  ShowMessage("【ラディオ】")
+  ShowMessage("物資が欠乏しテイますね……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   60
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("海軍本部の近海に停泊中……")
+  ShowMessage("大丈夫、まだバレてないよ。")
+  0()
+
+
+
+EVENT   59
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("唯一の大砲だから、しっかりメンテしておかないと……")
+  ShowMessage("いざという時、撃てないと困るよね。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("88")
+  ShowMessageFace("jack_fc1",1,0,2,2)
+  ShowMessage("【かぼちゃ】")
+  ShowMessage("撃ってみたいな……")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,3)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("オモチャじゃないんだから、ダメっ！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  ShowMessageFace("dog_fc1",0,0,2,1)
+  ShowMessage("【わう】")
+  ShowMessage("わん！　わんわん！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("60")
+  ShowMessageFace("dog_fc1",0,0,2,2)
+  ShowMessage("【ポチ】")
+  ShowMessage("海賊犬！　なんだかすごい！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   63
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("道具チェック、よし！")
+  ShowMessage("おかしら愛用の浮き輪も、異常なーし！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("41")
+  ShowMessageFace("stein_fc2",2,0,2,2)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("海賊団の団長なのに、泳げないんですか……？")
+  EndEventProcessing()
+  DefineLabel("62")
+  ShowMessageFace("gob_fc1",3,0,2,3)
+  ShowMessage("【ゴブ】")
+  ShowMessage("海賊団の団長なのに、泳げないのぉ……！？")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   62
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("右舷、異常なし！")
+  0()
+
+
+
+EVENT   64
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("わうも、おさかな海賊団の一員だよ。")
+  ShowMessage("スパイの専門技能をマスターした潜伏犬なの。")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc1",0,0,2,2)
+   ShowMessage("【ソニア】")
+   ShowMessage("スパイの技能って、何ができるの？")
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,3)
+   ShowMessage("【ルカ】")
+   ShowMessage("スパイの技能って、何ができるの？")
+   0()
+  EndIf()
+  ShowMessageFace("k_mermaid_fc1",0,0,2,4)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("えっと……")
+  ShowMessage("バレそうになったら、相手にメザシを渡したり……")
+  0()
+
+
+
+EVENT   65
+ PAGE   1
+  If(0,2149,1)
+   ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+   ShowMessage("【海賊マーメイド】")
+   ShowMessage("あたし達は、おさかな海賊団！")
+   If(4,53,0)
+    ShowMessageFace("slime_fc1",0,0,2,2)
+    ShowMessage("【ライム】")
+    ShowMessage("わーい、おさかな～♪")
+    ShowMessageFace("k_mermaid_fc1",0,0,2,3)
+    ShowMessage("【海賊マーメイド】")
+    ShowMessage("おさかな海賊団のトレードマークは、魚のホネだよ！")
+    ShowMessageFace("slime_fc1",2,0,2,4)
+    ShowMessage("【ライム】")
+    ShowMessage("ホネかぁ……実がついてる方がいいなぁ。")
+    0()
+   EndIf()
+   EndEventProcessing()
+   0()
+  Else()
+   ShowMessageFace("k_mermaid_fc1",0,0,2,5)
+   ShowMessage("【海賊マーメイド】")
+   ShowMessage("あたし達は、おさかな海賊団！")
+   ShowMessage("あんた達も今日から、おさかな海賊団！")
+   If(4,144,0)
+    ShowMessageFace("saboresu_fc1",1,0,2,6)
+    ShowMessage("【サニー】")
+    ShowMessage("やった～！　とうとうあたしも、海賊入り♪")
+    0()
+   EndIf()
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   66
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("アシェルの姉御がいなかったら、この船は沈んじゃう……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("41")
+  ShowMessageFace("stein_fc2",0,0,2,2)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("組織のナンバー2が、実質的に要となっているパターンですね。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   67
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("前におかしらが甲板掃除した時に、マストをへし折ったの。")
+  ShowMessage("それ以来、おかしらは掃除禁止。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("64")
+  ShowMessageFace("pramia_fc1",0,0,2,2)
+  ShowMessage("【プチ】")
+  ShowMessage("どれだけ不器用なのよ……")
+  ShowMessage("パピも同じ事やりそうだけど。")
+  EndEventProcessing()
+  0()

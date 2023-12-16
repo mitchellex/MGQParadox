@@ -1,0 +1,610 @@
+﻿
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   62
+ PAGE   1
+  0()
+
+
+
+EVENT   63
+ PAGE   1
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  // condition: switch 4 is ON
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  0()
+
+
+
+EVENT   48
+ PAGE   1
+  0()
+
+
+
+EVENT   49
+ PAGE   1
+  0()
+
+
+
+EVENT   50
+ PAGE   1
+  0()
+
+
+
+EVENT   51
+ PAGE   1
+  0()
+
+
+
+EVENT   52
+ PAGE   1
+  0()
+
+
+
+EVENT   53
+ PAGE   1
+  0()
+
+
+
+EVENT   54
+ PAGE   1
+  0()
+
+
+
+EVENT   55
+ PAGE   1
+  0()
+
+
+
+EVENT   56
+ PAGE   1
+  0()
+
+
+
+EVENT   57
+ PAGE   1
+  0()
+
+
+
+EVENT   58
+ PAGE   1
+  0()
+
+
+
+EVENT   59
+ PAGE   1
+  0()
+
+
+
+EVENT   60
+ PAGE   1
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  0()
+
+
+
+EVENT   64
+ PAGE   1
+  0()
+
+
+
+EVENT   65
+ PAGE   1
+  0()
+
+
+
+EVENT   66
+ PAGE   1
+  0()
+
+
+
+EVENT   67
+ PAGE   1
+  0()
+
+
+
+EVENT   68
+ PAGE   1
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6d,0x75,0x72,0x61,0x37,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  Wait(120)
+  PictureDisplay(5,"80_amabie_st13",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("amabie_fc2",0,0,2,1)
+  ShowMessage("【アマビエ】")
+  ShowMessage("さあ、私のハグを受けるのです……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("アマビエは、村人を優しく抱き締めた！")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【村人】")
+  ShowMessage("あぁぁ……癒されるぅ……")
+  ShowMessageFace("sonia_fc4",0,0,2,4)
+  ShowMessage("【ソニア】")
+  ShowMessage("……………………")
+  PictureClear(5)
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【村人Ａ】")
+  ShowMessage("アマビエさま～！　こっちも早く～！")
+  ShowMessageFace("",0,0,2,6)
+  ShowMessage("【村人Ｂ】")
+  ShowMessage("おい、列の最後尾はどこなんだ？　隣村か？")
+  If(0,4,0)
+   If(0,1005,0)
+    ShowMessageFace("alice_fc5",0,0,2,7)
+    ShowMessage("【アリス】")
+    ShowMessage("エロめ……")
+    0()
+   EndIf()
+   If(0,1006,0)
+    ShowMessageFace("alice_fc1",0,0,2,8)
+    ShowMessage("【アリス】")
+    ShowMessage("エロめ……")
+    0()
+   EndIf()
+   If(0,1007,0)
+    ShowMessageFace("alice_fc7",0,0,2,9)
+    ShowMessage("【アリス】")
+    ShowMessage("エロめ……")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,10)
+   ShowMessage("【イリアス】")
+   ShowMessage("なんと嘆かわしい……")
+   0()
+  EndIf()
+  ShowMessageFace("",0,0,2,11)
+  ShowMessage("【村人Ｃ】")
+  ShowMessage("おい、列に割り込むなよ！")
+  ShowMessage("俺が先だぞ！")
+  ShowMessageFace("",0,0,2,12)
+  ShowMessage("【村人Ｄ】")
+  ShowMessage("お前こそ、二度目じゃないか！")
+  ShowMessage("ハグの済んだ奴は引っ込め！")
+  ShowMessageFace("amabie_fc2",0,0,2,13)
+  ShowMessage("【アマビエ】")
+  ShowMessage("民よ、争ってはなりません。")
+  ShowMessage("皆が癒されるまで、私はここから去りませんよ……")
+  ShowMessageFace("",0,0,2,14)
+  ShowMessage("アマビエのフリーハグは大盛況だ！")
+  ShowMessageFace("ruka_fc1",0,0,2,15)
+  ShowMessage("【ルカ】")
+  ShowMessage("どうやら、心配はいらなかったようだね……")
+  ShowMessageFace("sonia_fc2",2,0,2,16)
+  ShowMessage("【ソニア】")
+  ShowMessage("アマビエを傷付けない、15の言い方を用意してたんだけど。")
+  ShowMessage("全然いらなかったみたい。")
+  Wait(30)
+  ShowMessageFace("shirokuma_fc1",0,0,2,17)
+  ShowMessage("【シロクマ娘】")
+  ShowMessage("はぐはぐ……")
+  ShowMessageFace("",0,0,2,18)
+  ShowMessage("【村娘Ａ】")
+  ShowMessage("きゃ～！　かわい～！")
+  ShowMessageFace("",0,0,2,19)
+  ShowMessage("【村娘Ｂ】")
+  ShowMessage("こっちも、ハグして～！！")
+  205(9,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x17,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  If(0,4,0)
+   If(0,1005,0)
+    ShowMessageFace("alice_fc5",0,0,2,20)
+    ShowMessage("【アリス】")
+    ShowMessage("なんだか知らんが、シロクマも大盛況だな……")
+    0()
+   EndIf()
+   If(0,1006,0)
+    ShowMessageFace("alice_fc1",0,0,2,21)
+    ShowMessage("【アリス】")
+    ShowMessage("なんだか知らんが、シロクマも大盛況だな……")
+    0()
+   EndIf()
+   If(0,1007,0)
+    ShowMessageFace("alice_fc7",0,0,2,22)
+    ShowMessage("【アリス】")
+    ShowMessage("なんだか知らんが、シロクマも大盛況だな……")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,23)
+   ShowMessage("【イリアス】")
+   ShowMessage("何か分かりませんが、シロクマも大盛況ですね……")
+   0()
+  EndIf()
+  If(0,1143,0)
+   ShowMessageFace("eva_fc1",0,0,2,24)
+   ShowMessage("【エヴァ】")
+   ShowMessage("……ひらめいたわ！")
+   ShowMessage("フリーハグ屋で、大儲けよ！")
+   ShowMessageFace("sonia_fc2",2,0,2,25)
+   ShowMessage("【ソニア】")
+   ShowMessage("お金を取ったら、フリーハグじゃないでしょ……")
+   0()
+  EndIf()
+  205(9,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x15,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  PictureDisplay(5,"80_amabie_st13",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("amabie_fc2",0,0,2,26)
+  ShowMessage("【アマビエ】")
+  ShowMessage("次はあなたですね……では、ハグを。")
+  ShowMessageFace("",0,0,2,27)
+  ShowMessage("【村人】")
+  ShowMessage("はぅぅぅ……")
+  ShowMessageFace("",0,0,2,28)
+  ShowMessage("アマビエのフリーハグで、多くの民が癒された――")
+  242(1)
+  221()
+  Wait(60)
+  TeleportPlayer(0,1,0,0,0,2)
+  PictureClear(5)
+  222()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x13,0x73,0x63,0x65,0x6e,0x65,0x5f,0x6f,0x64,0x61,0x79,0x61,0x6b,0x61,0x33,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  PictureDisplay(5,"80_amabie_st11",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("amabie_fc2",0,0,2,29)
+  ShowMessage("【アマビエ】")
+  ShowMessage("お陰様で、ヤマタイの民を癒すことが出来ました。")
+  ShowMessage("ですが、これ以上皆さんの手を患わすのも気が引けます。")
+  ShowMessageFace("amabie_fc2",0,0,2,30)
+  ShowMessage("【アマビエ】")
+  ShowMessage("他の町や村へは、暇を見て私が単独で出向きましょう。")
+  ShowMessage("これ以上、付き添いは結構です……")
+  ShowMessageFace("sonia_fc2",2,0,2,31)
+  ShowMessage("【ソニア】")
+  ShowMessage("もしかして、パーティーから離れちゃうの？")
+  ShowMessageFace("amabie_fc2",0,0,2,32)
+  ShowMessage("【アマビエ】")
+  ShowMessage("いえ、あなた達には恩があります。")
+  ShowMessage("この進化した体なら、前以上にお役に立てるでしょう。")
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x4d,0x61,0x67,0x69,0x63,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  PictureDisplay(10,"sys_white",0,0,0,0,100,100,0,0)
+  PictureMove(10,null,0,0,0,0,100,100,255,0,30,true)
+  PictureDisplay(5,"80_amabie_st01",0,0,0,0,100,100,255,0)
+  PictureMove(10,null,0,0,0,0,100,100,0,0,30,true)
+  PictureClear(10)
+  ShowMessageFace("amabie_fc1",0,0,2,33)
+  ShowMessage("【アマビエ】")
+  ShowMessage("……もちろん、以前の姿に戻ることも出来ますよ。")
+  ShowMessageFace("ruka_fc1",0,0,2,34)
+  ShowMessage("【ルカ】")
+  ShowMessage("それはともかく……これからもよろしく！")
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x4d,0x61,0x67,0x69,0x63,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  PictureDisplay(10,"sys_white",0,0,0,0,100,100,0,0)
+  PictureMove(10,null,0,0,0,0,100,100,255,0,30,true)
+  PictureDisplay(5,"80_amabie_st11",0,0,0,0,100,100,255,0)
+  PictureMove(10,null,0,0,0,0,100,100,0,0,30,true)
+  PictureClear(10)
+  ShowMessageFace("amabie_fc2",0,0,2,35)
+  ShowMessage("【アマビエ】")
+  ShowMessage("それでは、冒険の旅に参りましょう。")
+  ShowMessage("この世界そのものを癒すために――")
+  Wait(60)
+  242(1)
+  221()
+  PictureClear(5)
+  Wait(30)
+  ShowMessageFace("stein_fc2",1,0,2,36)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("そう言えば、私からも朗報がありますよ。")
+  ShowMessage("隙を見て、アマビエ様の細胞をこっそり採取させて頂きました。")
+  ShowMessageFace("stein_fc2",1,0,2,37)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("そして、人型に変異させた要素の抽出にも成功したのです。")
+  ShowMessage("このアマビエエキスがあれば、新たな転種が可能ですよ！")
+  ChangeSwitch(1932,1932,0)
+  249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x11,0x6d,0x6f,0x6e,0x5f,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+  ShowMessageFace("",0,0,2,38)
+  ShowMessage("人魚から人間への転種が可能になった！")
+  Wait(60)
+  211(1)
+  TeleportPlayer(0,2,372,165,0,2)
+  222()
+  355("gain_medal(2122)")
+  EndEventProcessing()
+  0()

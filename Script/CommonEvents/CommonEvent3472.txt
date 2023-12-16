@@ -1,0 +1,5 @@
+﻿// EVENT 3472
+Name "ミュゼット"
+
+RunCommonEvent(3485)
+0()

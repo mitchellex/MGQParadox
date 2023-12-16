@@ -1,0 +1,14 @@
+﻿// EVENT 0831
+Name "イベント攻撃武器レジェンド"
+
+If(1,150,0,9999,2)
+ RunCommonEvent(802)
+ EndEventProcessing()
+ 0()
+EndIf()
+If(1,150,0,10000,1)
+ RunCommonEvent(803)
+ EndEventProcessing()
+ 0()
+EndIf()
+0()

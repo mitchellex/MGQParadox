@@ -1,0 +1,120 @@
+﻿
+DisplayName "？？？"
+
+
+
+EVENT   2
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("ただの屍のようだ……")
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  ChangeSwitch(2318,2318,0)
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("古ぼけた日誌がある……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("「この島に漂着して、半月が過ぎた。")
+  ShowMessage("　船に積んであった食料も尽き、もはや死を待つのみとなった」")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("「あてもなく島をさまよう。")
+  ShowMessage("　長い長い坂を上がっていると、周囲に霧が出てきたようだ」")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("「磁石があらぬ方向を示し、正常に動作しなくなった。")
+  ShowMessage("　周囲には、尋常でない気配が立ちこめている」")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("「長い長い坂を登ると、石碑があった。")
+  ShowMessage("　かなり古いもののようだが、碑文はなんとか判読できる」")
+  ShowMessageFace("",0,0,2,6)
+  ShowMessage("「……………………」")
+  ShowMessageFace("",0,0,2,7)
+  ShowMessage("「碑文は、非常に不気味な内容だった。")
+  ShowMessage("　いったいなぜ、誰がこんなものを造ったのか？」")
+  ShowMessageFace("",0,0,2,8)
+  ShowMessage("「不気味な気配はますます濃くなり、周囲を霧が覆い尽くす。")
+  ShowMessage("　冒険者のサガか、私は慌ててこの文章をしたためた」")
+  ShowMessageFace("",0,0,2,9)
+  ShowMessage("「この日誌を誰かが読む事があるならば……")
+  ShowMessage("　ただちに、この島から逃げよ」")
+  ShowMessageFace("",0,0,2,10)
+  ShowMessage("ここで文章は途切れている……")
+  If(1,1142,0,62,2)
+   If(0,6,0)
+    ShowMessageFace("sonia_fc2",2,0,2,11)
+    ShowMessage("【ソニア】")
+    ShowMessage("石碑なんて、どこにもないじゃない。")
+    ShowMessage("こんな狭い島に、そんな長い坂もないし……")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,12)
+    ShowMessage("【ルカ】")
+    ShowMessage("石碑なんてどこにもないじゃないか……")
+    ShowMessage("そもそも、こんな狭い島に長い坂もないし。")
+    0()
+   EndIf()
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,13)
+   ShowMessage("【ルカ】")
+   ShowMessage("石碑なんてどこにもないじゃないか……")
+   ShowMessage("そもそも、こんな狭い島に長い坂もないし。")
+   0()
+  EndIf()
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",3,0,2,14)
+   ShowMessage("【アリス】")
+   ShowMessage("死に直面し、幻を見ていたのか……")
+   ShowMessage("それとも……")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,15)
+   ShowMessage("【イリアス】")
+   ShowMessage("死に直面し、幻を見ていたのか……")
+   ShowMessage("それとも……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("道具箱の中には、大したものは入っていない……")
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("道具袋の中には、大したものは入っていない……")
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,87,207,2,0)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,87,207,2,0)
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,87,207,2,0)
+  0()

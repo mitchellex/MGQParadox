@@ -1,0 +1,131 @@
+﻿
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  ShowMessageFace("eden_fc1",2,0,2,1)
+  ShowMessage("【エデン】")
+  ShowMessage("うぅっ……こ、これは……")
+  ShowMessage("私達は、地上に……？")
+  ShowMessageFace("angels_fc1",2,0,2,2)
+  ShowMessage("【天使兵Ａ】")
+  ShowMessage("エ、エデン様！")
+  ShowMessage("体が物理化して、あちこちに怪我人が……！！")
+  ShowMessageFace("angels_fc1",2,0,2,3)
+  ShowMessage("【天使兵Ｂ】")
+  ShowMessage("エデン様、どうかご指示を！")
+  ShowMessage("うぅっ……私も、腕を負傷して……")
+  ShowMessageFace("eden_fc1",1,0,2,4)
+  ShowMessage("【エデン】")
+  ShowMessage("お、落ち着きなさい！")
+  ShowMessage("回復魔法が使える者は、とにかく重症の怪我人を癒すのです！")
+  ShowMessageFace("eden_fc1",1,0,2,5)
+  ShowMessage("【エデン】")
+  ShowMessage("ああ、イリアス様……どうしたらいいのです？")
+  ShowMessage("イリアス様、なぜ何もお答えになって下さらないのです……")
+  ShowMessageFace("cupid_fc1",2,0,2,6)
+  ShowMessage("【キューピッド】")
+  ShowMessage("うぇ～ん！！　足が、足が折れちゃったよ～！！")
+  ShowMessageFace("trinity_fc1",2,0,2,7)
+  ShowMessage("【トリニティＡ】")
+  ShowMessage("ああ、魔力が切れてしまいました……")
+  ShowMessage("これ以上、癒しの魔法は使えません……")
+  ShowMessageFace("trinity_fc2",2,0,2,8)
+  ShowMessage("【トリニティＢ】")
+  ShowMessage("私も、魔力が足りません……")
+  ShowMessage("ああ、負傷者が多すぎる……")
+  ShowMessageFace("eden_fc1",1,0,2,9)
+  ShowMessage("【エデン】")
+  ShowMessage("イリアス様……私は、私はどうすれば……")
+  ShowMessage("どうか、お救い下さい……")
+  ShowMessageFace("angels_fc2",2,0,2,10)
+  ShowMessage("【天使兵Ｂ】")
+  ShowMessage("エデン様、緊急事態です！！")
+  ShowMessage("シロクマの魔物が、付近に集まってきました！！")
+  ShowMessageFace("eden_fc1",2,0,2,11)
+  ShowMessage("【エデン】")
+  ShowMessage("まさか……魔物の襲撃！？")
+  ShowMessage("このような状況で、迎え撃つ余力など……！")
+  ShowMessageFace("eden_fc1",2,0,2,12)
+  ShowMessage("【エデン】")
+  ShowMessage("ともかく、私が向かいます！")
+  ShowMessage("みな、下がっていなさい！！")
+  242(1)
+  221()
+  Wait(60)
+  TeleportPlayer(0,75,0,0,0,2)
+  222()
+  EndEventProcessing()
+  0()

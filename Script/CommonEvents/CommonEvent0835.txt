@@ -1,0 +1,14 @@
+﻿// EVENT 0835
+Name "イベント軽装防具レジェンド"
+
+If(1,150,0,9999,2)
+ RunCommonEvent(814)
+ EndEventProcessing()
+ 0()
+EndIf()
+If(1,150,0,10000,1)
+ RunCommonEvent(815)
+ EndEventProcessing()
+ 0()
+EndIf()
+0()

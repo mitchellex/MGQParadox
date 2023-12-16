@@ -1,0 +1,5 @@
+﻿// EVENT 3473
+Name "フルビュア"
+
+RunCommonEvent(3486)
+0()

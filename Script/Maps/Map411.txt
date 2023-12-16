@@ -1,0 +1,336 @@
+﻿
+
+
+EVENT   5
+ PAGE   1
+  ChangeSwitch(2740,2740,0)
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("蒸気船はタルタロスの間近へと横付けした。")
+  ShowMessage("右舷側に、ぽっかりと巨大な大穴が広がっている――")
+  ShowMessageFace("alice_fc1",0,0,2,2)
+  ShowMessage("【アリス】")
+  ShowMessage("さて、ここからどうやって降りるというのだ……？")
+  If(4,56,0)
+   ShowMessageFace("inp_fc1",3,0,2,3)
+   ShowMessage("【ラミ】")
+   ShowMessage("まさか、飛び降りたりしないよね……？")
+   0()
+  EndIf()
+  If(4,202,0)
+   ShowMessageFace("bonny_fc1",2,0,2,4)
+   ShowMessage("【ボニー】")
+   ShowMessage("し、下を見てはならん……見てはならんぞ……")
+   If(4,201,0)
+    ShowMessageFace("ashel_fc1",0,0,2,5)
+    ShowMessage("【アシェル】")
+    ShowMessage("お嬢……高所恐怖症なんだから、無理をしなくても。")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  ShowMessageFace("",0,0,2,6)
+  ShowMessage("【船長】")
+  ShowMessage("よし！　野郎共、イカリを下ろせ！")
+  ShowMessageFace("sonia_fc3",7,0,2,7)
+  ShowMessage("【ソニア】")
+  ShowMessage("ここでイカリを？")
+  ShowMessage("湖といっても、かなり水深があるんでしょ……？")
+  ShowMessageFace("",0,0,2,8)
+  ShowMessage("船員達は、大きな機械に取り付けられたイカリを湖底へと発射した。")
+  ShowMessage("それは、まるで捕鯨に使う巨大な銛のようだ――")
+  ShowMessageFace("",0,0,2,9)
+  ShowMessage("【船員Ａ】")
+  ShowMessage("1番イカリ、湖底に着錨！")
+  ShowMessageFace("",0,0,2,10)
+  ShowMessage("【船員Ｂ】")
+  ShowMessage("2番イカリも、オッケーだぜ！")
+  ShowMessageFace("",0,0,2,11)
+  ShowMessage("【船員Ｃ】")
+  ShowMessage("3番、4番も問題なしだ！")
+  ShowMessageFace("alice_fc1",0,0,2,12)
+  ShowMessage("【アリス】")
+  ShowMessage("なんと、ここまで強固なイカリで船を固定するとは……")
+  ShowMessageFace("",0,0,2,13)
+  ShowMessage("【船長】")
+  ShowMessage("これで、船はほとんど揺れません。")
+  ShowMessage("サン・イリアから供出された機械技術の代物ですよ。")
+  ShowMessageFace("",0,0,2,14)
+  ShowMessage("【船長】")
+  ShowMessage("よぉし、次はハシゴを下ろすんだ！")
+  ShowMessageFace("",0,0,2,15)
+  ShowMessage("【船員Ａ】")
+  ShowMessage("へいっ！")
+  ShowMessageFace("",0,0,2,16)
+  ShowMessage("船の右舷から、縄ハシゴが投下される。")
+  ShowMessage("それはタルタロスの奥底まで吸い込まれていった――")
+  ShowMessageFace("",0,0,2,17)
+  ShowMessage("【船長】")
+  ShowMessage("船の固定は完全ですので、縄梯子に揺れは伝わりません。")
+  ShowMessage("とは言え、足元には注意して下さいね。")
+  ShowMessageFace("alice_fc1",2,0,2,18)
+  ShowMessage("【アリス】")
+  ShowMessage("うむ、世話になったな。")
+  ShowMessage("よし、下に降りるぞ！")
+  ShowMessageFace("ruka_fc1",0,0,2,19)
+  ShowMessage("【ルカ】")
+  ShowMessage("さあ、行こう！")
+  If(4,202,0)
+   ShowMessageFace("bonny_fc1",2,0,2,20)
+   ShowMessage("【ボニー】")
+   ShowMessage("この高さを、縄梯子で降りるのか……")
+   ShowMessage("ううー！！")
+   If(4,201,0)
+    ShowMessageFace("ashel_fc1",0,0,2,21)
+    ShowMessage("【アシェル】")
+    ShowMessage("ほら、命綱を結んであげますから……")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(4,103,0)
+   ShowMessageFace("kamuro_fc1",2,0,2,22)
+   ShowMessage("【かむろ】")
+   ShowMessage("これ、足を滑らせたら真っ逆さまじゃないですか……？")
+   0()
+  EndIf()
+  If(4,83,0)
+   ShowMessageFace("hapy_a_fc1",2,0,2,23)
+   ShowMessage("【レイナ】")
+   ShowMessage("あたしは、飛べるからいいけど……")
+   ShowMessage("他の人には、なかなかきついよね。")
+   0()
+  EndIf()
+  If(4,348,0)
+   ShowMessageFace("kyoryuu_fc1",2,0,2,24)
+   ShowMessage("【ぎが】")
+   ShowMessage("はしごおりるの、むずかしい……")
+   0()
+  EndIf()
+  If(4,383,0)
+   ShowMessageFace("eden_fc1",0,0,2,25)
+   ShowMessage("【エデン】")
+   ShowMessage("足を滑らせても、大丈夫です。")
+   ShowMessage("私が即座に受け止めましょう……")
+   0()
+  EndIf()
+  242(1)
+  221()
+  ShowMessageFace("",0,0,2,26)
+  ShowMessage("こうして僕達は、用心しつつ縄梯子を下りていった。")
+  ShowMessage("そして、前人未踏だったエスタのタルタロスに降り立ったのである――")
+  Wait(60)
+  ChangeSwitch(100,100,0)
+  ChangeSwitch(5324,5324,0)
+  211(1)
+  TeleportPlayer(0,392,49,5,2,2)
+  222()
+  ShowMessageFace("alice_fc1",0,0,2,27)
+  ShowMessage("【アリス】")
+  ShowMessage("ここが、天界へと繋がるタルタロスか……")
+  ShowMessageFace("sonia_fc2",2,0,2,28)
+  ShowMessage("【ソニア】")
+  ShowMessage("正直、すっかり見慣れた光景よね。")
+  ShowMessage("なんだか懐かしいくらいよ……")
+  ShowMessageFace("nuruko_fc1",0,0,2,29)
+  ShowMessage("【ヌルコ】")
+  ShowMessage("きゅーっ！")
+  ShowMessageFace("alice_fc1",0,0,2,30)
+  ShowMessage("【アリス】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,31)
+  ShowMessage("その時――")
+  ShowMessage("頭の中に、聞いたことのある声が届いた。")
+  ShowMessageFace("tamamo_fc3",0,0,2,32)
+  ShowMessage("【玉藻】")
+  ShowMessage("ふむ、タルタロスまで着いたようじゃのう。")
+  ShowMessageFace("alice_fc2",1,0,2,33)
+  ShowMessage("【アリス】")
+  ShowMessage("これは……玉藻の声か！？")
+  ShowMessageFace("tamamo_fc3",0,0,2,34)
+  ShowMessage("【玉藻】")
+  ShowMessage("言ったであろう、お主達の戦いをサポートすると。")
+  ShowMessage("ウチの思念、異世界にまで通じるのは知っておるはず。")
+  ShowMessageFace("tamamo_fc3",0,0,2,35)
+  ShowMessage("【玉藻】")
+  ShowMessage("限定的だが、魔力も及ぼす事ができる。")
+  ShowMessage("短期間ながら肉体の転送も可能よ……")
+  ShowMessageFace("alice_fc1",0,0,2,36)
+  ShowMessage("【アリス】")
+  ShowMessage("グランゴルドの一件で、身に染みて知っているわ。")
+  ShowMessage("その力、せいぜい役立ててもらうぞ。")
+  ShowMessageFace("tamamo_fc3",0,0,2,37)
+  ShowMessage("【玉藻】")
+  ShowMessage("だが、肉体の転送は乱用できんぞ。")
+  ShowMessage("あれは、多大な魔力を消費するのでな……")
+  ShowMessageFace("tamamo_fc3",0,0,2,38)
+  ShowMessage("【玉藻】")
+  ShowMessage("ウチが自ら出向くのは、肝心要の切り札だと知れ。")
+  ShowMessageFace("lilith2_fc1",0,0,2,39)
+  ShowMessage("【リリス】")
+  ShowMessage("もちろん、存じております。")
+  ShowMessage("私達が、ルカ一行の力となりましょう……")
+  If(4,382,0)
+   ShowMessageFace("morrigan_fc1",0,0,2,40)
+   ShowMessage("【モリガン】")
+   ShowMessage("任せておいてくれよ、玉藻様。")
+   ShowMessage("でも、あんまり口出しはナシで頼むぜ！")
+   If(4,394,0)
+    ShowMessageFace("astaroth_fc1",4,0,2,41)
+    ShowMessage("【アスタロト】")
+    ShowMessage("モリガン、口を慎みなさい……")
+    ShowMessage("我々は玉藻様の手下ではないけど、今作戦の司令官なのよ。")
+    ShowMessageFace("morrigan_fc1",6,0,2,42)
+    ShowMessage("【モリガン】")
+    ShowMessage("は～い……")
+    ShowMessageFace("tamamo_fc3",0,0,2,43)
+    ShowMessage("【玉藻】")
+    ShowMessage("まったく、御しがたいジャジャ馬三姉妹よ。")
+    ShowMessage("だが、魔界ではそれくらい鼻息の荒い方が良いかもしれん。")
+    ShowMessageFace("astaroth_fc1",3,0,2,44)
+    ShowMessage("【アスタロト】")
+    ShowMessage("（私は妹を諫めたのに……")
+    ShowMessage("　ジャジャ馬三姉妹の枠に入れられている……）")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  ShowMessageFace("tamamo_fc3",0,0,2,45)
+  ShowMessage("【玉藻】")
+  ShowMessage("では、行くが良い。")
+  ShowMessage("ウチは常に見守っておるぞ……")
+  ShowMessageFace("",0,0,2,46)
+  ShowMessage("玉藻からの通信は切れたようだ……")
+  ShowMessageFace("alice_fc1",0,0,2,47)
+  ShowMessage("【アリス】")
+  ShowMessage("ふん……見張っている、の間違いではないのか。")
+  ShowMessage("きつねめ……")
+  If(4,382,0)
+   ShowMessageFace("morrigan_fc1",3,0,2,48)
+   ShowMessage("【モリガン】")
+   ShowMessage("間違いなく、常時監視付きだぜ。")
+   ShowMessage("しばらくは、ぐっすり眠れないなぁ……")
+   If(4,394,0)
+    ShowMessageFace("astaroth_fc1",0,0,2,49)
+    ShowMessage("【アスタロト】")
+    ShowMessage("あなたは、いつでもぐっすり寝てるでしょう……")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,50)
+  ShowMessage("【ルカ】")
+  ShowMessage("まあ、今後は味方なんだから心強いじゃないか。")
+  ShowMessage("さあ、行こう！")
+  ShowMessageFace("",0,0,2,51)
+  ShowMessage("ここを抜けた先が、女神イリアスの支配する天界――")
+  ShowMessage("いよいよ、これから敵地に乗り込む事になるのだ。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()

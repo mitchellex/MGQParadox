@@ -1,0 +1,14 @@
+﻿// EVENT 0010
+Name "難易度一時固定開始"
+
+If(1,902,0,-1,2)
+ ChangeSwitch(23,23,0)
+ ShowMessageFace("",0,0,2,1)
+ ShowMessage("この敵とはEASY以下の難易度では戦えません。")
+ ShowMessage("この戦闘のみ、一時的に難易度がNORMALになります。")
+ ChangeVariable(908,908,0,1,902)
+ ChangeVariable(902,902,0,0,0)
+ RunCommonEvent(112)
+ 0()
+EndIf()
+0()

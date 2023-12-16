@@ -1,0 +1,307 @@
+﻿
+DisplayName "管理者の塔 B1F"
+
+
+
+EVENT   1
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,167,12,45,2,0)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  PictureDisplay(5,"80_radio_st01",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("radio_fc1",0,0,2,1)
+  ShowMessage("【ラディオ】")
+  ShowMessage("こちらは、地下室デす……")
+  ShowMessage("マスターはこちらではあリマせん……")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc2",2,0,2,2)
+   ShowMessage("【ソニア】")
+   ShowMessage("ここは、何に使われてたんだろ……？")
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,3)
+   ShowMessage("【ルカ】")
+   ShowMessage("ここは、何に使われてたんだろう……")
+   0()
+  EndIf()
+  ShowMessageFace("radio_fc1",0,0,2,4)
+  ShowMessage("【ラディオ】")
+  ShowMessage("捕獲したアポトーシスを、研究してイマした……")
+  ShowMessage("初期型のアポトーシスは、捕獲は難しクアリマせん……")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,5)
+   ShowMessage("【アリス】")
+   ShowMessage("研究だと……？")
+   ShowMessage("それも、ここのマスターとやらの仕業か……")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,6)
+   ShowMessage("【イリアス】")
+   ShowMessage("研究……？")
+   ShowMessage("ここのマスターとやらが、アポトーシスを研究していた……")
+   0()
+  EndIf()
+  If(4,41,0)
+   ShowMessageFace("stein_fc2",1,0,2,7)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("その研究成果、ぜひ見てみたいですね……")
+   0()
+  EndIf()
+  ShowMessageFace("radio_fc1",0,0,2,8)
+  ShowMessage("【ラディオ】")
+  ShowMessage("もうヒトつ、追加事項です。")
+  ShowMessage("この階の壺は全てトラップでスノで、お気を付けくダサい……")
+  PictureClear(5)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺は蜜壺だった！")
+  Battle(0,269,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(32,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(41,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()

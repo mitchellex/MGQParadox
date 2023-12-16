@@ -1,0 +1,232 @@
+﻿
+
+
+EVENT   1
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("同時刻、魔城トゥーロマンサ――")
+  PictureDisplay(5,"80_muzet_st01",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("muzet_fc1",0,0,2,2)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("ついに、七人の勇者が揃ってしまったようね。")
+  ShowMessage("おめおめと連中の集結を許すなんて……")
+  ShowMessageFace("myuska_fc1",5,0,2,3)
+  ShowMessage("【ミュスカ】")
+  ShowMessage("餌は、たくさんある方が嬉しいけどなぁ。")
+  ShowMessage("よりどりみどり、食べ放題……♪")
+  ShowMessageFace("executioner_fc1",1,0,2,4)
+  ShowMessage("【エクスキューショナー】")
+  ShowMessage("美味しそうなの、いっぱいいたよね～♪")
+  ShowMessageFace("muzet_fc1",0,0,2,5)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("まともに働いたのは、私達だけなのかしら。")
+  ShowMessage("巫女を捕らえ、魔城の召喚を果たして――")
+  ShowMessageFace("ogretooth_fc1",2,0,2,6)
+  ShowMessage("【オーガトゥース】")
+  ShowMessage("俺達が、働いてないって言いたいのか？")
+  ShowMessage("村を堕として、夢の勢力を広げたのは誰だと思ってやがる！？")
+  ShowMessageFace("fulbeua_fc1",0,0,2,7)
+  ShowMessage("【フルビュア】")
+  ShowMessage("褒めてほしいのかしら、ミュゼット？")
+  ShowMessage("この私のために魔城を召喚して、大儀だったわね。")
+  ShowMessageFace("muzet_fc1",0,0,2,8)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("誰が、あなたの為など……")
+  ShowMessage("全て、グランドノアの支配を譲り受けるためよ。")
+  ShowMessageFace("mistilteinn_fc1",0,0,2,9)
+  ShowMessage("【ミステルテイン】")
+  ShowMessage("グランドノア一国のみで満足するのですか？")
+  ShowMessage("欲しいのは世界の全てだと思っておりましたが……")
+  ShowMessageFace("muzet_fc1",0,0,2,10)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("あなた達三姉妹こそ、本当は何を求めているの？")
+  ShowMessage("「夢の主」のために働いている、などとは言わせないわよ。")
+  ShowMessageFace("vinum_fc1",0,0,2,11)
+  ShowMessage("【ヴィヌム】")
+  ShowMessage("「夢の主」のために尽くしている者など、ここにはおるまい。")
+  ShowMessage("我々の間に主従はない――それゆえの同盟者よ。")
+  ShowMessageFace("mistilteinn_fc1",0,0,2,12)
+  ShowMessage("【ミステルテイン】")
+  ShowMessage("私達は、組織でもなければ共同体でもない……")
+  ShowMessage("志さえ異なる、寄り合い所帯。")
+  ShowMessageFace("fulbeua_fc1",0,0,2,13)
+  ShowMessage("【フルビュア】")
+  ShowMessage("みな、結局は心の求めに従って動く――")
+  ShowMessage("「夢の主」、エスト・モルンも承知のはず。")
+  ShowMessageFace("fulbeua_fc1",0,0,2,14)
+  ShowMessage("【フルビュア】")
+  ShowMessage("彼女は、それさえ愉しんでいるのよ。")
+  ShowMessage("皆が何かを求め、夢を追うその様を……")
+  ShowMessageFace("nemea_fc1",0,0,2,15)
+  ShowMessage("【ネメア】")
+  ShowMessage("ゆえに「夢の主」は、何をも命令しないわ。")
+  ShowMessage("「夜の国」の侵蝕さえ、各々の欲望に任せて……")
+  ShowMessageFace("muzet_fc1",0,0,2,16)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("それがゆえ、話がまとまらないのが困りものね。")
+  ShowMessage("勇者達の対処は、誰がどうするというの？")
+  PictureDisplay(5,"80_fulbeua_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("fulbeua_fc1",0,0,2,17)
+  ShowMessage("【フルビュア】")
+  ShowMessage("……私は、常に玉座の上にあるわ。")
+  ShowMessage("向こうから、この私を求めに来るはずよ。")
+  PictureDisplay(5,"80_myuska_st11",0,0,-200,0,100,100,255,0)
+  PictureDisplay(6,"80_nemea_st01",0,0,15,0,100,100,255,0)
+  PictureDisplay(7,"80_vinum_st01",0,0,250,0,100,100,255,0)
+  ShowMessageFace("vinum_fc1",0,0,2,18)
+  ShowMessage("【ヴィヌム】")
+  ShowMessage("我々三人は、今まで通り「夜の国」を広げようぞ。")
+  ShowMessage("町や村の人間達を、快楽の夢に堕として――")
+  PictureDisplay(5,"80_executioner_st01",0,0,70,-50,70,70,255,0)
+  PictureDisplay(6,"80_ogretooth_st01",0,0,-150,80,100,100,255,0)
+  PictureDisplay(7,"80_mistilteinn_st01",0,0,280,130,80,80,255,0)
+  ShowMessageFace("ogretooth_fc1",0,0,2,19)
+  ShowMessage("【オーガトゥース】")
+  ShowMessage("俺達は、今度こそ勇者どもを叩きのめすぜ！")
+  ShowMessage("そうだよな、姉貴！？")
+  ShowMessageFace("mistilteinn_fc1",0,0,2,20)
+  ShowMessage("【ミステルテイン】")
+  ShowMessage("ええ……オーガの言う通り。")
+  ShowMessage("あの者達には、少々ながら借りがあるもので。")
+  PictureClear(6)
+  PictureClear(7)
+  PictureDisplay(5,"80_muzet_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("muzet_fc1",0,0,2,21)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("結局、みんな思い思いの行動を取るようね。")
+  ShowMessage("まあ勇者達を始末するのは、私なのだけれど……")
+  ShowMessageFace("muzet_fc1",0,0,2,22)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("（そして次に、この連中を――）")
+  PictureDisplay(5,"80_vinum_st03",0,0,0,0,100,100,255,0)
+  ShowMessageFace("vinum_fc1",2,0,2,23)
+  ShowMessage("【ヴィヌム】")
+  ShowMessage("（最終的に、我々の排除を目論んでこよう。")
+  ShowMessage("　深い干渉は避けた方が得策よ――）")
+  PictureDisplay(5,"80_mistilteinn_st31",0,0,0,0,100,100,255,0)
+  ShowMessageFace("mistilteinn_fc1",0,0,2,24)
+  ShowMessage("【ミステルテイン】")
+  ShowMessage("（我々の目的は、「あれ」を手に入れること。")
+  ShowMessage("　邪魔をするなら、何者であろうと始末するのみ――）")
+  PictureDisplay(5,"80_fulbeua_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("fulbeua_fc1",0,0,2,25)
+  ShowMessage("【フルビュア】")
+  ShowMessage("ふふ、醜い思惑が絡み合う中で……")
+  ShowMessage("この私の美貌は、自ずと輝きを増すものよ。")
+  PictureDisplay(5,"80_muzet_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("muzet_fc1",0,0,2,26)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("まったく、よくここまで曲者が集まったわね。")
+  ShowMessage("我々の前に、一度も顔を出していない者までいる始末……")
+  ShowMessageFace("muzet_fc1",0,0,2,27)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("あの女狐、どこで何をしているのかしら――")
+  PictureClear(5)
+  ChangeVariable(1210,1210,0,0,4)
+  Wait(60)
+  242(2)
+  221()
+  Wait(120)
+  PictureDisplay(5,"iv_chapter11",0,0,0,0,100,100,255,0)
+  222()
+  Wait(180)
+  221()
+  PictureClear(5)
+  Wait(120)
+  ChangeSwitch(100,100,1)
+  ChangeVariable(1211,1211,0,0,1)
+  ChangeVariable(21,21,0,0,2)
+  ChangeVariable(22,22,0,0,328)
+  ChangeVariable(23,23,0,0,188)
+  ChangeSwitch(2912,2912,0)
+  ChangeSwitch(31,39,1)
+  ChangeVariable(1002,1002,0,0,43)
+  211(1)
+  TeleportPlayer(0,228,24,33,2,2)
+  222()
+  Wait(60)
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",2,0,2,28)
+   ShowMessage("【アリス】")
+   ShowMessage("グランドノア城は、異世界の魔城トゥーロマンサと化した……")
+   ShowMessage("決戦の舞台は、そこだ。")
+   ShowMessageFace("alice_fc5",0,0,2,29)
+   ShowMessage("【アリス】")
+   ShowMessage("魔城に接近すれば、作戦開始だ。")
+   ShowMessage("言うまでもないが、準備は万全にしておけよ。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,30)
+   ShowMessage("【イリアス】")
+   ShowMessage("グランドノア城は、異世界の魔城トゥーロマンサと化し――")
+   ShowMessage("そこが、決戦の舞台となります。")
+   ShowMessageFace("iriasu_fc4",7,0,2,31)
+   ShowMessage("【イリアス】")
+   ShowMessage("魔城に接近すれば、作戦開始となります。")
+   ShowMessage("言うまでもないですが、準備は万全にしておきなさい。")
+   0()
+  EndIf()
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()

@@ -1,0 +1,322 @@
+﻿
+
+
+EVENT   1
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,300,16,25,0,0)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,300,39,33,0,0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,300,7,46,0,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,300,49,46,0,0)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  ShowMessageFace("kunoitielf2_fc1",0,0,2,1)
+  ShowMessage("【くのいちエルフ】")
+  ShowMessage("ここが村で唯一の道具屋よ。")
+  ShowMessage("とっても優れたアクセサリも扱っているわ。")
+  Shop(0,2,0,0,false)
+  605(0,4,0,0)
+  605(0,7,0,0)
+  605(0,11,0,0)
+  605(0,13,0,0)
+  605(0,14,0,0)
+  605(0,15,0,0)
+  605(0,16,0,0)
+  605(0,17,0,0)
+  605(0,18,0,0)
+  605(0,19,0,0)
+  605(0,20,0,0)
+  605(0,21,0,0)
+  605(0,23,0,0)
+  605(0,35,0,0)
+  605(0,102,0,0)
+  605(0,109,0,0)
+  605(0,110,0,0)
+  605(2,1186,0,0)
+  605(2,1092,0,0)
+  605(2,1096,0,0)
+  605(2,1717,0,0)
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  ShowMessageFace("kunoitielf2_fc1",2,0,2,1)
+  ShowMessage("【くのいちエルフ】")
+  ShowMessage("武器も防具も売り切れよ……")
+  ShowMessage("ここにあるのは、ハリボテの展示品ね。")
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  ShowMessageFace("kunoitielf2_fc3",2,0,2,1)
+  ShowMessage("【くのいちエルフ】")
+  ShowMessage("急に厳戒態勢になったから、武具が不足してるの。")
+  ShowMessage("この店でも売り切れよ……")
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  ShowMessageFace("kunoitielf2_fc1",0,0,2,1)
+  ShowMessage("【くのいちエルフ】")
+  ShowMessage("ここが、里で唯一の宿よ。")
+  ShowMessage("10Gになるけど、泊まっていく？\\$")
+  ShowChoices(strings("はい","いいえ"),2)
+  IfPlayerPicksChoice(0,null)
+   If(7,10,0)
+    125(1,0,10)
+    221()
+    249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x08,0x49,0x6e,0x6e,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+    Wait(150)
+    314(0,0)
+    222()
+    0()
+   Else()
+    ShowMessageFace("kunoitielf2_fc1",0,0,2,2)
+    ShowMessage("【くのいちエルフ】")
+    ShowMessage("お金が足りないわね……")
+    0()
+   EndIf()
+   0()
+  IfPlayerPicksChoice(1,null)
+   0()
+  404()
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  If(1,1138,0,6,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【くのいちエルフ】")
+   ShowMessage("急な戦闘招集で、大わらわよ。")
+   ShowMessage("薬やら武器やら、必要な品を揃えないと……")
+   0()
+  EndIf()
+  If(1,1138,0,7,1)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【くのいちエルフ】")
+   ShowMessage("結局、戦争が起きなくて助かったわ。")
+   ShowMessage("エルフ姫が、脅威の根を断ってくれたのね……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  If(1,1138,0,6,2)
+   ShowMessageFace("kuno_succubus_fc1",0,0,2,1)
+   ShowMessage("【くのいちサキュバス】")
+   ShowMessage("大きな戦いの前には、遺書をしたためる……")
+   ShowMessage("そのくらいの覚悟で、戦場に行くのさ。")
+   0()
+  EndIf()
+  If(1,1138,0,7,1)
+   ShowMessageFace("kuno_succubus_fc1",0,0,2,2)
+   ShowMessage("【くのいちサキュバス】")
+   ShowMessage("先に書いた遺書、無駄になっちゃったねぇ。")
+   ShowMessage("まあ、次の戦いがあったら再利用するさ。")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  If(1,1138,0,6,2)
+   ShowMessageFace("kuno_scylla_fc1",0,0,2,1)
+   ShowMessage("【くのいちスキュラ】")
+   ShowMessage("今度の敵は、魔王軍という情報を掴んだわ。")
+   ShowMessage("エルフ姫と近しい幹部から聞いた話よ。")
+   ShowMessageFace("kuno_scylla_fc1",0,0,2,2)
+   ShowMessage("【くのいちスキュラ】")
+   ShowMessage("まさか、魔王への反乱を起こすつもりなの……？")
+   ShowMessage("エルフ姫は、いったい何を考えているのかしら……")
+   0()
+  EndIf()
+  If(1,1138,0,7,1)
+   ShowMessageFace("kuno_scylla_fc1",0,0,2,3)
+   ShowMessage("【くのいちスキュラ】")
+   ShowMessage("今度の敵は、魔王軍という情報があったんだけど……")
+   ShowMessage("魔王は魔王でも、黒のアリスの間違いだったみたいね。")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  ShowMessageFace("kuno_hapy_fc1",0,0,2,1)
+  ShowMessage("【くのいちハーピー】")
+  ShowMessage("私たちは、くのいち四姉妹（義理）！")
+  ShowMessage("生まれし時は違えども、死ぬ時は一緒よ！")
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  ShowMessageFace("kuno_arachne_fc1",0,0,2,1)
+  ShowMessage("【くのいちアラクネ】")
+  ShowMessage("エルフ姫は、武芸百般。")
+  ShowMessage("刀を持てば無双、槍術も弓術も天下一品……")
+  ShowMessageFace("kuno_arachne_fc1",0,0,2,2)
+  ShowMessage("【くのいちアラクネ】")
+  ShowMessage("まさしく、最強の引きこもり。")
+  ShowMessage("姫を部屋から引きずり出せる者はいないわ。")
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【エルフ】")
+  ShowMessage("ああ、忙しい忙しい……")
+  ShowMessage("バトルファックなら、あっちの部屋の娘とやってね。")
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("がんばって、ここまで来てみたよ♪")
+  ShowMessage("旅のゴールまで、あと少し！")
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("ゴールも間近だね。")
+  ShowMessage("あたし達の冒険も、そろそろ終わりかな……？")
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  If(1,1138,0,6,2)
+   ShowMessageFace("youko_fc1",0,0,2,1)
+   ShowMessage("【枕流漱石】")
+   ShowMessage("なんだか、里が物々しいね。")
+   ShowMessage("面倒な時に、遊びに来ちゃったなぁ……")
+   0()
+  EndIf()
+  If(1,1138,0,7,1)
+   ShowMessageFace("youko_fc1",0,0,2,2)
+   ShowMessage("【枕流漱石】")
+   ShowMessage("あたし、自分の名前を漢字で書けないんだよ。")
+   ShowMessage("どういう意味かも知らない。")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  If(1,1138,0,6,2)
+   ShowMessageFace("mametanuki_fc1",0,0,2,1)
+   ShowMessage("【豆狸】")
+   ShowMessage("たぬきの毒消し薬を納入に来たんだけど……")
+   ShowMessage("戦いに巻き込まれちゃったらイヤだなぁ。")
+   0()
+  EndIf()
+  If(1,1138,0,7,1)
+   ShowMessageFace("mametanuki_fc1",0,0,2,2)
+   ShowMessage("【豆狸】")
+   ShowMessage("ゴタゴタも収まったみたいで、商談も無事に済んだよ。")
+   ShowMessage("もう少しだけ、この里でゆっくりして行こうかな。")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(405,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺はマジックポットだった！")
+  Battle(0,1450,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  RunCommonEvent(7371)
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  ShowMessageFace("kunoitielf2_fc1",0,0,2,1)
+  ShowMessage("【くのいちエルフ】")
+  ShowMessage("会心回避能力って、会心の一撃を回避するわけじゃないの。")
+  ShowMessage("会心の一撃を、普通の攻撃として受けるのよ。")
+  ShowMessageFace("kunoitielf2_fc1",0,0,2,2)
+  ShowMessage("【くのいちエルフ】")
+  ShowMessage("上位の強敵は、効果の高い会心回避能力を持っているわ。")
+  ShowMessage("ボス戦で会心の一撃が出にくいのは、それが原因なのよ。")
+  0()

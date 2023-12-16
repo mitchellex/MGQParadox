@@ -1,0 +1,635 @@
+﻿
+DisplayName "おさかな号 1F"
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  0()
+
+
+
+EVENT   48
+ PAGE   1
+  0()
+
+
+
+EVENT   49
+ PAGE   1
+  0()
+
+
+
+EVENT   50
+ PAGE   1
+  0()
+
+
+
+EVENT   51
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,696,12,32,0,0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   52
+ PAGE   1
+  281(0)
+  If(6,-1,2)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   TeleportPlayer(0,696,20,16,0,0)
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   53
+ PAGE   1
+  Wait(60)
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",2,0,2,1)
+   ShowMessage("【アリス】")
+   ShowMessage("さあ、海賊との対決だ！")
+   ShowMessage("気を抜くな、間抜けな連中だが腕は立つぞ！")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,2)
+   ShowMessage("【イリアス】")
+   ShowMessage("さあ、海賊狩りの時間です！")
+   ShowMessage("あまさず海に叩き込んでやりましょう！")
+   0()
+  EndIf()
+  If(4,129,0)
+   ShowMessageFace("brunhild_fc1",0,0,2,3)
+   ShowMessage("【ヒルデ】")
+   ShowMessage("戦闘行動、開始……")
+   0()
+  EndIf()
+  If(4,185,0)
+   ShowMessageFace("radio_fc1",0,0,2,4)
+   ShowMessage("【ラディオ】")
+   ShowMessage("弾丸のお届けモのデす……")
+   ShowMessage("大人しく往生しナサい……")
+   0()
+  EndIf()
+  ShowMessageFace("k_mermaid_fc1",2,0,2,5)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("敵襲！　敵襲だよ～！")
+  ChangeSwitch(81,81,0)
+  Battle(0,581,false,false)
+  ChangeSwitch(81,81,1)
+  ChangeSelfSwitch("A",0)
+  ShowMessageFace("k_mermaid_fc1",2,0,2,6)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("ひどいよぉ……")
+  ShowMessageFace("tatunoko_k_fc1",1,0,2,7)
+  ShowMessage("【たつこ】")
+  ShowMessage("やっつけたのです！　逮捕するのです！")
+  ShowMessageFace("umiusi_k_fc1",1,0,2,8)
+  ShowMessage("【ステイシー】")
+  ShowMessage("このまま、海賊を倒しながら船長室をめざしましょう！")
+  ShowMessage("ボニー船長を倒し、船を制圧するのです！")
+  If(4,164,0)
+   ShowMessageFace("kooni_fc1",3,0,2,9)
+   ShowMessage("【雫】")
+   ShowMessage("よ～し、いっくよ～！")
+   0()
+  EndIf()
+  If(4,167,0)
+   ShowMessageFace("lusia_fc1",0,0,2,10)
+   ShowMessage("【ルシア】")
+   ShowMessage("無頼の輩、打ち倒します！")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   54
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【補給たつのこ】")
+  ShowMessage("物資を補給するのです！")
+  ShowMessage("転職の書も持ってきているのです！")
+  ShowChoices(strings("全回復","物資の購入","転職の書","用はない"),4)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,2)
+   ShowMessage("【補給兵】")
+   ShowMessage("薬草と霊薬の詰め合わせなのです！")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x48,0x65,0x61,0x6c,0x37,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   224(bytes(0x04,0x08,0x75,0x3a,0x0a,0x43,0x6f,0x6c,0x6f,0x72,0x25,0x00,0x00,0x00,0x00,0x00,0xe0,0x6f,0x40,0x00,0x00,0x00,0x00,0x00,0xe0,0x6f,0x40,0x00,0x00,0x00,0x00,0x00,0xe0,0x6f,0x40,0x00,0x00,0x00,0x00,0x00,0xe0,0x6f,0x40),30,true)
+   314(0,0)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("ルカ達のHPとMPが全快した！")
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   Shop(0,2,0,0,false)
+   605(0,7,0,0)
+   605(0,11,0,0)
+   605(0,13,0,0)
+   605(0,14,0,0)
+   605(0,15,0,0)
+   605(0,16,0,0)
+   605(0,17,0,0)
+   605(0,18,0,0)
+   605(0,19,0,0)
+   605(0,23,0,0)
+   605(0,35,0,0)
+   605(0,102,0,0)
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(2,null)
+   RunCommonEvent(113)
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(3,null)
+   EndEventProcessing()
+   0()
+  404()
+  0()
+
+
+
+EVENT   56
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("右舷、異常なし！")
+  ShowMessageFace("k_mermaid_fc1",2,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("……って、なんなのこれ！？")
+  ShowMessage("敵襲じゃない！？")
+  If(4,101,0)
+   ShowMessageFace("cent2_fc1",0,0,2,3)
+   ShowMessage("【リヒティーヌ】")
+   ShowMessage("行くわよ、海賊っ！")
+   0()
+  EndIf()
+  ChangeSwitch(81,81,0)
+  Battle(0,581,false,false)
+  ChangeSwitch(81,81,1)
+  ChangeSelfSwitch("A",0)
+  ShowMessageFace("k_mermaid_fc1",2,0,2,4)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("うっかり見逃しちゃった……")
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   57
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("大砲がちゃんと撃てれば、簡単に乗り込まれなかったのに……")
+  ShowMessage("こうなったら、白兵戦だよっ！")
+  If(4,99,0)
+   ShowMessageFace("namazu_fc1",0,0,2,2)
+   ShowMessage("【ギギ】")
+   ShowMessage("若造が、年季の違いを思い知らせてくれる！")
+   0()
+  EndIf()
+  ChangeSwitch(81,81,0)
+  Battle(0,581,false,false)
+  ChangeSwitch(81,81,1)
+  ChangeSelfSwitch("A",0)
+  ShowMessageFace("k_mermaid_fc1",2,0,2,3)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("大砲……")
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   55
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("観念するのです！")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("負けないからねー！")
+  0()
+
+
+
+EVENT   65
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("観念するのです！")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("負けないからねー！")
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("御用なのです！")
+  ShowMessageFace("k_mermaid_fc1",2,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("この人数差はヒキョーでしょ！")
+  0()
+
+
+
+EVENT   62
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("御用なのです！")
+  ShowMessageFace("k_mermaid_fc1",2,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("この人数差はヒキョーでしょ！")
+  0()
+
+
+
+EVENT   66
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("御用なのです！")
+  ShowMessageFace("k_mermaid_fc1",2,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("この人数差はヒキョーでしょ！")
+  0()
+
+
+
+EVENT   67
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("御用なのです！")
+  ShowMessageFace("k_mermaid_fc1",2,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("この人数差はヒキョーでしょ！")
+  0()
+
+
+
+EVENT   58
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",0,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("ここは大丈夫です、任せて下さい！")
+  ShowMessageFace("k_mermaid_fc1",2,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("ま、負けてる……！？")
+  0()
+
+
+
+EVENT   59
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",0,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("ここは大丈夫です、任せて下さい！")
+  ShowMessageFace("k_mermaid_fc1",2,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("ま、負けてる……！？")
+  0()
+
+
+
+EVENT   60
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("まったくの互角なのです！")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("このー！")
+  0()
+
+
+
+EVENT   64
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("まったくの互角なのです！")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,2)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("このー！")
+  0()
+
+
+
+EVENT   63
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("討ち入り上等！　いっくよー！")
+  If(4,140,0)
+   ShowMessageFace("taran_fc1",1,0,2,2)
+   ShowMessage("【ラチュラ】")
+   ShowMessage("ぐるぐる巻きにして、お縄よ！")
+   0()
+  EndIf()
+  ChangeSwitch(81,81,0)
+  Battle(0,581,false,false)
+  ChangeSwitch(81,81,1)
+  ChangeSelfSwitch("A",0)
+  ShowMessageFace("k_mermaid_fc1",2,0,2,3)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("負けちゃった……")
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()

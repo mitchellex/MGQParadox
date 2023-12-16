@@ -1,0 +1,5 @@
+﻿// EVENT 1539
+Name "会話：グノーシス"
+
+RunCommonEvent(1223)
+0()

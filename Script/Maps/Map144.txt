@@ -1,0 +1,1236 @@
+﻿
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,143,5,28,0,0)
+  216(0)
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,143,29,33,0,0)
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,143,45,34,0,0)
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,143,24,34,0,0)
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,143,19,49,0,0)
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,143,37,51,0,0)
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,144,41,28,0,0)
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,144,42,28,0,0)
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,144,41,6,0,0)
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,144,42,6,0,0)
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【夫婦のアクセサリ屋】")
+  ShowMessage("いらっしゃいませ、旅の方。")
+  ShowMessage("うちのアクセサリは、ピンチの時に役立ちますよ。")
+  Shop(2,1055,0,0,false)
+  605(2,1060,0,0)
+  605(2,1065,0,0)
+  605(2,1107,0,0)
+  605(2,1109,0,0)
+  605(2,1120,0,0)
+  605(2,1146,0,0)
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  If(1,1067,0,1,0)
+   PictureDisplay(5,"80_serene_st01",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+   ShowMessageFace("serene_fc1",0,0,2,1)
+   ShowMessage("【セレナ】")
+   ShowMessage("伝説の海賊キャプテン・セレーネが残した最後の秘宝……")
+   ShowMessage("ぜひ手にしたくはないかしら？")
+   If(0,2149,0)
+    ShowMessageFace("bonny_fc1",1,0,2,2)
+    ShowMessage("【ボニー】")
+    ShowMessage("キャプテン・セレーネの秘宝！")
+    ShowMessage("もちろん欲しいぞ！")
+    ShowMessageFace("ashel_fc1",0,0,2,3)
+    ShowMessage("【アシェル】")
+    ShowMessage("お嬢、こういう時に使うことわざは何ですか？")
+    ShowMessageFace("bonny_fc1",0,0,2,4)
+    ShowMessage("【ボニー】")
+    ShowMessage("「喉から手が出るほど欲しい」、だ！")
+    ShowMessage("こんな時までことわざクイズをやるな！")
+    If(0,4,0)
+     ShowMessageFace("alice_fc5",3,0,2,5)
+     ShowMessage("【アリス】")
+     ShowMessage("（余もたまもにやられたな……）")
+     0()
+    EndIf()
+    0()
+   EndIf()
+   ShowMessageFace("ruka_fc1",0,0,2,6)
+   ShowMessage("【ルカ】")
+   ShowMessage("確かに、興味はあるけど……")
+   ShowMessage("それがどう幽霊船と結び付くんですか？")
+   ShowMessageFace("serene_fc1",0,0,2,7)
+   ShowMessage("【セレナ】")
+   ShowMessage("それにはまず……")
+   ShowMessage("私は、キャプテン・セレーネの孫である事を言っておかないとね。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc2",2,0,2,8)
+    ShowMessage("【ソニア】")
+    ShowMessage("えっ？　キャプテン・セレーネに孫がいたなんて……")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,9)
+    ShowMessage("【ルカ】")
+    ShowMessage("えっ？　キャプテン・セレーネに孫がいたなんて……")
+    0()
+   EndIf()
+   ShowMessageFace("serene_fc1",0,0,2,10)
+   ShowMessage("【セレナ】")
+   ShowMessage("セレーネはこの町に滞在しているとき、女の子を産んだの。")
+   ShowMessage("それが私の母親――つまり、セレーネは私の祖母なのよ。")
+   If(4,202,0)
+    ShowMessageFace("bonny_fc1",1,0,2,11)
+    ShowMessage("【ボニー】")
+    ShowMessage("なんと、セレーネに子孫がいようとは！")
+    ShowMessage("かくいう私は、あの海賊女王ロザの子孫なのだぞ。")
+    ShowMessageFace("serene_fc1",1,0,2,12)
+    ShowMessage("【セレナ】")
+    ShowMessage("ふふっ、おさかな海賊団の噂は聞いているわ。")
+    ShowMessage("こうして会えるなんて、運命を感じるわね。")
+    0()
+   EndIf()
+   ShowMessageFace("serene_fc1",0,0,2,13)
+   ShowMessage("【セレナ】")
+   ShowMessage("祖母は航海中も、祖父の元にこまめに手紙を送っていたわ。")
+   ShowMessage("だから、私の家にはセレーネの手紙が残っているの。")
+   ShowMessageFace("serene_fc1",0,0,2,14)
+   ShowMessage("【セレナ】")
+   ShowMessage("この海図に、セレーネ号の足取りを書き込んでみたの。")
+   ShowMessage("最後の航海で目指したのは、古文書にある海底洞窟。")
+   ShowMessageFace("serene_fc1",0,0,2,15)
+   ShowMessage("【セレナ】")
+   ShowMessage("ゴルドポートから南西に向かい、そこに辿り着いた――")
+   ShowMessage("到着の喜びを、キャプテン・セレーネは手紙で伝えているわ。")
+   ShowMessageFace("ruka_fc1",0,0,2,16)
+   ShowMessage("【ルカ】")
+   ShowMessage("最後の航海で、目的地までは辿り着いたんだな……")
+   ShowMessageFace("serene_fc1",0,0,2,17)
+   ShowMessage("【セレナ】")
+   ShowMessage("その海底洞窟で、セレーネは目的の秘宝を得たの。")
+   ShowMessage("古文書には、「災厄の箱」と記された金細工の箱。")
+   ShowMessageFace("serene_fc1",0,0,2,18)
+   ShowMessage("【セレナ】")
+   ShowMessage("今夜、その箱を開けてみる――")
+   ShowMessage("そう記された手紙を最後に、セレーネ号は消息を絶ったの。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc2",3,0,2,19)
+    ShowMessage("【ソニア】")
+    ShowMessage("「災厄の箱」を開けちゃったから、船に何かが起きて……")
+    ShowMessage("それで、行方不明になったってわけね。")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,20)
+    ShowMessage("【ルカ】")
+    ShowMessage("「災厄の箱」を開けてしまい、船に何かが起きて……")
+    ShowMessage("それで、行方不明になったってわけだね。")
+    0()
+   EndIf()
+   If(4,203,0)
+    ShowMessageFace("tatunoko_k_fc1",2,0,2,21)
+    ShowMessage("【たつこ】")
+    ShowMessage("こわい話はイヤなのです……ぶるぶる。")
+    0()
+   EndIf()
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",3,0,2,22)
+    ShowMessage("【アリス】")
+    ShowMessage("災厄の箱……？　あれは初代様が……")
+    ShowMessage("いや、話を続けろ。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,23)
+    ShowMessage("【イリアス】")
+    ShowMessage("私は全知全能、その海賊達に何があったかは知っています。")
+    0()
+   EndIf()
+   ShowMessageFace("serene_fc1",0,0,2,24)
+   ShowMessage("【セレナ】")
+   ShowMessage("それから、程なくして……")
+   ShowMessage("セレーネの海賊旗を掲げた幽霊船が目撃されるようになったわ。")
+   ShowMessageFace("ruka_fc1",0,0,2,25)
+   ShowMessage("【ルカ】")
+   ShowMessage("なるほど……その幽霊船が、セレーネの海賊船なんだね。")
+   ShowMessage("「災厄の箱」のせいで、幽霊船と化してしまった……")
+   ShowMessageFace("serene_fc1",0,0,2,26)
+   ShowMessage("【セレナ】")
+   ShowMessage("幽霊船は、特定の海域をさまよっているみたいなんだけど……")
+   ShowMessage("様々な情報を元に、その位置にあたりをつけたのよ。")
+   ShowMessageFace("serene_fc1",0,0,2,27)
+   ShowMessage("【セレナ】")
+   ShowMessage("セレーネ号には、たくさんの財宝が載せられていたわ。")
+   ShowMessage("見つければ、金銀財宝をそっくり我が手にできるわよ。")
+   ShowMessageFace("ruka_fc1",0,0,2,28)
+   ShowMessage("【ルカ】")
+   ShowMessage("財宝なんかより、災厄の箱が気になるな……")
+   ShowMessage("それが危険なものなら、僕達で何とかしないと。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc1",5,0,2,29)
+    ShowMessage("【ソニア】")
+    ShowMessage("そうよね。")
+    ShowMessage("そんな危険なものがフラフラしてるなんて、放っておけないわ。")
+    0()
+   EndIf()
+   ShowMessageFace("serene_fc1",2,0,2,30)
+   ShowMessage("【セレナ】")
+   ShowMessage("……………………")
+   ShowMessageFace("serene_fc1",0,0,2,31)
+   ShowMessage("【セレナ】")
+   ShowMessage("「災厄の箱」の方が、気になるようね。")
+   ShowMessage("あなた達が心の正しい者で良かったわ……")
+   ShowMessageFace("serene_fc1",0,0,2,32)
+   ShowMessage("【セレナ】")
+   ShowMessage("正直なところ……財宝の話は、")
+   ShowMessage("腕が立つ冒険者を話に引き込むための餌だったの。")
+   ShowMessageFace("serene_fc1",0,0,2,33)
+   ShowMessage("【セレナ】")
+   ShowMessage("あなたには、そんな必要もなかったみたいね……")
+   ShowMessageFace("ruka_fc1",0,0,2,34)
+   ShowMessage("【ルカ】")
+   ShowMessage("それじゃあ、セレナさんも……")
+   ShowMessageFace("serene_fc1",0,0,2,35)
+   ShowMessage("【セレナ】")
+   ShowMessage("「災厄の箱」を……")
+   ShowMessage("正確には、その中身を外に出してはいけないの。")
+   ShowMessageFace("serene_fc1",0,0,2,36)
+   ShowMessage("【セレナ】")
+   ShowMessage("キャプテン・セレーネが解放してしまった災厄、")
+   ShowMessage("再び海底に封じなければいけないのよ……")
+   If(0,2149,0)
+    ShowMessageFace("bonny_fc1",1,0,2,37)
+    ShowMessage("【ボニー】")
+    ShowMessage("うむ、おさかな海賊団が手を貸そう！")
+    ShowMessage("そのような箱、我々が葬ってくれる！")
+    ShowMessageFace("ashel_fc1",1,0,2,38)
+    ShowMessage("【アシェル】")
+    ShowMessage("キャプテン・セレーネの幽霊船……")
+    ShowMessage("禁じられた箱……久方ぶりに、海賊の血が騒ぐぜ！")
+    ShowMessageFace("bonny_fc1",1,0,2,39)
+    ShowMessage("【ボニー】")
+    ShowMessage("アシェル、気張って足下がおろそかにならんようにな。")
+    ShowMessageFace("ashel_fc1",0,0,2,40)
+    ShowMessage("【アシェル】")
+    ShowMessage("くっ……お嬢に言われるとは……")
+    0()
+   EndIf()
+   ShowMessageFace("serene_fc1",0,0,2,41)
+   ShowMessage("【セレナ】")
+   ShowMessage("そういうわけで、船は私が用意しているわ。")
+   ShowMessage("あなた達には、用心棒として船に乗ってほしいの。")
+   ShowMessageFace("serene_fc1",0,0,2,42)
+   ShowMessage("【セレナ】")
+   ShowMessage("準備ができたら、港まで来て。")
+   ShowMessage("あなた達が乗り込み次第、出航よ。")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",3,0,2,43)
+    ShowMessage("【アリス】")
+    ShowMessage("幽霊船か……正直、あまり気は進まないが……")
+    ShowMessage("「災厄の箱」の事を聞いてしまったからには、放置するわけにも……")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,44)
+    ShowMessage("【イリアス】")
+    ShowMessage("「災厄の箱」の中身は、生態系を乱すんですよね……")
+    ShowMessage("幽霊船はイヤですけど、あれを放置するわけにも……")
+    0()
+   EndIf()
+   ShowMessageFace("ruka_fc1",0,0,2,45)
+   ShowMessage("【ルカ】")
+   ShowMessage("よし、行こう！")
+   ShowMessage("幽霊船に乗り込んで、その「災厄の箱」を処分するんだ！")
+   If(4,202,0)
+    ShowMessageFace("bonny_fc1",1,0,2,46)
+    ShowMessage("【ボニー】")
+    ShowMessage("おさかな海賊団、行くぞっ！")
+    If(4,53,0)
+     ShowMessageFace("slime_fc1",0,0,2,47)
+     ShowMessage("【ライム】")
+     ShowMessage("おかしら！　よ～そろ～！")
+     0()
+    EndIf()
+    0()
+   EndIf()
+   ChangeVariable(1067,1067,0,0,2)
+   PictureClear(5)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1067,0,2,0)
+   PictureDisplay(5,"80_serene_st01",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+   ShowMessageFace("serene_fc1",0,0,2,48)
+   ShowMessage("【セレナ】")
+   ShowMessage("そういうわけで、船は私が用意しているわ。")
+   ShowMessage("あなた達には、用心棒として船に乗ってほしいの。")
+   ShowMessageFace("serene_fc1",0,0,2,49)
+   ShowMessage("【セレナ】")
+   ShowMessage("準備ができたら、港まで来て。")
+   ShowMessage("あなた達が乗り込み次第、出航よ。")
+   PictureClear(5)
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: variable 1067 >= 3
+  0()
+ PAGE   3
+  // condition: variable 1067 >= 5
+  0()
+ PAGE   4
+  // condition: variable 1067 >= 6
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  If(1,830,0,2,1)
+   If(0,1579,1)
+    ShowMessageFace("mob_sanzoku_fc1",0,0,2,1)
+    ShowMessage("【マグダ】")
+    ShowMessage("あたしを連れて行かないかい？")
+    ShowMessage("これでも、役に立つよ！")
+    ShowChoices(strings("仲間にする","仲間にしない"),0)
+    IfPlayerPicksChoice(0,null)
+     ShowMessageFace("mob_sanzoku_fc1",0,0,2,2)
+     ShowMessage("【マグダ】")
+     ShowMessage("よっしゃ、暴れるよ！")
+     PictureClear(5)
+     205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x09,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x0f,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+     355("add_actor_ex(579)")
+     249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+     ShowMessageFace("",0,0,2,3)
+     ShowMessage("マグダが仲間に加わった！")
+     Wait(60)
+     EndEventProcessing()
+     0()
+    IfPlayerPicksChoice(1,null)
+     ShowMessageFace("mob_sanzoku_fc1",0,0,2,4)
+     ShowMessage("【マグダ】")
+     ShowMessage("ふん、勝手にしなよ……")
+     0()
+    404()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  RunCommonEvent(7291)
+  0()
+ PAGE   2
+  // condition: party contains actor #579
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("ゴルド地方で最強の装備と言えば、オリハルコンの武具だ。")
+  ShowMessage("しかし、一般的に売っている品ではない。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【戦士】")
+  ShowMessage("オリハルコンの鉱石を入手し、鍛冶屋に頼む必要があるのだ。")
+  ShowMessage("鉱石は、ここから西の山脈にある溶岩鉱窟で採れるぞ。")
+  If(1,1064,0,0,0)
+   ChangeVariable(1064,1064,0,0,1)
+   0()
+  EndIf()
+  If(8,156)
+   EndEventProcessing()
+   0()
+  Else()
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",2,0,2,3)
+    ShowMessage("【アリス】")
+    ShowMessage("ゴルド地方で最高クラスの武具か……")
+    ShowMessage("何よりもまず、オリハルコンの入手を優先すべきかもしれんな。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",0,0,2,4)
+    ShowMessage("【イリアス】")
+    ShowMessage("オリハルコンの武具は、実に魅力的ですね。")
+    ShowMessage("現在、何よりも優先すべき目的とみました。")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("dragon_fc1",0,0,2,1)
+  ShowMessage("【ドラゴン鍛冶屋】")
+  ShowMessage("炎と相性が良い竜族は、鍛冶屋にも向いている。")
+  ShowMessage("中でも私は、世界でも指折りの腕前だぞ！")
+  ShowChoices(strings("鍛冶を頼む","オリハルコン製品を造ってもらう","話をする"),5)
+  IfPlayerPicksChoice(0,null)
+   355("call_synthesize(18)")
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   If(8,156)
+    Shop(1,24,0,0,false)
+    605(1,106,0,0)
+    605(1,160,0,0)
+    605(1,225,0,0)
+    605(1,273,0,0)
+    605(1,315,0,0)
+    605(1,349,0,0)
+    605(1,384,0,0)
+    605(1,423,0,0)
+    605(1,458,0,0)
+    605(1,492,0,0)
+    605(1,532,0,0)
+    605(1,572,0,0)
+    605(1,607,0,0)
+    605(1,642,0,0)
+    605(1,682,0,0)
+    605(1,714,0,0)
+    605(1,741,0,0)
+    605(1,765,0,0)
+    605(1,786,0,0)
+    605(1,809,0,0)
+    605(1,834,0,0)
+    605(1,857,0,0)
+    605(2,44,0,0)
+    605(2,86,0,0)
+    605(2,115,0,0)
+    605(2,217,0,0)
+    605(2,250,0,0)
+    605(2,312,0,0)
+    605(0,105,0,0)
+    EndEventProcessing()
+    0()
+   Else()
+    ShowMessageFace("dragon_fc1",0,0,2,2)
+    ShowMessage("【ドラゴン鍛冶屋】")
+    ShowMessage("素材となる鉱石がなければ、いかに私でも作れんぞ。")
+    ShowMessage("さあ、自力で獲得して来い！")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  IfPlayerPicksChoice(2,null)
+   If(8,156)
+    If(1,1007,0,4,0)
+     If(4,68,0)
+      If(2,"A",1)
+       ChangeSelfSwitch("A",0)
+       ShowMessageFace("dragonp_fc1",0,0,2,3)
+       ShowMessage("【パピ】")
+       ShowMessage("世界一の鍛冶屋になりたいのだ！")
+       ShowMessage("だから、オリハルコンの打ち方を伝授してほしいのだ！")
+       ShowMessageFace("dragon_fc1",0,0,2,4)
+       ShowMessage("【ドラゴン鍛冶屋】")
+       ShowMessage("同族のよしみだ、教えてやらんでもない。")
+       ShowMessage("見たところ、腕は十分のようだが……")
+       ShowMessageFace("dragon_fc1",0,0,2,5)
+       ShowMessage("【ドラゴン鍛冶屋】")
+       ShowMessage("……道具が駄目だな。")
+       ShowMessage("その槌では、オリハルコンを打つ事はできん。")
+       ShowMessageFace("dragonp_fc1",2,0,2,6)
+       ShowMessage("【パピ】")
+       ShowMessage("確かに……愛用の槌だけど、そろそろ限界を感じていたのだ。")
+       ShowMessageFace("dragon_fc1",0,0,2,7)
+       ShowMessage("【ドラゴン鍛冶屋】")
+       ShowMessage("無銘の槌を、よくそこまで使い込んだものだ。")
+       ShowMessage("だがオリハルコンを打つ以上、槌も一流のものがいる。")
+       ShowMessageFace("dragon_fc1",0,0,2,8)
+       ShowMessage("【ドラゴン鍛冶屋】")
+       ShowMessage("世界一の鍛冶屋になりたいなら、最高の槌を手に入れておけ。")
+       ShowMessage("「竜鍛冶の槌」……これならば、世界一に相応しい。")
+       ShowMessageFace("dragon_fc1",0,0,2,9)
+       ShowMessage("【ドラゴン鍛冶屋】")
+       ShowMessage("当然の話だが、そこらの店では扱っていない。")
+       ShowMessage("北の海底神殿にあるという噂だ……")
+       ShowMessageFace("dragonp_fc1",0,0,2,10)
+       ShowMessage("【パピ】")
+       ShowMessage("北の海底神殿……行ってみるのだ！")
+       ShowMessageFace("dragon_fc1",0,0,2,11)
+       ShowMessage("【ドラゴン鍛冶屋】")
+       ShowMessage("入手したら、また来るがいい。")
+       ShowMessage("オリハルコンの打ち方を伝授してやろう。")
+       EndEventProcessing()
+       0()
+      Else()
+       If(8,552)
+        ShowMessageFace("dragon_fc1",0,0,2,12)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("「竜鍛冶の槌」、手に入れたようだな。")
+        ShowMessage("道具も扱う者も一流なら、我が技術も伝授できるだろう。")
+        ShowMessageFace("dragonp_fc1",0,0,2,13)
+        ShowMessage("【パピ】")
+        ShowMessage("全力で学ぶのだ！")
+        ShowMessage("よろしくお願いします！")
+        221()
+        Wait(60)
+        250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0d,0x6d,0x6f,0x6e,0x5f,0x6b,0x61,0x7a,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+        Wait(60)
+        250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0d,0x6d,0x6f,0x6e,0x5f,0x6b,0x61,0x7a,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+        Wait(60)
+        222()
+        ShowMessageFace("dragonp_fc1",4,0,2,14)
+        ShowMessage("【パピ】")
+        ShowMessage("で、できないのだ……")
+        ShowMessageFace("dragon_fc1",0,0,2,15)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("弱音を吐くな、槌を握れ。")
+        ShowMessage("お前なら出来るはずだ……")
+        ShowMessageFace("dragonp_fc1",0,0,2,16)
+        ShowMessage("【パピ】")
+        ShowMessage("ぬが！　諦めないのだー！")
+        ShowMessage("うがぁぁぁぁ！！")
+        221()
+        Wait(60)
+        250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0d,0x6d,0x6f,0x6e,0x5f,0x6b,0x61,0x7a,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+        Wait(60)
+        250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0d,0x6d,0x6f,0x6e,0x5f,0x6b,0x61,0x7a,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+        Wait(60)
+        222()
+        ShowMessageFace("dragonp_fc1",0,0,2,17)
+        ShowMessage("【パピ】")
+        ShowMessage("……で、出来たのだ！")
+        ShowMessage("確かにコツを掴んだのだ！")
+        ShowMessageFace("dragon_fc1",0,0,2,18)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("うむ、十分だ。")
+        ShowMessage("もう何回か試みれば、完全にコツが馴染むだろう。")
+        ShowMessageFace("dragonp_fc1",3,0,2,19)
+        ShowMessage("【パピ】")
+        ShowMessage("ありがとうございます！")
+        ShowMessage("オリハルコンを打てるようになって、頂点が見えた気がするのだ！")
+        249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+        ShowMessageFace("",0,0,2,20)
+        ShowMessage("パピはオリハルコンの装備を造れるようになった！")
+        ChangeVariable(1007,1007,0,0,5)
+        Wait(60)
+        ShowMessageFace("dragon_fc1",0,0,2,21)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("……いや、まだ世界には知られざる素材がある。")
+        ShowMessage("一部の妖魔のみが知る、「虹」というエレメント素材よ。")
+        ShowMessageFace("dragon_fc1",0,0,2,22)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("ほとんどの鍛冶屋が、存在さえ知らないのだ。")
+        ShowMessage("それを打てる者など、世界でも五本の指に満たない。")
+        ShowMessageFace("dragon_fc1",0,0,2,23)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("妖精の島に行くことがあったら、エルフ鍛冶を求めろ。")
+        ShowMessage("その者達の間では、「虹」を打つ技術が伝わっているはずだ。")
+        ShowMessageFace("dragonp_fc1",0,0,2,24)
+        ShowMessage("【パピ】")
+        ShowMessage("虹……世界には、まだそんな素材が……")
+        ShowMessage("ますますたぎってきたのだ！")
+        EndEventProcessing()
+        0()
+       Else()
+        ShowMessageFace("dragon_fc1",0,0,2,25)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("……道具が駄目だな。")
+        ShowMessage("その槌では、オリハルコンを打つ事はできん。")
+        ShowMessageFace("dragon_fc1",0,0,2,26)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("世界一の鍛冶屋になりたいなら、最高の槌を手に入れておけ。")
+        ShowMessage("「竜鍛冶の槌」……これならば、世界一に相応しい。")
+        ShowMessageFace("dragon_fc1",0,0,2,27)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("当然の話だが、そこらの店では扱っていない。")
+        ShowMessage("北の海底神殿にあるという噂だ……")
+        ShowMessageFace("dragon_fc1",0,0,2,28)
+        ShowMessage("【ドラゴン鍛冶屋】")
+        ShowMessage("入手したら、また来るがいい。")
+        ShowMessage("オリハルコンの打ち方を伝授してやろう。")
+        EndEventProcessing()
+        0()
+       EndIf()
+       0()
+      EndIf()
+      0()
+     EndIf()
+     0()
+    EndIf()
+    0()
+   EndIf()
+   ShowMessageFace("dragon_fc1",0,0,2,29)
+   ShowMessage("【ドラゴン鍛冶屋】")
+   ShowMessage("我が最終目的は、エルフのみに伝わるあの素材を扱う事だ。")
+   ShowMessage("「虹」……あれを打ってこそ、最上級の鍛冶屋である証よ。")
+   EndEventProcessing()
+   0()
+  IfPlayerCancelsChoice()
+   EndEventProcessing()
+   0()
+  404()
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【商人】")
+  ShowMessage("さあ、武器も防具も揃ってるよ！")
+  ShowMessage("ここだけの話、あの勇者ルカも、うちの装備品を愛用してるって噂さ！")
+  Shop(1,23,0,0,false)
+  605(1,104,0,0)
+  605(1,130,0,0)
+  605(1,246,0,0)
+  605(1,605,0,0)
+  605(2,25,0,0)
+  605(2,85,0,0)
+  605(2,169,0,0)
+  605(2,215,0,0)
+  605(2,310,0,0)
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【宿屋のおかみ】")
+  ShowMessage("10Gになるけど、泊まっていくかい？\\$")
+  ShowChoices(strings("はい","いいえ"),2)
+  IfPlayerPicksChoice(0,null)
+   If(7,10,0)
+    125(1,0,10)
+    221()
+    249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x08,0x49,0x6e,0x6e,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+    Wait(150)
+    314(0,0)
+    222()
+    0()
+   Else()
+    ShowMessageFace("",0,0,2,2)
+    ShowMessage("【宿屋のおかみ】")
+    ShowMessage("おや、お金が足りないよ。")
+    0()
+   EndIf()
+   0()
+  IfPlayerPicksChoice(1,null)
+   0()
+  404()
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【夫婦の道具屋】")
+  ShowMessage("こんにちは、旅の方。")
+  ShowMessage("アイテムは切れていませんか？")
+  Shop(0,2,0,0,false)
+  605(0,7,0,0)
+  605(0,11,0,0)
+  605(0,13,0,0)
+  605(0,14,0,0)
+  605(0,15,0,0)
+  605(0,16,0,0)
+  605(0,17,0,0)
+  605(0,18,0,0)
+  605(0,19,0,0)
+  605(0,20,0,0)
+  605(0,23,0,0)
+  605(0,35,0,0)
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【独身兵士】")
+  ShowMessage("この店……爆発しませんかね。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("163")
+  ShowMessageFace("lily_fc1",5,0,2,2)
+  ShowMessage("【リリィ】")
+  ShowMessage("同感ね、触手地獄に堕としてやるわ……")
+  EndEventProcessing()
+  DefineLabel("520")
+  ShowMessageFace("lazarus3_fc1",1,0,2,3)
+  ShowMessage("【ラザロ】")
+  ShowMessage("1万5千ゴールドで請け負うぜ？")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【独身兵士】")
+  ShowMessage("貯金が足りません……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【冒険家】")
+  ShowMessage("オリハルコンは、この世で最硬の金属として名高い。")
+  ShowMessage("しかし噂では、オリハルコンを強度で上回る素材があるという……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【冒険家】")
+  ShowMessage("どうやら、妖魔の間にのみ伝わる幻の金属らしいが……")
+  ShowMessage("真偽は不明だし、与太話の域を出ない噂だな。")
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("最上級職の多くには、「マスタリー」というアビリティが備わっているという。")
+  ShowMessage("あの「二刀流」よりも強力なようだが、マスタリーとはいったい……")
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【魔導師】")
+  ShowMessage("私は、魔法使いの最上級職をめざしているの。")
+  ShowMessage("転職アイテム「魔導の魂」を管理しているのは、グランゴルド王よ。")
+  If(1,1001,0,28,2)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【魔導師】")
+   ShowMessage("戦争も終わったし、グランゴルド王に謁見を頼んでみようかしら。")
+   ShowMessage("でも、そう簡単には応じてくれないわよねぇ……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,29,1)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【魔導師】")
+   ShowMessage("でもこのご時世じゃ、謁見どころじゃないわねぇ。")
+   ShowMessage("ああ、魔導師の頂点に就いてみたいわぁ……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  If(0,2196,1)
+   205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x17,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【あらくれ】")
+   ShowMessage("おい、あっちのテーブルにいる二人って、まさか……")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【ごろつき】")
+   ShowMessage("目を合わせるな、この馬鹿！")
+   ShowMessage("命がいらねーのか！")
+   205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x15,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(0,2196,0)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【あらくれ】")
+   ShowMessage("やっぱり、魔物は敵なんだよ。")
+   ShowMessage("魔王の宣戦布告で、みんなそれを思い知ったんだ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【ごろつき】")
+  ShowMessage("裏で囁かれてる噂だがな……")
+  ShowMessage("ドン・ファーザーは、今回のグランゴルド陥落作戦に関与していたらしい。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("520")
+  ShowMessageFace("lazarus3_fc1",1,0,2,2)
+  ShowMessage("【ラザロ】")
+  ShowMessage("まあ、噂が流れるのも織り込み済みだぜ。")
+  ShowMessage("ますます箔が付くってもんよ。")
+  EndEventProcessing()
+  DefineLabel("522")
+  ShowMessageFace("merlin_fc1",0,0,2,3)
+  ShowMessage("【マーリン】")
+  ShowMessage("名が高まるのは歓迎ですが……")
+  ShowMessage("潜伏する期間は、もう少し必要ですな。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【取り立て人】")
+  ShowMessage("あのヤロウ、借金抱えてサキュバスの村に飛びやがって……")
+  ShowMessage("あそこに逃げ込まれたら、俺らじゃ手出しできないんだよ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【取り立て人】")
+  ShowMessage("借金まみれだろうが犯罪者だろうが、あの村の一員になりゃ保護される。")
+  ShowMessage("現代の駆け込み寺みたいな場所なんだよ、あそこは……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【取り立て人】")
+  ShowMessage("その分、農作業やらの労働分担もあるらしいが……")
+  ShowMessage("来る者拒まず、去る者追わずな共同体らしいぜ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("287")
+  ShowMessageFace("succubus_fc1",0,0,2,4)
+  ShowMessage("【サキュバス】")
+  ShowMessage("サキュバスの村は、どんな事があっても仲間を守ります。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【戦士】")
+  ShowMessage("武器マスタリーというアビリティを知っているか？")
+  ShowMessage("最上級職の多くは、得意な武器が存在するようだ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【戦士】")
+  ShowMessage("例えば戦士系の最上級職である剣聖は、「剣マスタリー」を持っている。")
+  ShowMessage("剣を装備すれば、本来以上に装備品の能力値が上昇するという。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【戦士】")
+  ShowMessage("最上級職ともなれば、装備品の能力を限界以上に引き出せるのだな……")
+  ShowMessage("その領域まで辿り着けるのは、この世でも数名程度なのだが。")
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【学者】")
+  ShowMessage("竜とラミアは、進化上は近縁種にあたるのですよ。")
+  ShowMessage("また意外なようですが、ハーピーと竜も近縁にあたるのです。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("41")
+  ShowMessageFace("stein_fc2",0,0,2,2)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("分類学的には、意外でもなんでもないんですけどね。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("港町は、おさかながおいしいよね♪")
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("おさかなー♪　おさかなー♪")
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【酒場のおやじ】")
+  ShowMessage("……注文は？")
+  Shop(0,428,0,0,false)
+  605(0,429,0,0)
+  605(0,430,0,0)
+  605(0,431,0,0)
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  If(1,1001,0,29,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【旅の戦士】")
+   ShowMessage("魔王の宣戦布告だが、震えて眠る者達ばかりじゃない。")
+   ShowMessage("各地の冒険者達が、名を上げるため魔王に挑もうとするだろう。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【旅の戦士】")
+   ShowMessage("だが、魔王城のあるヘルゴンド大陸は陸路でも海路でも到達不能。")
+   ShowMessage("果たして、どうすればいいやら……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,30,1)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【旅の戦士】")
+   ShowMessage("なんだか、この町は雰囲気が悪くなったな。")
+   ShowMessage("排外的な感じが、日に日に強まっていく気がするよ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  If(1,1086,0,3,0)
+   RunCommonEvent(348)
+   EndEventProcessing()
+   0()
+  EndIf()
+  RunCommonEvent(340)
+  0()
+ PAGE   2
+  // condition: switch 2196 is ON
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  RunCommonEvent(340)
+  0()
+ PAGE   2
+  // condition: switch 2196 is ON
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  // condition: variable 1067 >= 5
+  Wait(30)
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x10,0x73,0x63,0x65,0x6e,0x65,0x5f,0x63,0x6f,0x6d,0x69,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  PictureDisplay(5,"80_serene_st11",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,60,true)
+  ShowMessageFace("serene_fc1",3,0,2,1)
+  ShowMessage("【セレーネ】")
+  ShowMessage("あら、いらっしゃい。")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc3",2,0,2,2)
+   ShowMessage("【ソニア】")
+   ShowMessage("成仏してない！")
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,3)
+   ShowMessage("【ルカ】")
+   ShowMessage("成仏してない！")
+   0()
+  EndIf()
+  Wait(30)
+  221()
+  PictureClear(5)
+  Wait(60)
+  TeleportPlayer(0,144,14,54,8,2)
+  222()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6b,0x69,0x6b,0x69,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  ShowMessageFace("ruka_fc1",0,0,2,4)
+  ShowMessage("【ルカ】")
+  ShowMessage("いったい、どうしたんですか……？")
+  PictureDisplay(5,"80_serene_st11",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("serene_fc1",3,0,2,5)
+  ShowMessage("【セレーネ】")
+  ShowMessage("まだ、この世に心残りがあるようね。")
+  ShowMessage("考えられる事は一つ……ベルゼバブ達は、まだ生きているのよ。")
+  If(4,202,0)
+   ShowMessageFace("bonny_fc1",0,0,2,6)
+   ShowMessage("【ボニー】")
+   ShowMessage("な、なんと……！？")
+   0()
+  EndIf()
+  If(0,6,0)
+   ShowMessageFace("sonia_fc2",2,0,2,7)
+   ShowMessage("【ソニア】")
+   ShowMessage("やっぱり、あの時のベルゼバブの消え方……")
+   ShowMessage("死んだわけじゃなかったのね。")
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,8)
+   ShowMessage("【ルカ】")
+   ShowMessage("やっぱり、あの時のベルゼバブの消え方……")
+   ShowMessage("死んだわけじゃなかったんだね。")
+   0()
+  EndIf()
+  ShowMessageFace("",0,0,2,9)
+  ShowMessage("ベルゼバブの体は、無数の蠅のようになって崩れた。")
+  ShowMessage("倒したわけではなく、逃げ出していたのだ。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc6",0,0,2,10)
+   ShowMessage("【アリス】")
+   ShowMessage("今さら幽霊船に戻っても、もはや手遅れか。")
+   ShowMessage("この世界に出たと考えた方が良いな……")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,11)
+   ShowMessage("【イリアス】")
+   ShowMessage("今さら幽霊船に戻っても、もはや手遅れですね。")
+   ShowMessage("この世界にさまよい出たと考えるべきでしょう。")
+   0()
+  EndIf()
+  If(0,6,0)
+   ShowMessageFace("sonia_fc2",4,0,2,12)
+   ShowMessage("【ソニア】")
+   ShowMessage("一刻も早く探し出して、やっつけないと！")
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,13)
+   ShowMessage("【ルカ】")
+   ShowMessage("一刻も早く探し出して、倒さないと！")
+   0()
+  EndIf()
+  ShowMessageFace("serene_fc1",3,0,2,14)
+  ShowMessage("【セレーネ】")
+  ShowMessage("恐れていた事が、とうとう起きてしまったようね……")
+  ShowMessage("これからは、私も戦力として加わるわ。")
+  PictureClear(5)
+  ChangeVariable(1067,1067,0,0,6)
+  355("add_actor_ex(536)")
+  249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+  ShowMessageFace("",0,0,2,15)
+  ShowMessage("セレーネが仲間に加わった！")
+  Wait(60)
+  If(4,202,0)
+   ShowMessageFace("bonny_fc1",1,0,2,16)
+   ShowMessage("【ボニー】")
+   ShowMessage("まさか、キャプテン・セレーネと一緒に戦えるとは……")
+   ShowMessage("おさかな海賊団団長ボニー、光栄の極みだぞ！")
+   ShowMessageFace("serene_fc1",3,0,2,17)
+   ShowMessage("【セレーネ】")
+   ShowMessage("そう言われると、情けない姿は見せられないわ……")
+   ShowMessage("よろしくね、団長さん。")
+   0()
+  EndIf()
+  ShowMessageFace("serene_fc1",3,0,2,18)
+  ShowMessage("【セレーネ】")
+  ShowMessage("それじゃあ、行きましょう。")
+  ShowMessage("きっとどこかで、騒ぎを起こしているはずよ！")
+  ShowMessageFace("ruka_fc1",0,0,2,19)
+  ShowMessage("【ルカ】")
+  ShowMessage("ああ……急いで見つけよう！")
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x46,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x0b,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x06,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  Wait(60)
+  221()
+  Wait(60)
+  211(0)
+  ChangeSwitch(31,31,1)
+  ChangeSwitch(32,32,1)
+  TeleportPlayer(0,739,0,0,0,2)
+  222()
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1067 >= 6
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(32,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(2,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(430,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(379,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(345,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  // condition: variable 1067 >= 6
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("「マスタリー」とは、多くの最上級職についている職業アビリティ。")
+  ShowMessage("得意とする武器……例えば「剣聖」なら「剣マスタリー」がついている。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("「マスタリー」を持っている職業は、その武器を扱う技術に優れる。")
+  ShowMessage("よってその武器を装備した際、上昇値が通常よりもはるかに高まるのだ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("最上級職に就く者は、その職の得意武器を装備しマスタリーを活かすべし。")
+  ShowMessage("ゆめゆめ忘れるべからず。")
+  0()

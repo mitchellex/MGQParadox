@@ -1,0 +1,363 @@
+﻿
+DisplayName "ポケット魔王城 コラボルーム"
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  RunCommonEvent(111)
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  // condition: switch 4 is ON
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  If(0,4,0)
+   PictureDisplay(5,"80_alice_st71",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+   ShowMessageFace("alice_fc5",0,0,2,1)
+   ShowMessage("【アリス】")
+   ShowMessage("ようやく、同盟者達を全員確保できたな。")
+   ShowMessage("しかし、よくここまで厄介な連中が揃ったものよ……")
+   0()
+  EndIf()
+  If(0,5,0)
+   PictureDisplay(5,"80_iriasu_st33",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+   ShowMessageFace("iriasu_fc4",2,0,2,2)
+   ShowMessage("【イリアス】")
+   ShowMessage("ようやく、同盟者達を全員確保できましたね。")
+   ShowMessage("まったく、厄介な連中の勢揃いです……")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,3)
+  ShowMessage("【ルカ】")
+  ShowMessage("この全員を監視なんて……")
+  ShowMessage("本当に、僕達だけで出来るのかな？")
+  PictureDisplay(5,"80_executioner_st01",0,0,70,-50,70,70,255,0)
+  PictureDisplay(6,"80_ogretooth_st01",0,0,-150,80,100,100,255,0)
+  PictureDisplay(7,"80_mistilteinn_st01",0,0,280,130,80,80,255,0)
+  ShowMessageFace("mistilteinn_fc1",0,0,2,4)
+  ShowMessage("【ミステルテイン】")
+  ShowMessage("監視の必要はありません。")
+  ShowMessage("少なくとも私達三人は、事を起こす気はないので……")
+  ShowMessageFace("ogretooth_fc1",0,0,2,5)
+  ShowMessage("【オーガトゥース】")
+  ShowMessage("必要なものは、手に入ったからな。")
+  ShowMessage("これでも、お前達にはそれなりに感謝してるんだぜ！")
+  ShowMessageFace("executioner_fc1",0,0,2,6)
+  ShowMessage("【エクスキューショナー】")
+  ShowMessage("だから、しばらく大人しくするね♪")
+  ShowMessage("……少しのつまみ食いも、ダメかな？")
+  PictureDisplay(5,"80_myuska_st11",0,0,-200,0,100,100,255,0)
+  PictureDisplay(6,"80_nemea_st01",0,0,15,0,100,100,255,0)
+  PictureDisplay(7,"80_vinum_st01",0,0,250,0,100,100,255,0)
+  ShowMessageFace("vinum_fc1",2,0,2,7)
+  ShowMessage("【ヴィヌム】")
+  ShowMessage("元より、あまり深くは関わらぬつもりじゃった。")
+  ShowMessage("そもそも儂は元の世界でやる事がある身じゃ。")
+  ShowMessageFace("vinum_fc1",2,0,2,8)
+  ShowMessage("【ヴィヌム】")
+  ShowMessage("戻れるものなら、さっさと元の世界に戻りたいものよ。")
+  ShowMessageFace("myuska_fc1",7,0,2,9)
+  ShowMessage("【ミュスカ】")
+  ShowMessage("ええ～？　あたしはもっと遊びたいなぁ。")
+  ShowMessage("折角の海外旅行みたいなもんなんだしさぁ。")
+  ShowMessageFace("myuska_fc1",5,0,2,10)
+  ShowMessage("【ミュスカ】")
+  ShowMessage("どーせ帰るんなら、やりたい放題してからでも……")
+  ShowMessageFace("nemea_fc1",0,0,2,11)
+  ShowMessage("【ネメア】")
+  ShowMessage("……ミュスカちゃんは、私達が目を配っておくわ。")
+  ShowMessage("これ以上、お婆様を煩わせるつもりもないし……ね？")
+  PictureClear(6)
+  PictureClear(7)
+  PictureDisplay(5,"80_daimeikai_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("daimeikai_fc1",1,0,2,12)
+  ShowMessage("【大明海】")
+  ShowMessage("……ところで、なんで俺がここにいるんだ？")
+  ShowMessage("この連中とまとめられてるのは不本意なんだが。")
+  PictureDisplay(7,"80_lira_st01",0,0,-200,0,100,100,255,0)
+  PictureDisplay(6,"80_bell_st01",0,0,200,0,100,100,255,0)
+  PictureDisplay(5,"80_muzet_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("muzet_fc1",0,0,2,13)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("私も、そろそろ元の世界に戻りたいわね。")
+  ShowMessage("不本意だけど、そのためなら手を貸してあげる。")
+  ShowMessageFace("bell_fc1",0,0,2,14)
+  ShowMessage("【ベル】")
+  ShowMessage("ミュゼット様の、ご意志のままに……")
+  ShowMessageFace("lira_fc1",0,0,2,15)
+  ShowMessage("【リラ】")
+  ShowMessage("私達は、一心同体だからね……♪")
+  PictureClear(6)
+  PictureClear(7)
+  PictureDisplay(5,"80_gilgoon_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("gilgoon_fc1",0,0,2,16)
+  ShowMessage("【ギルゴーン】")
+  ShowMessage("元の世界に戻りたいのは、我も同じ。")
+  ShowMessage("そのための方法を発見せねばならん……")
+  PictureDisplay(5,"80_fulbeua_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("fulbeua_fc1",0,0,2,17)
+  ShowMessage("【フルビュア】")
+  ShowMessage("私が元の世界に戻れば……")
+  ShowMessage("この世界から、究極の美が失われる事になるわ。")
+  ShowMessageFace("fulbeua_fc1",0,0,2,18)
+  ShowMessage("【フルビュア】")
+  ShowMessage("それでも……戻らなければならないわね。")
+  ShowMessage("今この瞬間も、元の世界で私は求められているのだから。")
+  If(0,4,0)
+   PictureDisplay(5,"80_alice_st73",0,0,0,0,100,100,255,0)
+   ShowMessageFace("alice_fc5",2,0,2,19)
+   ShowMessage("【アリス】")
+   ShowMessage("元の世界に戻りたいのは、みな同じだろう。")
+   ShowMessage("だが、お前達の通ってきたゲートはもはや存在しない。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,20)
+   ShowMessage("【イリアス】")
+   ShowMessage("元の世界に戻りたいのは、みな同じでしょう。")
+   ShowMessage("ですが、貴方達の通ってきたゲートはもう存在しません。")
+   0()
+  EndIf()
+  ShowMessageFace("est_fc1",1,0,2,21)
+  ShowMessage("【エスト】")
+  ShowMessage("白兎の力は、もう借りられないのかしら？")
+  ShowMessage("あの子がいれば、私が夢に堕としてあげるけど……")
+  ShowMessageFace("ruka_fc1",0,0,2,22)
+  ShowMessage("【ルカ】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,23)
+  ShowMessage("最初のゲートは、白兎のミスで開かれた。")
+  ShowMessage("その後、エストは白兎を操り他の異世界に干渉したのだ。")
+  ShowMessageFace("",0,0,2,24)
+  ShowMessage("もう一度、白兎にゲートを開いてもらうという手もあるが――")
+  ShowMessage("肝心の白兎と接触する手立ては無いのだ。")
+  PictureDisplay(5,"80_dakki_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("dakki_fc1",0,0,2,25)
+  ShowMessage("【妲己】")
+  ShowMessage("それに関して、ひとつ聞きたいのだが……")
+  ShowMessage("なぜ、白兎はあそこまで弱っていた？")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,26)
+   ShowMessage("【アリス】")
+   ShowMessage("白兎が、弱っていた……？")
+   ShowMessage("エストが快楽に堕としたからではないのか？")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,27)
+   ShowMessage("【イリアス】")
+   ShowMessage("白兎が、弱っていた……？")
+   ShowMessage("エストが快楽に堕としたからではないのですか？")
+   0()
+  EndIf()
+  ShowMessageFace("dakki_fc1",0,0,2,28)
+  ShowMessage("【妲己】")
+  ShowMessage("いや……それ以前から奴は弱っていた。")
+  ShowMessage("妾から見ても、衰弱振りは隠せんほどにな。")
+  ShowMessageFace("dakki_fc1",0,0,2,29)
+  ShowMessage("【妲己】")
+  ShowMessage("そもそも最初に誤ってゲートを開いたのも、")
+  ShowMessage("衰弱ゆえの失態であろう。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",2,0,2,30)
+   ShowMessage("【アリス】")
+   ShowMessage("そう言えば、貴様はずっと白兎に化けていたな。")
+   ShowMessage("記憶や性格も、コピーしていたように見えたが……")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,31)
+   ShowMessage("【イリアス】")
+   ShowMessage("そう言えば、貴方はずっと白兎に化けていましたね。")
+   ShowMessage("記憶や性格も、コピーしていたようですが……")
+   0()
+  EndIf()
+  ShowMessageFace("dakki_fc1",0,0,2,32)
+  ShowMessage("【妲己】")
+  ShowMessage("妾の変化は、記憶を含め寸分違わずコピーする……")
+  ShowMessage("だが、それは相手の分析が完了していたらの話じゃ。")
+  ShowMessageFace("dakki_fc1",0,0,2,33)
+  ShowMessage("【妲己】")
+  ShowMessage("あの白兎への変身は、正直中途半端だったのだ。")
+  ShowMessage("それゆえに記憶部分が曖昧で、ボロを出した。")
+  ShowMessageFace("dakki_fc1",0,0,2,34)
+  ShowMessage("【妲己】")
+  ShowMessage("「『勇者』の素性を知っているかどうか」……")
+  ShowMessage("妾の記憶で補完したのがマズかったようじゃな。")
+  ShowMessageFace("",0,0,2,35)
+  ShowMessage("白兎に化けた妲己は、カズヤの過去に関する事を口にした――")
+  ShowMessage("それゆえ、正体を見破られてしまったのだ。")
+  ShowMessageFace("ruka_fc1",0,0,2,36)
+  ShowMessage("【ルカ】")
+  ShowMessage("白兎は、完全に分析できなかったのか……？")
+  ShowMessageFace("dakki_fc1",0,0,2,37)
+  ShowMessage("【妲己】")
+  ShowMessage("分析も何も、「白兎」という実体は存在せんのだ。")
+  ShowMessage("奴は存在ではなく、概念に過ぎん。")
+  ShowMessageFace("dakki_fc1",0,0,2,38)
+  ShowMessage("【妲己】")
+  ShowMessage("妾とて、フィボナッチ数や熱力学第二法則といった、")
+  ShowMessage("法則や概念そのものには化けられん……")
+  ShowMessageFace("dakki_fc1",0,0,2,39)
+  ShowMessage("【妲己】")
+  ShowMessage("ゆえに、白兎への完全変化は不可能よ。")
+  ShowMessage("奴は法則であり、実体をもって存在するものではない。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,40)
+   ShowMessage("【アリス】")
+   ShowMessage("白兎本人も、自分でそんな事を言っていたが……")
+   ShowMessage("デタラメではなかったようだな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,41)
+   ShowMessage("【イリアス】")
+   ShowMessage("白兎本人も、自身でそのような事を言っていましたが……")
+   ShowMessage("出任せではなかったようですね。")
+   0()
+  EndIf()
+  ShowMessageFace("dakki_fc1",0,0,2,42)
+  ShowMessage("【妲己】")
+  ShowMessage("「白兎」というのは、あくまで物理法則。")
+  ShowMessage("あの兎の肉体は、あくまで法則により動く稼働端末に過ぎん。")
+  ShowMessageFace("dakki_fc1",0,0,2,43)
+  ShowMessage("【妲己】")
+  ShowMessage("その端末の一つが、知っての通りエストによって捕獲された。")
+  ShowMessage("妾は、その精神に潜り込んだのだが――")
+  Wait(30)
+  242(1)
+  221()
+  Wait(60)
+  PictureClear(5)
+  ChangeSwitch(31,31,1)
+  281(0)
+  TeleportPlayer(0,951,9,8,0,2)
+  222()
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  0()

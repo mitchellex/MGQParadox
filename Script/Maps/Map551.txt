@@ -1,0 +1,856 @@
+﻿
+
+
+EVENT   1
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,54,8,2,0)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,30,8,2,0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,11,56,2,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,25,56,2,0)
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,12,24,2,0)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,24,24,2,0)
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,18,48,0,0)
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,18,48,0,0)
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,18,48,0,0)
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,18,16,0,0)
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,18,16,0,0)
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,551,18,16,0,0)
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,188,12,13,0,0)
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,188,12,13,0,0)
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,188,12,13,0,0)
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【エディナ】")
+  ShowMessage("ああ、ハインリヒ様。")
+  ShowMessage("今はいずこの地におられるのでしょう……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【エディナ】")
+  ShowMessage("……これは失礼いたしました。")
+  ShowMessage("レミナの王女、エディナと申します。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【エディナ】")
+  ShowMessage("あなたの目、ハインリヒさまと同じ色をしていますね。")
+  ShowMessage("とても不思議な、深い湖のような……")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【エディナ】")
+  ShowMessage("しかし、なぜでしょう……")
+  ShowMessage("あなたも立派な方であるはずなのに、少しも胸がときめきません。")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【エディナ】")
+  ShowMessage("あっ、失礼……！")
+  ShowMessage("私ったら、なんとひどい事を……！")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,6)
+   ShowMessage("【アリス】")
+   ShowMessage("……どこか、ルカと匂いが似ている気がするな。")
+   ShowMessage("もしかして、血縁か？")
+   ShowMessageFace("alice_fc5",3,0,2,7)
+   ShowMessage("【アリス】")
+   ShowMessage("するとルカは、レミナ王家の血を引く王族……")
+   ShowMessage("いや、まさかな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,8)
+   ShowMessage("【イリアス】")
+   ShowMessage("それは当然でしょう……近親相姦を防ぐため、")
+   ShowMessage("生物は遺伝子の近い者を本能的に性的対象から除外するのです。")
+   ShowMessageFace("iriasu_fc4",0,0,2,9)
+   ShowMessage("【イリアス】")
+   ShowMessage("勇者ハインリヒとエディナ姫の間に出来た息子が、ルカの祖先。")
+   ShowMessage("確か25代前の先祖にあたるのでしたか。")
+   If(1,1142,0,62,2)
+    If(0,6,0)
+     ShowMessageFace("sonia_fc3",2,0,2,10)
+     ShowMessage("【ソニア】")
+     ShowMessage("えっ！？　じゃあルカは、レミナ王族の血を引いてるの！？")
+     ShowMessageFace("ruka_fc1",0,0,2,11)
+     ShowMessage("【ルカ】")
+     ShowMessage("そ、そうだったの！？")
+     ShowMessageFace("iriasu_fc4",0,0,2,12)
+     ShowMessage("【イリアス】")
+     ShowMessage("ええ……地上に唯一残る、レミナ王家の末裔です。")
+     ShowMessage("その事を知る者は、もはや地上にはいませんが。")
+     ShowMessageFace("sonia_fc2",0,0,2,13)
+     ShowMessage("【ソニア】")
+     ShowMessage("父方は、伝説の勇者に滅びた王家の末裔……")
+     ShowMessage("母方は、最上位の天使……")
+     ShowMessageFace("sonia_fc1",7,0,2,14)
+     ShowMessage("【ソニア】")
+     ShowMessage("……ルカって、ひょっとしてすごい血統なの？")
+     ShowMessageFace("iriasu_fc4",1,0,2,15)
+     ShowMessage("【イリアス】")
+     ShowMessage("ええ、もちろん。")
+     0()
+    EndIf()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(2,"A",1)
+   If(0,5,0)
+    ChangeSelfSwitch("A",0)
+    ShowMessageFace("heinrich_fc1",7,0,2,16)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("……ご機嫌麗しく存じます、姫様。")
+    ShowMessageFace("",0,0,2,17)
+    ShowMessage("【エディナ】")
+    ShowMessage("ハ、ハインリヒ様……！？")
+    ShowMessage("よかった、ご無事で……")
+    ShowMessageFace("heinrich_fc1",7,0,2,18)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("はい、見ての通り無事です。")
+    If(1,1142,0,62,2)
+     If(0,6,0)
+      ShowMessageFace("sonia_fc2",2,0,2,19)
+      ShowMessage("【ソニア】")
+      ShowMessage("もうちょっと、なんていうか……")
+      ShowMessage("言い方ってものがあると思うんだけど。")
+      0()
+     EndIf()
+     0()
+    EndIf()
+    ShowMessageFace("",0,0,2,20)
+    ShowMessage("【エディナ】")
+    ShowMessage("ハインリヒ様のご無事を願い、この蒼国晶を差し上げます。")
+    ShowMessage("これは、代々王家に伝わる宝石でして……")
+    ShowMessageFace("heinrich_fc1",7,0,2,21)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("そのような大事なもの、受け取れません。")
+    ShowMessage("私は勇者、いつどこで力尽きるか分からない身なのです。")
+    If(1,1142,0,62,2)
+     If(0,6,0)
+      ShowMessageFace("sonia_fc2",3,0,2,22)
+      ShowMessage("【ソニア】")
+      ShowMessage("うわぁ、にぶい……")
+      0()
+     EndIf()
+     0()
+    EndIf()
+    ShowMessageFace("",0,0,2,23)
+    ShowMessage("【エディナ】")
+    ShowMessage("ですから、これを返しに必ず私の元に戻ってくるようにと……")
+    ShowMessageFace("heinrich_fc1",1,0,2,24)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("それなら、最初から私に渡す必要はないですよ。")
+    ShowMessage("どうぞ、その蒼国晶は姫のお手元に……")
+    If(1,1142,0,62,2)
+     If(0,6,0)
+      ShowMessageFace("sonia_fc4",0,0,2,25)
+      ShowMessage("【ソニア】")
+      ShowMessage("ラブラブ光線、乱反射……")
+      ShowMessage("このアビリティはルカも持ってるよね。")
+      0()
+     EndIf()
+     0()
+    EndIf()
+    ShowMessageFace("",0,0,2,26)
+    ShowMessage("【エディナ】")
+    ShowMessage("この蒼国晶をお持ちなさい、勇者ハインリヒ！")
+    ShowMessage("戻らない事があれば、地獄の果てまで追いますよ！")
+    ShowMessageFace("heinrich_fc1",2,0,2,27)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("た、確かに仰せ仕りました……")
+    If(1,1142,0,62,2)
+     If(0,6,0)
+      ShowMessageFace("sonia_fc3",2,0,2,28)
+      ShowMessage("【ソニア】")
+      ShowMessage("姫様、強っ！")
+      0()
+     EndIf()
+     0()
+    EndIf()
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【レミナ王】")
+  ShowMessage("勇者よ……魔の大陸まで、よくぞ来た。")
+  ShowMessage("これから魔王城に乗り込むのか？")
+  ShowChoices(strings("はい","いいえ"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【レミナ王】")
+   ShowMessage("勇者達は、みなそう答えるが……")
+   ShowMessage("ほとんどの者は、すでに先に進むことを諦めておる。")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【レミナ王】")
+   ShowMessage("この魔の大陸で強大な魔物と直面し、多くが戦意を失うのだ。")
+   ShowMessage("しかしお主の、闘志みなぎる目……そのような勇者とは異なるようだな。")
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【レミナ王】")
+   ShowMessage("それに、どこか……")
+   ShowMessage("お主の瞳は、我が娘のものに似ておるな。")
+   If(2,"B",1)
+    ChangeSelfSwitch("B",0)
+    ShowMessageFace("",0,0,2,5)
+    ShowMessage("【レミナ王】")
+    ShowMessage("……………………")
+    ShowMessageFace("",0,0,2,6)
+    ShowMessage("【レミナ王】")
+    ShowMessage("勇者よ、これを授けよう。")
+    ShowMessage("お主の旅の助けになるだろう。")
+    250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+    ChangeInventory_Item(622,0,0,1)
+    ChangeSwitch(2311,2311,0)
+    If(0,4,0)
+     ShowMessageFace("alice_fc5",1,0,2,7)
+     ShowMessage("【アリス】")
+     ShowMessage("これは、王家に伝わる最上級職への転職アイテムのひとつ……")
+     ShowMessage("これで戦士系の最上級職に就けるな。")
+     0()
+    EndIf()
+    If(0,5,0)
+     ShowMessageFace("iriasu_fc4",1,0,2,8)
+     ShowMessage("【イリアス】")
+     ShowMessage("これは、王家に伝わる最上級職への転職アイテムのひとつ……")
+     ShowMessage("これで戦士系の最上級職に就けますね。")
+     0()
+    EndIf()
+    ShowMessageFace("ruka_fc1",0,0,2,9)
+    ShowMessage("【ルカ】")
+    ShowMessage("でも、いいんですか？")
+    ShowMessage("僕よりも、ハインリヒに渡した方が……")
+    ShowMessageFace("",0,0,2,10)
+    ShowMessage("【レミナ王】")
+    ShowMessage("これは、ただの予感だが……")
+    ShowMessage("お主は、ハインリヒよりももっと大きな宿命を背負っている気がするのだ。")
+    ShowMessageFace("",0,0,2,11)
+    ShowMessage("【レミナ王】")
+    ShowMessage("では行くがよい、娘によく似た目をした勇者よ。")
+    ShowMessage("お主にイリアス様のご加護があらん事を。")
+    0()
+   EndIf()
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,12)
+   ShowMessage("【レミナ王】")
+   ShowMessage("そうか……正直によく申してくれた。")
+   ShowMessage("卑下せずとも良い、ここまで来るだけでも大変な偉業なのだ。")
+   ShowMessageFace("",0,0,2,13)
+   ShowMessage("【レミナ王】")
+   ShowMessage("ここで剣を置き、静かな余生を送るが良い……")
+   ShowMessage("……妙だな、お主の目はそうは言っておらんが。")
+   0()
+  404()
+  If(2,"A",1)
+   If(0,5,0)
+    ChangeSelfSwitch("A",0)
+    ShowMessageFace("heinrich_fc1",7,0,2,14)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("……ご機嫌麗しく存じます、陛下。")
+    ShowMessageFace("",0,0,2,15)
+    ShowMessage("【レミナ王】")
+    ShowMessage("おお、ハインリヒではないか！")
+    ShowMessage("どうやら、冒険は順調のようだな。")
+    ShowMessageFace("heinrich_fc1",7,0,2,16)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("ええ、お陰様で……")
+    ShowMessage("魔王城まで、あと一歩と迫っております。")
+    ShowMessageFace("",0,0,2,17)
+    ShowMessage("【レミナ王】")
+    ShowMessage("お主が魔王を討った暁には……")
+    ShowMessage("我が娘エディナの婿として迎えよう！")
+    ShowMessageFace("heinrich_fc1",0,0,2,18)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("いけません、陛下。")
+    ShowMessage("エディナ姫のお心も無視し、そのようなお話を進めるなど……")
+    ShowMessageFace("",0,0,2,19)
+    ShowMessage("【レミナ王】")
+    ShowMessage("む、むむっ……")
+    ShowMessageFace("heinrich_fc1",0,0,2,20)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("エディナ姫は景品ではありません。")
+    ShowMessage("あの方ご自身が見初めた男性と結ばれるべきと考えます。")
+    ShowMessageFace("",0,0,2,21)
+    ShowMessage("【レミナ王】")
+    ShowMessage("も、申し訳ない……")
+    ShowMessage("すまんエディナ……この勇者、鈍すぎるようだ……")
+    If(0,6,0)
+     ShowMessageFace("sonia_fc1",2,0,2,22)
+     ShowMessage("【ソニア】")
+     ShowMessage("外堀埋めてもダメだこりゃ。")
+     0()
+    EndIf()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("王に謁見されるならば、正面の階段を上がって下さい。")
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("王はいつでも、旅の勇者にお会いになられます。")
+  ShowMessage("その多くは、記念に王の顔を見てから剣を置く者達ですが……")
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【兵士長】")
+  ShowMessage("ぶしつけな話だが……君に闘志は残っているか？")
+  ShowMessage("それとも、リタイア組か？")
+  ShowChoices(strings("戦い続ける","リタイア組だ"),0)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【兵士長】")
+   ShowMessage("ふむ……確かに、闘志に満ちた目だ。")
+   ShowMessage("あのハインリヒの目を思い出すな。")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【兵士長】")
+   ShowMessage("実は私は、ハインリヒとはサン・イリアで会っているのだ。")
+   ShowMessage("我が王のお供として、世界首脳会議に出向いた時にな。")
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【兵士長】")
+   ShowMessage("そこを襲撃してきたのが、黒の三貴の一人である黒華。")
+   ShowMessage("迎え撃つは、たまたまその場にいた無名の勇者ハインリヒ――")
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【兵士長】")
+   ShowMessage("後は言わずとも分かろう。")
+   ShowMessage("その戦いで、ハインリヒは世界に名を轟かせたのだ。")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【兵士長】")
+   ShowMessage("むっ、何の話だったかな……")
+   ShowMessage("そうだ、お主の目はその時のハインリヒの目とそっくりだという事だ。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("538")
+   ShowMessageFace("heinrich_fc1",7,0,2,7)
+   ShowMessage("【ハインリヒ】")
+   ShowMessage("なんだか、出にくい流れだね……")
+   ShowMessageFace("",0,0,2,8)
+   ShowMessage("【兵士長】")
+   ShowMessage("おや、これはお恥ずかしい……")
+   ShowMessage("あなたも同行していたのですね。")
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,9)
+   ShowMessage("【兵士長】")
+   ShowMessage("そうか……恥じる必要はない、長い旅路をよく戦い抜いた。")
+   ShowMessage("それはそれとして、これからのあてはおありかな？")
+   ShowMessageFace("",0,0,2,10)
+   ShowMessage("【兵士長】")
+   ShowMessage("我が城では、常に兵士を募集している。")
+   ShowMessage("レミナ兵の半分以上は、旅をリタイアした冒険者達なのだ。")
+   ShowMessageFace("",0,0,2,11)
+   ShowMessage("【兵士長】")
+   ShowMessage("戻れる場所があれば良いが……そのあてもない旅人も多いからな。")
+   ShowMessage("困ったときは、レミナを頼られよ。")
+   0()
+  404()
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("俺達の女神であったエディナ姫は、ハインリヒに夢中……")
+  ShowMessage("まあ、あんな活躍を見せられれば仕方ないよな。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【衛兵】")
+  ShowMessage("あの会議襲撃の場にいた俺でさえ、ハインリヒの無双っぷりにハートドキドキ。")
+  ShowMessage("俺の尻でいいなら、貸してもいいくらいだぜ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("538")
+  ShowMessageFace("heinrich_fc1",7,0,2,3)
+  ShowMessage("【ハインリヒ】")
+  ShowMessage("お尻……？")
+  ShowMessage("別に、貸してほしくはないけれど……")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【衛兵】")
+  ShowMessage("ほ、本人！？　こりゃ失礼！")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【衛兵】")
+  ShowMessage("……ぽっ。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("エディナ姫……ああエディナ姫、エディナ姫……")
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("この町も今は平和だが、備えあれば憂い無し。")
+  ShowMessage("世界各国が魔王軍の攻撃に見舞われてること、忘れちゃいないよ。")
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("この町に住む魔物は多いんだけど、兵士になりたがる奴はいないんだよな。")
+  ShowMessage("やっぱ自由気ままな連中だから、規律が嫌いなんだろうか……")
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【大臣】")
+  ShowMessage("レミナ王は、引退した勇者の生活支援も行っておられます。")
+  ShowMessage("あなたも万一お困りならば、当方の手続き所にどうぞ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("538")
+  ShowMessageFace("heinrich_fc1",7,0,2,2)
+  ShowMessage("【ハインリヒ】")
+  ShowMessage("僕達には、縁のない話だね。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【大臣】")
+  ShowMessage("エディナ姫は、王の一人娘。")
+  ShowMessage("唯一の王位継承候補者であり、可憐で柔和なお人柄が市民にも大人気です。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【大臣】")
+  ShowMessage("そのお心をどんな男が射止めるのかも、関心の的でして……")
+  ShowMessage("よほどの男性ではないと、市民達は納得しないでしょうね。")
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【大臣】")
+  ShowMessage("市内に魔物が多いと、やはりトラブルも多い。")
+  ShowMessage("そう深刻なものはないが、些細ないがみ合いは絶えず起きているのだ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("529")
+  ShowMessageFace("sara_fc1",0,0,2,2)
+  ShowMessage("【サラ】")
+  ShowMessage("人と魔物が共に暮らす以上、それは仕方ないわ。")
+  ShowMessage("重要なのは、決定的な対立に至らせない事ね。")
+  EndEventProcessing()
+  DefineLabel("530")
+  ShowMessageFace("sara_fc4",0,0,2,3)
+  ShowMessage("【サラ】")
+  ShowMessage("人と魔物が共に暮らす以上、それは仕方ないわ……")
+  ShowMessage("重要なのは、決定的な対立に至らせない事よね。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("こちらは牢獄です。")
+  ShowMessage("面会は自由ですが、見物して楽しいものでもありませんよ。")
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【大臣】")
+  ShowMessage("この次の瞬間に、魔王軍の大規模な攻撃があってもおかしくありません。")
+  ShowMessage("市街の避難計画など、万全の備えを取っています。")
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【レミナ王妃】")
+  ShowMessage("あなたの、その目……その雰囲気……")
+  ShowMessage("もしや、レミナ王族の者ですか？")
+  ShowChoices(strings("その通りです","違います"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【レミナ王妃】")
+   ShowMessage("いえ、そんなはずはありません。")
+   ShowMessage("レミナ王家の血を引く者は少なく、それゆえ全て把握しています。")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【レミナ王妃】")
+   ShowMessage("もしや、どこかで落とし胤が……")
+   ShowMessage("いえ、いらぬ詮索でした。忘れましょう。")
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【レミナ王妃】")
+   ShowMessage("もちろん、そうですね。")
+   ShowMessage("私の思い過ごしだったようです。")
+   0()
+  404()
+  If(2,"A",1)
+   If(0,5,0)
+    ChangeSelfSwitch("A",0)
+    ShowMessageFace("heinrich_fc1",7,0,2,5)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("……ご機嫌麗しく存じます、王妃様。")
+    ShowMessage("お目に掛かるのは、あの会議での一件以来ですね。")
+    ShowMessageFace("",0,0,2,6)
+    ShowMessage("【レミナ王妃】")
+    ShowMessage("おや、勇者ハインリヒ……")
+    ShowMessage("私などに顔を見せるより、娘に顔を見せに行って下さいませ。")
+    ShowMessageFace("heinrich_fc1",7,0,2,7)
+    ShowMessage("【ハインリヒ】")
+    ShowMessage("そうはおっしゃいますが……")
+    ShowMessage("王女様にいらぬ噂が立ってしまう事は控えたいので。")
+    ShowMessageFace("",0,0,2,8)
+    ShowMessage("【レミナ王妃】")
+    ShowMessage("まったく、朴念仁ねぇ……")
+    ShowMessage("エディナも苦労しそうですわ。")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【牢番】")
+  ShowMessage("こちらは牢獄です。")
+  ShowMessage("いずれも微罪、数日こらしめる程度ですが。")
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【旅の勇者】")
+  ShowMessage("酔って暴れてしまった、つくづく恥ずかしい……")
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【下着泥棒】")
+  ShowMessage("サキュバスの下着を盗んだのが運の尽きだぜ……")
+  ShowMessage("うっかり匂いを嗅いで、あえなく恍惚状態のままお縄だ。")
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  ShowMessageFace("succubuses_fc2",2,0,2,1)
+  ShowMessage("【サキュバス】")
+  ShowMessage("ちょっと犯して、サイフ頂いちゃっただけでしょ～！")
+  ShowMessage("どうして閉じ込めちゃうのよ、人でなし～！")
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【大臣】")
+  ShowMessage("エディナ姫は、王の一人娘。")
+  ShowMessage("唯一の王位継承候補者であり、可憐で柔和なお人柄が市民にも大人気です。")
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("謁見の間です、失礼のないように。")
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("謁見の間です、失礼のないように。")
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【大臣】")
+  ShowMessage("この世に存在する王家は四つ……")
+  ShowMessage("ゴルド王家、ノア王家、サバサ王家、そしてレミナ王家です。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【大臣】")
+  ShowMessage("サン・イリアを治める王は、信仰の盟主ですので……")
+  ShowMessage("特定の王家の者ではないのですよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("531")
+  ShowMessageFace("saniria_fc2",0,0,2,3)
+  ShowMessage("【サン・イリア王】")
+  ShowMessage("うむ……")
+  ShowMessage("サン・イリア王は、大司教の中から投票で選ばれるのだ。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【大臣】")
+  ShowMessage("黒のアリスには、妹がいるそうです。")
+  ShowMessage("世界を支配しようという姉の野望に反発しているとか……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("45")
+  ShowMessageFace("alicetromeria_fc1",4,0,2,2)
+  ShowMessage("【アリストロメリア】")
+  ShowMessage("うふふっ……")
+  EndEventProcessing()
+  DefineLabel("538")
+  ShowMessageFace("heinrich_fc1",7,0,2,3)
+  ShowMessage("【ハインリヒ】")
+  ShowMessage("その話は、僕も聞いた。")
+  ShowMessage("魔王の妹を支持する魔物達に、何度か助けられた事もあってね。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【大臣】")
+  ShowMessage("魔王城に行って、戻ってきた勇者はいません。")
+  ShowMessage("友好的な魔物からの情報も得られず、城内の様子は謎に包まれているのです。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("538")
+  ShowMessageFace("heinrich_fc1",7,0,2,2)
+  ShowMessage("【ハインリヒ】")
+  ShowMessage("気合いを入れなくちゃいけないね……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("エディナ姫、いい匂いがする……")
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("異常、ありません！")
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventoryArmor(168,0,0,1,false)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(4,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()

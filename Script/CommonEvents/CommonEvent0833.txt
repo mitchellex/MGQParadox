@@ -1,0 +1,14 @@
+﻿// EVENT 0833
+Name "イベント魔法武器レジェンド"
+
+If(1,150,0,9999,2)
+ RunCommonEvent(808)
+ EndEventProcessing()
+ 0()
+EndIf()
+If(1,150,0,10000,1)
+ RunCommonEvent(809)
+ EndEventProcessing()
+ 0()
+EndIf()
+0()

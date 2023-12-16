@@ -1,0 +1,17 @@
+﻿// EVENT 0934
+Name "ランク2報酬"
+
+355("gain_medal(3082)")
+ShowMessageFace("",0,0,2,1)
+ShowMessage("経験値30000を獲得した！")
+355("gain_party_exp(30000,true)")
+ShowMessageFace("",0,0,2,2)
+ShowMessage("職業経験値300を獲得した！")
+355("gain_party_class_exp(300,true)")
+655("gain_party_tribe_exp(300,true)")
+355("gain_party_friend(150)")
+125(0,0,100000)
+ShowMessageFace("",0,0,2,3)
+ShowMessage("10万Gを獲得した！")
+ShowMessage("パーティ全員の好感度が150上がった！")
+0()

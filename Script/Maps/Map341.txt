@@ -1,0 +1,1358 @@
+﻿
+DisplayName "ハピネス村"
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,342,70,12,0,0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,342,39,32,0,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,342,39,12,0,0)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,342,11,32,0,0)
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("ルカは仲間を外に待たせ、一人で民家に入った……")
+  216(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,342,11,12,0,0)
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,342,12,61,0,0)
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,353,325,0,0)
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,353,325,0,0)
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,354,325,0,0)
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【おばさん】")
+  ShowMessage("いらっしゃい、ハピネス村の果物は美味しいよ！")
+  ShowMessage("あまあまハチミツもどうだい？")
+  355("actor_label_jump")
+  JumpToLabel("店")
+  DefineLabel("79")
+  ShowMessageFace("nuruko_fc1",0,0,2,2)
+  ShowMessage("【ヌルコ】")
+  ShowMessage("きゅー！　きゅー！")
+  ShowMessageFace("sonia_fc1",0,0,2,3)
+  ShowMessage("【ソニア】")
+  ShowMessage("ヌルコちゃん、りんごが食べたいの……？")
+  ShowMessage("……だってさ、ルカ。")
+  JumpToLabel("店")
+  DefineLabel("81")
+  ShowMessageFace("mitubati_fc1",0,0,2,4)
+  ShowMessage("【ハニー】")
+  ShowMessage("たまには、店売りのハチミツも舐めたいわね……")
+  JumpToLabel("店")
+  DefineLabel("83")
+  ShowMessageFace("hapy_a_fc1",0,0,2,5)
+  ShowMessage("【レイナ】")
+  ShowMessage("ハチミツ、なめたいな～♪")
+  JumpToLabel("店")
+  DefineLabel("84")
+  ShowMessageFace("hapy_bc_fc1",6,0,2,6)
+  ShowMessage("【ピィ】")
+  ShowMessage("わーい、バナナ売ってる♪")
+  JumpToLabel("店")
+  DefineLabel("111")
+  ShowMessageFace("suika_fc1",0,0,2,7)
+  ShowMessage("【メロン】")
+  ShowMessage("ハチミツとスイカ、どっちが甘いのかな？")
+  JumpToLabel("店")
+  DefineLabel("125")
+  ShowMessageFace("grizzly_fc1",0,0,2,8)
+  ShowMessage("【アイシャ】")
+  ShowMessage("クマー！　ハチミツー！")
+  JumpToLabel("店")
+  DefineLabel("162")
+  ShowMessageFace("mitutubo_fc1",0,0,2,9)
+  ShowMessage("【蜜壺】")
+  ShowMessage("あたしの壺にも、あまあま蜜たっぷりだもんね～♪")
+  JumpToLabel("店")
+  DefineLabel("店")
+  Shop(0,301,0,0,false)
+  605(0,302,0,0)
+  605(0,304,0,0)
+  605(0,305,0,0)
+  605(0,315,0,0)
+  605(0,436,0,0)
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若者】")
+  ShowMessage("ハーピーと共存する村、ハピネス村にようこそ！")
+  ShowMessage("さあ、どこに行きたい？")
+  281(1)
+  355("unlimited_choices(11, [\"宿屋に行く\",")
+  655("\"武器・防具・道具屋に行く\",\"鍛冶屋に行く\",")
+  655("\"教会に行く\",\"やめる\"])")
+  If(1,11,0,0,0)
+   TeleportPlayer(0,341,9,50,2,0)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,1,0)
+   TeleportPlayer(0,341,25,51,2,0)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,2,0)
+   TeleportPlayer(0,341,28,26,2,0)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,3,0)
+   TeleportPlayer(0,341,16,28,2,0)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,11,0,4,0)
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【少年】")
+  ShowMessage("ハーピーちゃん達が、みんなどこかに行っちゃったよ～！")
+  ShowMessage("ピッピちゃん、どこに行っちゃったのぉ？")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("72")
+  ShowMessageFace("phoenix_fc1",4,0,2,2)
+  ShowMessage("【ミニ】")
+  ShowMessage("あたし達に任せろ！　探してやるからな！")
+  EndEventProcessing()
+  DefineLabel("74")
+  ShowMessageFace("usagi_fc1",2,0,2,3)
+  ShowMessage("【バーニー】")
+  ShowMessage("かわいそうに……見付けてあげたいわね。")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1011 >= 4
+  If(1,1001,0,29,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【少年】")
+   ShowMessage("ハーピーちゃん達、みんな戻ってきたよ～！")
+   ShowMessage("ピッピちゃんも、元気だったよ！")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【少年】")
+   ShowMessage("ボク、毎日イリアス様においのりしてたんだ。")
+   ShowMessage("未来のおよめさんに何かあっちゃ、大変だからね！")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("83")
+   ShowMessageFace("hapy_a_fc1",0,0,2,3)
+   ShowMessage("【レイナ】")
+   ShowMessage("あらあら、おませさん。")
+   ShowMessage("将来、仲間をいっぱい増やしてね♪")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,30,1)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【少年】")
+   ShowMessage("今日は、ピッピちゃんとデートなの。")
+   ShowMessage("僕達が大きくなる頃には、平和になってるといいね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  If(1,1011,0,3,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【おじさん】")
+   ShowMessage("ハーピー達は、いったいどこに消えてしまったのか……")
+   ShowMessage("息子の婚約してたハーピーも、行方不明になってしまったんだよ。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【おじさん】")
+   ShowMessage("かなり捜索したが、全く見付からない……")
+   ShowMessage("いったい、どうなっているんだ？")
+   0()
+  EndIf()
+  If(1,1011,0,4,1)
+   If(1,1001,0,29,2)
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【おじさん】")
+    ShowMessage("ハーピー達が見つかって、息子も私も大喜びだよ。")
+    ShowMessage("なにせ、息子の結婚相手が無事だったんだからね。")
+    ShowMessageFace("",0,0,2,4)
+    ShowMessage("【おじさん】")
+    ShowMessage("この一件もあった事だし、式も早めようと思ってるんだ。")
+    ShowMessage("そこで、息子の新たな弟を紹介する事になるかも……")
+    ShowMessageFace("",0,0,2,5)
+    ShowMessage("【おじさん】")
+    ShowMessage("……もちろん、私の妻もハーピーです。")
+    ShowMessage("男女の産み分けもできる、私には勿体ない妻ですよ。")
+    355("actor_label_jump")
+    EndEventProcessing()
+    DefineLabel("78")
+    ShowMessageFace("syesta_fc1",0,0,2,6)
+    ShowMessage("【シェスタ】")
+    ShowMessage("幸せな暮らし……")
+    ShowMessage("そんな記憶が、私にも……")
+    EndEventProcessing()
+    DefineLabel("83")
+    ShowMessageFace("hapy_a_fc1",0,0,2,7)
+    ShowMessage("【レイナ】")
+    ShowMessage("末永く、お幸せにね♪")
+    EndEventProcessing()
+    0()
+   EndIf()
+   If(1,1001,0,30,1)
+    ShowMessageFace("",0,0,2,8)
+    ShowMessage("【おじさん】")
+    ShowMessage("大陸の方じゃ、魔物排斥の動きがあるらしい。")
+    ShowMessage("この村じゃ無縁だけど、イヤな感じだねぇ……")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【旅の商人】")
+  ShowMessage("困った困った、ハーピーの羽を買い付けにきたらこの有様だ。")
+  ShowMessage("なんと、集落のハーピーが全員失踪したみたいなんだよ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【旅の商人】")
+  ShowMessage("争った様子はなかったし、村人もおかしな気配は感じなかった。")
+  ShowMessage("だが、一夜にして忽然と消え失せたっていうんだ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【旅の商人】")
+  ShowMessage("そうすると、自分達の意志で移動した事になるんだが……")
+  ShowMessage("付き合いの深いこの村に、何も言わないってのも妙な話だ。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【旅の商人】")
+  ShowMessage("なにせこの地域には、広大な森林が広がってるからな……")
+  ShowMessage("捜索もなかなか大変らしいよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("66")
+  ShowMessageFace("vgirl_fc1",0,0,2,5)
+  ShowMessage("【ヴァニラ】")
+  ShowMessage("ハーピーの羽の買い付けか。")
+  ShowMessage("ここでハーピーと仲良くなれば、我にも……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1011 >= 4
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  If(1,1011,0,3,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【旅の戦士】")
+   ShowMessage("なんと、ハーピー達はいなくなってしまったのか？")
+   ShowMessage("せっかく、鳥妖の強者で腕試しと思っていたのに……")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【旅の戦士】")
+   ShowMessage("い、いや……決してお見合いとか、嫁さん探しに来たんじゃないぞ。")
+   ShowMessage("あくまで剣の修行のためだぞ。")
+   0()
+  EndIf()
+  If(1,1011,0,4,1)
+   If(1,1001,0,29,2)
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【旅の戦士】")
+    ShowMessage("ほう、ハーピー達が戻ってきたのか。")
+    ShowMessage("ならばさっそく、鳥妖の強者を相手に腕試しと行くか！")
+    ShowMessageFace("",0,0,2,4)
+    ShowMessage("【旅の戦士】")
+    ShowMessage("い、いや……決してお見合いとか、嫁さん探しに行くじゃないぞ。")
+    ShowMessage("あくまで剣の修行のためだぞ。")
+    355("actor_label_jump")
+    EndEventProcessing()
+    DefineLabel("83")
+    ShowMessageFace("hapy_a_fc1",1,0,2,5)
+    ShowMessage("【レイナ】")
+    ShowMessage("相手になってあげてもいいよ～？")
+    ShowMessage("あははっ。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   If(1,1001,0,30,1)
+    ShowMessageFace("",0,0,2,6)
+    ShowMessage("【旅の戦士】")
+    ShowMessage("気付けばすっかり、この村に居着いてしまったな。")
+    ShowMessage("ハーピー相手の修練は良いものだ……ぬふふっ。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  If(1,1011,0,3,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【衛兵】")
+   ShowMessage("村のはるか北には、使われていない古塔があったはずです。")
+   ShowMessage("入り口は封鎖され、中に入れないのですがね……")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【衛兵】")
+   ShowMessage("私は、その塔に何かあると睨んでいます。")
+   ShowMessage("まさか、悪い奴に監禁でもされているとか……")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【衛兵】")
+   ShowMessage("……とは言え、ハーピー達が黙って監禁されているとも思えませんね。")
+   ShowMessage("クィーンハーピーを監禁できる者など、そうそういないでしょうし。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc2",2,0,2,4)
+    ShowMessage("【ソニア】")
+    ShowMessage("謎の古塔……気になるわね。")
+    ShowMessage("中には入れないみたいだけど、覚えておいた方がいいかも……")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(1,1011,0,4,1)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【衛兵】")
+   ShowMessage("やはりあの古塔だったのですか……")
+   ShowMessage("怪しいとは思っていましたが、的中したようですね。")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【衛兵】")
+   ShowMessage("塔に乗り込んで、襲い来るハーピー達をなだめつつ薬を配るとは……")
+   ShowMessage("その勇気と力に敬服しました。")
+   If(8,602)
+    ShowMessageFace("",0,0,2,7)
+    ShowMessage("【衛兵】")
+    ShowMessage("ところで……職業「兵士」は頼りになっていますでしょうか？")
+    ShowChoices(strings("はい","いいえ","就いてもいない"),2)
+    IfPlayerPicksChoice(0,null)
+     ShowMessageFace("",0,0,2,8)
+     ShowMessage("【衛兵】")
+     ShowMessage("そうですか、流石にお目が高い！")
+     0()
+    IfPlayerPicksChoice(1,null)
+     ShowMessageFace("",0,0,2,9)
+     ShowMessage("【衛兵】")
+     ShowMessage("そうですよね、やはり地味な職業ですから……")
+     0()
+    IfPlayerPicksChoice(2,null)
+     ShowMessageFace("",0,0,2,10)
+     ShowMessage("【衛兵】")
+     ShowMessage("そ、そうですか……")
+     ShowMessage("いえ、特に傷付いてなど……いませんよ……")
+     0()
+    404()
+    ShowMessageFace("",0,0,2,11)
+    ShowMessage("【衛兵】")
+    ShowMessage("敵のパラメーターを低下させるスキルは実に有用です。")
+    ShowMessage("強力なボスと闘う時など、力を発揮するのではないでしょうか。")
+    ShowMessageFace("",0,0,2,12)
+    ShowMessage("【衛兵】")
+    ShowMessage("さらに兵士と戦士をマスターすると、上級職の「王宮騎士」になれます。")
+    ShowMessage("敵全体を弱化させつつダメージを与える技など、まさに憧れですよ。")
+    ShowMessageFace("",0,0,2,13)
+    ShowMessage("【衛兵】")
+    ShowMessage("ですので、どうか……")
+    ShowMessage("どうか、兵士の存在を忘れないで下さいね。")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【老人】")
+  ShowMessage("数ヶ月前のあの日、村にハーピーの女王様の使いが来た。")
+  ShowMessage("問題が発生したので、ハーピーはみな集落に戻れとの事だ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【老人】")
+  ShowMessage("こうして村のハーピー達は全員で帰省したが……")
+  ShowMessage("なにせ集落は隣、すぐ戻ってくると思っておったよ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【老人】")
+  ShowMessage("しかし、こんな事になってしまうとはのう……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("58")
+  ShowMessageFace("inp_fc2",2,0,2,4)
+  ShowMessage("【レミ】")
+  ShowMessage("集団失踪、こわいよう……")
+  EndEventProcessing()
+  DefineLabel("59")
+  ShowMessageFace("mdg_fc1",2,0,2,5)
+  ShowMessage("【ラゴラ】")
+  ShowMessage("土の中はちゃんと調べた？")
+  ShowMessage("みんな、土の中に埋まって眠っているのかもしれないわ……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1011 >= 4
+  If(1,1001,0,30,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【老人】")
+   ShowMessage("ハーピー達が戻ってきて、一安心じゃ。")
+   ShowMessage("しかし、病気で自らを隔離しておったとはのう……")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【老人】")
+   ShowMessage("そう言えば、イリアスポートに大学があったはずじゃ。")
+   ShowMessage("そこで、学者や医者を養成しておるらしいのう。")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【老人】")
+   ShowMessage("そういう研究も進めば、このような奇病もなくなろう。")
+   ShowMessage("その頃には、儂もこの世におらんかもしれんが……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("71")
+   ShowMessageFace("okami_fc1",0,0,2,4)
+   ShowMessage("【アマラ】")
+   ShowMessage("さびしいこと言うな、じいさん！")
+   ShowMessage("あと500年くらい生きろ！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,31,1)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【老人】")
+   ShowMessage("魔王との戦争か……")
+   ShowMessage("まさか、儂が生きているうちにこんな大事件が起きるとはのう。")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【老人】")
+   ShowMessage("なんとか、平和的に解決できんかのう……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  If(1,1011,0,3,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【おじさん】")
+   ShowMessage("クィーンハーピー様まで失踪しているのが、ただ事じゃないねぇ。")
+   ShowMessage("いったい、何が起きたんだろうか……")
+   0()
+  EndIf()
+  If(1,1011,0,4,0)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【おじさん】")
+   ShowMessage("ほとんどのハーピーが戻ってきて、良かったけど……")
+   ShowMessage("クィーンハーピー様は、まだ完治されないらしいね。")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【おじさん】")
+   ShowMessage("強大な妖魔ほど、病気なんてすぐ治るのかと思ったけど……")
+   ShowMessage("魔力に呼応する病気は、むしろ逆なんだってね。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("82")
+   ShowMessageFace("suzume_fc1",0,0,2,4)
+   ShowMessage("【ちゅん】")
+   ShowMessage("女王様のために、世界樹の実を見つけたいです……")
+   EndEventProcessing()
+   DefineLabel("83")
+   ShowMessageFace("hapy_a_fc1",0,0,2,5)
+   ShowMessage("【レイナ】")
+   ShowMessage("世界樹の実、見つけたら女王様にあげようね。")
+   EndEventProcessing()
+   DefineLabel("84")
+   ShowMessageFace("hapy_bc_fc1",3,0,2,6)
+   ShowMessage("【ピナ】")
+   ShowMessage("世界樹の実、探したいよね……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1011,0,5,1)
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【おじさん】")
+   ShowMessage("なんと、クィーンハーピー様の病気が治ったとか。")
+   ShowMessage("以前に例の騒動を解決した勇者が、世界樹の実を持ってきてくれたらしいね。")
+   ShowMessageFace("",0,0,2,8)
+   ShowMessage("【おじさん】")
+   ShowMessage("いやぁ、英雄ってのは実在するものなんだなぁ……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("ハーピーは風を巻き起こして攻撃してくる事が多い。")
+  ShowMessage("風属性を軽減する防具があれば、有利に戦えるぞ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("56")
+  ShowMessageFace("inp_fc1",0,0,2,2)
+  ShowMessage("【ラミ】")
+  ShowMessage("淫魔は、もともと風に強いんだよ。")
+  ShowMessage("インプなら有利に戦えるよね♪")
+  EndEventProcessing()
+  DefineLabel("75")
+  ShowMessageFace("hituzi_fc1",3,0,2,3)
+  ShowMessage("【メリー】")
+  ShowMessage("風はやめるのら～！")
+  ShowMessage("ひつじさんの毛が逆立つのら～！")
+  EndEventProcessing()
+  DefineLabel("83")
+  ShowMessageFace("hapy_a_fc1",2,0,2,4)
+  ShowMessage("【レイナ】")
+  ShowMessage("（私達の弱点を吹聴する輩……こっそり始末しないと……）")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("知っているかもしれないけど……")
+  ShowMessage("この木の下、通れるよ。")
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【中年】")
+  ShowMessage("ハーピー達との関係は、極めて良好だった。")
+  ShowMessage("ほら……あっちも、人間の若い男が大好きだしな。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【中年】")
+  ShowMessage("だから、関係が悪化して逃げちまったとかじゃないんだ。")
+  ShowMessage("向こうだって、人間がいないと子供さえ作れないんだから。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【中年】")
+  ShowMessage("ハーピー達が、ばさばさと飛んでる姿を見られないのは辛いよ。")
+  ShowMessage("数ヶ月前まで、当たり前の光景だったのになぁ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("72")
+  ShowMessageFace("phoenix_fc1",3,0,2,4)
+  ShowMessage("【ミニ】")
+  ShowMessage("あたしががんばってばさばさ飛ぶから……")
+  ShowMessage("それで我慢できないか？")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【中年】")
+  ShowMessage("いや、気遣いは嬉しいけど……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1011 >= 4
+  If(1,1001,0,29,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【中年】")
+   ShowMessage("ハーピー達が見つかって良かったよ。")
+   ShowMessage("村の若い男達なんて、ずっと真っ青な顔してたもんな……")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【中年】")
+   ShowMessage("今は集落も忙しくて、こっちに来るハーピーは少ないけど……")
+   ShowMessage("じきに、この村でもハーピーが飛び回る光景が見られるはずさ。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("82")
+   ShowMessageFace("suzume_fc1",0,0,2,3)
+   ShowMessage("【ちゅん】")
+   ShowMessage("集落の方が片付いたら、みんな遊びに来ると思いますよ。")
+   ShowMessage("今は、荒れ果てた集落のお掃除に忙しくて……")
+   EndEventProcessing()
+   DefineLabel("83")
+   ShowMessageFace("hapy_a_fc1",0,0,2,4)
+   ShowMessage("【レイナ】")
+   ShowMessage("ずっと留守にしてたから、集落が荒れ果てちゃってるもんね。")
+   ShowMessage("そっちが片付いたら、みんなこっちに遊びに来ると思うよ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,30,1)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【中年】")
+   ShowMessage("魔王の宣戦布告に、世界中で起きる怪異……")
+   ShowMessage("ハーピー達と協力して、この苦難を乗り切っていかなきゃね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  If(1,1011,0,3,2)
+   ShowMessageFace("fairy_fc1",0,0,2,1)
+   ShowMessage("【妖精】")
+   ShowMessage("ハーピーちゃん達、どこに行っちゃったのかな……")
+   ShowMessage("……あっ、お客さん？")
+   0()
+  EndIf()
+  ShowMessageFace("fairy_fc1",0,0,2,2)
+  ShowMessage("【妖精】")
+  ShowMessage("フェアリーの鍛冶屋は、風とともだち。")
+  ShowMessage("風の魔力を持った武器や防具を造ってあげるよ♪")
+  355("call_synthesize(5)")
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  If(1,1011,0,3,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【衛兵】")
+   ShowMessage("何度もハーピー達の捜索に出かけたのですが……")
+   ShowMessage("集落に関係ない野良ハーピー以外、影も形もありません。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【衛兵】")
+   ShowMessage("捜索範囲を、森林地帯の外にまで広げなければいけませんね。")
+   ShowMessage("しかしそこまで大規模な捜索となると、村の者だけでは厳しいでしょう。")
+   0()
+  EndIf()
+  If(1,1011,0,4,1)
+   If(1,1001,0,29,2)
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【衛兵】")
+    ShowMessage("ハーピー達は、皆で塔に閉じこもっていたとは……")
+    ShowMessage("そりゃ、見つからないはずですよね。")
+    ShowMessageFace("",0,0,2,4)
+    ShowMessage("【衛兵】")
+    ShowMessage("ともかく、これで一安心です。")
+    ShowMessage("この平和が、ずっと続けばいいのですがね……")
+    355("actor_label_jump")
+    EndEventProcessing()
+    DefineLabel("80")
+    ShowMessageFace("orc_fc1",0,0,2,5)
+    ShowMessage("【ヒップ】")
+    ShowMessage("その通りです、平和は大切ですよね。")
+    ShowMessage("オークは平和な村を襲うのが仕事ですから……")
+    EndEventProcessing()
+    DefineLabel("86")
+    ShowMessageFace("name_s_fc1",0,0,2,6)
+    ShowMessage("【ロザリオ】")
+    ShowMessage("平和のため、イリアス様に祈りましょう……")
+    EndEventProcessing()
+    0()
+   EndIf()
+   If(1,1001,0,30,1)
+    ShowMessageFace("",0,0,2,7)
+    ShowMessage("【衛兵】")
+    ShowMessage("この村も、いつまでも安全とは限りません。")
+    ShowMessage("ハーピー達と共に、魔王の軍勢と戦い抜きますよ。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【老人】")
+  ShowMessage("ここからまっすぐ北に進めば、不思議な塔に辿り着く。")
+  ShowMessage("ずっと昔から存在するが、何の塔なのかは分からん。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【老人】")
+  ShowMessage("今は扉が閉ざされておって、中に入る事はできんがな……")
+  ShowMessage("もしかしたら、財宝があるのかもしれんのう。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("68")
+  ShowMessageFace("dragonp_fc1",0,0,2,3)
+  ShowMessage("【パピ】")
+  ShowMessage("財宝！？　行ってみるのだ！")
+  EndEventProcessing()
+  DefineLabel("70")
+  ShowMessageFace("nezumi_fc1",1,0,2,4)
+  ShowMessage("【ラティ】")
+  ShowMessage("部屋いっぱいのチーズとか……あったらいいなぁ。")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1011 >= 4
+  If(1,1001,0,29,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【老人】")
+   ShowMessage("ここからまっすぐ北に進めば、不思議な塔に辿り着く。")
+   ShowMessage("もしかしたら、財宝があるかもと思っておったが……")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【老人】")
+   ShowMessage("しかし、まさかハーピー達が閉じこもっておったとはのう。")
+   ShowMessage("……彼女達こそ、儂等の財宝だったのじゃよ！")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【老人】")
+   ShowMessage("……儂、うまいこと言った？")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("55")
+   ShowMessageFace("name_fc1",0,0,2,4)
+   ShowMessage("【メルク】")
+   ShowMessage("……………………")
+   EndEventProcessing()
+   DefineLabel("61")
+   ShowMessageFace("mimizu_fc1",0,0,2,5)
+   ShowMessage("【ミミー】")
+   ShowMessage("……………………")
+   EndEventProcessing()
+   DefineLabel("73")
+   ShowMessageFace("hiru_fc1",0,0,2,6)
+   ShowMessage("【ヒル】")
+   ShowMessage("……………………")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,30,1)
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【老人】")
+   ShowMessage("最近、ミツバチの集団死が相次いでおる。")
+   ShowMessage("原因は不明で、どうも病気でもないらしい……")
+   ShowMessageFace("",0,0,2,8)
+   ShowMessage("【老人】")
+   ShowMessage("いったい、どうなっているのかのう。")
+   ShowMessage("何か大きな事が、世界に起きている気がしてならんわい。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【神父】")
+  ShowMessage("木陰の教会にようこそ。")
+  ShowMessage("何のご用ですかな？")
+  ShowChoices(strings("お祈りをする","用はない"),2)
+  IfPlayerPicksChoice(0,null)
+   ChangeVariable(1002,1002,0,0,8)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【神父】")
+   ShowMessage("それでは、イリアス様に祈りましょう。")
+   ShowMessage("……ああ、この場に導きの縁を感じます。")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【神父】")
+   ShowMessage("もし旅先で何かあった場合、この場に導かれるでしょう。")
+   ShowMessage("イリアス様のご加護があらん事を……")
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【神父】")
+   ShowMessage("イリアス様のご加護があらん事を……")
+   0()
+  404()
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  // condition: variable 1011 >= 4
+  If(1,1001,0,29,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【青年】")
+   ShowMessage("私の妻が戻ってきました！")
+   ShowMessage("もう毎晩モエモエですよ！")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【ハーピー】")
+   ShowMessage("まあ、あなたったらそんなに大きな声で……")
+   ShowMessage("これじゃあ、今夜もモエモエね。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("70")
+   ShowMessageFace("nezumi_fc1",2,0,2,3)
+   ShowMessage("【ラティ】")
+   ShowMessage("……ちっ。")
+   EndEventProcessing()
+   DefineLabel("72")
+   ShowMessageFace("phoenix_fc1",3,0,2,4)
+   ShowMessage("【ミニ】")
+   ShowMessage("モエモエなのか？")
+   ShowMessage("でも、ぜんぜん燃えてないぞ……？")
+   EndEventProcessing()
+   DefineLabel("74")
+   ShowMessageFace("usagi_fc1",1,0,2,5)
+   ShowMessage("【バーニー】")
+   ShowMessage("あらあら、うふふっ……")
+   EndEventProcessing()
+   DefineLabel("83")
+   ShowMessageFace("hapy_a_fc1",0,0,2,6)
+   ShowMessage("【レイナ】")
+   ShowMessage("がんばってね♪")
+   EndEventProcessing()
+   DefineLabel("105")
+   ShowMessageFace("mimic_fc1",2,0,2,7)
+   ShowMessage("【ミネリ】")
+   ShowMessage("爆発しろ……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,30,1)
+   ShowMessageFace("",0,0,2,8)
+   ShowMessage("【青年】")
+   ShowMessage("魔王軍が、この村に攻めてくる事があったら……")
+   ShowMessage("ああ、恐ろしい……")
+   ShowMessageFace("",0,0,2,9)
+   ShowMessage("【ハーピー】")
+   ShowMessage("大丈夫よ、あなた。")
+   ShowMessage("ハーピーはみんな、この村のために戦うから。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  If(1,1011,0,3,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【青年】")
+   ShowMessage("私の妻であるハーピーは、帰省した直後に姿を消しました……")
+   ShowMessage("ああ、どこに行ってしまったんだ……")
+   0()
+  EndIf()
+  If(1,1011,0,4,1)
+   If(1,1001,0,29,2)
+    ShowMessageFace("",0,0,2,2)
+    ShowMessage("【青年】")
+    ShowMessage("私の妻が戻ってきました！")
+    ShowMessage("もう毎晩モエモエですよ！")
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【ハーピー】")
+    ShowMessage("まあ、あなたったらそんなに大きな声で……")
+    ShowMessage("これじゃあ、今夜もモエモエね。")
+    355("actor_label_jump")
+    EndEventProcessing()
+    DefineLabel("70")
+    ShowMessageFace("nezumi_fc1",2,0,2,4)
+    ShowMessage("【ラティ】")
+    ShowMessage("……ちっ。")
+    EndEventProcessing()
+    DefineLabel("72")
+    ShowMessageFace("phoenix_fc1",3,0,2,5)
+    ShowMessage("【ミニ】")
+    ShowMessage("モエモエなのか？")
+    ShowMessage("でも、ぜんぜん燃えてないぞ……？")
+    EndEventProcessing()
+    DefineLabel("74")
+    ShowMessageFace("usagi_fc1",1,0,2,6)
+    ShowMessage("【バーニー】")
+    ShowMessage("あらあら、うふふっ……")
+    EndEventProcessing()
+    DefineLabel("83")
+    ShowMessageFace("hapy_a_fc1",0,0,2,7)
+    ShowMessage("【レイナ】")
+    ShowMessage("がんばってね♪")
+    EndEventProcessing()
+    DefineLabel("105")
+    ShowMessageFace("mimic_fc1",2,0,2,8)
+    ShowMessage("【ミネリ】")
+    ShowMessage("爆発しろ……")
+    EndEventProcessing()
+    0()
+   EndIf()
+   If(1,1001,0,30,1)
+    ShowMessageFace("",0,0,2,9)
+    ShowMessage("【青年】")
+    ShowMessage("魔王軍が、この村に攻めてくる事があったら……")
+    ShowMessage("ああ、恐ろしい……")
+    ShowMessageFace("",0,0,2,10)
+    ShowMessage("【ハーピー】")
+    ShowMessage("大丈夫よ、あなた。")
+    ShowMessage("ハーピーはみんな、この村のために戦うから。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(168,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  0()
+
+
+
+EVENT   48
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【村娘】")
+  ShowMessage("仲良くしていた、ハーピーの姉妹も失踪しています。")
+  ShowMessage("本当に心配ですね、無事ならば良いのですが……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【少女】")
+  ShowMessage("ぴぃちゃん、どうしてるのかな……？")
+  ShowMessage("毎日お姉ちゃんと探しに出てるけど、見付からないの……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("62")
+  ShowMessageFace("gob_fc1",3,0,2,3)
+  ShowMessage("【ゴブ】")
+  ShowMessage("なんとか探してあげたいね……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1011 >= 4
+  If(1,1001,0,30,2)
+   If(4,84,0)
+    ShowMessageFace("",0,0,2,1)
+    ShowMessage("【少女】")
+    ShowMessage("あっ、ぴぃちゃん！")
+    ShowMessageFace("hapy_bc_fc1",5,0,2,2)
+    ShowMessage("【ピィ】")
+    ShowMessage("ごめんね、心配かけちゃって……")
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【村娘】")
+    ShowMessage("もう、どこに行ってたのよ……")
+    ShowMessage("見たところ、今は旅をしてるの？")
+    ShowMessageFace("hapy_bc_fc1",3,0,2,4)
+    ShowMessage("【ピナ】")
+    ShowMessage("また少し、村を空けるから……")
+    ShowMessage("おみやげ待っててね。")
+    EndEventProcessing()
+    0()
+   EndIf()
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【少女】")
+   ShowMessage("ぴぃちゃんとお姉ちゃんがみつかったよ！")
+   ShowMessage("病気になって、塔でじっとしてたんだって……")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【村娘】")
+   ShowMessage("仲良くしていたハーピーの姉妹が見つかりました。")
+   ShowMessage("近くの塔で病気療養していたのだとか……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("53")
+   ShowMessageFace("slime_fc1",0,0,2,7)
+   ShowMessage("【ライム】")
+   ShowMessage("よかったね～♪")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,31,1)
+   ShowMessageFace("",0,0,2,8)
+   ShowMessage("【少女】")
+   ShowMessage("なんで、魔王は戦争するのかな……")
+   ShowMessage("人間の事が、キライなの？")
+   ShowMessageFace("",0,0,2,9)
+   ShowMessage("【村娘】")
+   ShowMessage("集落のハーピーはみんな、人間の事が大好きでしょ？")
+   ShowMessage("また平和な時代が来るから……ね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   49
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【村娘】")
+  ShowMessage("仲良くしていた、ハーピーの姉妹も失踪しています。")
+  ShowMessage("本当に心配ですね、無事ならば良いのですが……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【少女】")
+  ShowMessage("ぴぃちゃん、どうしてるのかな……？")
+  ShowMessage("毎日お姉ちゃんと探しに出てるけど、見付からないの……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("62")
+  ShowMessageFace("gob_fc1",3,0,2,3)
+  ShowMessage("【ゴブ】")
+  ShowMessage("なんとか探してあげたいね……")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: variable 1011 >= 4
+  If(4,84,0)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【少女】")
+   ShowMessage("あっ、ぴぃちゃん！")
+   ShowMessageFace("hapy_bc_fc1",5,0,2,2)
+   ShowMessage("【ピィ】")
+   ShowMessage("ごめんね、心配かけちゃって……")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【村娘】")
+   ShowMessage("もう、どこに行ってたのよ……")
+   ShowMessage("見たところ、今は旅をしてるの？")
+   ShowMessageFace("hapy_bc_fc1",3,0,2,4)
+   ShowMessage("【ピナ】")
+   ShowMessage("また少し、村を空けるから……")
+   ShowMessage("おみやげ待っててね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【少女】")
+  ShowMessage("ぴぃちゃんとお姉ちゃんがみつかったよ！")
+  ShowMessage("病気になって、塔でじっとしてたんだって……")
+  ShowMessageFace("",0,0,2,6)
+  ShowMessage("【村娘】")
+  ShowMessage("仲良くしていたハーピーの姉妹が見つかりました。")
+  ShowMessage("近くの塔で病気療養していたのだとか……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("53")
+  ShowMessageFace("slime_fc1",0,0,2,7)
+  ShowMessage("【ライム】")
+  ShowMessage("よかったね～♪")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   50
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("仲間の弱点属性には、ちゃんと気を配っているか？")
+  ShowMessage("特に、快楽属性が弱点の仲間は要注意だぞ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("戦闘中、妙に高いダメージを受けて驚くことがあるかもしれない。")
+  ShowMessage("敵がこちらの苦手属性技を使用してくる場合、控えに回すのも手だな。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("68")
+  ShowMessageFace("dragonp_fc1",2,0,2,3)
+  ShowMessage("【パピ】")
+  ShowMessage("あたしも、快楽属性は苦手だぞ……")
+  ShowMessage("殴ったり殴られたりは得意なのにな。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   51
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ShowMessageFace("suzume_fc1",1,0,2,1)
+  ShowMessage("【スズメ娘】")
+  ShowMessage("ちゅんちゅん！　すずめが朝をお伝えしますよ！")
+  ShowMessageFace("suzume_fc1",3,0,2,2)
+  ShowMessage("【スズメ娘】")
+  ShowMessage("あれ、もう昼でしたか……？")
+  ShowMessage("あの事件以来、なんだか調子が出ないです……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("82")
+  ShowMessageFace("suzume_fc1",0,0,2,3)
+  ShowMessage("【ちゅん】")
+  ShowMessage("早く調子を取り戻さないと……")
+  ShowMessage("朝を伝える役目が、どこかのすずめに奪われてしまいますよ。")
+  EndEventProcessing()
+  DefineLabel("75")
+  ShowMessageFace("hituzi_fc1",3,0,2,4)
+  ShowMessage("【メリー】")
+  ShowMessage("朝も夜も酒なのら～！")
+  EndEventProcessing()
+  DefineLabel("77")
+  ShowMessageFace("jeid_fc1",0,0,2,5)
+  ShowMessage("【ジェイド】")
+  ShowMessage("私の方が、より正確に時刻を伝えられるはずです。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   52
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("この村には、風の鍛冶屋がいるという。")
+  ShowMessage("風の魔力を持つ武器や防具を造ってくれるという噂だが……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【旅の戦士】")
+  ShowMessage("どうやら、店は出していないようだな。")
+  ShowMessage("村のどこかにいるのは確かだが、どこにいるのだろうか……？")
+  0()
+
+
+
+EVENT   53
+ PAGE   1
+  ShowMessageFace("dog_fc1",0,0,2,1)
+  ShowMessage("【犬娘】")
+  ShowMessage("わんわん！")
+  ShowMessage("ハチミツ、だいすき……")
+  If(4,60,0)
+   ShowMessageFace("dog_fc1",2,0,2,2)
+   ShowMessage("【ポチ】")
+   ShowMessage("ここにも、牙を抜かれ飼い慣らされた獣が……")
+   ShowMessageFace("dog_fc1",4,0,2,3)
+   ShowMessage("【ポチ】")
+   ShowMessage("でも、ハチミツ舐めたいよね～♪")
+   If(2,"A",1)
+    ChangeSelfSwitch("A",0)
+    ChangeVariable(1036,1036,1,0,1)
+    If(1,1036,0,9,1)
+     RunCommonEvent(311)
+     0()
+    Else()
+     0()
+    EndIf()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   54
+ PAGE   1
+  // condition: switch 1080 is ON
+  ShowMessageFace("orc_fc1",1,0,2,1)
+  ShowMessage("【ヒップ】")
+  ShowMessage("ぶひー！　オークの襲撃ですよ！")
+  ShowMessage("ハピネス村に、オークが襲ってきましたよ！")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【衛兵】")
+  ShowMessage("おお、ヒップ。")
+  ShowMessage("たまには母さんのところにも顔を出してやれよ。")
+  ShowMessageFace("orc_fc1",2,0,2,3)
+  ShowMessage("【ヒップ】")
+  ShowMessage("そう言えば、地元でした……")
+  0()
+ PAGE   2
+  // condition: party contains actor #80
+  0()
+
+
+
+EVENT   55
+ PAGE   1
+  // condition: switch 1540 is ON
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x61,0x6d,0x69,0x72,0x61,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  If(2,"A",1)
+   ChangeSelfSwitch("A",0)
+   RunCommonEvent(322)
+   0()
+  Else()
+   ShowMessageFace("amira_fc1",0,0,2,1)
+   ShowMessage("【アミラ】")
+   ShowMessage("このアミラは、もう見つけたわ。")
+   ShowMessage("別のアミラを探して……")
+   0()
+  EndIf()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6d,0x75,0x72,0x61,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: party contains actor #540
+  0()
+
+
+
+EVENT   56
+ PAGE   1
+  0()

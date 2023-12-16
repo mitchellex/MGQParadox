@@ -1,0 +1,381 @@
+﻿
+
+
+EVENT   5
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  // condition: switch 4 is ON
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  0()
+ PAGE   3
+  // condition: switch 32 is ON
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  // condition: switch 4 is ON
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  0()
+ PAGE   3
+  // condition: switch 34 is ON
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  // condition: switch 4 is ON
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  0()
+ PAGE   3
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  // condition: variable 1212 >= 3
+  If(0,4,0)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("ここはリリス三姉妹に任せて、僕達は先へと急ごう――")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("ここは三人の熾天使に任せて、僕達は先へと急ごう――")
+   0()
+  EndIf()
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x06,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  0()
+ PAGE   2
+  // condition: variable 1212 >= 7
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  // condition: variable 1212 >= 3
+  If(0,4,0)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("ここはリリス三姉妹に任せて、僕達は先へと急ごう――")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("ここは三人の熾天使に任せて、僕達は先へと急ごう――")
+   0()
+  EndIf()
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x06,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  0()
+ PAGE   2
+  // condition: variable 1212 >= 7
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  // condition: variable 1212 >= 3
+  If(0,4,0)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("ここはリリス三姉妹に任せて、僕達は先へと急ごう――")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("ここは三人の熾天使に任せて、僕達は先へと急ごう――")
+   0()
+  EndIf()
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x06,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  0()
+ PAGE   2
+  // condition: variable 1212 >= 7
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  Wait(60)
+  PictureDisplay(5,"80_mistilteinn_st31",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("mistilteinn_fc1",0,0,2,1)
+  ShowMessage("【ミステルテイン】")
+  ShowMessage("……そろそろ、やめましょうか。")
+  ShowMessage("これ以上の戦いは無益です。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("ミステルテインは、勇者達の気配が消えた事を感知した。")
+  ShowMessage("彼らは「夜の国」の領域まで踏み込んでしまったのだ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("そうなれば、もはや追撃の意味もない。")
+  ShowMessage("ここでの戦いさえ、力の浪費に他ならない――")
+  If(0,4,0)
+   PictureDisplay(5,"80_lilith2_st01b",0,0,-150,0,100,100,255,0)
+   PictureDisplay(6,"80_mistilteinn_st01",0,0,240,20,100,100,255,0)
+   ShowMessageFace("lilith2_fc1",0,0,2,4)
+   ShowMessage("【リリス】")
+   ShowMessage("……意外に、諦めが早いのですね。")
+   ShowMessageFace("lilith2_fc1",0,0,2,5)
+   ShowMessage("【リリス】")
+   ShowMessage("せめて私達だけでも倒す――")
+   ShowMessage("などとは考えないのですか？")
+   ShowMessageFace("mistilteinn_fc1",0,0,2,6)
+   ShowMessage("【ミステルテイン】")
+   ShowMessage("互いに憎い戦いでもありませんしね。")
+   ShowMessage("時空を超えたこの戦いも、もはや幕引きは目前です。")
+   ShowMessageFace("mistilteinn_fc1",0,0,2,7)
+   ShowMessage("【ミステルテイン】")
+   ShowMessage("夢の主が勝つか――")
+   ShowMessage("それとも、勇者達が勝つかは分かりませんが。")
+   PictureClear(6)
+   PictureDisplay(5,"80_morrigan_st02b",0,0,0,0,100,100,255,0)
+   ShowMessageFace("morrigan_fc1",4,0,2,8)
+   ShowMessage("【モリガン】")
+   ShowMessage("もちろん、ルカ達が――勇者達が勝つぜ！")
+   PictureDisplay(5,"80_executioner_st01",0,0,70,-50,70,70,255,0)
+   PictureDisplay(6,"80_ogretooth_st01",0,0,-150,80,100,100,255,0)
+   PictureDisplay(7,"80_mistilteinn_st01",0,0,280,130,80,80,255,0)
+   ShowMessageFace("ogretooth_fc1",0,0,2,9)
+   ShowMessage("【オーガトゥース】")
+   ShowMessage("……どっちが勝っても、俺達には関係ないさ。")
+   ShowMessage("勇者達が勝った方が、都合がいいくらいだ。")
+   ShowMessageFace("executioner_fc1",0,0,2,10)
+   ShowMessage("【エクスキューショナー】")
+   ShowMessage("「あれ」を手に入れるのに……")
+   ShowMessage("勇者達の方が、役立ちそうだもんね。")
+   ShowMessageFace("mistilteinn_fc1",0,0,2,11)
+   ShowMessage("【ミステルテイン】")
+   ShowMessage("そういうわけで、私達は去りましょう。")
+   ShowMessage("互いに本気でなかったとはいえ、楽しかったですよ。")
+   ShowMessageFace("lilith2_fc1",0,0,2,12)
+   ShowMessage("【リリス】")
+   ShowMessage("あなた達の求める「もの」――")
+   ShowMessage("見つかれば良いですね。")
+   ShowMessageFace("mistilteinn_fc1",0,0,2,13)
+   ShowMessage("【ミステルテイン】")
+   ShowMessage("ええ、あなた達も目的を果たさんことを。")
+   ShowMessage("それでは……")
+   PictureClear(5)
+   PictureClear(6)
+   PictureClear(7)
+   Wait(30)
+   212(5,542,false)
+   Wait(60)
+   ChangeSwitch(31,31,0)
+   Wait(60)
+   ShowMessageFace("morrigan_fc1",6,0,2,14)
+   ShowMessage("【モリガン】")
+   ShowMessage("行かせちまって良かったのか、姉貴……？")
+   ShowMessageFace("astaroth_fc1",0,0,2,15)
+   ShowMessage("【アスタロト】")
+   ShowMessage("足止めは十分に出来たわ。")
+   ShowMessage("これ以上、戦いを続ける意味はないのよ。")
+   ShowMessageFace("lilith2_fc1",0,0,2,16)
+   ShowMessage("【リリス】")
+   ShowMessage("私達の役割も終わりました。")
+   ShowMessage("さあ、帰りましょう――")
+   ShowMessageFace("morrigan_fc1",0,0,2,17)
+   ShowMessage("【モリガン】")
+   ShowMessage("あたしは、ルカ達のところに戻るぜ。")
+   ShowMessage("相手は「夢の主」、淫魔の力が役に立つからな！")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0e,0x6d,0x6f,0x6e,0x5f,0x77,0x69,0x6e,0x64,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x01,0x96,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+   ChangeSwitch(32,32,0)
+   ShowMessageFace("lilith2_fc1",3,0,2,18)
+   ShowMessage("【リリス】")
+   ShowMessage("魔王アリスフィーズ、そしてルカ……")
+   ShowMessage("どうか、勝利を……")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0e,0x6d,0x6f,0x6e,0x5f,0x77,0x69,0x6e,0x64,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x01,0x96,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+   ChangeSwitch(33,33,0)
+   ChangeSwitch(34,34,0)
+   Wait(120)
+   0()
+  EndIf()
+  If(0,5,0)
+   PictureDisplay(5,"80_eden_st34",0,0,-150,0,100,100,0,0)
+   PictureDisplay(6,"80_mistilteinn_st31",0,0,150,0,100,100,0,0)
+   PictureMove(5,null,0,0,-150,0,100,100,255,0,30,false)
+   PictureMove(6,null,0,0,150,0,100,100,255,0,30,true)
+   ShowMessageFace("eden_fc2",3,0,2,19)
+   ShowMessage("【エデン】")
+   ShowMessage("見切りが早いのですね。")
+   ShowMessage("あなた達は、天使を憎んでいるのでは……？")
+   ShowMessageFace("mistilteinn_fc1",0,0,2,20)
+   ShowMessage("【ミステルテイン】")
+   ShowMessage("厳密に言えば、この世界の天使とは別種です。")
+   ShowMessage("あなた達に、直接の恨みはありません。")
+   PictureDisplay(5,"80_executioner_st03",0,0,-150,0,80,80,255,0)
+   PictureDisplay(6,"80_ogretooth_st03",0,0,150,0,100,100,255,0)
+   ShowMessageFace("ogretooth_fc1",2,0,2,21)
+   ShowMessage("【オーガトゥース】")
+   ShowMessage("確かに……良く考えたら、そうだよな。")
+   ShowMessageFace("executioner_fc1",2,0,2,22)
+   ShowMessage("【エクスキューショナー】")
+   ShowMessage("まあ、嫌いには違いないけどね……")
+   ShowMessageFace("shion_fc1",0,0,2,23)
+   ShowMessage("【シオン】")
+   ShowMessage("ずいぶん、嫌われたもんだな……")
+   ShowMessage("お前達の世界で、天使達は何やらかしたんだ？")
+   PictureDisplay(5,"80_eden_st34",0,0,-150,0,100,100,255,0)
+   PictureDisplay(6,"80_mistilteinn_st31",0,0,150,0,100,100,255,0)
+   ShowMessageFace("mistilteinn_fc1",0,0,2,24)
+   ShowMessage("【ミステルテイン】")
+   ShowMessage("非道な事ですよ。ともかく……")
+   ShowMessage("時空を超えたこの戦いも、もはや幕引きは目前です。")
+   ShowMessageFace("mistilteinn_fc1",0,0,2,25)
+   ShowMessage("【ミステルテイン】")
+   ShowMessage("夢の主が勝つか――")
+   ShowMessage("それとも、勇者達が勝つかは分かりませんが。")
+   ShowMessageFace("eden_fc2",3,0,2,26)
+   ShowMessage("【エデン】")
+   ShowMessage("もちろんイリアス様が勝利します。")
+   ShowMessage("勇者ルカ達の勝利と言い換えても良いでしょう。")
+   PictureDisplay(5,"80_executioner_st01",0,0,70,-50,70,70,255,0)
+   PictureDisplay(6,"80_ogretooth_st01",0,0,-150,80,100,100,255,0)
+   PictureDisplay(7,"80_mistilteinn_st01",0,0,280,130,80,80,255,0)
+   ShowMessageFace("ogretooth_fc1",0,0,2,27)
+   ShowMessage("【オーガトゥース】")
+   ShowMessage("……どっちが勝っても、俺達には関係ないさ。")
+   ShowMessage("勇者達が勝った方が、都合がいいくらいだ。")
+   ShowMessageFace("executioner_fc1",0,0,2,28)
+   ShowMessage("【エクスキューショナー】")
+   ShowMessage("「あれ」を手に入れるのに……")
+   ShowMessage("勇者達の方が、役立ちそうだもんね。")
+   ShowMessageFace("mistilteinn_fc1",0,0,2,29)
+   ShowMessage("【ミステルテイン】")
+   ShowMessage("そういうわけで、私達は去りましょう。")
+   ShowMessage("互いに本気でなかったとはいえ、楽しかったですよ。")
+   ShowMessageFace("eden_fc2",3,0,2,30)
+   ShowMessage("【エデン】")
+   ShowMessage("ちょっと、待ちなさい――")
+   PictureClear(5)
+   PictureClear(6)
+   PictureClear(7)
+   Wait(30)
+   212(5,542,false)
+   Wait(60)
+   ChangeSwitch(31,31,0)
+   Wait(60)
+   ShowMessageFace("gnosis_fc1",4,0,2,31)
+   ShowMessage("【グノーシス】")
+   ShowMessage("処刑し損なったか……")
+   ShowMessageFace("shion_fc1",2,0,2,32)
+   ShowMessage("【シオン】")
+   ShowMessage("畜生、逃げられるなんて……！")
+   ShowMessageFace("eden_fc2",0,0,2,33)
+   ShowMessage("【エデン】")
+   ShowMessage("まあ、いいでしょう……")
+   ShowMessage("足止めの任務は、確かに果たしました。")
+   ShowMessageFace("shion_fc1",0,0,2,34)
+   ShowMessage("【シオン】")
+   ShowMessage("不完全燃焼だけど、仕方ないな。")
+   ShowMessage("それじゃあ、行くか。")
+   212(19,501,false)
+   Wait(30)
+   ChangeSwitch(33,33,0)
+   Wait(60)
+   ShowMessageFace("gnosis_fc1",0,0,2,35)
+   ShowMessage("【グノーシス】")
+   ShowMessage("次は、処刑する……")
+   212(15,501,false)
+   Wait(30)
+   ChangeSwitch(32,32,0)
+   Wait(60)
+   ShowMessageFace("eden_fc2",3,0,2,36)
+   ShowMessage("【エデン】")
+   ShowMessage("……………………")
+   ShowMessageFace("eden_fc2",0,0,2,37)
+   ShowMessage("【エデン】")
+   ShowMessage("イリアス様、どうかご武運を……")
+   212(17,501,false)
+   Wait(30)
+   ChangeSwitch(34,34,0)
+   Wait(180)
+   0()
+  EndIf()
+  242(1)
+  221()
+  Wait(120)
+  211(1)
+  ChangeSwitch(31,31,1)
+  ChangeSwitch(32,32,1)
+  ChangeSwitch(33,33,1)
+  ChangeSwitch(34,34,1)
+  ChangeVariable(1212,1212,0,0,7)
+  281(0)
+  314(0,0)
+  TeleportPlayer(0,932,19,29,8,2)
+  222()
+  Wait(30)
+  ShowMessageFace("rovissa_fc1",0,0,2,38)
+  ShowMessage("【ルヴィッサ】")
+  ShowMessage("もう、ほとんど空間が侵蝕されているわね……")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,39)
+   ShowMessage("【アリス】")
+   ShowMessage("これが、「夜の国」――")
+   ShowMessage("世界が全てこうなってしまうなど、耐えられんな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,40)
+   ShowMessage("【イリアス】")
+   ShowMessage("これが、「夜の国」――")
+   ShowMessage("我々が勝利しなければ、世界は全てこの有様になるのですね。")
+   0()
+  EndIf()
+  ShowMessageFace("rest_fc1",0,0,2,41)
+  ShowMessage("【レスト】")
+  ShowMessage("宙に浮いてる人達は何なんだ？")
+  ShowMessage("夢魔と人が交わってるみたいだけど……")
+  ShowMessageFace("rejeo_fc1",0,0,2,42)
+  ShowMessage("【リジェオ】")
+  ShowMessage("きっと、現実世界で夢に堕とされた人達……")
+  ShowMessage("ああやって、夢世界で夢魔に犯されているの。")
+  ShowMessageFace("rejeo_fc1",0,0,2,43)
+  ShowMessage("【リジェオ】")
+  ShowMessage("目が覚めるまで、ずっとね……")
+  ShowMessage("この夢世界は、ああいう人達の夢で出来てるみたい。")
+  ShowMessageFace("",0,0,2,44)
+  ShowMessage("こんな世界で、全ての人間が快楽の夢に沈む――")
+  ShowMessage("それは、まさしく悪夢だ。")
+  ShowMessageFace("",0,0,2,45)
+  ShowMessage("ゲートまでは、あと少し。")
+  ShowMessage("夢の終わりまで、あと少しだ――")
+  EndEventProcessing()
+  0()

@@ -1,0 +1,494 @@
+﻿
+DisplayName "アルマエルマの部屋"
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,407,36,18,0,0)
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  // condition: switch 4 is ON
+  ShowMessageFace("dog_fc1",0,0,2,1)
+  ShowMessage("【わんこ】")
+  ShowMessage("天界って、天使ばっかりなんだよね？")
+  ShowMessage("あたしやぷるこちゃん、受け入れてもらえるかな……？")
+  ShowMessageFace("iriasu_fc4",0,0,2,2)
+  ShowMessage("【イリアス】")
+  ShowMessage("問題ありません、あなた達は天使ですから。")
+  ShowMessage("エデン……プルエルとイヌエルは天使ですよね？")
+  ShowMessageFace("eden_fc1",0,0,2,3)
+  ShowMessage("【エデン】")
+  ShowMessage("イリアス様がそう仰せならば、もちろん天使です。")
+  ShowMessage("プルエルとイヌエル、天使名簿に載せておきましょう。")
+  ShowMessageFace("iriasu_fc4",0,0,2,4)
+  ShowMessage("【イリアス】")
+  ShowMessage("この二名は、私と苦難を共にした忠実なる僕。")
+  ShowMessage("もし、異議を挟む天使がいたならば……分かっていますね？")
+  ShowMessageFace("eden_fc1",0,0,2,5)
+  ShowMessage("【エデン】")
+  ShowMessage("プルエルとイヌエルは、忠実なる天使……")
+  ShowMessage("それを疑う者がいれば、私が責任を持って炭にしましょう。")
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  // condition: switch 4 is ON
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【ぷるこ】")
+  ShowMessage("イリアス様と冒険、楽しかったよ～♪")
+  ShowMessage("でも、もうお別れなのかなぁ……？")
+  ShowMessageFace("iriasu_fc4",0,0,2,2)
+  ShowMessage("【イリアス】")
+  ShowMessage("ここから先は、あなた達には危険です。")
+  ShowMessage("共に旅するのは、ここで終わりとなるでしょう。")
+  ShowMessageFace("iriasu_fc4",1,0,2,3)
+  ShowMessage("【イリアス】")
+  ShowMessage("ですが、またいつでも会えますよ。")
+  ShowMessage("私の神殿に、あなた達の部屋を作りましょう。")
+  ShowMessageFace("slime_fc1",0,0,2,4)
+  ShowMessage("【ぷるこ】")
+  ShowMessage("やったぁ、ずっとイリアス様と一緒だね♪")
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  ShowMessageFace("arumaeruma_fc2",3,0,2,1)
+  ShowMessage("【アルマエルマ】")
+  ShowMessage("なんで、天使陣営の連中が")
+  ShowMessage("私の部屋に集まってくるのかしら……")
+  ShowMessageFace("arumaeruma_fc2",0,0,2,2)
+  ShowMessage("【アルマエルマ】")
+  ShowMessage("それはともかく、ルカちゃんはもう決めた？")
+  ShowMessage("邪神の側につくか、それとも女神につくか……")
+  If(1,1022,0,9,0)
+   ShowMessageFace("arumaeruma_fc2",0,0,2,3)
+   ShowMessage("【アルマエルマ】")
+   ShowMessage("私は、邪神でも女神でもなく、ルカちゃんの味方よ。")
+   ShowMessage("どちらを選んだとしても、仲間から抜けたりしないわ♪")
+   ShowMessageFace("arumaeruma_fc2",0,0,2,4)
+   ShowMessage("【アルマエルマ】")
+   ShowMessage("私は、気ままに吹く風……")
+   ShowMessage("重い決断なんかとは、無縁でいたいのよね。")
+   0()
+  EndIf()
+  If(1,1022,0,8,2)
+   ShowMessageFace("arumaeruma_fc2",0,0,2,5)
+   ShowMessage("【アルマエルマ】")
+   ShowMessage("どちらにしても……")
+   ShowMessage("私は、ルカちゃんを助けてあげるわ。")
+   ShowMessageFace("ruka_fc1",0,0,2,6)
+   ShowMessage("【ルカ】")
+   ShowMessage("えっ……！？")
+   ShowMessageFace("arumaeruma_fc2",0,0,2,7)
+   ShowMessage("【アルマエルマ】")
+   ShowMessage("私は、ルカちゃんが気に入ったのよ。")
+   ShowMessage("どちらを選んでも、仲間になってあげるわね♪")
+   ShowMessageFace("",0,0,2,8)
+   ShowMessage("たとえ、イリアス陣営を選んでも仲間になってくれるなんて――")
+   ShowMessage("いったい、何を考えているのだろうか。")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  If(0,4,0)
+   ShowMessageFace("ruka_fc1",0,0,2,1)
+   ShowMessage("【ルカ】")
+   ShowMessage("あれ？　どうやってここまで来たんですか……？")
+   ShowMessageFace("iriasu_fc4",0,0,2,2)
+   ShowMessage("【イリアス】")
+   ShowMessage("過去のハインリヒと、エデンの助けを得ました。")
+   ShowMessage("それであなた達の後を追い、ここまで辿り着いたのですよ。")
+   ShowMessageFace("iriasu_fc4",0,0,2,3)
+   ShowMessage("【イリアス】")
+   ShowMessage("現在の状況も、おおむね把握しています。")
+   ShowMessage("ルカ……あなたは大いなる選択の岐路にいるのですね。")
+   ShowMessageFace("iriasu_fc4",0,0,2,4)
+   ShowMessage("【イリアス】")
+   ShowMessage("これまで、魔王と旅をしてきたあなたですが……")
+   ShowMessage("正しき道に戻るのは、まだ遅くはありません。")
+   ShowMessageFace("iriasu_fc4",0,0,2,5)
+   ShowMessage("【イリアス】")
+   ShowMessage("闇と決別し、光の道を歩むのです。")
+   ShowMessage("これから先は、真の勇者として私と共に戦いましょう。")
+   ShowMessageFace("ruka_fc1",0,0,2,6)
+   ShowMessage("【ルカ】")
+   ShowMessage("……………………")
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("小さなイリアスも、女神世界のイリアスと同一の存在。")
+   ShowMessage("もし女神の側につけば、イリアスが仲間に加わるだろう――")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,8)
+   ShowMessage("【イリアス】")
+   ShowMessage("ようやく、ここまで来ましたね……")
+   ShowMessage("思えば、実に長き旅路でした。")
+   ShowMessageFace("iriasu_fc4",0,0,2,9)
+   ShowMessage("【イリアス】")
+   ShowMessage("この苦難の道も、あなたが支えになってくれてこそ。")
+   ShowMessage("ここまでの功労は、賞賛に値します。")
+   ShowMessageFace("iriasu_fc4",2,0,2,10)
+   ShowMessage("【イリアス】")
+   ShowMessage("当然、これからも私に付き従うのですよね……？")
+   ShowMessage("まさか、邪神の勧誘に心が揺らいではいませんか？")
+   ShowMessageFace("iriasu_fc4",2,0,2,11)
+   ShowMessage("【イリアス】")
+   ShowMessage("邪神の進める世界合一計画……")
+   ShowMessage("とても血生臭く、忌まわしい事は言うまでもありません。")
+   ShowMessageFace("iriasu_fc4",2,0,2,12)
+   ShowMessage("【イリアス】")
+   ShowMessage("また、唯一の世界を邪神が抱え込む……")
+   ShowMessage("これが、どれだけ危険な事かも分かるでしょう。")
+   ShowMessageFace("iriasu_fc4",2,0,2,13)
+   ShowMessage("【イリアス】")
+   ShowMessage("世界を救う手段は、箱船計画のみ。")
+   ShowMessage("たとえ少数でも、善なる者を救わねばならないのです……")
+   ShowMessageFace("iriasu_fc4",0,0,2,14)
+   ShowMessage("【イリアス】")
+   ShowMessage("分かりましたね、ルカ。")
+   ShowMessage("これからも、私に従うのですよ。")
+   ShowMessageFace("iriasu_fc4",2,0,2,15)
+   ShowMessage("【イリアス】")
+   ShowMessage("また、魔王の側に走ろうなど……")
+   ShowMessage("そんな事、絶対に許しません……")
+   ShowMessageFace("ruka_fc1",0,0,2,16)
+   ShowMessage("【ルカ】")
+   ShowMessage("……………………")
+   ShowMessageFace("",0,0,2,17)
+   ShowMessage("女神と邪神は、絶対に相容れない存在。")
+   ShowMessage("もし邪神の側につけば、イリアスは仲間から外れるだろう――")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  If(0,4,0)
+   ShowMessageFace("ruka_fc1",0,0,2,1)
+   ShowMessage("【ルカ】")
+   ShowMessage("あなたは、エデン様……")
+   ShowMessage("小さなイリアス様と一緒にいたんですね。")
+   0()
+  EndIf()
+  ShowMessageFace("eden_fc1",0,0,2,2)
+  ShowMessage("【エデン】")
+  ShowMessage("いついかなる時でも、私はイリアス様と共にあります。")
+  ShowMessage("勇者ルカよ、あなたもそうあるべきなのです。")
+  ShowMessageFace("eden_fc1",0,0,2,3)
+  ShowMessage("【エデン】")
+  ShowMessage("邪神の手下などに、耳を貸してはなりません。")
+  ShowMessage("イリアス様の導きに従えば、間違いはないのです。")
+  ShowMessageFace("eden_fc1",0,0,2,4)
+  ShowMessage("【エデン】")
+  ShowMessage("もし邪神に与するならば、あなたは神敵……")
+  ShowMessage("しかし、そんな愚かな選択はしないと確信していますよ。")
+  If(0,4,0)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("エデンはイリアス様の忠実な僕。")
+   ShowMessage("もし女神の側につけば、エデンは仲間に加わるだろう――")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("エデンはイリアス様の忠実な僕。")
+   ShowMessage("もし邪神の側につけば、エデンは仲間から外れるだろう――")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  // condition: switch 5 is ON
+  // condition: switch 1034 is ON
+  ShowMessageFace("micaelac_fc1",0,0,2,1)
+  ShowMessage("【ミカエラちゃん】")
+  ShowMessage("イリアス様と一緒に、邪神と戦うのよね？")
+  ShowMessage("まさか、邪神に味方したりしないわよね……？")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("ミカエラちゃんとルシフィナちゃんは、イリアス様の味方。")
+  ShowMessage("もし邪神の側につけば、この二人は仲間から外れるだろう――")
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  // condition: switch 5 is ON
+  // condition: switch 1036 is ON
+  ShowMessageFace("rucyfinac_fc1",0,0,2,1)
+  ShowMessage("【ルシフィナちゃん】")
+  ShowMessage("ルカ！　いっしょに邪神をやっつけようよ！")
+  ShowMessage("邪神は、イリアス様の敵なんだよ！")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("ミカエラちゃんとルシフィナちゃんは、イリアス様の味方。")
+  ShowMessage("もし邪神の側につけば、この二人は仲間から外れるだろう――")
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  If(0,4,0)
+   ShowMessageFace("ruka_fc1",0,0,2,1)
+   ShowMessage("【ルカ】")
+   ShowMessage("あなたは、並行世界のハインリヒ……？")
+   ShowMessage("どうして、ここに？")
+   ShowMessageFace("heinrich_fc1",7,0,2,2)
+   ShowMessage("【ハインリヒ】")
+   ShowMessage("あの後、変わった兎に連れられてイリアス様と出会ったんだ。")
+   ShowMessage("それで、この不思議な世界に導かれてね……")
+   ShowMessageFace("heinrich_fc1",0,0,2,3)
+   ShowMessage("【ハインリヒ】")
+   ShowMessage("事情は、おおむね聞いたよ。")
+   ShowMessage("全ての並行世界に、消滅の危機が迫っているとか。")
+   ShowMessageFace("heinrich_fc1",7,0,2,4)
+   ShowMessage("【ハインリヒ】")
+   ShowMessage("もちろん僕は、イリアス様に従う。")
+   ShowMessage("君もイリアス様の側につくなら、僕の同志となるね。")
+   ShowMessageFace("heinrich_fc1",7,0,2,5)
+   ShowMessage("【ハインリヒ】")
+   ShowMessage("とは言え、悔いのない決断をするといいよ。")
+   ShowMessage("信じるもののためなら、女神に剣を向ける事になっても……")
+   ShowMessageFace("ruka_fc1",0,0,2,6)
+   ShowMessage("【ルカ】")
+   ShowMessage("……………………")
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("ハインリヒは、イリアスに付き従う勇者。")
+   ShowMessage("もし女神の側につけば、ハインリヒが仲間に加わるだろう――")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("heinrich_fc1",5,0,2,8)
+   ShowMessage("【ハインリヒ】")
+   ShowMessage("大変な事になったね、ルカ君……")
+   ShowMessage("大いなる決断を前に、その心労を察するよ。")
+   ShowMessageFace("heinrich_fc1",5,0,2,9)
+   ShowMessage("【ハインリヒ】")
+   ShowMessage("僕の時代、ちょうど魔王城に乗り込む直前だったけど――")
+   ShowMessage("実は僕も、大きな決断に迫られていたんだ。")
+   ShowMessageFace("heinrich_fc1",5,0,2,10)
+   ShowMessage("【ハインリヒ】")
+   ShowMessage("決断の結果、僕はどうなるのか――")
+   ShowMessage("それをこの時代、あの罪人の封牢で見る事になった。")
+   ShowMessageFace("iriasu_fc4",2,0,2,11)
+   ShowMessage("【イリアス】")
+   ShowMessage("……………………")
+   ShowMessageFace("heinrich_fc1",7,0,2,12)
+   ShowMessage("【ハインリヒ】")
+   ShowMessage("ともかく、君も悔いのない決断をするといいよ。")
+   ShowMessage("信じるもののためなら、女神に剣を向ける事になっても……")
+   ShowMessageFace("ruka_fc1",0,0,2,13)
+   ShowMessage("【ルカ】")
+   ShowMessage("……………………")
+   ShowMessageFace("",0,0,2,14)
+   ShowMessage("ハインリヒは、イリアスに付き従う勇者。")
+   ShowMessage("もし邪神の側につけば、ハインリヒは仲間から外れるだろう――")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,407,36,18,0,0)
+  0()

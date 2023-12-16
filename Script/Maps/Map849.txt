@@ -1,0 +1,218 @@
+﻿
+DisplayName "イズモ村"
+
+
+
+EVENT   1
+ PAGE   1
+  222()
+  Wait(60)
+  ShowMessageFace("ruka_fc1",0,0,2,1)
+  ShowMessage("【ルカ】")
+  ShowMessage("ここが、異変のあったイズモ村か……")
+  ShowMessageFace("sonia_fc2",2,0,2,2)
+  ShowMessage("【ソニア】")
+  ShowMessage("ここ、初めて来る村よね。")
+  ShowMessage("それなのに、こんな事になってるなんて……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("あちこちに、昏睡した村人が倒れている。")
+  ShowMessage("それを、近隣から救援に来た人達が保護しているのだ。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("僕達がここに来たのは、すでに事態が収束した後だった。")
+  ShowMessage("完全に出遅れてしまったのだ――")
+  If(0,4,0)
+   PictureDisplay(5,"80_alice_st71",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+   ShowMessageFace("alice_fc5",0,0,2,5)
+   ShowMessage("【アリス】")
+   ShowMessage("三人の妖魔が、ここを襲撃したそうだな。")
+   ShowMessage("そして、村の女達がサキュバス化した――")
+   PictureDisplay(5,"80_alice_st73",0,0,0,0,100,100,255,0)
+   ShowMessageFace("alice_fc5",2,0,2,6)
+   ShowMessage("【アリス】")
+   ShowMessage("「夢の主」の手引きがあったと見て、間違いあるまい。")
+   ShowMessage("おそらく、その同盟者とやらの仕業であろう。")
+   ShowMessageFace("sonia_fc1",5,0,2,7)
+   ShowMessage("【ソニア】")
+   ShowMessage("ひどい事をする連中ね。")
+   ShowMessage("元の世界に叩き返さないと……！")
+   PictureDisplay(5,"80_alice_st71",0,0,0,0,100,100,255,0)
+   ShowMessageFace("alice_fc5",0,0,2,8)
+   ShowMessage("【アリス】")
+   ShowMessage("しかし、その三人を撃退した者達というのが気になるな。")
+   ShowMessage("赤髪の剣士にちっちゃな子、それに変な退魔師――")
+   0()
+  EndIf()
+  If(0,5,0)
+   PictureDisplay(5,"80_iriasu_st33",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+   ShowMessageFace("iriasu_fc4",2,0,2,9)
+   ShowMessage("【イリアス】")
+   ShowMessage("三人の妖魔が、ここを襲撃したそうですね。")
+   ShowMessage("そして、村の女達がサキュバス化してしまった――")
+   ShowMessageFace("iriasu_fc4",7,0,2,10)
+   ShowMessage("【イリアス】")
+   ShowMessage("間違いなく、「夢の主」の仕業ですね。")
+   ShowMessage("三人の妖魔というのは、おそらく同盟者でしょう。")
+   ShowMessageFace("sonia_fc1",5,0,2,11)
+   ShowMessage("【ソニア】")
+   ShowMessage("ひどい事をする連中ね。")
+   ShowMessage("元の世界に叩き返さないと……！")
+   ShowMessageFace("iriasu_fc4",2,0,2,12)
+   ShowMessage("【イリアス】")
+   ShowMessage("しかし、その三人を撃退した者達というのも気になります。")
+   ShowMessage("赤髪の剣士に小さい女の子、それに奇妙な退魔師――")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,13)
+  ShowMessage("【ルカ】")
+  ShowMessage("その三人がいなければ、もっと被害は広がっていただろうね。")
+  ShowMessage("何者だったんだろう……")
+  ShowMessageFace("",0,0,2,14)
+  ShowMessage("その三人は、たまたま居合わせた名も無き強者か。")
+  ShowMessage("それとも、もしかしたら――")
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6b,0x69,0x6b,0x69,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  ShowMessageFace("mefist_fc1",2,0,2,15)
+  ShowMessage("【メフィスト】")
+  ShowMessage("大変です……！")
+  ShowMessage("フィノアの村が、謎の淫魔に占拠されたようです。")
+  If(0,4,0)
+   PictureDisplay(5,"80_alice_st81",0,0,0,0,100,100,255,0)
+   ShowMessageFace("alice_fc6",0,0,2,16)
+   ShowMessage("【アリス】")
+   ShowMessage("フィノアが……占拠されただと！？")
+   0()
+  EndIf()
+  If(0,5,0)
+   PictureDisplay(5,"80_iriasu_st36",0,0,0,0,100,100,255,0)
+   ShowMessageFace("iriasu_fc4",5,0,2,17)
+   ShowMessage("【イリアス】")
+   ShowMessage("フィノアが、占拠された……！？")
+   0()
+  EndIf()
+  ShowMessageFace("mefist_fc1",2,0,2,18)
+  ShowMessage("【メフィスト】")
+  ShowMessage("魔力によって封鎖され、出入りは禁じられています。")
+  ShowMessage("内部には、住民の大部分が取り残されているとか……")
+  ShowMessageFace("mefist_fc1",2,0,2,19)
+  ShowMessage("【メフィスト】")
+  ShowMessage("かなりの数の死者が出ているという情報もあります。")
+  ShowMessage("至急、対処しなければなりません……")
+  If(0,4,0)
+   ShowMessageFace("alice_fc6",0,0,2,20)
+   ShowMessage("【アリス】")
+   ShowMessage("フィノアに急ぐぞ、ルカ！")
+   0()
+  EndIf()
+  If(0,5,0)
+   PictureDisplay(5,"80_iriasu_st38",0,0,0,0,100,100,255,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,21)
+   ShowMessage("【イリアス】")
+   ShowMessage("ルカ、フィノアに急ぎましょう！")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,22)
+  ShowMessage("【ルカ】")
+  ShowMessage("ああ、すぐに行こう！！")
+  PictureClear(5)
+  ShowMessageFace("",0,0,2,23)
+  ShowMessage("謎の淫魔に占拠されたという、フィノアの村。")
+  ShowMessage("世界中に、次々と広がっていく異変――")
+  ShowMessageFace("",0,0,2,24)
+  ShowMessage("これも、「夢の主」によるものだろうか。")
+  ShowMessage("僕達は取り急ぎ、フィノアへと向かったのだった――")
+  Wait(60)
+  242(2)
+  221()
+  211(1)
+  Wait(120)
+  PictureDisplay(5,"iv_chapter05",0,0,0,0,100,100,255,0)
+  222()
+  Wait(180)
+  221()
+  PictureClear(5)
+  Wait(120)
+  TeleportPlayer(0,920,20,16,2,2)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  // condition: switch 4 is ON
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()

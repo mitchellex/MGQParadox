@@ -1,0 +1,211 @@
+﻿
+DisplayName "神社坂"
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【店員】")
+  ShowMessage("いらっしゃいませ！")
+  ShowMessage("軽くお腹を膨らませていきましょう！")
+  Shop(0,361,0,0,false)
+  605(0,408,0,0)
+  605(0,410,0,0)
+  605(0,411,0,0)
+  0()
+
+
+
+EVENT   62
+ PAGE   1
+  0()
+
+
+
+EVENT   64
+ PAGE   1
+  0()
+
+
+
+EVENT   63
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【村人】")
+  ShowMessage("カッパちゃんに何するんだ、このエセ妖術師！")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【村娘】")
+  ShowMessage("なんてひどい事をするの！")
+  ShowMessage("この村から出て行って！")
+  ShowMessageFace("daimeikai_fc1",1,0,2,3)
+  ShowMessage("【大明海】")
+  ShowMessage("おい、ちょっと待て！")
+  ShowMessage("俺様を誰だと思って……！")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【村人】")
+  ShowMessage("出て行け！")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【老人】")
+  ShowMessage("二度と来るな！")
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0d,0x6d,0x6f,0x6e,0x5f,0x6d,0x69,0x73,0x73,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+  ShowMessageFace("daimeikai_fc1",1,0,2,6)
+  ShowMessage("【大明海】")
+  ShowMessage("おい、やめろ！")
+  ShowMessage("石を投げるな……！！")
+  212(2,243,true)
+  ShowMessageFace("daimeikai_fc1",1,0,2,7)
+  ShowMessage("【大明海】")
+  ShowMessage("誰だよ、岩を投げた奴は！")
+  ShowMessage("俺じゃなきゃ死んでたぞ！！")
+  ShowMessageFace("",0,0,2,8)
+  ShowMessage("【村人】")
+  ShowMessage("かーえーれ！　かーえーれ！")
+  ShowMessageFace("",0,0,2,9)
+  ShowMessage("【村娘】")
+  ShowMessage("かーえーれ！　かーえーれ！")
+  ShowMessageFace("",0,0,2,10)
+  ShowMessage("【老人】")
+  ShowMessage("かーえーれ！　かーえーれ！")
+  Wait(60)
+  242(1)
+  221()
+  Wait(60)
+  211(0)
+  TeleportPlayer(0,920,242,61,2,2)
+  211(1)
+  222()
+  ShowMessageFace("daimeikai_fc1",1,0,2,11)
+  ShowMessage("【大明海】")
+  ShowMessage("俺様、割と本気で傷付いた……")
+  ShowMessageFace("rovissa_fc1",0,0,2,12)
+  ShowMessage("【ルヴィッサ】")
+  ShowMessage("自業自得じゃないの。")
+  ShowMessageFace("daimeikai_fc1",1,0,2,13)
+  ShowMessage("【大明海】")
+  ShowMessage("この世界じゃ……")
+  ShowMessage("人里にもバケモノがゴロゴロしてるみたいだな。")
+  ShowMessageFace("daimeikai_fc1",1,0,2,14)
+  ShowMessage("【大明海】")
+  ShowMessage("まったく、けったいな世界だ。")
+  ShowMessage("夢の主を倒して、とっととおさらばしたいぜ。")
+  ShowMessageFace("rovissa_fc1",0,0,2,15)
+  ShowMessage("【ルヴィッサ】")
+  ShowMessage("とにかく、ヤマタイ村とやらには入れないわね。")
+  ShowMessage("大明海がいたら、私達まで石を投げられかねないわ。")
+  EndEventProcessing()
+  0()

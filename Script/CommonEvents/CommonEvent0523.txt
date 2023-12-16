@@ -1,0 +1,23 @@
+﻿// EVENT 0523
+Name "コラボC9：オーガ逃げ切る"
+
+ChangeSwitch(31,31,1)
+ChangeSwitch(32,32,1)
+ChangeSwitch(33,33,1)
+ChangeSwitch(34,34,1)
+ChangeSwitch(89,89,1)
+If(1,1209,0,5,0)
+ ChangeVariable(1209,1209,0,0,6)
+ 0()
+EndIf()
+ShowMessageFace("daimeikai_fc1",0,0,2,1)
+ShowMessage("【大明海】")
+ShowMessage("なんとか逃げ切ったようだな。")
+ShowMessage("だが、きっとまた来るぜ……")
+ShowMessageFace("lars_fc01",0,0,2,2)
+ShowMessage("【ラルス】")
+ShowMessage("……………………")
+ChangeSaveEnabled(1)
+216(0)
+EndEventProcessing()
+0()

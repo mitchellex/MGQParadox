@@ -1,0 +1,5 @@
+﻿// EVENT 1535
+Name "会話：エルベティエ2"
+
+RunCommonEvent(1506)
+0()

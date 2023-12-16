@@ -1,0 +1,5 @@
+﻿// EVENT 1505
+Name "会話：エルベティエ分裂体"
+
+RunCommonEvent(1506)
+0()

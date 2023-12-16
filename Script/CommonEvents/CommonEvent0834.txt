@@ -1,0 +1,14 @@
+﻿// EVENT 0834
+Name "イベント職業武器レジェンド"
+
+If(1,150,0,9999,2)
+ RunCommonEvent(811)
+ EndEventProcessing()
+ 0()
+EndIf()
+If(1,150,0,10000,1)
+ RunCommonEvent(812)
+ EndEventProcessing()
+ 0()
+EndIf()
+0()

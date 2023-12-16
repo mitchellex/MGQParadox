@@ -1,0 +1,1554 @@
+﻿
+
+
+EVENT   1
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("戦勝の功労者に……敬礼！")
+  ShowMessage("その、個人的な事を申し上げてよろしいでしょうか？")
+  ShowChoices(strings("構わない","ダメだ"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【衛兵】")
+   ShowMessage("私の弟は前線に行きましたが、無事に戻って来られました。")
+   ShowMessage("ですが、戦いが長引いていたらどうなっていたか……")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【衛兵】")
+   ShowMessage("大戦を終結に導いた英雄に、心より感謝致します！")
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【衛兵】")
+   ShowMessage("はっ、失礼致しました！")
+   0()
+  404()
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("戦勝の功労者に……敬礼！")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【衛兵】")
+  ShowMessage("あの……サイン、もらっていいですか？")
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("まだ宴は続いている……")
+  ShowMessage("宴を切り上げ、自室に戻りますか？")
+  ShowChoices(strings("宴を続ける","自室に戻る"),0)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("ruka_fc1",0,0,2,2)
+   ShowMessage("【ルカ】")
+   ShowMessage("もうすこし、楽しもうかな……")
+   205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x09,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("ruka_fc1",0,0,2,3)
+   ShowMessage("【ルカ】")
+   ShowMessage("今日はもう休もうか……")
+   ScrollMap(8,6,5)
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",1,0,2,4)
+    ShowMessage("【アリス】")
+    ShowMessage("なんだ、もう抜けるのか？")
+    ShowMessage("ごちそうはまだまだ残っているぞ、もう少し――")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",0,0,2,5)
+    ShowMessage("【イリアス】")
+    ShowMessage("もう部屋に戻るのですか？")
+    ShowMessage("せっかくの機会、もっと楽しんで――")
+    0()
+   EndIf()
+   241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6b,0x69,0x6b,0x69,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+   ScrollMap(8,6,5)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【？？？】")
+   ShowMessage("世界を代表する要人達および、勇者一行……")
+   ShowMessage("お楽しみのところ、失礼する。")
+   ShowMessageFace("grandnoa_fc1",0,0,2,7)
+   ShowMessage("【グランドノア女王】")
+   ShowMessage("何者です……！？")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0e,0x44,0x61,0x72,0x6b,0x6e,0x65,0x73,0x73,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   PictureDisplay(1,"sys_black",0,0,0,0,100,100,0,0)
+   PictureMove(1,null,0,0,0,0,100,100,255,0,30,true)
+   TeleportEvent(4,0,14,4,2)
+   ChangeSwitch(32,32,0)
+   PictureMove(1,null,0,0,0,0,100,100,0,0,30,true)
+   ChangeSwitch(33,33,0)
+   205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x46,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x0a,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x09,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x62,0x6f,0x73,0x73,0x30,0x2d,0x33,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+   Wait(60)
+   PictureDisplay(5,"80_alice15th_st51b",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,60,true)
+   ShowMessageFace("alice15th_fc1",4,0,2,8)
+   ShowMessage("【アリスフィーズ15世】")
+   ShowMessage("この場に集まりし者達よ……")
+   ShowMessage("余は魔王、アリスフィーズ15世である。")
+   If(0,4,0)
+    ShowMessageFace("alice_fc6",0,0,2,9)
+    ShowMessage("【アリス】")
+    ShowMessage("か、母様……！？")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",5,0,2,10)
+    ShowMessage("【イリアス】")
+    ShowMessage("アリスフィーズ15世……！？")
+    0()
+   EndIf()
+   ShowMessageFace("mefist_fc1",2,0,2,11)
+   ShowMessage("【メフィスト】")
+   ShowMessage("いえ……これは幻影です！")
+   ShowMessageFace("alice15th_fc1",4,0,2,12)
+   ShowMessage("【アリスフィーズ15世】")
+   ShowMessage("人間同士の騒乱が収まった事、余からも祝いの言葉を述べよう。")
+   ShowMessage("……が、それより重要な事を伝えに参った。")
+   ShowMessageFace("alice15th_fc1",4,0,2,13)
+   ShowMessage("【アリスフィーズ15世】")
+   ShowMessage("……余はここに、全人類に対し宣戦を布告する。")
+   ShowMessage("これは絶滅戦争であり、全ての人類に生存を許さぬ。")
+   ShowMessageFace("grandnoa_fc1",2,0,2,14)
+   ShowMessage("【グランドノア女王】")
+   ShowMessage("宣戦布告……！？　絶滅戦争……！？")
+   ShowMessage("魔王よ、正気なのですか……？")
+   ShowMessageFace("alice15th_fc1",4,0,2,15)
+   ShowMessage("【アリスフィーズ15世】")
+   ShowMessage("無論、正気よ。")
+   ShowMessageFace("grangold_fc2",0,0,2,16)
+   ShowMessage("【グランゴルド王】")
+   ShowMessage("あなたは人間同士の大戦を企て、多くの命を奪った……")
+   ShowMessage("その犠牲だけでは、まだ足りぬというのかい？")
+   ShowMessageFace("alice15th_fc1",4,0,2,17)
+   ShowMessage("【アリスフィーズ15世】")
+   ShowMessage("いかにも足りぬ。")
+   ShowMessage("人が絶滅するまで、戦いの火は止む事はないと知れ。")
+   ShowMessageFace("saniria_fc2",0,0,2,18)
+   ShowMessage("【サン・イリア王】")
+   ShowMessage("何の目的で、人を滅ぼす……？")
+   ShowMessage("この世界を我が手に握るためか？")
+   ShowMessageFace("alice15th_fc1",4,0,2,19)
+   ShowMessage("【アリスフィーズ15世】")
+   ShowMessage("我が目的など、人が知る意味はない。")
+   ShowMessage("ただ、終末への闘争が始まった事のみを知るがよい。")
+   ShowMessageFace("sara_fc2",3,0,2,20)
+   ShowMessage("【サラ】")
+   ShowMessage("人間の町に暮らしている魔物はたくさんいるわ……")
+   ShowMessage("彼女達と人の絆を引き裂くつもりなの！？")
+   ShowMessageFace("alice15th_fc1",4,0,2,21)
+   ShowMessage("【アリスフィーズ15世】")
+   ShowMessage("人に味方する魔物も、全て粛正するのみ。")
+   If(0,4,0)
+    ShowMessageFace("alice_fc6",1,0,2,22)
+    ShowMessage("【アリス】")
+    ShowMessage("……ふざけるな、アリスフィーズ15世！")
+    ShowMessage("お前はいったい、何を――")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",7,0,2,23)
+    ShowMessage("【イリアス】")
+    ShowMessage("何を企んでいるのです、アリスフィーズ15世……！！")
+    ShowMessage("人を滅ぼすなど、私が――")
+    0()
+   EndIf()
+   ShowMessageFace("alice15th_fc1",4,0,2,24)
+   ShowMessage("【アリスフィーズ15世】")
+   ShowMessage("余からの通告は、以上である。")
+   ShowMessage("全ての人間よ、残り少ない生を謳歌するが良い――")
+   PictureClear(5)
+   Wait(60)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0e,0x44,0x61,0x72,0x6b,0x6e,0x65,0x73,0x73,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   PictureDisplay(1,"sys_black",0,0,0,0,100,100,0,0)
+   PictureMove(1,null,0,0,0,0,100,100,255,0,30,true)
+   ChangeSwitch(32,32,1)
+   PictureMove(1,null,0,0,0,0,100,100,0,0,30,true)
+   If(0,4,0)
+    ShowMessageFace("alice_fc6",1,0,2,25)
+    ShowMessage("【アリス】")
+    ShowMessage("待て、おい……！")
+    ShowMessage("……くっ、消えたか！")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",7,0,2,26)
+    ShowMessage("【イリアス】")
+    ShowMessage("待ちなさい、魔王……！")
+    ShowMessage("……おのれ、もう消えましたか。")
+    0()
+   EndIf()
+   0()
+  404()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6b,0x69,0x6b,0x69,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  205(6,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("grandnoa_fc1",2,0,2,27)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("メフィスト、全兵士に応戦の準備を！")
+  ShowMessage("国境警備および各所にも通達しなさい！")
+  205(10,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("sara_fc2",0,0,2,28)
+  ShowMessage("【サラ】")
+  ShowMessage("すみません、ただちに本国に戻らせてもらいます。")
+  ShowMessage("兵を指揮し、厳戒態勢を取らなければ……")
+  205(24,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("grangold_fc2",0,0,2,29)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("私もグランゴルドへ戻らないと。")
+  ShowMessage("今の我が国には、まともな兵力さえないと言うのに……")
+  205(9,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x16,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("saniria_fc2",0,0,2,30)
+  ShowMessage("【サン・イリア王】")
+  ShowMessage("うむ……各自、今は本国の守りを固めねばなるまい。")
+  ShowMessage("その後、あらためて各国首脳で対応を協議するとしよう。")
+  205(6,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x15,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("grandnoa_fc1",2,0,2,31)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("ルカ、あなたはこの城に待機してもらえませんか？")
+  ShowMessage("魔王軍の侵攻が始まり次第、ただちに動いてもらいたいのです。")
+  ScrollMap(2,10,6)
+  ShowMessageFace("ruka_fc1",0,0,2,32)
+  ShowMessage("【ルカ】")
+  ShowMessage("はい、お任せ下さい！")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc3",7,0,2,33)
+   ShowMessage("【ソニア】")
+   ShowMessage("ど、どうしよう……")
+   ShowMessage("こんな事になっちゃうなんて……")
+   0()
+  EndIf()
+  If(0,4,0)
+   ShowMessageFace("alice_fc6",0,0,2,34)
+   ShowMessage("【アリス】")
+   ShowMessage("母様……あなたは、いったい……")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,35)
+   ShowMessage("【イリアス】")
+   ShowMessage("おのれ、魔王……いったい、何を……")
+   0()
+  EndIf()
+  221()
+  ShowMessageFace("",0,0,2,36)
+  ShowMessage("魔王による宣戦布告は、戦勝の喜びを吹き飛ばした。")
+  ShowMessage("各国の王は、移動魔法でそれぞれの国へと戻っていく。")
+  ShowMessageFace("",0,0,2,37)
+  ShowMessage("ルカはグランドノア城に待機し、戦いに備えた。")
+  ShowMessage("そして、翌日――")
+  Wait(60)
+  216(0)
+  TeleportPlayer(0,383,22,7,8,0)
+  222()
+  PictureDisplay(5,"80_grandnoa_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("grandnoa_fc1",2,0,2,38)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("あれから、一晩が経ちましたが……")
+  ShowMessage("どこの国にも、魔王軍の侵攻は確認されていません。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",3,0,2,39)
+   ShowMessage("【アリス】")
+   ShowMessage("宣戦布告と同時に侵攻を開始するのが、近代戦のセオリー。")
+   ShowMessage("しかし何の動きもないとは、どういう事だ……？")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,40)
+   ShowMessage("【イリアス】")
+   ShowMessage("宣戦布告と同時に、全面侵攻があると思ったのですが……")
+   ShowMessage("何も動きがないとは、どういう事なのでしょう。")
+   0()
+  EndIf()
+  ShowMessageFace("grandnoa_fc1",2,0,2,41)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("ルカ達には我が城に待機をお願いしましたが……")
+  ShowMessage("いつまでも、そうさせる訳にもいきませんね。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,42)
+   ShowMessage("【アリス】")
+   ShowMessage("タルタロス探索と、ルカの父を追うという目的があるからな。")
+   ShowMessage("とは言え、魔王の宣戦布告を放置できるはずもない。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,43)
+   ShowMessage("【イリアス】")
+   ShowMessage("タルタロス探索と、マルケルス捜索という目的があります……")
+   ShowMessage("無論、魔王を放置する事などできはしませんが。")
+   0()
+  EndIf()
+  ShowMessageFace("grandnoa_fc1",2,0,2,44)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("我が国にあるタルタロスは、ご存じの通り湖の真ん中にあります。")
+  ShowMessage("生半可な方法では、中に入る事などできないでしょう。")
+  ShowMessageFace("grandnoa_fc1",2,0,2,45)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("あなた達の話を聞く限り、事は世界の存亡に関わっています。")
+  ShowMessage("こちらとしても、タルタロスに入る方法を模索しましょう。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,46)
+   ShowMessage("【アリス】")
+   ShowMessage("ふむ、大いに助かる。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,47)
+   ShowMessage("【イリアス】")
+   ShowMessage("良い働きを期待していますよ。")
+   0()
+  EndIf()
+  ShowMessageFace("grandnoa_fc1",2,0,2,48)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("また、グランゴルド王はあなた達に依頼したい事があるとか。")
+  ShowMessage("なにやら、領内の妖魔達に不審な動きがあるそうです。")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc2",2,0,2,49)
+   ShowMessage("【ソニア】")
+   ShowMessage("不審な妖魔の動き……")
+   ShowMessage("魔王の宣戦布告に関係あるのかな？")
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,50)
+   ShowMessage("【ルカ】")
+   ShowMessage("不審な妖魔の動き……")
+   ShowMessage("魔王の宣戦布告に関係あるのか？")
+   0()
+  EndIf()
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,51)
+   ShowMessage("【アリス】")
+   ShowMessage("了解した、これよりグランゴルド城に向かうとしよう。")
+   ShowMessage("どちらにしろ、あの地には再訪の必要があるのだ。")
+   ShowMessageFace("alice_fc5",0,0,2,52)
+   ShowMessage("【アリス】")
+   ShowMessage("サラマンダーとの契約と、それに……")
+   ShowMessage("ゴルド地方の西端には、タルタロスがあるからな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,53)
+   ShowMessage("【イリアス】")
+   ShowMessage("分かりました、グランゴルド城に向かいましょう。")
+   ShowMessage("どちらにしろ、あの地には再訪しなければなりません。")
+   ShowMessageFace("iriasu_fc4",0,0,2,54)
+   ShowMessage("【イリアス】")
+   ShowMessage("ゴルド地方の西端には、タルタロスがありますからね。")
+   ShowMessage("あと……気は進みませんが、サラマンダーとの契約も。")
+   0()
+  EndIf()
+  ShowMessageFace("grandnoa_fc1",2,0,2,55)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("メフィスト……あなたは、これまで通りルカ達に同行なさい。")
+  ShowMessage("何かこちらで異変があった場合、ただちに連絡しますので。")
+  ShowMessageFace("mefist_fc1",0,0,2,56)
+  ShowMessage("【メフィスト】")
+  ShowMessage("了解しました、女王陛下。")
+  ShowMessage("勇者一行のサポートと、連絡役を務め上げましょう。")
+  ShowMessageFace("ruka_fc1",0,0,2,57)
+  ShowMessage("【ルカ】")
+  ShowMessage("それじゃあ、次の目的地はグランゴルド城だ。")
+  ShowMessage("王様からの依頼を聞きに行こう！")
+  ChangeSwitch(33,33,1)
+  ChangeSwitch(100,100,1)
+  PictureClear(5)
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  // condition: switch 31 is ON
+  0()
+ PAGE   2
+  // condition: switch 32 is ON
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  355("gain_medal(44)")
+  Wait(60)
+  PictureDisplay(5,"80_grandnoa_st02",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("grandnoa_fc1",1,0,2,1)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("……このたび、めでたく講和条約が締結されました。")
+  ShowMessage("さあ、この宴にて平和の到来を祝いましょう。")
+  ShowMessageFace("grandnoa_fc1",1,0,2,2)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("ささやかな宴で心苦しいですが……")
+  ShowMessage("なにぶん終戦直後、いまだ惨禍に苦しむ民も多いのです。")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc3",2,0,2,3)
+   ShowMessage("【ソニア】")
+   ShowMessage("これでささやかって……")
+   ShowMessage("村のお祭り百年分よりすごいのに……")
+   0()
+  EndIf()
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",7,0,2,4)
+   ShowMessage("【アリス】")
+   ShowMessage("ごちそう、いっぱい……♪")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",1,0,2,5)
+   ShowMessage("【イリアス】")
+   ShowMessage("食べ物が、いっぱいです……♪")
+   0()
+  EndIf()
+  ShowMessageFace("grandnoa_fc1",1,0,2,6)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("そして、これは異例の事なのですが……")
+  ShowMessage("グランゴルド王にも、宴に来て頂いております。")
+  PictureDisplay(5,"80_grangold_st11b",0,0,0,0,100,100,255,0)
+  ShowMessageFace("grangold_fc2",0,0,2,7)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("私がこの宴に現れること……自身でも、寸前まで迷っていた。")
+  ShowMessage("なにせ私は、つい先日まで諸君が刃を交えてきた相手なのだ。")
+  ShowMessageFace("grangold_fc2",0,0,2,8)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("私の命令によって、この国の兵や民達は命を落とした。")
+  ShowMessage("また、私自身が命を奪った兵達も多いだろう……")
+  ShowMessageFace("grangold_fc2",0,0,2,9)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("そんな私が、この宴に参加した理由……")
+  ShowMessage("それは、我が国が諸国と共に歩んでいく事を訴えるためだ。")
+  ShowMessageFace("grangold_fc2",0,0,2,10)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("今はまだ、諸君の感情のわだかまりが解けないかもしれない……")
+  ShowMessage("だが、近い未来においては解決される問題であると信じる。")
+  ShowMessageFace("grangold_fc2",0,0,2,11)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("……僕からは、以上だ。")
+  PictureDisplay(5,"80_grandnoa_st02",0,0,0,0,100,100,255,0)
+  ShowMessageFace("grandnoa_fc1",1,0,2,12)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("私から、少し言わせて頂ければ……")
+  ShowMessage("今回の大戦は、魔王の周到な計画の元に導かれたものでした。")
+  ShowMessageFace("grandnoa_fc1",1,0,2,13)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("グランゴルド王やサバサ女王は、精神を操作され……")
+  ShowMessage("そして我がグランドノアにも、魔王の手の者が入り込んでいたのです。")
+  ShowMessageFace("mefist_fc1",0,0,2,14)
+  ShowMessage("【メフィスト】")
+  ShowMessage("この宴にも、ちゃっかり入り込んでいるんですけどね……")
+  If(0,6,0)
+   ShowMessageFace("sonia_fc4",0,0,2,15)
+   ShowMessage("【ソニア】")
+   ShowMessage("何がちゃっかりよ、ふてぶてしい……")
+   0()
+  EndIf()
+  ShowMessageFace("grandnoa_fc1",1,0,2,16)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("よって今回の大戦は、誰もが被害者なのです。")
+  ShowMessage("憎むべきは魔王であり、グランゴルド王に一切の責はありません。")
+  ShowMessageFace("grandnoa_fc1",1,0,2,17)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("この思いを、皆が共有できる事を願います。")
+  ShowMessage("さて、スピーチがあまり長くなるのも考え物ですね。")
+  ShowMessageFace("grandnoa_fc1",1,0,2,18)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("それでは、最後に……")
+  ShowMessage("この戦争を終結に導いた英雄、勇者ルカに一言お願いしましょう。")
+  ShowMessageFace("ruka_fc1",0,0,2,19)
+  ShowMessage("【ルカ】")
+  ShowMessage("え……僕！？")
+  ShowChoices(strings("みんなに感謝する","犠牲になった者達を悼む","世界は僕のものだ"),0)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("ruka_fc1",0,0,2,20)
+   ShowMessage("【ルカ】")
+   ShowMessage("一緒に戦ってくれたみんなに、感謝します！")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",1,0,2,21)
+    ShowMessage("【アリス】")
+    ShowMessage("うむ、皆の力あってこその勝利だ！")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",0,0,2,22)
+    ShowMessage("【イリアス】")
+    ShowMessage("皆、よく私に尽くしてくれました。")
+    ShowMessage("珍しく、礼を言いましょう。")
+    0()
+   EndIf()
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("ruka_fc1",0,0,2,23)
+   ShowMessage("【ルカ】")
+   ShowMessage("この戦いで、多くの人達が犠牲になりました。")
+   ShowMessage("命を落としてしまった方々が、安らかに眠れますように。")
+   ShowMessageFace("grandnoa_fc1",1,0,2,24)
+   ShowMessage("【グランドノア女王】")
+   ShowMessage("共に祈りましょう、犠牲になった方々の冥福を……")
+   ShowMessage("そして、生き残った我々は前へ向かって歩き出しましょう。")
+   0()
+  IfPlayerPicksChoice(2,null)
+   ShowMessageFace("ruka_fc1",0,0,2,25)
+   ShowMessage("【ルカ】")
+   ShowMessage("世界は僕のものだ。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc2",2,0,2,26)
+    ShowMessage("【ソニア】")
+    ShowMessage("ルカ……酸素、足りてる？")
+    0()
+   EndIf()
+   ShowMessageFace("grandnoa_fc1",1,0,2,27)
+   ShowMessage("【グランドノア女王】")
+   ShowMessage("厳しい戦いは、精神をも蝕むのですね……")
+   ShowMessage("この宴が、心の安らぎになれば幸いです。")
+   0()
+  404()
+  ShowMessageFace("grandnoa_fc1",1,0,2,28)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("心より、皆様の健闘に感謝します。")
+  ShowMessage("それでは、無礼講といきましょう！")
+  PictureClear(5)
+  205(4,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x0c,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x08,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x08,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x06,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x16,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ChangeSwitch(31,31,1)
+  ChangeSelfSwitch("A",0)
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x09,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2b,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  ShowMessageFace("grandnoa_fc1",1,0,2,1)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("勇者ルカ、本当にやってくれましたね。")
+  ShowMessage("あなたの働き、感謝の言葉もありません。")
+  ShowMessageFace("grandnoa_fc1",1,0,2,2)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("……しかし、戦いがこれで終わったわけではありません。")
+  ShowMessage("魔王の企みは阻止したものの、打倒した訳ではないのです。")
+  ShowMessageFace("grandnoa_fc1",1,0,2,3)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("我々四大国が結束し、魔王に立ち向かうという話も出ています。")
+  ShowMessage("その時はまた、あなたの力を借りる事となるでしょう。")
+  ShowMessageFace("grandnoa_fc1",1,0,2,4)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("……とは言え、今は宴を楽しんで下さいね。")
+  ShowMessage("休むときは休まないと、心が参ってしまいますよ。")
+  0()
+ PAGE   2
+  // condition: switch 31 is ON
+  0()
+ PAGE   3
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  // condition: switch 4 is ON
+  ShowMessageFace("alice_fc5",7,0,2,1)
+  ShowMessage("【アリス】")
+  ShowMessage("むしゃむしゃ……おいしい♪")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("頑張った甲斐があったね、アリス。")
+  ShowMessageFace("alice_fc5",7,0,2,3)
+  ShowMessage("【アリス】")
+  ShowMessage("うん……おいしい♪")
+  ShowMessageFace("ruka_fc1",0,0,2,4)
+  ShowMessage("【ルカ】")
+  ShowMessage("でも、根本的な問題は解決していないんだ。")
+  ShowMessage("魔王――アリスの母さんは、何を企んでいるんだろう。")
+  ShowMessageFace("alice_fc5",7,0,2,5)
+  ShowMessage("【アリス】")
+  ShowMessage("むしゃむしゃ……その事なら、散々に頭を悩ませた。")
+  ShowMessage("ばくばく……悩んだ挙げ句、割り切る事にしたのだ。")
+  ShowMessageFace("alice_fc5",7,0,2,6)
+  ShowMessage("【アリス】")
+  ShowMessage("もぐもぐ……まだまだ、我々が知らん事実がある。")
+  ShowMessage("むしゃむしゃ……結局、ピースの欠けたパズルなのだ。")
+  ShowMessageFace("alice_fc5",7,0,2,7)
+  ShowMessage("【アリス】")
+  ShowMessage("むぐむぐ……よって悩んでも無駄、とにかく情報を集める。")
+  ShowMessage("むしゃむしゃ……そのため、世界を旅するのみよ。")
+  ShowMessageFace("alice_fc5",6,0,2,8)
+  ShowMessage("【アリス】")
+  ShowMessage("ばりばり……あっ、皿たべちゃった。")
+  ShowMessageFace("ruka_fc1",0,0,2,9)
+  ShowMessage("【ルカ】")
+  ShowMessage("ちょっとは落ち着いて食べろよ……")
+  ShowMessage("ともかく、確かに悩んでいても仕方ないね。")
+  ShowMessageFace("alice_fc5",1,0,2,10)
+  ShowMessage("【アリス】")
+  ShowMessage("タルタロスやら貴様の父やら、情報のあてはまだまだある。")
+  ShowMessage("徹底的に調べれば、母上の真意も見えてくるはずだ。")
+  ShowMessageFace("alice_fc5",1,0,2,11)
+  ShowMessage("【アリス】")
+  ShowMessage("そして、それが納得いかないものならば――母上をぶちのめす！")
+  ShowMessage("もはや余に、悩みはないぞ。")
+  ShowMessageFace("alice_fc5",7,0,2,12)
+  ShowMessage("【アリス】")
+  ShowMessage("どうでも良いが……ここの料理、皿まで美味いのだな。")
+  ShowMessageFace("ruka_fc1",0,0,2,13)
+  ShowMessage("【ルカ】")
+  ShowMessage("本当にどうでもいいな……")
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  ShowMessageFace("iriasu_fc4",1,0,2,1)
+  ShowMessage("【イリアス】")
+  ShowMessage("天界でも、こんな御馳走は無縁でした。")
+  ShowMessage("今度、料理天使でも造ってみましょうか……")
+  ShowMessageFace("iriasu_fc4",7,0,2,2)
+  ShowMessage("【イリアス】")
+  ShowMessage("……などと、言っている場合ではありません。")
+  ShowMessage("なんと異世界の玉藻が、この世界に紛れ込んでいたのです。")
+  ShowMessageFace("iriasu_fc4",7,0,2,3)
+  ShowMessage("【イリアス】")
+  ShowMessage("おそらく、リリス三姉妹も同じ世界から現れたのでしょう。")
+  ShowMessage("そして異世界集団は、この世界の魔王と結託している――")
+  ShowMessageFace("iriasu_fc4",7,0,2,4)
+  ShowMessage("【イリアス】")
+  ShowMessage("連中が何を企んでいるのかは定かではありません。")
+  ShowMessage("しかし、ろくでもない計画である事は確かでしょう。")
+  ShowMessageFace("ruka_fc1",0,0,2,5)
+  ShowMessage("【ルカ】")
+  ShowMessage("なんとしても、阻止しないと……")
+  ShowMessageFace("iriasu_fc4",7,0,2,6)
+  ShowMessage("【イリアス】")
+  ShowMessage("私に六祖大縛呪をかけたのも、まさかこの連中では……")
+  ShowMessageFace("ruka_fc1",0,0,2,7)
+  ShowMessage("【ルカ】")
+  ShowMessage("誰の仕業なのか、まだ思い出せないんですか？")
+  ShowMessageFace("iriasu_fc4",2,0,2,8)
+  ShowMessage("【イリアス】")
+  ShowMessage("単に忘れているというより、物理的な欠落でしょう。")
+  ShowMessage("体が小さくなりましたから……")
+  ShowMessageFace("iriasu_fc4",2,0,2,9)
+  ShowMessage("【イリアス】")
+  ShowMessage("30年前……大異変よりも前の事はほとんど記憶しているのです。")
+  ShowMessage("しかしそれより後となると、さっぱりで……")
+  ShowMessageFace("iriasu_fc4",2,0,2,10)
+  ShowMessage("【イリアス】")
+  ShowMessage("六祖大縛呪に関しては、誰かに掛けられた事は覚えているのです。")
+  ShowMessage("しかし、状況や相手は全く思い出せないのですよ……")
+  ShowMessageFace("ruka_fc1",0,0,2,11)
+  ShowMessage("【ルカ】")
+  ShowMessage("まあ、無理はしないで下さい。")
+  ShowMessage("これからの旅で、分かるかもしれませんし……")
+  ShowMessageFace("iriasu_fc4",0,0,2,12)
+  ShowMessage("【イリアス】")
+  ShowMessage("そうですね……")
+  ShowMessage("きっと私自身に関する謎も、この旅で明らかになるはずです。")
+  ShowMessageFace("iriasu_fc4",1,0,2,13)
+  ShowMessage("【イリアス】")
+  ShowMessage("今はただ、この料理を楽しみましょう！")
+  0()
+ PAGE   3
+  // condition: switch 4 is ON
+  // condition: switch 33 is ON
+  0()
+ PAGE   4
+  // condition: switch 5 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  // condition: switch 6 is ON
+  ShowMessageFace("sonia_fc1",0,0,2,1)
+  ShowMessage("【ソニア】")
+  ShowMessage("やったわね、ルカ！")
+  ShowMessage("私達、大活躍だったじゃない！")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("うん、ソニアもよく頑張ってくれたね。")
+  ShowMessageFace("sonia_fc2",2,0,2,3)
+  ShowMessage("【ソニア】")
+  ShowMessage("でも、最後にはネロさんやらネリスやら玉藻やらが入り乱れて……")
+  ShowMessage("あんな次元の違う戦い、ちょっと入る余地がないよね。")
+  ShowMessageFace("ruka_fc1",0,0,2,4)
+  ShowMessage("【ルカ】")
+  ShowMessage("ああ、すごい力だったね……")
+  ShowMessage("みんな、異世界の連中なのかな？")
+  ShowMessageFace("sonia_fc3",4,0,2,5)
+  ShowMessage("【ソニア】")
+  ShowMessage("異世界から、妙な連中がゴロゴロ通り抜けてくるなんておかしいのよ。")
+  ShowMessage("みんな、元の世界に叩き返さなきゃ……")
+  ShowMessageFace("ruka_fc1",0,0,2,6)
+  ShowMessage("【ルカ】")
+  ShowMessage("うん……こっちで暴れられちゃ、迷惑だよね。")
+  ShowMessage("玉藻なんか、国を乗っ取ってやりたい放題だったじゃないか……")
+  ShowMessageFace("sonia_fc1",2,0,2,7)
+  ShowMessage("【ソニア】")
+  ShowMessage("今こそモリモリ食べて、筋肉つけるから！")
+  ShowMessage("増強したパワーで、強敵に立ち向かうの！")
+  ShowMessageFace("ruka_fc1",0,0,2,8)
+  ShowMessage("【ルカ】")
+  ShowMessage("太るだけだと思うよ……")
+  ShowMessageFace("",0,0,2,9)
+  ShowMessage("（今でさえムチムチなのに……）")
+  ShowMessage("などと、口にしないだけの分別は僕にもあった。")
+  ShowMessageFace("sonia_fc2",5,0,2,10)
+  ShowMessage("【ソニア】")
+  ShowMessage("ああ！？")
+  ShowMessageFace("ruka_fc1",0,0,2,11)
+  ShowMessage("【ルカ】")
+  ShowMessage("わぁっ！　言わずとも伝わった！")
+  ShowMessageFace("sonia_fc1",1,0,2,12)
+  ShowMessage("【ソニア】")
+  ShowMessage("そんな、以心伝心みたいに……")
+  ShowMessageFace("ruka_fc1",0,0,2,13)
+  ShowMessage("【ルカ】")
+  ShowMessage("ソニア、ちょっと疲れてない？")
+  0()
+ PAGE   2
+  // condition: switch 6 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  ShowMessageFace("saniria_fc2",0,0,2,1)
+  ShowMessage("【サン・イリア王】")
+  ShowMessage("いやぁ、グランゴルド王まで体を改造されてしまうとは。")
+  ShowMessage("さしずめ次は、サラ女王あたりですかな？")
+  ShowMessageFace("grangold_fc2",0,0,2,2)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("これはご冗談を……あっはっは。")
+  ShowMessageFace("saniria_fc2",0,0,2,3)
+  ShowMessage("【サン・イリア王】")
+  ShowMessage("はっはっは……")
+  ShowMessageFace("sara_fc2",5,0,2,4)
+  ShowMessage("【サラ】")
+  ShowMessage("ここ、笑っていいところなの……？")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  // condition: switch 1079 is ON
+  ShowMessageFace("nuruko_fc1",1,0,2,1)
+  ShowMessage("【ヌルコ】")
+  ShowMessage("きゅー♪　きゅー♪")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("おいしいかい？")
+  ShowMessageFace("nuruko_fc1",1,0,2,3)
+  ShowMessage("【ヌルコ】")
+  ShowMessage("きゅきゅー♪")
+  0()
+ PAGE   2
+  // condition: switch 1079 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  ShowMessageFace("mefist_fc1",0,0,2,1)
+  ShowMessage("【メフィスト】")
+  ShowMessage("これで、ひと仕事終わりましたね……")
+  ShowMessage("肩の荷が下りた気分です。")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("メフィストは、これからどうするの？")
+  ShowMessage("魔王から、グランドノアを助けろって命令されてたんだよね？")
+  ShowMessageFace("mefist_fc1",0,0,2,3)
+  ShowMessage("【メフィスト】")
+  ShowMessage("どうという事もなく。")
+  ShowMessage("これまで通り、グランドノアを支援します。")
+  ShowMessageFace("ruka_fc1",0,0,2,4)
+  ShowMessage("【ルカ】")
+  ShowMessage("それは、魔王の命令だから？")
+  ShowMessage("それとも、自身の意志……？")
+  ShowMessageFace("mefist_fc1",0,0,2,5)
+  ShowMessage("【メフィスト】")
+  ShowMessage("魔王様の命令を守ろう、という自身の意志です。")
+  ShowMessage("この答えで、満足して頂けましたか？")
+  ShowMessageFace("ruka_fc1",0,0,2,6)
+  ShowMessage("【ルカ】")
+  ShowMessage("……………………")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  ShowMessageFace("mefist_fc1",0,0,2,1)
+  ShowMessage("【メフィスト】")
+  ShowMessage("グランゴルド城も間近ですね。")
+  ShowMessage("今頃は、助っ人も到着しているでしょうか……")
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  // condition: switch 1129 is ON
+  ShowMessageFace("brunhild_fc1",0,0,2,1)
+  ShowMessage("【ヒルデ】")
+  ShowMessage("ヒルデ、おいしい食事は大好き……")
+  ShowMessage("食事機能、フル稼働。")
+  ShowMessageFace("brunhild_fc1",0,0,2,2)
+  ShowMessage("【ヒルデ】")
+  ShowMessage("……なんで、こんな機能があるの？")
+  ShowMessage("ヒルデの体、知らない事がいっぱい……")
+  0()
+ PAGE   2
+  // condition: switch 1129 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  // condition: switch 1041 is ON
+  ShowMessageFace("stein_fc2",0,0,2,1)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("プロメスティンは、食事しながら例のノートを熟読している……")
+  ShowMessageFace("ruka_fc1",0,0,2,3)
+  ShowMessage("【ルカ】")
+  ShowMessage("プロメスティン、ちょっと行儀悪くない？")
+  ShowMessageFace("stein_fc2",2,0,2,4)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("失礼、こういう酒の席のノリは苦手でして……")
+  ShowMessage("天界の宴でも、一人で本を読んだりして場を白けさせたものです。")
+  ShowMessageFace("stein_fc2",1,0,2,5)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("あのウェーイな連中、だいたい死んじゃいましたけどね。")
+  ShowMessage("天罰が本当にあるって、ちょっと信じたくなっちゃいました。")
+  ShowMessageFace("ruka_fc1",0,0,2,6)
+  ShowMessage("【ルカ】")
+  ShowMessage("……………………")
+  ShowMessageFace("stein_fc2",0,0,2,7)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("……そういう訳で、放っておいてもらえます？")
+  ShowMessageFace("ruka_fc1",0,0,2,8)
+  ShowMessage("【ルカ】")
+  ShowMessage("（氷より冷えた視線だ……）")
+  0()
+ PAGE   2
+  // condition: switch 1041 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  ShowMessageFace("sylph_fc1",0,0,2,1)
+  ShowMessage("【シルフ】")
+  ShowMessage("おいし～い！")
+  ShowMessage("こんなにおいしいごちそう、食べたのはじめて！")
+  ShowMessageFace("sylph_fc1",1,0,2,2)
+  ShowMessage("【シルフ】")
+  ShowMessage("あんまり食べ過ぎると、重くなって飛べなくなるかも……")
+  ShowMessage("まあ、いいや。")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("gnome_fc1",0,0,2,1)
+  ShowMessage("【ノーム】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("ノームは無言でもしゃもしゃと食事している……")
+  ShowMessageFace("ruka_fc1",0,0,2,3)
+  ShowMessage("【ルカ】")
+  ShowMessage("ノーム、おいしいかい？")
+  ShowMessageFace("gnome_fc1",0,0,2,4)
+  ShowMessage("【ノーム】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("ノームはこくこくと頷いた……")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  ShowMessageFace("gnome_fc1",0,0,2,1)
+  ShowMessage("【ノーム】")
+  ShowMessage("……………………")
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  ShowMessageFace("undine_fc1",1,0,2,1)
+  ShowMessage("【ウンディーネ】")
+  ShowMessage("四精霊のうち、サラマンダーだけ御馳走を食いっぱぐれたわね……")
+  ShowMessage("後で存分に煽ってやるわ……ふふふ。")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  ShowMessageFace("sara_fc2",5,0,2,1)
+  ShowMessage("【サラ】")
+  ShowMessage("グランゴルド王も、私のように操られていたのね……")
+  ShowMessage("でも、自責の念は私以上のはずよ。")
+  ShowMessageFace("sara_fc2",1,0,2,2)
+  ShowMessage("【サラ】")
+  ShowMessage("リリス三姉妹や魔王のやった事は、絶対に許さないわ。")
+  ShowMessage("お父様の仇も、この私が必ず……！")
+  ShowMessageFace("sara_fc2",1,0,2,3)
+  ShowMessage("【サラ】")
+  ShowMessage("まあ……常に肩を張っていても疲れるわね。")
+  ShowMessage("たまの宴くらいは、楽しませてもらおうかしら。")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  ShowMessageFace("sara_fc1",4,0,2,1)
+  ShowMessage("【サラ】")
+  ShowMessage("グランゴルド王も、私と同じように精神を乱されているのかしら。")
+  ShowMessage("操られているのだとしたら、私以上に辛い状況ね……")
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  ShowMessageFace("grangold_fc2",0,0,2,1)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("質問を受ける前に、君の疑問に答えよう。")
+  ShowMessage("うん、ご覧の通り……戻れなくなった！")
+  ShowMessageFace("grangold_fc2",0,0,2,2)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("理性の方は、たまもさんの力で戻ったのだけれど……")
+  ShowMessage("完全に変異してしまった肉体の方は、どうしてもね。")
+  ShowMessageFace("mefist_fc1",0,0,2,3)
+  ShowMessage("【メフィスト】")
+  ShowMessage("変化の魔術を伝授しましょうか？")
+  ShowMessage("あくまで、外見を誤魔化すだけの術ですが……")
+  ShowMessageFace("grangold_fc2",0,0,2,4)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("それじゃあ、お願いしようかな。")
+  ShowMessage("この姿で、自領を練り歩くわけにもいかないからね……")
+  ShowMessageFace("grangold_fc2",0,0,2,5)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("ともかくルカ君、君達には迷惑を掛けた。")
+  ShowMessage("この失態、何らかの形で必ず埋め合わさせてもらうよ。")
+  ShowMessageFace("grangold_fc2",0,0,2,6)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("そう言った矢先に、切り出しにくいんだが……")
+  ShowMessage("少しばかり、頼み事を受けてくれないだろうか。")
+  ShowMessageFace("grangold_fc2",0,0,2,7)
+  ShowMessage("【グランゴルド王】")
+  ShowMessage("もちろん、相応のお礼はしよう。")
+  ShowMessage("今日はこんな席だから、後日あらためて連絡させてもらうよ。")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  ShowMessageFace("lazarus3_fc1",0,0,2,1)
+  ShowMessage("【ラザロ】")
+  ShowMessage("おう、やったな。")
+  ShowMessage("次から、こんな事には関わるなよ。")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("ラザロおじさん、そんな怪我で動いて大丈夫なの……？")
+  ShowMessageFace("lazarus3_fc1",0,0,2,3)
+  ShowMessage("【ラザロ】")
+  ShowMessage("これくらいで死にゃしねぇよ。")
+  ShowMessage("ケガ治すのにカロリーがいるんだ、食わせろ。")
+  If(0,6,0)
+   ShowMessageFace("ruka_fc1",0,0,2,4)
+   ShowMessage("【ルカ】")
+   ShowMessage("あと、ラザロおじさんが裏世界のドンだった件だけど……")
+   ShowMessage("僕はもう気にしない事にしたけど、ソニアはすっごく怒ってるよ。")
+   ShowMessageFace("lazarus3_fc1",0,0,2,5)
+   ShowMessage("【ラザロ】")
+   ShowMessage("ケガしてるうちに、謝っとくか。")
+   ShowMessage("相手がケガ人なら、あんまり強くは出られないだろうしな……")
+   ShowMessageFace("merlin_fc1",0,0,2,6)
+   ShowMessage("【マーリン】")
+   ShowMessage("あまりに姑息ですよ、ラザロさん……")
+   ShowMessageFace("ruka_fc1",0,0,2,7)
+   ShowMessage("【ルカ】")
+   ShowMessage("ソニア、マーリンさんに対しても怒ってたよ。")
+   ShowMessageFace("merlin_fc1",0,0,2,8)
+   ShowMessage("【マーリン】")
+   ShowMessage("怪我をしているうちに謝っておくのが得策ですね……")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  // condition: switch 1143 is ON
+  ShowMessageFace("eva_fc1",0,0,2,1)
+  ShowMessage("【エヴァ】")
+  ShowMessage("ちょっと、タッパ持ってきてくれない？")
+  ShowMessage("料理をありったけ詰め込むから。")
+  ShowMessageFace("eva_fc1",0,0,2,2)
+  ShowMessage("【エヴァ】")
+  ShowMessage("そこの果物も、持てるだけ持ってかないと……")
+  ShowMessage("後から金取るなんて、言われないよね？")
+  If(0,1056,0)
+   ShowMessageFace("inp_fc1",3,0,2,3)
+   ShowMessage("【ラミ】")
+   ShowMessage("（こうはなりたくないなぁ……）")
+   ShowMessageFace("eva_fc1",2,0,2,4)
+   ShowMessage("【エヴァ】")
+   ShowMessage("んっ……？　今、変な視線を感じなかった……？")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: switch 1143 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  // condition: switch 4 is ON
+  ShowMessageFace("iriasu_fc4",4,0,2,1)
+  ShowMessage("【イリアス】")
+  ShowMessage("おいしい……")
+  ShowMessage("おいしい……")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("あれ？　なんだか悲しそうに食べてますね……")
+  ShowMessageFace("iriasu_fc4",4,0,2,3)
+  ShowMessage("【イリアス】")
+  ShowMessage("あの牢の中で、どれだけひもじかったか……！")
+  ShowMessage("お腹が減りすぎて、ネズミまで焼いて食べたのですよ……！")
+  ShowMessageFace("iriasu_fc4",4,0,2,4)
+  ShowMessage("【イリアス】")
+  ShowMessage("自分の羽根や、仲間の二人を食べなかったのが奇跡です……")
+  ShowMessage("本当、どれだけひどい目に遭った事か……")
+  ShowMessageFace("ruka_fc1",0,0,2,5)
+  ShowMessage("【ルカ】")
+  ShowMessage("（割と本気で大変だったんだなぁ……）")
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  ShowMessageFace("alice_fc5",7,0,2,1)
+  ShowMessage("【アリス】")
+  ShowMessage("むしゃむしゃ……おいしい♪")
+  ShowMessageFace("alice_fc5",1,0,2,2)
+  ShowMessage("【アリス】")
+  ShowMessage("おお、貴様か。")
+  ShowMessage("今からでも、余の手下にならんか？")
+  ShowMessageFace("ruka_fc1",0,0,2,3)
+  ShowMessage("【ルカ】")
+  ShowMessage("遠慮しておくよ……")
+  ShowMessageFace("alice_fc5",1,0,2,4)
+  ShowMessage("【アリス】")
+  ShowMessage("そう言えばさっき、たまもとアルマエルマと話したぞ。")
+  ShowMessage("二人は、母上の元を離れたようだな。")
+  ShowMessageFace("alice_fc5",1,0,2,5)
+  ShowMessage("【アリス】")
+  ShowMessage("母上が、いったい何を企んでいるかは知らんが……")
+  ShowMessage("その野望、余が打ち砕いてくれる！")
+  ShowMessageFace("ruka_fc1",0,0,2,6)
+  ShowMessage("【ルカ】")
+  ShowMessage("また捕まらないようにね……")
+  ShowMessageFace("alice_fc5",6,0,2,7)
+  ShowMessage("【アリス】")
+  ShowMessage("あれは作戦だ！")
+  0()
+ PAGE   3
+  // condition: switch 4 is ON
+  // condition: switch 33 is ON
+  0()
+ PAGE   4
+  // condition: switch 5 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  // condition: switch 4 is ON
+  ShowMessageFace("dog_fc1",4,0,2,1)
+  ShowMessage("【わんこ】")
+  ShowMessage("わうわう……もぐもぐ……")
+  ShowMessage("おいしい……♪　おいしい……♪")
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  ShowMessageFace("youko_fc1",2,0,2,1)
+  ShowMessage("【もふゆ】")
+  ShowMessage("あたし、たまも様へのあてつけで仲間に入れられたんだけど……")
+  ShowMessage("後ろにたまも様いるよ～！　気まずいよ～！")
+  0()
+ PAGE   3
+  // condition: switch 4 is ON
+  // condition: switch 33 is ON
+  0()
+ PAGE   4
+  // condition: switch 5 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  // condition: switch 4 is ON
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【ぷるこ】")
+  ShowMessage("ぷるぷるぷるー♪")
+  ShowMessage("ごちそう♪　ごちそう♪")
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  ShowMessageFace("bunnyslime_fc1",0,0,2,1)
+  ShowMessage("【うさこ】")
+  ShowMessage("うさうさー♪　おいしいー♪")
+  ShowMessage("閉じ込められた甲斐、あったよね♪")
+  0()
+ PAGE   3
+  // condition: switch 4 is ON
+  // condition: switch 33 is ON
+  0()
+ PAGE   4
+  // condition: switch 5 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  ShowMessageFace("merlin_fc1",0,0,2,1)
+  ShowMessage("【マーリン】")
+  ShowMessage("ルカさん、大健闘でしたね。")
+  ShowMessage("私としても、鼻が高いです。")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("マーリンさん……その怪我、大丈夫なんですか？")
+  ShowMessageFace("merlin_fc1",0,0,2,3)
+  ShowMessage("【マーリン】")
+  ShowMessage("流石に死ぬかと思いました。")
+  ShowMessage("たまもさんが助けてくれなければ、命はありませんでしたよ。")
+  ShowMessageFace("tamamo_fc1",3,0,2,4)
+  ShowMessage("【たまも】")
+  ShowMessage("（全員が悪党顔だったもんで、誰をぶちのめせば良いか迷った……")
+  ShowMessage("　……とは、言えんのう）")
+  ShowMessageFace("lazarus3_fc1",0,0,2,5)
+  ShowMessage("【ラザロ】")
+  ShowMessage("いいか、ルカ……")
+  ShowMessage("ヤバい局面だからって、簡単に命を投げ出すのは三流なんだよ。")
+  ShowMessageFace("lazarus3_fc1",0,0,2,6)
+  ShowMessage("【ラザロ】")
+  ShowMessage("自己犠牲の誘惑に抗え。石にかじりついてでも生き残れ。")
+  ShowMessage("男なら、生きて帰ってくる事だけを考えな。")
+  ShowMessageFace("merlin_fc1",0,0,2,7)
+  ShowMessage("【マーリン】")
+  ShowMessage("（これを言うため、本気で死にかけましたね……）")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  // condition: switch 1062 is ON
+  ShowMessageFace("gob_fc1",0,0,2,1)
+  ShowMessage("【ゴブ】")
+  ShowMessage("故郷に錦を飾る、って奴だね。")
+  ShowMessage("ヤマタイ村のみんなにも、自慢しよっと！")
+  0()
+ PAGE   2
+  // condition: switch 1062 is ON
+  // condition: switch 33 is ON
+  ShowMessageFace("gob_fc1",3,0,2,1)
+  ShowMessage("【ゴブ】")
+  ShowMessage("人間同士の戦争に、ボクみたいな魔物が関わるってどうなのかな……")
+  ShowMessage("でも、グランゴルドも妖魔が裏から動かしてるんだよね。")
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  // condition: switch 1064 is ON
+  ShowMessageFace("pramia_fc1",0,0,2,1)
+  ShowMessage("【プチ】")
+  ShowMessage("みんな、もっと行儀良く食べなさいよ……")
+  0()
+ PAGE   2
+  // condition: switch 1064 is ON
+  // condition: switch 33 is ON
+  ShowMessageFace("pramia_fc1",0,0,2,1)
+  ShowMessage("【プチ】")
+  ShowMessage("この木、洗濯物を干すのにちょうどいいわね。")
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  // condition: switch 1068 is ON
+  ShowMessageFace("dragonp_fc1",0,0,2,1)
+  ShowMessage("【パピ】")
+  ShowMessage("むしゃむしゃ……がつがつ……")
+  ShowMessage("お腹いっぱいになるまで食べるのだ、おかわり！")
+  0()
+ PAGE   2
+  // condition: switch 1068 is ON
+  // condition: switch 33 is ON
+  ShowMessageFace("dragonp_fc1",0,0,2,1)
+  ShowMessage("【パピ】")
+  ShowMessage("ドラゴンは、氷のブレスも吐けるのだぞ！")
+  ShowMessage("すー……、ひやひやひや……！")
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  // condition: switch 1072 is ON
+  ShowMessageFace("phoenix_fc1",1,0,2,1)
+  ShowMessage("【ミニ】")
+  ShowMessage("とってもおいしいのだ！")
+  ShowMessage("うちの城でも、毎日宴会をやればいいのだ！")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("三日で財政破綻するよ……")
+  0()
+ PAGE   2
+  // condition: switch 1072 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  // condition: switch 1066 is ON
+  ShowMessageFace("vgirl_fc1",2,0,2,1)
+  ShowMessage("【ヴァニラ】")
+  ShowMessage("このような明るい場……")
+  ShowMessage("日陰で生きる我には……我には……")
+  ShowMessageFace("vgirl_fc1",2,0,2,2)
+  ShowMessage("【ヴァニラ】")
+  ShowMessage("我、リア充こわい……")
+  0()
+ PAGE   2
+  // condition: switch 1066 is ON
+  // condition: switch 33 is ON
+  ShowMessageFace("vgirl_fc1",2,0,2,1)
+  ShowMessage("【ヴァニラ】")
+  ShowMessage("この淫気、首筋がぞわぞわする……高貴な我は敏感肌なのだ。")
+  ShowMessage("鈍感なゴブやパピがうらやましいぞ。")
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  // condition: switch 2149 is ON
+  ShowMessageFace("ashel_fc1",1,0,2,1)
+  ShowMessage("【アシェル】")
+  ShowMessage("おさかな海賊団のみんなにも、御馳走を食わせてやりたかったね……")
+  ShowMessage("せいぜい、美味しそうな料理を持ち帰る事にするよ。")
+  0()
+ PAGE   2
+  // condition: switch 2148 is ON
+  ShowMessageFace("umiusi_k_fc1",0,0,2,1)
+  ShowMessage("【ステイシー】")
+  ShowMessage("こんな席に招待してもらえるなんて……")
+  ShowMessage("海兵やってて、本当に良かったです。")
+  0()
+ PAGE   3
+  // condition: switch 2149 is ON
+  // condition: switch 33 is ON
+  0()
+ PAGE   4
+  // condition: switch 2148 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  // condition: switch 2149 is ON
+  ShowMessageFace("bonny_fc1",2,0,2,1)
+  ShowMessage("【ボニー】")
+  ShowMessage("はふはふ、ふーふー……")
+  ShowMessage("実は私は猫舌で、冷まさないと食べられなくてな。")
+  ShowMessageFace("bonny_fc1",2,0,2,2)
+  ShowMessage("【ボニー】")
+  ShowMessage("ふーふー、ふーふー……")
+  ShowMessage("はふはふはふ……ふー、ふー、ふー……")
+  0()
+ PAGE   2
+  // condition: switch 2148 is ON
+  ShowMessageFace("tatunoko_k_fc1",1,0,2,1)
+  ShowMessage("【たつこ】")
+  ShowMessage("おいしいです！　むしゃむしゃむしゃ……")
+  0()
+ PAGE   3
+  // condition: switch 2149 is ON
+  // condition: switch 33 is ON
+  0()
+ PAGE   4
+  // condition: switch 2148 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  // condition: switch 1118 is ON
+  ShowMessageFace("meia_fc1",0,0,2,1)
+  ShowMessage("【メイア】")
+  ShowMessage("ああ、なんて美味しい料理でしょう。")
+  ShowMessage("旦那様にも味わってもらいたい……")
+  ShowMessageFace("meia_fc1",0,0,2,2)
+  ShowMessage("【メイア】")
+  ShowMessage("次のハーレムでは、ぜひこのフルコースを……")
+  ShowMessage("いえいえ、なんでもありません。")
+  0()
+ PAGE   2
+  // condition: switch 1118 is ON
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  ShowMessageFace("durahan_fc1",1,0,2,1)
+  ShowMessage("【アーサー】")
+  ShowMessage("これだけ豪華な料理は初めてだ……")
+  ShowMessage("私も、首が複数欲しくなってしまうな。")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  ShowMessageFace("durahan_fc1",0,0,2,1)
+  ShowMessage("【アーサー】")
+  ShowMessage("ちょっといいか、勇者ルカ。")
+  ShowMessage("お前達の腕を見込み、任務を手伝ってほしいのだが……")
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  ShowMessageFace("kerberos_fc1",0,0,2,1)
+  ShowMessage("【シーザー】")
+  ShowMessage("昨日から、復興作業の手伝いをしている。")
+  ShowMessage("バリバリ働くためにも、モリモリ食べねばな！")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  ShowMessageFace("kerberos_fc1",0,0,2,1)
+  ShowMessage("【シーザー】")
+  ShowMessage("なあ、おい！")
+  ShowMessage("ちょっと話を聞いてくれないか！？")
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【サバサ重臣】")
+  ShowMessage("勇者の結婚相手とは、神話の時代から王家の娘と相場は決まっているとか。")
+  ShowMessage("おっとそう言えば、我がサバサには年頃の王女が！")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【向かいのグランドノア重臣】")
+  ShowMessage("何を言う、グランドノアにも王家の女性はおりますぞ！")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【サバサ重臣】")
+  ShowMessage("しかしお歳を考えると、勇者様とは釣り合わないかと……")
+  ShowMessageFace("grandnoa_fc1",0,0,2,4)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("その者の首をはねておしまい！")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【サバサ重臣】")
+  ShowMessage("げぇっ！　なんという地獄耳！")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【グランゴルド重臣】")
+  ShowMessage("勇者様のお仲間方は……")
+  ShowMessage("いやはや、バラエティ豊かですなぁ。")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【グランドノア重臣】")
+  ShowMessage("突然ですか、年上の女性はお好みですかな？")
+  ShowMessage("ああいえ、お答えは聞かずとも結構です。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【グランドノア重臣】")
+  ShowMessage("これは独り言ですが……")
+  ShowMessage("我が国の女王様は、ちょうど結婚適齢期でありまして……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【向かいのサバサ重臣】")
+  ShowMessage("いや、それは無理があるだろう……")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【グランドノア重臣】")
+  ShowMessage("お黙りなさい。")
+  ShowMessage("これは余談ですが……神話における勇者は、王家の娘を娶るもの。")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【グランドノア重臣】")
+  ShowMessage("まあ、サバサの女王などは……")
+  ShowMessage("妖婦などという噂もあり、あまり勇者の嫁としては……")
+  ShowMessageFace("sara_fc2",1,0,2,6)
+  ShowMessage("【サラ】")
+  ShowMessage("少し踊りたい気分だわ……")
+  ShowMessage("その者の首、皿に乗せて下さる？")
+  ShowMessageFace("",0,0,2,7)
+  ShowMessage("【グランドノア重臣】")
+  ShowMessage("げぇっ！　なんたる地獄耳！")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  ShowMessageFace("tamamo_fc1",0,0,2,1)
+  ShowMessage("【たまも】")
+  ShowMessage("狐神社では、ずいぶん無様な姿を見せてしまったな……")
+  ShowMessage("まあ危ないところを助けてやったから、貸し借りはなしじゃ。")
+  ShowMessageFace("tamamo_fc1",3,0,2,2)
+  ShowMessage("【たまも】")
+  ShowMessage("それにしても、まさか異世界からもう一人のウチが来ていたとは……")
+  ShowMessage("あれは聖魔大戦当時の、残虐であった頃のウチそのものじゃ。")
+  ShowMessageFace("tamamo_fc1",3,0,2,3)
+  ShowMessage("【たまも】")
+  ShowMessage("今ではすっかり、まんまるモフモフになったウチじゃが……")
+  ShowMessage("あんな頃もあった事を思い出すのう。")
+  ShowMessageFace("ruka_fc1",0,0,2,4)
+  ShowMessage("【ルカ】")
+  ShowMessage("これからどうするの？")
+  ShowMessage("良ければ、僕達の仲間になってほしいんだけど……")
+  ShowMessageFace("tamamo_fc1",0,0,2,5)
+  ShowMessage("【たまも】")
+  ShowMessage("すまぬが、しばらくはもう一人のウチを追うつもりじゃ。")
+  ShowMessage("アレを放置すれば、この世にどんな災厄を撒き散らすか分からん。")
+  ShowMessageFace("tamamo_fc1",0,0,2,6)
+  ShowMessage("【たまも】")
+  ShowMessage("そういう訳で、ウチも長旅に出る事になる。")
+  ShowMessage("お互い、達者でな。")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("arumaeruma_fc2",0,0,2,1)
+  ShowMessage("【アルマエルマ】")
+  ShowMessage("決戦の時は、まるでいいところがなかったわね……")
+  ShowMessage("ずっと牢の中に閉じ込められていたなんて。")
+  ShowMessageFace("arumaeruma_fc2",0,0,2,2)
+  ShowMessage("【アルマエルマ】")
+  ShowMessage("まあ、モリガンとアスタロトはしばらく動けないと思っていいわよ。")
+  ShowMessage("捕まった時、相応の代償は払ってもらったから……")
+  ShowMessageFace("ruka_fc1",0,0,2,3)
+  ShowMessage("【ルカ】")
+  ShowMessage("これからどうするの？")
+  ShowMessage("良ければ、僕達の仲間になってほしいんだけど……")
+  ShowMessageFace("arumaeruma_fc2",3,0,2,4)
+  ShowMessage("【アルマエルマ】")
+  ShowMessage("それは出来ないわね……")
+  ShowMessage("これから、リリス三姉妹を追いかけるつもりよ。")
+  ShowMessageFace("arumaeruma_fc2",3,0,2,5)
+  ShowMessage("【アルマエルマ】")
+  ShowMessage("地の果てまででも追跡して、落とし前をつけないと……")
+  ShowMessage("そういう訳で、しばらく単独行動させてもらうわ。")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  ShowMessageFace("queenant_fc1",0,0,2,1)
+  ShowMessage("【クィーンアント】")
+  ShowMessage("アリ娘の女王という事で、国賓待遇を受けております。")
+  ShowMessage("我が娘達を兵として操っていた件も、謝罪を頂きました。")
+  ShowMessageFace("queenant_fc1",0,0,2,2)
+  ShowMessage("【クィーンアント】")
+  ShowMessage("元より、グランゴルド王も操られての事……")
+  ShowMessage("謝罪を受け入れ、この件は終わりとしましょう。")
+  ShowMessageFace("queenant_fc1",0,0,2,3)
+  ShowMessage("【クィーンアント】")
+  ShowMessage("さて……あなたには、ずいぶんと世話になりましたね。")
+  ShowMessage("その活躍によって、私は解放されたのです。")
+  ShowMessageFace("queenant_fc1",0,0,2,4)
+  ShowMessage("【クィーンアント】")
+  ShowMessage("今は、食べ物を包むのに忙しいので……")
+  ShowMessage("近いうち、必ずお礼を致しましょう。")
+  ShowMessageFace("queenant_fc1",0,0,2,5)
+  ShowMessage("【クィーンアント】")
+  ShowMessage("……包んだ食べ物ですか？")
+  ShowMessage("持ち帰り、娘達にも食べさせてあげようかと。")
+  0()
+ PAGE   2
+  // condition: switch 33 is ON
+  0()

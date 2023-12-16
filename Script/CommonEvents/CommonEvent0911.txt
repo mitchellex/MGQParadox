@@ -1,0 +1,5 @@
+﻿// EVENT 0911
+Name "ボス階層レア宝箱"
+
+RunCommonEvent(914)
+0()

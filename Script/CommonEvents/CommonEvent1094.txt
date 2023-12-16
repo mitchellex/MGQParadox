@@ -1,0 +1,11 @@
+﻿// EVENT 1094
+Name "会話：鎧の狂戦士"
+
+ChangeVariable(25,25,0,0,0)
+ShowMessageFace("heinrich_fc2",0,0,2,1)
+ShowMessage("【鎧の狂戦士】")
+ShowMessage("天使……天使……天使ィィィィィィ！！")
+ShowMessageFace("",0,0,2,2)
+ShowMessage("鎧の狂戦士は会話を拒絶している！")
+EndEventProcessing()
+0()

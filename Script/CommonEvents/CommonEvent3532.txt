@@ -1,0 +1,6 @@
+﻿// EVENT 3532
+Name "－－－－－"
+
+ChangeVariable(35,35,0,0,2)
+RunCommonEvent(3346)
+0()

@@ -1,0 +1,1171 @@
+﻿
+
+
+EVENT   68
+ PAGE   1
+  PictureDisplay(1,"iv_iceybozb",0,0,0,0,100,100,60,1)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   56
+ PAGE   1
+  0()
+
+
+
+EVENT   57
+ PAGE   1
+  0()
+
+
+
+EVENT   58
+ PAGE   1
+  0()
+
+
+
+EVENT   59
+ PAGE   1
+  0()
+
+
+
+EVENT   60
+ PAGE   1
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  0()
+
+
+
+EVENT   62
+ PAGE   1
+  0()
+
+
+
+EVENT   63
+ PAGE   1
+  0()
+
+
+
+EVENT   64
+ PAGE   1
+  0()
+
+
+
+EVENT   65
+ PAGE   1
+  // condition: variable 1122 >= 1
+  0()
+ PAGE   2
+  // condition: variable 1122 >= 2
+  0()
+ PAGE   3
+  // condition: variable 1122 >= 3
+  0()
+ PAGE   4
+  // condition: variable 1122 >= 4
+  0()
+ PAGE   5
+  // condition: switch 4 is ON
+  // condition: variable 1122 >= 5
+  0()
+ PAGE   6
+  // condition: switch 5 is ON
+  // condition: variable 1122 >= 5
+  0()
+ PAGE   7
+  // condition: variable 1122 >= 6
+  0()
+
+
+
+EVENT   66
+ PAGE   1
+  // condition: variable 1122 >= 1
+  0()
+ PAGE   2
+  // condition: variable 1122 >= 2
+  0()
+ PAGE   3
+  // condition: variable 1122 >= 3
+  0()
+ PAGE   4
+  // condition: variable 1122 >= 4
+  0()
+ PAGE   5
+  // condition: switch 4 is ON
+  // condition: variable 1122 >= 5
+  0()
+ PAGE   6
+  // condition: switch 5 is ON
+  // condition: variable 1122 >= 5
+  0()
+ PAGE   7
+  // condition: variable 1122 >= 6
+  0()
+
+
+
+EVENT   67
+ PAGE   1
+  // condition: variable 1122 >= 1
+  0()
+ PAGE   2
+  // condition: variable 1122 >= 2
+  0()
+ PAGE   3
+  // condition: variable 1122 >= 3
+  0()
+ PAGE   4
+  // condition: variable 1122 >= 4
+  0()
+ PAGE   5
+  // condition: switch 4 is ON
+  // condition: variable 1122 >= 5
+  0()
+ PAGE   6
+  // condition: switch 5 is ON
+  // condition: variable 1122 >= 5
+  0()
+ PAGE   7
+  // condition: variable 1122 >= 6
+  0()
+
+
+
+EVENT   69
+ PAGE   1
+  // condition: variable 1122 >= 1
+  0()
+ PAGE   2
+  // condition: variable 1122 >= 2
+  0()
+ PAGE   3
+  // condition: variable 1122 >= 3
+  0()
+ PAGE   4
+  // condition: variable 1122 >= 4
+  0()
+ PAGE   5
+  // condition: switch 4 is ON
+  // condition: variable 1122 >= 5
+  0()
+ PAGE   6
+  // condition: switch 5 is ON
+  // condition: variable 1122 >= 5
+  0()
+ PAGE   7
+  // condition: variable 1122 >= 6
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  // condition: switch 4 is ON
+  // condition: switch 31 is ON
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  // condition: switch 31 is ON
+  0()
+ PAGE   3
+  // condition: variable 1122 >= 5
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  222()
+  Wait(60)
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("パンチラ♪　ハンバーガー♪")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【司会】")
+  ShowMessage("以上、たつのこマリンズの皆さんの演奏でした～！")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【観客男】")
+  ShowMessage("へぇ、割と上手いもんだな……")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【観客女】")
+  ShowMessage("とっても、かわい～♪")
+  ChangeSwitch(31,31,0)
+  205(10,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x0f,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x09,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x07,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x18,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,5)
+   ShowMessage("【アリス】")
+   ShowMessage("……あいつら、どこにでもいるな。")
+   ShowMessageFace("ruka_fc1",0,0,2,6)
+   ShowMessage("【ルカ】")
+   ShowMessage("あれ、アリス……控え室にいないでいいの？")
+   ShowMessageFace("alice_fc5",0,0,2,7)
+   ShowMessage("【アリス】")
+   ShowMessage("我々の出番は、第二部の一番最後だ。")
+   ShowMessage("前半は暇だから、対戦者達の手並みを見ておこうと思ってな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,8)
+   ShowMessage("【イリアス】")
+   ShowMessage("あの四匹……どこにでも出没しますね。")
+   ShowMessage("海兵というのは暇なのですか？")
+   ShowMessageFace("ruka_fc1",0,0,2,9)
+   ShowMessage("【ルカ】")
+   ShowMessage("あれ、イリアス様……控え室にいないでいいんですか？")
+   ShowMessageFace("iriasu_fc4",0,0,2,10)
+   ShowMessage("【イリアス】")
+   ShowMessage("私達の出番は、真打ちに相応しく第二部の一番最後です。")
+   ShowMessage("今は暇なので、有象無象の演奏でも聴いておきましょう。")
+   0()
+  EndIf()
+  ShowMessageFace("",0,0,2,11)
+  ShowMessage("【司会】")
+  ShowMessage("それでは、たつのこマリンズの審査に入りましょう。")
+  ShowMessage("まずは……歌聖と名高いマッハさん。")
+  ShowMessageFace("People2",6,0,2,12)
+  ShowMessage("【マッハ】")
+  ShowMessage("演奏はまだまだ拙いが、海のようなソウルを感じるよ……")
+  ShowMessage("……7点だね。")
+  ShowMessageFace("",0,0,2,13)
+  ShowMessage("【司会】")
+  ShowMessage("次に、グランドールのトップアイドル――サキちゃん！")
+  ShowMessageFace("saki_fc1",3,0,2,14)
+  ShowMessage("【サキ】")
+  ShowMessage("うん、とっても元気を感じるね……8点☆")
+  ShowMessageFace("",0,0,2,15)
+  ShowMessage("【司会】")
+  ShowMessage("最後に……")
+  ShowMessage("幻の大作曲家、カイラクスキーさんが審査に来てくれました！")
+  ShowMessageFace("arumaeruma_fc2",0,0,2,16)
+  ShowMessage("【カイラクスキー】")
+  ShowMessage("なかなか悪くないじゃない……7点ね。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,17)
+   ShowMessage("【アリス】")
+   ShowMessage("アルマエルマ……あいつ、何をしているのだ？")
+   ShowMessageFace("ruka_fc1",0,0,2,18)
+   ShowMessage("【ルカ】")
+   ShowMessage("三人の審査員のうち、二人が身内なんて……")
+   ShowMessage("これ、僕達に有利なんじゃないの？")
+   ShowMessageFace("alice_fc5",0,0,2,19)
+   ShowMessage("【アリス】")
+   ShowMessage("サキもアルマエルマも、")
+   ShowMessage("身内を贔屓にして審査を曲げる奴ではあるまい。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,20)
+   ShowMessage("【イリアス】")
+   ShowMessage("アルマエルマ……")
+   ShowMessage("いったい、何をしているのです？")
+   ShowMessageFace("ruka_fc1",0,0,2,21)
+   ShowMessage("【ルカ】")
+   ShowMessage("三人の審査員のうち、二人が身内なんて……")
+   ShowMessage("これ、僕達に有利なんじゃないの？")
+   ShowMessageFace("iriasu_fc4",2,0,2,22)
+   ShowMessage("【イリアス】")
+   ShowMessage("サキもアルマエルマも……")
+   ShowMessage("身内に甘い採点をするとは思えませんね。")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,23)
+  ShowMessage("【ルカ】")
+  ShowMessage("確かに、そうか……")
+  ShowMessageFace("",0,0,2,24)
+  ShowMessage("結局、実力勝負でいくしかない。")
+  ShowMessage("うちのチームは、本当に大丈夫なのだろうか――")
+  ShowMessageFace("",0,0,2,25)
+  ShowMessage("【司会】")
+  ShowMessage("たつのこマリンズ、合計22点です！")
+  ShowMessage("最初のチームから、高得点が出ましたね！")
+  ShowMessageFace("tatunoko_k_fc1",1,0,2,26)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("やったのです！")
+  ShowMessage("みんな、応援ありがとうなのです！！")
+  ShowMessageFace("",0,0,2,27)
+  ShowMessage("たつのこマリンズの大健闘に、客席は大いに盛り上がっている！")
+  ShowMessageFace("ruka_fc1",0,0,2,28)
+  ShowMessage("【ルカ】")
+  ShowMessage("なんだか、楽しそうだね。")
+  ShowMessage("せっかくだし、僕も女装して出れば良かったかな……")
+  ShowMessageFace("ruka_fc1",0,0,2,29)
+  ShowMessage("【ルカ】")
+  ShowMessage("……………………")
+  ShowMessageFace("ruka_fc1",0,0,2,30)
+  ShowMessage("【ルカ】")
+  ShowMessage("すかさずツッコミを入れるはずのソニアがいない……")
+  ShowMessageFace("",0,0,2,31)
+  ShowMessage("あれだけ大騒ぎをしていたソニアなのに、ヤマタイでは姿を見ない。")
+  ShowMessage("なんだか、嫌な予感がする――")
+  221()
+  Wait(60)
+  ChangeVariable(1122,1122,0,0,2)
+  222()
+  ShowMessageFace("",0,0,2,32)
+  ShowMessage("【司会】")
+  ShowMessage("それでは、次のバンドは――")
+  ShowMessage("プリティ☆幼馴染みチーム！！")
+  ShowMessageFace("sonia_fc1",3,0,2,33)
+  ShowMessage("【ソニア】")
+  ShowMessage("イェーイ！！")
+  ShowMessageFace("inp_fc1",0,0,2,34)
+  ShowMessage("【ラミ】")
+  ShowMessage("わ～い♪")
+  ShowMessageFace("inp_fc2",2,0,2,35)
+  ShowMessage("【レミ】")
+  ShowMessage("びくびく……")
+  ShowMessageFace("inp_fc3",4,0,2,36)
+  ShowMessage("【ルミ】")
+  ShowMessage("しゃきーん！")
+  ShowMessageFace("ruka_fc1",0,0,2,37)
+  ShowMessage("【ルカ】")
+  ShowMessage("やっぱり、出てたか……")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,38)
+   ShowMessage("【アリス】")
+   ShowMessage("ルミの奴、珍しく張り切っているようだな。")
+   ShowMessage("審査員にアルマエルマがいるからか……")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,39)
+   ShowMessage("【イリアス】")
+   ShowMessage("ルミ……珍しく張り切っているようですね。")
+   ShowMessage("審査員にアルマエルマがいるからでしょうか……")
+   0()
+  EndIf()
+  ShowMessageFace("",0,0,2,40)
+  ShowMessage("【司会】")
+  ShowMessage("それでは、演奏スタートです！")
+  ShowMessageFace("sonia_fc1",3,0,2,41)
+  ShowMessage("【ソニア】")
+  ShowMessage("みんな、練習の成果を見せるよ！")
+  ShowMessage("……せ～のっ！！")
+  212(-1,999,false)
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x10,0x73,0x63,0x65,0x6e,0x65,0x5f,0x63,0x6f,0x6d,0x69,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  ShowMessageFace("sonia_fc2",5,0,2,42)
+  ShowMessage("【ソニア】")
+  ShowMessage("ボエ～！")
+  ShowMessageFace("inp_fc1",0,0,2,43)
+  ShowMessage("【ラミ】")
+  ShowMessage("ﾊﾟﾗﾘﾗﾊﾟﾗﾘﾗﾊﾟﾗﾘﾗﾊﾟﾗﾘﾗﾊﾟﾗﾘﾗﾊﾟﾗﾘﾗ……！！")
+  ShowMessageFace("inp_fc3",4,0,2,44)
+  ShowMessage("【ルミ】")
+  ShowMessage("ぎゅいんぎゅいんぎゅいーん！！")
+  ShowMessageFace("inp_fc2",2,0,2,45)
+  ShowMessage("【レミ】")
+  ShowMessage("観客よりメンバーが怖い……")
+  ShowMessageFace("ruka_fc1",0,0,2,46)
+  ShowMessage("【ルカ】")
+  ShowMessage("わぁっ！　ダメだこりゃ！！")
+  242(2)
+  221()
+  Wait(60)
+  222()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x73,0x74,0x61,0x67,0x65,0x35,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  ShowMessageFace("",0,0,2,47)
+  ShowMessage("【司会】")
+  ShowMessage("プリティ☆幼馴染みチームの得点は――合計2点でした！")
+  ShowMessageFace("People2",6,0,2,48)
+  ShowMessage("【マッハ】")
+  ShowMessage("君達の存在は音楽に対して失礼だ。")
+  ShowMessageFace("saki_fc1",2,0,2,49)
+  ShowMessage("【サキ】")
+  ShowMessage("その演奏を聴いて、みんながどう感じるのか……")
+  ShowMessage("お客さんの立場になって、ちゃんと考えた方がいいよね。")
+  ShowMessageFace("arumaeruma_fc2",3,0,2,50)
+  ShowMessage("【カイラクスキー】")
+  ShowMessage("各人がバラバラに音をかき鳴らすのは、音楽とは言わないわ。")
+  ShowMessageFace("sonia_fc4",0,0,2,51)
+  ShowMessage("【ソニア】")
+  ShowMessage("私達の音楽は、大衆にはまだ早かったようね……")
+  ShowMessageFace("inp_fc3",2,0,2,52)
+  ShowMessage("【ルミ】")
+  ShowMessage("しょんぼり……")
+  ShowMessageFace("",0,0,2,53)
+  ShowMessage("こうして、プリティ☆幼馴染みチームは無惨な敗北を喫する。")
+  ShowMessage("ソニアの音楽活動は、これが最後となった――")
+  ShowMessageFace("ruka_fc1",0,0,2,54)
+  ShowMessage("【ルカ】")
+  ShowMessage("それにしても、あれでよく予選を勝ち抜けたなぁ……")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,55)
+   ShowMessage("【アリス】")
+   ShowMessage("それなのだが……予選、なかった。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,56)
+   ShowMessage("【イリアス】")
+   ShowMessage("そこが問題なのですが……")
+   ShowMessage("そもそも予選は存在しませんでした。")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,57)
+  ShowMessage("【ルカ】")
+  ShowMessage("そうか、予選はなかったのか……")
+  ShowMessageFace("ruka_fc1",0,0,2,58)
+  ShowMessage("【ルカ】")
+  ShowMessage("……………………")
+  ShowMessageFace("ruka_fc1",0,0,2,59)
+  ShowMessage("【ルカ】")
+  ShowMessage("……えっ？")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,60)
+   ShowMessage("【アリス】")
+   ShowMessage("登録申請をした18チーム、全てが本戦に出場している。")
+   ShowMessage("申請をしたチーム自体が、非常に少なかったのだ。")
+   ShowMessageFace("alice_fc5",0,0,2,61)
+   ShowMessage("【アリス】")
+   ShowMessage("この邪馬台漢祭は、漢（おとこ）の祭典。")
+   ShowMessage("世界の豪傑達が、開催を待ち望んでいたのだが……")
+   ShowMessageFace("alice_fc5",0,0,2,62)
+   ShowMessage("【アリス】")
+   ShowMessage("突如、今年はガールズバンド大会になることが発表されてな。")
+   ShowMessage("世界の漢（おとこ）達は泣き崩れたということだ。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,63)
+   ShowMessage("【イリアス】")
+   ShowMessage("登録申請をした18チーム、全てが本戦に出場しています。")
+   ShowMessage("申請をしたチーム自体が、非常に少なかったのですよ。")
+   ShowMessageFace("iriasu_fc4",2,0,2,64)
+   ShowMessage("【イリアス】")
+   ShowMessage("この邪馬台漢祭は、漢（おとこ）の祭典。")
+   ShowMessage("世界の豪傑達が、開催を待ち望んでいたのですが……")
+   ShowMessageFace("iriasu_fc4",2,0,2,65)
+   ShowMessage("【イリアス】")
+   ShowMessage("突如、今年のテーマはガールズバンドということに。")
+   ShowMessage("世界の漢（おとこ）達は泣き崩れたと聞いています。")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,66)
+  ShowMessage("【ルカ】")
+  ShowMessage("それで、出場チームがとても少ないのか……")
+  ShowMessage("だとすると、本当に優勝が狙えるかもしれないね。")
+  221()
+  ShowMessageFace("",0,0,2,67)
+  ShowMessage("そんな話をしている間にも、様々なバンドが演奏を続けている。")
+  ShowMessage("そして、次に登場したチームは――")
+  ChangeVariable(1122,1122,0,0,3)
+  222()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x73,0x74,0x61,0x67,0x65,0x34,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  ShowMessageFace("",0,0,2,68)
+  ShowMessage("【司会】")
+  ShowMessage("次のバンドは――プラネットエレメント！")
+  ShowMessageFace("salamander_fc1",1,0,2,69)
+  ShowMessage("【サラマンダー】")
+  ShowMessage("燃えたぎるハート！")
+  ShowMessageFace("undine_fc1",2,0,2,70)
+  ShowMessage("【ウンディーネ】")
+  ShowMessage("静かなるロンド……")
+  ShowMessageFace("sylph_fc1",3,0,2,71)
+  ShowMessage("【シルフ】")
+  ShowMessage("まわるまわるワルツ～♪")
+  ShowMessageFace("gnome_fc1",0,0,2,72)
+  ShowMessage("【ノーム】")
+  ShowMessage("……………………")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",6,0,2,73)
+   ShowMessage("【アリス】")
+   ShowMessage("また内輪の連中ではないか！")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",5,0,2,74)
+   ShowMessage("【イリアス】")
+   ShowMessage("またもや内輪の者達が！")
+   0()
+  EndIf()
+  242(2)
+  221()
+  Wait(60)
+  222()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x73,0x74,0x61,0x67,0x65,0x35,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  ShowMessageFace("People2",6,0,2,75)
+  ShowMessage("【マッハ】")
+  ShowMessage("演奏の中で、音と音が調和せず打ち消し合っている……")
+  ShowMessage("けど不思議だね、それもまた自然の息吹に聞こえるんだ。")
+  ShowMessageFace("People2",6,0,2,76)
+  ShowMessage("【マッハ】")
+  ShowMessage("演奏技術はないに等しいが、神秘的な何かを感じるよ……")
+  ShowMessage("うむ、9点だ。")
+  ShowMessageFace("saki_fc1",3,0,2,77)
+  ShowMessage("【サキ】")
+  ShowMessage("まさに、大自然の四重奏だね……9点☆")
+  ShowMessageFace("arumaeruma_fc2",0,0,2,78)
+  ShowMessage("【カイラクスキー】")
+  ShowMessage("悪くはないけど、風の息吹がやや上滑りね……")
+  ShowMessage("少し厳しいけど、8点といったところかしら。")
+  ShowMessageFace("sylph_fc1",4,0,2,79)
+  ShowMessage("【シルフ】")
+  ShowMessage("アルマエルマちゃん、辛口だよ～！")
+  ShowMessageFace("",0,0,2,80)
+  ShowMessage("【司会】")
+  ShowMessage("おっと、26点という高得点が出ました！")
+  ShowMessage("プラネットエレメント、ここまでの最高点を記録です！")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",1,0,2,81)
+   ShowMessage("【アリス】")
+   ShowMessage("ふふ、なかなか頑張るではないか……")
+   ShowMessage("だが、我々の方が上だな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,82)
+   ShowMessage("【イリアス】")
+   ShowMessage("なかなかやるではないですか。")
+   ShowMessage("まあ、我々の前座としては悪くないでしょう。")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,83)
+  ShowMessage("【ルカ】")
+  ShowMessage("すごい自信だ……")
+  ShowMessageFace("",0,0,2,84)
+  ShowMessage("練習は見ていないが、サキちゃんは満足そうな様子だった。")
+  ShowMessage("きっと、レベルの高い仕上がりをしたのだろう。")
+  221()
+  Wait(60)
+  ChangeVariable(1122,1122,0,0,4)
+  222()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x74,0x61,0x6d,0x61,0x6d,0x6f,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  ShowMessageFace("",0,0,2,85)
+  ShowMessage("【司会】")
+  ShowMessage("それでは次は、茶飲み友達が集まったというチーム！")
+  ShowMessage("おこたティータイムの皆さんです！")
+  ShowMessageFace("tamamo_fc1",1,0,2,86)
+  ShowMessage("【たまも】")
+  ShowMessage("いぇーい！！")
+  ShowMessageFace("enenra_fc1",1,0,2,87)
+  ShowMessage("【夕霧】")
+  ShowMessage("へーい！")
+  ShowMessageFace("kirin_fc1",1,0,2,88)
+  ShowMessage("【キリン】")
+  ShowMessage("バリバリいくのじゃ！")
+  ShowMessageFace("sirohebisama_fc1",0,0,2,89)
+  ShowMessage("【白蛇様】")
+  ShowMessage("ロックンロール！！")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",6,0,2,90)
+   ShowMessage("【アリス】")
+   ShowMessage("あいつら全員、五百歳以上ではないか！")
+   ShowMessage("リーダーの毛玉に至っては、二千歳を超えているぞ！")
+   ShowMessageFace("ruka_fc1",0,0,2,91)
+   ShowMessage("【ルカ】")
+   ShowMessage("ガールズとは。")
+   ShowMessageFace("ruka_fc1",0,0,2,92)
+   ShowMessage("【ルカ】")
+   ShowMessage("でも……それを言い出すと、アリスも反則なんじゃない？")
+   ShowMessage("実年齢、二十を超えてるだろ？")
+   ShowMessageFace("alice_fc5",0,0,2,93)
+   ShowMessage("【アリス】")
+   ShowMessage("余は……身も心もガールズよ。")
+   ShowMessageFace("ruka_fc1",0,0,2,94)
+   ShowMessage("【ルカ】")
+   ShowMessage("なんだか適当だなぁ。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",5,0,2,95)
+   ShowMessage("【イリアス】")
+   ShowMessage("全員、五百歳以上ではありませんか！")
+   ShowMessage("たまもに至っては、二千歳を超えていますよ！")
+   ShowMessageFace("ruka_fc1",0,0,2,96)
+   ShowMessage("【ルカ】")
+   ShowMessage("ガールズとは。")
+   ShowMessageFace("ruka_fc1",0,0,2,97)
+   ShowMessage("【ルカ】")
+   ShowMessage("でも……それを言い出すと、イリアス様も反則なんじゃ？")
+   ShowMessage("イリアス様、いったい何歳なんです？")
+   ShowMessageFace("iriasu_fc4",2,0,2,98)
+   ShowMessage("【イリアス】")
+   ShowMessage("……十四歳です。")
+   ShowMessageFace("iriasu_fc4",2,0,2,99)
+   ShowMessage("【イリアス】")
+   ShowMessage("……………………")
+   ShowMessageFace("iriasu_fc4",2,0,2,100)
+   ShowMessage("【イリアス】")
+   ShowMessage("嘘です……")
+   ShowMessageFace("ruka_fc1",0,0,2,101)
+   ShowMessage("【ルカ】")
+   ShowMessage("分かってますよ……")
+   0()
+  EndIf()
+  242(1)
+  ShowMessageFace("",0,0,2,102)
+  ShowMessage("そう言っているうちに、たまも達の演奏は終わった――")
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x73,0x74,0x61,0x67,0x65,0x35,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  ShowMessageFace("",0,0,2,103)
+  ShowMessage("【司会】")
+  ShowMessage("はい、見事な演奏でしたね！")
+  ShowMessage("27点と、これまでの最高得点が出ましたー！")
+  ShowMessageFace("",0,0,2,104)
+  ShowMessage("【司会】")
+  ShowMessage("以上、これで第一部は終了です。")
+  ShowMessage("十五分の休憩の後、第二部でお会いしましょう！")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",1,0,2,105)
+   ShowMessage("【アリス】")
+   ShowMessage("では、そろそろ余も控え室に戻ろう。")
+   ShowMessage("大船に乗った気分で見ているがいい……")
+   ShowMessageFace("ruka_fc1",0,0,2,106)
+   ShowMessage("【ルカ】")
+   ShowMessage("ああ、がんばってね！")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,107)
+   ShowMessage("【イリアス】")
+   ShowMessage("では、そろそろ私も控え室に戻りましょう。")
+   ShowMessage("私達の演奏、楽しみにしているのですよ……")
+   ShowMessageFace("ruka_fc1",0,0,2,108)
+   ShowMessage("【ルカ】")
+   ShowMessage("はい、がんばって下さい！")
+   0()
+  EndIf()
+  221()
+  ShowMessageFace("",0,0,2,109)
+  ShowMessage("こうして、第一部は終了した。")
+  ShowMessage("短い休憩のあと、第二部が始まる。")
+  ShowMessageFace("",0,0,2,110)
+  ShowMessage("盛況のうちに、各チームの演奏は進み――")
+  ShowMessage("ついに最終盤、うちのチームの登場となった！")
+  ChangeVariable(1122,1122,0,0,5)
+  ChangeSwitch(31,31,1)
+  222()
+  If(0,4,0)
+   ShowMessageFace("",0,0,2,111)
+   ShowMessage("【司会】")
+   ShowMessage("それでは、いよいよ最後の演奏となりました。")
+   ShowMessage("大トリを飾るのは――ドリームコラボガールズ！！")
+   ShowMessageFace("ruka_fc1",0,0,2,112)
+   ShowMessage("【ルカ】")
+   ShowMessage("おっ、いよいよか……！")
+   ShowMessageFace("",0,0,2,113)
+   ShowMessage("ついに、アリス達の出番だ。")
+   ShowMessage("果たして、上手くいくだろうか――？")
+   ShowMessageFace("alice_fc5",1,0,2,114)
+   ShowMessage("【アリス】")
+   ShowMessage("では行くぞ、特訓の成果を見せるのだ！")
+   ShowMessageFace("rejeo_fc1",0,0,2,115)
+   ShowMessage("【リジェオ】")
+   ShowMessage("こんなに観客がいるなんて……")
+   ShowMessage("ちょっと、恥ずかしいけど……")
+   ShowMessageFace("rovissa_fc1",0,0,2,116)
+   ShowMessage("【ルヴィッサ】")
+   ShowMessage("やるからには、本気で行くからね……！")
+   ShowMessageFace("tarsa_fc1",0,0,2,117)
+   ShowMessage("【ターサ】")
+   ShowMessage("それじゃあみんな、楽しんでいっくよ～♪")
+   242(1)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x64,0x72,0x75,0x6d,0x73,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   PictureDisplay(5,"iv_gband_a1",0,0,0,0,100,100,255,0)
+   PictureDisplay(2,"iv_gband_bg4",0,0,0,0,100,100,255,0)
+   Wait(120)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x62,0x61,0x73,0x73,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   PictureDisplay(5,"iv_gband_a2",0,0,0,0,100,100,255,0)
+   PictureDisplay(2,"iv_gband_bg1",0,0,0,0,100,100,255,0)
+   Wait(120)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x67,0x75,0x69,0x74,0x61,0x72,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x41))
+   PictureDisplay(5,"iv_gband_a3",0,0,0,0,100,100,255,0)
+   PictureDisplay(2,"iv_gband_bg3",0,0,0,0,100,100,255,0)
+   Wait(120)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x70,0x69,0x61,0x6e,0x6f,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   PictureDisplay(5,"iv_gband_a4",0,0,0,0,100,100,255,0)
+   PictureDisplay(2,"iv_gband_bg2",0,0,0,0,100,100,255,0)
+   Wait(180)
+   241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x73,0x61,0x6b,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x73))
+   PictureDisplay(5,"iv_gband_a5",0,0,0,0,100,100,255,0)
+   PictureDisplay(2,"iv_gband_bg1",0,0,0,0,100,100,255,0)
+   Wait(240)
+   ShowMessageFace("ruka_fc1",0,0,2,118)
+   ShowMessage("【ルカ】")
+   ShowMessage("す、すごい……！！")
+   ShowMessageFace("",0,0,2,119)
+   ShowMessage("アリス達の演奏は、他のバンドを完全に凌駕していた。")
+   ShowMessage("その熱気と卓越したテクニックによるサウンドは圧巻の一言だ！")
+   ShowMessageFace("",0,0,2,120)
+   ShowMessage("【観客Ａ】")
+   ShowMessage("ウォォォォ――！！　す、すげぇ――！！")
+   ShowMessageFace("",0,0,2,121)
+   ShowMessage("【観客Ｂ】")
+   ShowMessage("四人とも、かわい～！")
+   ShowMessageFace("",0,0,2,122)
+   ShowMessage("【観客Ｃ】")
+   ShowMessage("すごいバンドだ！　トップは決まりだな！")
+   ShowMessageFace("",0,0,2,123)
+   ShowMessage("ドリームコラボガールズの熱演に、観客達は魅了されている！")
+   ShowMessage("演奏は大成功だ！")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("",0,0,2,124)
+   ShowMessage("【司会】")
+   ShowMessage("それでは、いよいよ最後の演奏となりました。")
+   ShowMessage("大トリを飾るのは――創世エンジェルズ！！")
+   ShowMessageFace("ruka_fc1",0,0,2,125)
+   ShowMessage("【ルカ】")
+   ShowMessage("おっ、いよいよか……！")
+   ShowMessageFace("",0,0,2,126)
+   ShowMessage("ついに、イリアス達の出番だ。")
+   ShowMessage("果たして、上手くいくだろうか――？")
+   242(1)
+   ShowMessageFace("iriasu_fc4",0,0,2,127)
+   ShowMessage("【イリアス】")
+   ShowMessage("さあ……福音のサウンドで有象無象を魅了しましょう！")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x70,0x69,0x61,0x6e,0x6f,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   PictureDisplay(5,"iv_gband_i1",0,0,0,0,100,100,255,0)
+   PictureDisplay(2,"iv_gband_bg2",0,0,0,0,100,100,255,0)
+   Wait(180)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x62,0x61,0x73,0x73,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   PictureDisplay(5,"iv_gband_i2",0,0,0,0,100,100,255,0)
+   PictureDisplay(2,"iv_gband_bg1",0,0,0,0,100,100,255,0)
+   Wait(120)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x64,0x72,0x75,0x6d,0x73,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   PictureDisplay(5,"iv_gband_i3",0,0,0,0,100,100,255,0)
+   PictureDisplay(2,"iv_gband_bg3",0,0,0,0,100,100,255,0)
+   Wait(120)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x67,0x75,0x69,0x74,0x61,0x72,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x41))
+   PictureDisplay(5,"iv_gband_i5",0,0,0,0,100,100,255,0)
+   PictureClear(2)
+   Wait(120)
+   241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x73,0x61,0x6b,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x73))
+   PictureDisplay(5,"iv_gband_i6",0,0,0,0,100,100,255,0)
+   PictureDisplay(2,"iv_gband_bg4",0,0,0,0,100,100,255,0)
+   Wait(240)
+   ShowMessageFace("ruka_fc1",0,0,2,128)
+   ShowMessage("【ルカ】")
+   ShowMessage("す、すごい……！！")
+   ShowMessageFace("",0,0,2,129)
+   ShowMessage("イリアス達の演奏は、まさに人智を超えたものだった。")
+   ShowMessage("天使達の奏でるメロディが、甘く激しく心を沸き立てる！")
+   ShowMessageFace("",0,0,2,130)
+   ShowMessage("【観客Ａ】")
+   ShowMessage("こ、心に染み渡るメロディ……")
+   ShowMessage("天国からの誘いのようだ……")
+   ShowMessageFace("",0,0,2,131)
+   ShowMessage("【観客Ｂ】")
+   ShowMessage("それでいながら、ハートを震わせるビート……！")
+   ShowMessage("これは、音楽会の革命（レボリューション）だ……！")
+   ShowMessageFace("",0,0,2,132)
+   ShowMessage("創世エンジェルズの熱演に、観客達は圧倒されている！")
+   ShowMessage("演奏は大成功だ！")
+   0()
+  EndIf()
+  221()
+  PictureClear(5)
+  PictureClear(2)
+  ShowMessageFace("",0,0,2,133)
+  ShowMessage("こうして、観客達は熱狂し――")
+  ShowMessage("コロシアムを揺るがすような拍手の中で、演奏を終えたのだった。")
+  242(1)
+  222()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x14,0x73,0x63,0x65,0x6e,0x65,0x5f,0x65,0x70,0x69,0x6c,0x6f,0x67,0x75,0x65,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  If(0,4,0)
+   ShowMessageFace("",0,0,2,134)
+   ShowMessage("【司会】")
+   ShowMessage("ドリームコラボガールズ、素晴らしい演奏でした！")
+   ShowMessage("さて、採点は……！？")
+   ShowMessageFace("People2",6,0,2,135)
+   ShowMessage("【マッハ】")
+   ShowMessage("みんな可愛いし、テクニックも最高だぁ……")
+   ShowMessage("出来れば、私も真ん中に挟まれたい……ダメかな？")
+   ShowMessageFace("sonia_fc3",0,0,2,136)
+   ShowMessage("【ソニア】")
+   ShowMessage("（こいつも、たぶんポルノフ出身ね……）")
+   ShowMessageFace("People2",6,0,2,137)
+   ShowMessage("【マッハ】")
+   ShowMessage("えっ？　採点……？")
+   ShowMessage("点数は……5千兆点だ！！")
+   ShowMessageFace("saki_fc1",3,0,2,138)
+   ShowMessage("【サキ】")
+   ShowMessage("ちょっと厳しめに採点して……9点だね☆")
+   ShowMessage("本当、すごかったよ！")
+   ShowMessageFace("arumaeruma_fc2",0,0,2,139)
+   ShowMessage("【カイラクスキー】")
+   ShowMessage("素晴らしいアッセンブルだったわ。")
+   ShowMessage("文句なしの10点満点ね……♪")
+   ShowMessageFace("",0,0,2,140)
+   ShowMessage("【司会】")
+   ShowMessage("さて、合計点は――5千兆19点！")
+   ShowMessage("ドリームコラボガールズ、ぶっちぎりの優勝だ～！！")
+   ShowMessageFace("alice_fc5",1,0,2,141)
+   ShowMessage("【アリス】")
+   ShowMessage("ふっ、当然だ！　優勝は頂いたぞ！")
+   ShowMessageFace("rejeo_fc1",0,0,2,142)
+   ShowMessage("【リジェオ】")
+   ShowMessage("やった……")
+   ShowMessageFace("rovissa_fc1",0,0,2,143)
+   ShowMessage("【ルヴィッサ】")
+   ShowMessage("ステージで大声援を受けるのって……最高♪")
+   ShowMessageFace("tarsa_fc1",1,0,2,144)
+   ShowMessage("【ターサ】")
+   ShowMessage("特訓の甲斐があったね♪")
+   ShowMessageFace("",0,0,2,145)
+   ShowMessage("こうして、ドリームコラボガールズが栄冠を勝ち取った。")
+   ShowMessage("優勝チームに、賞品として転職アイテムが贈られたのである――")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("",0,0,2,146)
+   ShowMessage("【司会】")
+   ShowMessage("創世エンジェルズ、素晴らしい演奏でした！")
+   ShowMessage("さて、採点は……！？")
+   ShowMessageFace("People2",6,0,2,147)
+   ShowMessage("【マッハ】")
+   ShowMessage("この頬を伝う涙を止めるには、どうすればいいか……")
+   ShowMessage("誰か、教えてほしい……")
+   ShowMessageFace("People2",6,0,2,148)
+   ShowMessage("【マッハ】")
+   ShowMessage("えっ？　採点……？")
+   ShowMessage("点数は……5千兆点だ！！")
+   ShowMessageFace("saki_fc1",3,0,2,149)
+   ShowMessage("【サキ】")
+   ShowMessage("ちょっと厳しめに採点して……9点だね☆")
+   ShowMessage("本当、すごかったよ！")
+   ShowMessageFace("arumaeruma_fc2",0,0,2,150)
+   ShowMessage("【カイラクスキー】")
+   ShowMessage("素晴らしいアッセンブルだったわ。")
+   ShowMessage("文句なしの10点満点ね……♪")
+   ShowMessageFace("",0,0,2,151)
+   ShowMessage("【司会】")
+   ShowMessage("合計点は――5千兆19点！")
+   ShowMessage("創世エンジェルズ、ぶっちぎりの優勝だ～！！")
+   ShowMessageFace("iriasu_fc4",1,0,2,152)
+   ShowMessage("【イリアス】")
+   ShowMessage("当然の結果ではありますが……")
+   ShowMessage("なかなかに達成感がありますね。")
+   ShowMessageFace("rucyfinac_fc1",1,0,2,153)
+   ShowMessage("【ルシフィナちゃん】")
+   ShowMessage("わ～い、やった～♪")
+   ShowMessageFace("micaelac_fc1",1,0,2,154)
+   ShowMessage("【ミカエラちゃん】")
+   ShowMessage("嬉しい……♪")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x67,0x75,0x69,0x74,0x61,0x72,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   ShowMessageFace("eden_fc1",0,0,2,155)
+   ShowMessage("【エデン】")
+   Wait(60)
+   ShowMessageFace("",0,0,2,156)
+   ShowMessage("こうして、創世エンジェルズが栄冠を勝ち取った。")
+   ShowMessage("優勝チームに、賞品として転職アイテムが贈られたのである――")
+   0()
+  EndIf()
+  242(1)
+  221()
+  Wait(180)
+  211(1)
+  TeleportPlayer(0,954,41,1,2,2)
+  ChangeVariable(1122,1122,0,0,6)
+  ChangeSwitch(31,31,1)
+  ChangeSwitch(32,32,1)
+  ChangeSwitch(33,33,1)
+  222()
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeInventory_Item(664,0,0,1)
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",1,0,2,157)
+   ShowMessage("【アリス】")
+   ShowMessage("これは、シールドナイトへの転職アイテムだな。")
+   ShowMessage("兵士をマスターしていれば、上位職に転職できるぞ。")
+   ShowMessageFace("alice_fc5",1,0,2,158)
+   ShowMessage("【アリス】")
+   ShowMessage("あらためて、礼を言わねばならんな。")
+   ShowMessage("リジェオ、ルヴィッサ、ターサ……我々の演奏は最高だ！！")
+   ShowMessageFace("rejeo_fc1",0,0,2,159)
+   ShowMessage("【リジェオ】")
+   ShowMessage("大変だったし恥ずかしかったけど……")
+   ShowMessage("楽しかったかな。")
+   ShowMessageFace("tarsa_fc1",1,0,2,160)
+   ShowMessage("【ターサ】")
+   ShowMessage("リジェオちゃん、集中力がすごかったよ！")
+   ShowMessage("ルヴィッサちゃんも、ノリノリだったよねー♪")
+   ShowMessageFace("rovissa_fc1",0,0,2,161)
+   ShowMessage("【ルヴィッサ】")
+   ShowMessage("まあ、ちょっとだけ……")
+   ShowMessage("ううん、かなり面白かったかな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,162)
+   ShowMessage("【イリアス】")
+   ShowMessage("これは、シールドナイトへの転職アイテムですね。")
+   ShowMessage("兵士をマスターしていれば、上位職に転職できますよ。")
+   ShowMessageFace("iriasu_fc4",1,0,2,163)
+   ShowMessage("【イリアス】")
+   ShowMessage("それにしても……三人とも、お疲れ様でした。")
+   ShowMessage("本当に素晴らしい演奏でしたよ。")
+   ShowMessageFace("rucyfinac_fc1",1,0,2,164)
+   ShowMessage("【ルシフィナちゃん】")
+   ShowMessage("とっても、たのしかった～♪")
+   ShowMessageFace("micaelac_fc1",1,0,2,165)
+   ShowMessage("【ミカエラちゃん】")
+   ShowMessage("また、やりたいかも……")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x67,0x75,0x69,0x74,0x61,0x72,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   ShowMessageFace("eden_fc1",0,0,2,166)
+   ShowMessage("【エデン】")
+   Wait(60)
+   ShowMessageFace("iriasu_fc4",0,0,2,167)
+   ShowMessage("【イリアス】")
+   ShowMessage("エデン……それ、気に入ってます？")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x67,0x75,0x69,0x74,0x61,0x72,0x33,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   ShowMessageFace("eden_fc1",0,0,2,168)
+   ShowMessage("【エデン】")
+   Wait(60)
+   0()
+  EndIf()
+  RunCommonEvent(581)
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  0()

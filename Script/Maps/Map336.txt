@@ -1,0 +1,127 @@
+﻿
+DisplayName "エルベティエの部屋"
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,325,56,46,0,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,325,56,46,0,0)
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  ChangeSelfSwitch("A",0)
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,1)
+   ShowMessage("【アリス】")
+   ShowMessage("ここは、エルベティエの部屋だな。")
+   ShowMessage("特に重要なものは何もなかろう……")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,2)
+   ShowMessage("【イリアス】")
+   ShowMessage("ここは確か、エルベティエの部屋のようですね。")
+   ShowMessage("まったく、粗末なものです。")
+   0()
+  EndIf()
+  ShowMessageFace("sonia_fc2",3,0,2,3)
+  ShowMessage("【ソニア】")
+  ShowMessage("エルベティエって、四天王の一人なんでしょ？")
+  ShowMessage("そんな偉い妖魔が、こんな粗末な部屋に住んでるなんて……")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,4)
+   ShowMessage("【アリス】")
+   ShowMessage("他の四天王と同様、ちゃんとした個室を与えたのだがな……")
+   ShowMessage("こちらの方が落ち着くと言って、水路に住み着きおった。")
+   If(4,53,0)
+    ShowMessageFace("slime_fc1",0,0,2,5)
+    ShowMessage("【ライム】")
+    ShowMessage("あたしも、大きくて綺麗なお部屋より、")
+    ShowMessage("水の流れるここの方がいいなぁ。")
+    0()
+   EndIf()
+   ShowMessageFace("alice_fc5",0,0,2,6)
+   ShowMessage("【アリス】")
+   ShowMessage("ともかく、長居する必要はあるまい。")
+   ShowMessage("今はいないようだが、エルベティエが戻ってきたら面倒だ。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,7)
+   ShowMessage("【イリアス】")
+   ShowMessage("魔王とは、そういうものなのです。")
+   ShowMessage("己の手下にこんな部屋を与え、自身は贅沢しているのですよ。")
+   ShowMessageFace("eden_fc1",0,0,2,8)
+   ShowMessage("【エデン】")
+   ShowMessage("イリアス様は、天使に温かい毛布のある部屋を下さいました。")
+   ShowMessage("ありがたいことです……")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: variable 1001 >= 40
+  0()
+ PAGE   3
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("レバーがある……下ろしますか？")
+  ShowChoices(strings("はい","いいえ"),2)
+  IfPlayerPicksChoice(0,null)
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x50,0x75,0x73,0x68,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   ChangeSwitch(2569,2569,0)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("外で扉の開いた音がした……")
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   0()
+  404()
+  0()
+ PAGE   2
+  // condition: switch 2569 is ON
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("レバーはすでに下りている……")
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("壺はマジックポットだった！")
+  Battle(0,1450,false,false)
+  ChangeSelfSwitch("A",0)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()

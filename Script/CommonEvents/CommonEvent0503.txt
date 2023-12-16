@@ -1,0 +1,16 @@
+﻿// EVENT 0503
+Name "コラボC2：ループ脱出"
+
+ChangeVariable(1202,1202,0,0,9)
+If(1,1222,0,0,0)
+ EndEventProcessing()
+ 0()
+EndIf()
+ShowMessageFace("kazuya_fc2",6,0,2,1)
+ShowMessage("【カズヤ】")
+ShowMessage("やった！　ループから脱出したぞ！")
+ShowMessageFace("",0,0,2,2)
+ShowMessage("ミュスカとやら、ろくでもない仕掛けを考える。")
+ShowMessage("この調子だと、先にも嫌な仕掛けがありそうだ――")
+EndEventProcessing()
+0()

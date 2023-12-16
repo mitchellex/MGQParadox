@@ -1,0 +1,1386 @@
+﻿
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,680,13,6,0,0)
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,680,12,33,0,0)
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,667,35,25,0,0)
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  If(0,2151,1)
+   241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x62,0x6f,0x73,0x73,0x30,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+   PictureDisplay(5,"80_levia_st01",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+   ShowMessageFace("levia_fc1",0,0,2,1)
+   ShowMessage("【リヴァイアサン】")
+   ShowMessage("まさか、こんな暴挙に出ようとは……")
+   ShowMessage("弱小の海賊団と見たのは、間違いだったようだな。")
+   ShowMessageFace("bonny_fc1",0,0,2,2)
+   ShowMessage("【ボニー】")
+   ShowMessage("おい、ルカ！")
+   ShowMessage("まさか海軍大将に挑む気なのか！？")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",2,0,2,3)
+    ShowMessage("【アリス】")
+    ShowMessage("リヴァイアサンの力は、女王レベルに等しいぞ。")
+    ShowMessage("ちゃんと勝算はあるのだろうな……？")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",7,0,2,4)
+    ShowMessage("【イリアス】")
+    ShowMessage("リヴァイアサンは、妖魔の女王と同格です。")
+    ShowMessage("ちゃんと勝算はあるのですよね……？")
+    0()
+   EndIf()
+   ShowChoices(strings("戦いを挑む","やはり逃げる"),0)
+   IfPlayerPicksChoice(0,null)
+    ShowMessageFace("ruka_fc1",0,0,2,5)
+    ShowMessage("【ルカ】")
+    ShowMessage("僕達は海賊だ！　行くぞ！")
+    ShowMessageFace("levia_fc1",0,0,2,6)
+    ShowMessage("【リヴァイアサン】")
+    ShowMessage("海賊の分際で、私に挑むか……")
+    ShowMessage("ならば海軍を統べる者の力、存分に拝ませてやろう！")
+    If(4,205,0)
+     ShowMessageFace("levia_fc1",1,0,2,7)
+     ShowMessage("【リヴィア】")
+     ShowMessage("やれやれ、自身を相手に力試しか……")
+     ShowMessage("たまには、こういうのも面白い！")
+     ShowMessageFace("levia_fc1",2,0,2,8)
+     ShowMessage("【リヴァイアサン】")
+     ShowMessage("なんと面妖な、もう一人の私が……")
+     ShowMessage("何のまやかしか分からんが、そのようなものには屈さん！")
+     0()
+    EndIf()
+    PictureClear(5)
+    SetBattleBGM(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x62,0x6f,0x73,0x73,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+    ChangeSwitch(22,22,0)
+    Battle(0,592,false,false)
+    ChangeSwitch(22,22,1)
+    SetBattleBGM(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0b,0x62,0x61,0x74,0x74,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+    ChangeSwitch(2151,2151,0)
+    355("gain_medal(3006)")
+    241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6b,0x69,0x6b,0x69,0x34,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+    PictureDisplay(5,"80_levia_st03",0,0,0,0,100,100,0,0)
+    PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+    ShowMessageFace("levia_fc1",2,0,2,9)
+    ShowMessage("【リヴァイアサン】")
+    ShowMessage("まさか、この私が海賊に敗れるとは……！")
+    ShowMessageFace("bonny_fc1",1,0,2,10)
+    ShowMessage("【ボニー】")
+    ShowMessage("やった！　海軍大将に勝ったぞー！")
+    ShowMessageFace("ashel_fc1",1,0,2,11)
+    ShowMessage("【アシェル】")
+    ShowMessage("これでおさかな海賊団の名も、ますます天下に轟くぜ！")
+    If(4,53,0)
+     ShowMessageFace("slime_fc1",0,0,2,12)
+     ShowMessage("【ライム】")
+     ShowMessage("よ～そろ～！　よ～そろ～！")
+     0()
+    EndIf()
+    ShowMessageFace("levia_fc1",0,0,2,13)
+    ShowMessage("【リヴァイアサン】")
+    ShowMessage("無念の極みだが、敗者は語る舌を持たん……")
+    ShowMessage("海軍大将を撃ち破った事、好きに喧伝するがいい。")
+    ShowMessageFace("levia_fc1",0,0,2,14)
+    ShowMessage("【リヴァイアサン】")
+    ShowMessage("我が敗北が、海賊時代の幕開けとなるか……")
+    ShowMessage("それも、また一興かもしれんな……")
+    If(4,134,0)
+     ShowMessageFace("chrom_fc2",0,0,2,15)
+     ShowMessage("【クロム】")
+     ShowMessage("肩を落とすな……")
+     ShowMessage("権威が失墜したのなら、再興すれば良い。")
+     0()
+    EndIf()
+    ShowMessageFace("",0,0,2,16)
+    ShowMessage("リヴァイアサンは観念した様子だ……")
+    PictureClear(5)
+    EndEventProcessing()
+    0()
+   IfPlayerPicksChoice(1,null)
+    ShowMessageFace("ruka_fc1",0,0,2,17)
+    ShowMessage("【ルカ】")
+    ShowMessage("急用を思い出した！")
+    ShowMessage("今日のところは勘弁してやろう！")
+    ShowMessageFace("",0,0,2,18)
+    ShowMessage("ルカ達は逃げ出した……")
+    241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6b,0x69,0x6b,0x69,0x34,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+    PictureClear(5)
+    EndEventProcessing()
+    0()
+   404()
+   0()
+  EndIf()
+  If(0,2151,0)
+   PictureDisplay(5,"80_levia_st01",0,0,0,0,100,100,0,0)
+   PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+   ShowMessageFace("levia_fc1",0,0,2,19)
+   ShowMessage("【リヴァイアサン】")
+   ShowMessage("私は敗北したが、海軍は崩壊したわけではない。")
+   ShowMessage("これからも大将として、海兵を率いねばならん……")
+   ShowMessageFace("levia_fc1",0,0,2,20)
+   ShowMessage("【リヴァイアサン】")
+   ShowMessage("さて、海賊時代の幕を開く者よ。")
+   ShowMessage("この私に何の用なのだ……？")
+   ShowChoices(strings("仲間になれ","用はない"),2)
+   IfPlayerPicksChoice(0,null)
+    RunCommonEvent(332)
+    0()
+   IfPlayerPicksChoice(1,null)
+    ShowMessageFace("levia_fc1",0,0,2,21)
+    ShowMessage("【リヴァイアサン】")
+    ShowMessage("ならば、去るがいい……")
+    PictureClear(5)
+    EndEventProcessing()
+    0()
+   404()
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: switch 2186 is ON
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,667,35,25,0,0)
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,667,35,25,0,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,680,14,6,0,0)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,680,13,33,0,0)
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  ChangeSelfSwitch("A",0)
+  ShowMessageFace("bonny_fc1",1,0,2,1)
+  ShowMessage("【ボニー】")
+  ShowMessage("あったぞ、うちの海賊旗だ！")
+  If(4,53,0)
+   ShowMessageFace("slime_fc1",0,0,2,2)
+   ShowMessage("【ライム】")
+   ShowMessage("やった～！")
+   0()
+  EndIf()
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeInventory_Item(529,0,0,1)
+  ShowMessageFace("ashel_fc1",1,0,2,3)
+  ShowMessage("【アシェル】")
+  ShowMessage("「特定海洋事業許可証」も頂いておくぞ！")
+  ShowMessage("これで、海に関わる職業に転職できるぜ！")
+  If(4,171,0)
+   ShowMessageFace("lizardboss_fc1",0,0,2,4)
+   ShowMessage("【ミランダ】")
+   ShowMessage("ははっ、いただきだな！")
+   0()
+  EndIf()
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeInventory_Item(608,0,0,1)
+  ShowMessageFace("ashel_fc1",1,0,2,5)
+  ShowMessage("【アシェル】")
+  ShowMessage("海軍本部に乗り込んで旗を奪還となりゃ、")
+  ShowMessage("おさかな海賊団の名もますます高まるな！")
+  ShowMessageFace("bonny_fc1",1,0,2,6)
+  ShowMessage("【ボニー】")
+  ShowMessage("我々が大海を制覇する日も近付いたぞ！")
+  ShowMessage("おさかな海賊団の天下はすぐそこだ！")
+  If(4,53,0)
+   ShowMessageFace("slime_fc1",0,0,2,7)
+   ShowMessage("【ライム】")
+   ShowMessage("おかしら！　よ～そろ～！")
+   ShowMessageFace("bonny_fc1",1,0,2,8)
+   ShowMessage("【ボニー】")
+   ShowMessage("うんうん……ライムも、よくがんばったぞ！")
+   0()
+  EndIf()
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",1,0,2,9)
+   ShowMessage("【アリス】")
+   ShowMessage("こういう騒動も、たまには悪くはあるまい。")
+   ShowMessage("だが、そろそろ引き上げるぞ。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,10)
+   ShowMessage("【イリアス】")
+   ShowMessage("なかなかに痛快な殴り込みでしたね。")
+   ShowMessage("目的も果たしましたし、そろそろ退き時のようです。")
+   0()
+  EndIf()
+  If(0,2151,1)
+   ShowMessageFace("ashel_fc1",1,0,2,11)
+   ShowMessage("【アシェル】")
+   ShowMessage("ああ……海軍大将が出て来ると、洒落にならねぇ。")
+   ShowMessage("長居は無用、ずらかるぜ！")
+   0()
+  Else()
+   ShowMessageFace("ashel_fc1",1,0,2,12)
+   ShowMessage("【アシェル】")
+   ShowMessage("海軍大将も倒した以上、もうここに用もないな。")
+   ShowMessage("長居は無用、ずらかるぜ！")
+   0()
+  EndIf()
+  If(4,62,0)
+   ShowMessageFace("gob_fc1",0,0,2,13)
+   ShowMessage("【ゴブ】")
+   ShowMessage("光の速さで逃げろ～！")
+   0()
+  EndIf()
+  If(4,79,0)
+   ShowMessageFace("nuruko_fc1",0,0,2,14)
+   ShowMessage("【ヌルコ】")
+   ShowMessage("きゅーっ！")
+   0()
+  EndIf()
+  ShowMessageFace("",0,0,2,15)
+  ShowMessage("これで、海軍本部での用事は済んだ。")
+  ShowMessage("さあ、ここから離れよう――")
+  ChangeVariable(1051,1051,0,0,6)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: switch 2171 is ON
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",2,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("か、海賊の襲撃ですー！！")
+  ShowMessageFace("tatunoko_k_fc1",0,0,2,2)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("がんばるのです！")
+  If(4,68,0)
+   ShowMessageFace("dragonp_fc1",0,0,2,3)
+   ShowMessage("【パピ】")
+   ShowMessage("うががー！　そこをどくのだー！")
+   0()
+  EndIf()
+  Battle(0,591,false,false)
+  ChangeSwitch(2171,2171,0)
+  ShowMessageFace("umiusi_k_fc1",2,0,2,4)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("なんで、こんな目に……")
+  0()
+ PAGE   2
+  // condition: switch 2171 is ON
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: switch 2171 is ON
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",0,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("ここから先は、通せません！")
+  If(4,62,0)
+   ShowMessageFace("gob_fc1",0,0,2,2)
+   ShowMessage("【ゴブ】")
+   ShowMessage("それじゃあ、ムリヤリ通るよ～！")
+   0()
+  EndIf()
+  Battle(0,590,false,false)
+  ChangeSwitch(2172,2172,0)
+  ShowMessageFace("umiusi_k_fc1",2,0,2,3)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("今日は早退します……")
+  0()
+ PAGE   2
+  // condition: switch 2172 is ON
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",0,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("ここから先は、通せません！")
+  If(4,62,0)
+   ShowMessageFace("gob_fc1",0,0,2,2)
+   ShowMessage("【ゴブ】")
+   ShowMessage("それじゃあ、ムリヤリ通るよ～！")
+   0()
+  EndIf()
+  Battle(0,590,false,false)
+  ChangeSwitch(2172,2172,0)
+  ShowMessageFace("umiusi_k_fc1",2,0,2,3)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("今日は早退します……")
+  0()
+ PAGE   2
+  // condition: switch 2172 is ON
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",0,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("ここには貴重な文書や物品が保管してあるのです。")
+  ShowMessage("絶対に通せません！")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,2)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("宮仕えの哀れなたつのこに手加減してほしいのです……")
+  ShowMessageFace("ashel_fc1",1,0,2,3)
+  ShowMessage("【アシェル】")
+  ShowMessage("海軍旗を取り戻すため……行くよっ！")
+  ShowMessageFace("bonny_fc1",0,0,2,4)
+  ShowMessage("【ボニー】")
+  ShowMessage("者ども！　とつげき～！")
+  If(4,53,0)
+   ShowMessageFace("slime_fc1",0,0,2,5)
+   ShowMessage("【ライム】")
+   ShowMessage("おかしら！　よ～そろ～！")
+   0()
+  EndIf()
+  Battle(0,591,false,false)
+  ChangeSwitch(2173,2173,0)
+  ShowMessageFace("umiusi_k_fc1",2,0,2,6)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("これは減給間違いなし……")
+  ShowMessageFace("bonny_fc1",1,0,2,7)
+  ShowMessage("【ボニー】")
+  ShowMessage("よし、中を調べるぞ！")
+  If(4,53,0)
+   ShowMessageFace("slime_fc1",0,0,2,8)
+   ShowMessage("【ライム】")
+   ShowMessage("あるかな？　あるかな……？")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: switch 2173 is ON
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: switch 2173 is ON
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: switch 2173 is ON
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【店員】")
+  ShowMessage("うひゃぁ！　海賊だぁ！")
+  ShowMessage("アイテムは渡すから、代金は置いていってくれぇ！")
+  Shop(0,2,0,0,false)
+  605(0,7,0,0)
+  605(0,11,0,0)
+  605(0,13,0,0)
+  605(0,14,0,0)
+  605(0,15,0,0)
+  605(0,16,0,0)
+  605(0,17,0,0)
+  605(0,18,0,0)
+  605(0,19,0,0)
+  605(0,23,0,0)
+  605(0,35,0,0)
+  605(0,102,0,0)
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【店員】")
+  ShowMessage("アクセサリはいかがですか？")
+  ShowMessage("海賊のあなた方にも、便利な代物ですよ。")
+  Shop(2,1162,0,0,false)
+  605(2,1167,0,0)
+  605(2,1560,0,0)
+  605(2,1562,0,0)
+  605(2,1564,0,0)
+  605(2,1566,0,0)
+  605(2,1568,0,0)
+  605(2,1570,0,0)
+  605(2,1715,0,0)
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("「特定海洋事業許可証」は二階の書類保管庫なのです！")
+  ShowMessage("だから見逃してほしいのです！")
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("すやすや……")
+  ShowMessageFace("bonny_fc1",0,0,2,2)
+  ShowMessage("【ボニー】")
+  ShowMessage("本当は起きているくせに……")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,3)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("……びくっ。")
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("ＺＺＺ……")
+  ShowMessageFace("bonny_fc1",0,0,2,2)
+  ShowMessage("【ボニー】")
+  ShowMessage("本当に眠っているのか？")
+  ShowMessage("寝ているフリではないだろうな……")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,3)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("……ふるふる。")
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("あたしはただの食事当番なのです。")
+  ShowMessage("見逃してほしいのです……")
+  ShowMessageFace("bonny_fc1",0,0,2,2)
+  ShowMessage("【ボニー】")
+  ShowMessage("食事当番なら仕方がないな……")
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",1,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("どさくさに紛れて、鍛冶屋の槍をかっぱらいました！")
+  ShowMessage("さあ、勝負なのです！")
+  If(4,132,0)
+   ShowMessageFace("zonbe_fc2",0,0,2,2)
+   ShowMessage("【エリィ】")
+   ShowMessage("いざ、勝負……！")
+   0()
+  EndIf()
+  Battle(0,589,false,false)
+  ChangeSelfSwitch("A",0)
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,3)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("槍、折れちゃったのです……")
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("海軍の歴史を聞きたいですか？")
+  ShowMessage("今日で終わるかもしれませんけど……")
+  ShowChoices(strings("講義を聞く","必要ない"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,2)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("驚くなかれ、海軍の起源はとある海賊団にありました。")
+   ShowMessage("今から300年前、海賊黄金時代と呼ばれた時の話です。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,3)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("その時代を制したのは、ノア海賊団でした。")
+   ShowMessage("実はその団長は、グランドノア王家の血を引くとか何とか……")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,4)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("ともかくノア海賊団は、大海を制する巨大勢力となります。")
+   ShowMessage("彼らは秩序を重んじ、海上交通を保護しました。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,5)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("グランドノアとも関係の深かったノア海賊団は……")
+   ShowMessage("いつしか、海上の治安を守る勢力となったのです。")
+   ShowMessageFace("tatunoko_k_fc1",1,0,2,6)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("それが、後の海軍なのですよ。")
+   ShowMessage("海賊と袂を分かち、海の安全を守る誇り高き組織なのです。")
+   If(1,1142,0,62,2)
+    If(0,6,0)
+     ShowMessageFace("sonia_fc1",0,0,2,7)
+     ShowMessage("【ソニア】")
+     ShowMessage("つまり……海軍は、元は海賊団だったのね。")
+     0()
+    Else()
+     ShowMessageFace("ruka_fc1",0,0,2,8)
+     ShowMessage("【ルカ】")
+     ShowMessage("つまり……海軍は、元は海賊団だったんだね。")
+     0()
+    EndIf()
+    0()
+   EndIf()
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,9)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("ゆえに海軍に伝わる戦闘技術は、海賊のものと根が同じ。")
+   ShowMessage("どちらも「海賊技」と呼ばれているのです。")
+   ShowMessageFace("tatunoko_k_fc1",1,0,2,10)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("以上、海軍の歴史でした。")
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,11)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("……………………")
+   EndEventProcessing()
+   0()
+  404()
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("解説たつのこを、いじめないでほしいのです……")
+  ShowMessage("さて、職業「海兵」について聞きますか？")
+  ShowChoices(strings("聞く","聞かない"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,2)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("職業「海兵」は、戦闘向けの職業なのです。")
+   ShowMessage("攻撃力と防御力が高く、タフで強いのです！")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,3)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("剣や銃が装備でき、これもまた戦闘向き。")
+   ShowMessage("覚える「海賊技」も、攻撃主体のスキルが多いのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,4)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("戦闘開始時にSPが多く溜まっているという能力もあります。")
+   ShowMessage("戦技系のスキルがいっぱい使えて、とってもお得。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,5)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("水属性は受け付けず、他の属性の耐性も高め。")
+   ShowMessage("さらに海で戦うと強く、海上戦のエキスパートなのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,6)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("陸でも強く、海ではもっと強い……")
+   ShowMessage("殴り合いの場には、海兵を連れて行ってほしいのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,7)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("転職するには「特定海洋事業許可証」と……")
+   ShowMessage("あと、職業「兵士」をマスターする必要があるのです。")
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   EndEventProcessing()
+   0()
+  404()
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("あたし達は文系たつのこ、戦いは苦手なのです……")
+  ShowMessage("ともかく、世界三大海賊について聞きたいですか？")
+  ShowChoices(strings("講義を聞く","必要ない"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,2)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("世界三大海賊とは……")
+   ShowMessage("ノア海賊団、ロザ海賊団、セレーネ海賊団の三つなのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,3)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("いずれも活躍した時代が異なるので、優劣はつけられません。")
+   ShowMessage("その時代の海を制した海賊団である事は間違いないのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,4)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("ノア海賊団は……海軍の前身となった海賊団なのです。")
+   ShowMessage("海の秩序を重んじ、海上の治安を守った事で有名です。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,5)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("そこら辺に海軍の歴史を語るたつのこがいるので、")
+   ShowMessage("詳しくはそっちに聞くのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,6)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("次に、海賊女王ロザ率いるロザ海賊団……")
+   ShowMessage("人魚で構成された海賊団は、一時期は海軍も圧倒しました。")
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,7)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("しかし海賊女王ロザは、謎多き失踪を遂げます。")
+   ShowMessage("団長を失ったロザ海賊団は、海軍に検挙され瓦解するのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,8)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("そして、セレーネ海賊団。")
+   ShowMessage("団長のキャプテン・セレーネは、なんと人間の女性なのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,9)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("セレーネ海賊団は、多くの海賊団を傘下に引き入れました。")
+   ShowMessage("ついには、海賊の七割が加盟する大海賊連合を築いたのです。")
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,10)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("しかし、その栄華も長くは続かなかったのです……")
+   ShowMessage("キャプテン・セレーネの失踪と共に、連合は解体されました。")
+   If(1,1142,0,62,2)
+    If(0,6,0)
+     ShowMessageFace("sonia_fc2",2,0,2,11)
+     ShowMessage("【ソニア】")
+     ShowMessage("海賊女王ロザも、キャプテン・セレーネも……")
+     ShowMessage("どっちも、謎の失踪を遂げてるんだよね。")
+     0()
+    Else()
+     ShowMessageFace("ruka_fc1",0,0,2,12)
+     ShowMessage("【ルカ】")
+     ShowMessage("海賊女王ロザも、キャプテン・セレーネも……")
+     ShowMessage("どっちも、謎の失踪を遂げてるんだよね。")
+     0()
+    EndIf()
+    0()
+   EndIf()
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,13)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("海って、怖いのです……")
+   ShowMessage("航海に出るのが怖くなったのです……")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,14)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("以上、三大海賊の講義でした。")
+   ShowMessage("あたしも立派な海賊に憧れるのです……")
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,15)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("……失言でした。")
+   ShowMessage("大将にはナイショなのです。")
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,16)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("……………………")
+   EndEventProcessing()
+   0()
+  404()
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【鍛冶屋】")
+  ShowMessage("おいおい、揉め事はごめんだぜ！")
+  ShowMessage("仕事はするが、ちゃんと代金は払っていってくれよな！")
+  355("call_synthesize(13)")
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【タツノコ海兵】")
+  ShowMessage("ここは、物資の保管庫なのです。")
+  ShowMessage("たつのこの身の安全を守るなら、好きに持っていくのです。")
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",0,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("私にだって、海兵の誇りはあります！")
+  ShowMessage("通しませんよ！")
+  If(4,80,0)
+   ShowMessageFace("orc_fc1",1,0,2,2)
+   ShowMessage("【ヒップ】")
+   ShowMessage("海軍本部襲撃！")
+   ShowMessage("オーク界隈にも、あたしの名は轟くのです！")
+   0()
+  EndIf()
+  Battle(0,590,false,false)
+  ChangeSelfSwitch("A",0)
+  ShowMessageFace("umiusi_k_fc1",2,0,2,3)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("誇りが破れました……")
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("今までの恨み、晴らしちゃうよ～！")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,2)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("二人がかりとは、卑怯なのです！")
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("今までの恨み、晴らしちゃうよ～！")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,2)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("二人がかりとは、卑怯なのです！")
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("今までの恨み、晴らしちゃうよ～！")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,2)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("二人がかりとは、卑怯なのです！")
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",2,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("どさくさに紛れて、牢の海賊が脱出してしまいました！")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,2)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("まずいごはんを食べ過ぎて、力が出ないのです……")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,3)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("今こそチャンス！　やっちゃえ～！")
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",2,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("どさくさに紛れて、牢の海賊が脱出してしまいました！")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,2)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("まずいごはんを食べ過ぎて、力が出ないのです……")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,3)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("今こそチャンス！　やっちゃえ～！")
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",2,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("どさくさに紛れて、牢の海賊が脱出してしまいました！")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,2)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("まずいごはんを食べ過ぎて、力が出ないのです……")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,3)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("今こそチャンス！　やっちゃえ～！")
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  ShowMessageFace("umiusi_k_fc1",2,0,2,1)
+  ShowMessage("【ウミウシ海兵】")
+  ShowMessage("どさくさに紛れて、牢の海賊が脱出してしまいました！")
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,2)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("まずいごはんを食べ過ぎて、力が出ないのです……")
+  ShowMessageFace("k_mermaid_fc1",0,0,2,3)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("今こそチャンス！　やっちゃえ～！")
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【白魔導師】")
+  ShowMessage("おびえたたつのこ達が、医務室に逃げ込んできています。")
+  ShowMessage("どうか、そっとしておいてくれませんか……？")
+  ShowMessageFace("ashel_fc1",0,0,2,2)
+  ShowMessage("【アシェル】")
+  ShowMessage("まったく、仕方ないなぁ。")
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  0()
+
+
+
+EVENT   48
+ PAGE   1
+  0()
+
+
+
+EVENT   49
+ PAGE   1
+  0()
+
+
+
+EVENT   50
+ PAGE   1
+  // condition: variable 1051 >= 6
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("牢屋暮らしも、悪くはないのです。")
+  ShowMessage("海軍の歴史を聞きたいですか？")
+  ShowChoices(strings("講義を聞く","必要ない"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,2)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("驚くなかれ、海軍の起源はとある海賊団にありました。")
+   ShowMessage("今から300年前、海賊黄金時代と呼ばれた時の話です。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,3)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("その時代を制したのは、ジャスティ海賊団でした。")
+   ShowMessage("実はその団長は、グランドノア王家の血を引くとか何とか……")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,4)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("ともかくジャスティ海賊団は、大海を制する巨大勢力となります。")
+   ShowMessage("彼らは秩序を重んじ、海上交通を保護しました。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,5)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("グランドノアとも関係の深かったジャスティ海賊団は……")
+   ShowMessage("いつしか、海上の治安を守る勢力となったのです。")
+   ShowMessageFace("tatunoko_k_fc1",1,0,2,6)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("それが、後の海軍なのですよ。")
+   ShowMessage("海賊と袂を分かち、海の安全を守る誇り高き組織なのです。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc1",0,0,2,7)
+    ShowMessage("【ソニア】")
+    ShowMessage("つまり……海軍は、元は海賊団だったのね。")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,8)
+    ShowMessage("【ルカ】")
+    ShowMessage("つまり……海軍は、元は海賊団だったんだね。")
+    0()
+   EndIf()
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,9)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("ゆえに海軍に伝わる戦闘技術は、海賊のものと根が同じ。")
+   ShowMessage("どちらも「海賊技」と呼ばれているのです。")
+   ShowMessageFace("tatunoko_k_fc1",1,0,2,10)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("以上、海軍の歴史でした。")
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,11)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("……………………")
+   EndEventProcessing()
+   0()
+  404()
+  0()
+
+
+
+EVENT   51
+ PAGE   1
+  // condition: variable 1051 >= 6
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("毎日ゴロゴロしているのです……")
+  ShowMessage("さて、職業「海兵」について聞きますか？")
+  ShowChoices(strings("聞く","聞かない"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,2)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("職業「海兵」は、戦闘向けの職業なのです。")
+   ShowMessage("攻撃力と防御力が高く、タフで強いのです！")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,3)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("剣や銃が装備でき、これもまた戦闘向き。")
+   ShowMessage("覚える「海賊技」も、攻撃主体のスキルが多いのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,4)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("戦闘開始時にSPが多く溜まっているという能力もあります。")
+   ShowMessage("戦技系のスキルがいっぱい使えて、とってもお得。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,5)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("水属性は受け付けず、他の属性の耐性も高め。")
+   ShowMessage("さらに海で戦うと強く、海上戦のエキスパートなのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,6)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("陸でも強く、海ではもっと強い……")
+   ShowMessage("殴り合いの場には、海兵を連れて行ってほしいのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,7)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("転職するには「特定海洋事業許可証」と……")
+   ShowMessage("あと、職業「兵士」をマスターする必要があるのです。")
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   EndEventProcessing()
+   0()
+  404()
+  0()
+
+
+
+EVENT   52
+ PAGE   1
+  // condition: variable 1051 >= 6
+  ShowMessageFace("tatunoko_k_fc1",2,0,2,1)
+  ShowMessage("【たつのこ海兵】")
+  ShowMessage("何かに縛られているのは、海兵だった頃と同じなのです。")
+  ShowMessage("ともかく、世界三大海賊について聞きたいですか？")
+  ShowChoices(strings("講義を聞く","必要ない"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,2)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("世界三大海賊とは……")
+   ShowMessage("ジャスティ海賊団、ロザ海賊団、セレーネ海賊団の三つなのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,3)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("いずれも活躍した時代が異なるので、優劣はつけられません。")
+   ShowMessage("その時代の海を制した海賊団である事は間違いないのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,4)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("ジャスティ海賊団は……海軍の前身となった海賊団なのです。")
+   ShowMessage("海の秩序を重んじ、海上の治安を守った事で有名です。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,5)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("そこら辺に海軍の歴史を語るたつのこがいるので、")
+   ShowMessage("詳しくはそっちに聞くのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,6)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("次に、海賊女王ロザ率いるロザ海賊団……")
+   ShowMessage("人魚で構成された海賊団は、一時期は海軍も圧倒しました。")
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,7)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("しかし海賊女王ロザは、謎多き失踪を遂げます。")
+   ShowMessage("団長を失ったロザ海賊団は、海軍に検挙され瓦解するのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,8)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("そして、セレーネ海賊団。")
+   ShowMessage("団長のキャプテン・セレーネは、なんと人間の女性なのです。")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,9)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("セレーネ海賊団は、多くの海賊団を傘下に引き入れました。")
+   ShowMessage("ついには、海賊の七割が加盟する大海賊連合を築いたのです。")
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,10)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("しかし、その栄華も長くは続かなかったのです……")
+   ShowMessage("キャプテン・セレーネの失踪と共に、連合は解体されました。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc2",2,0,2,11)
+    ShowMessage("【ソニア】")
+    ShowMessage("海賊女王ロザも、キャプテン・セレーネも……")
+    ShowMessage("どっちも、謎の失踪を遂げてるんだよね。")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,12)
+    ShowMessage("【ルカ】")
+    ShowMessage("海賊女王ロザも、キャプテン・セレーネも……")
+    ShowMessage("どっちも、謎の失踪を遂げてるんだよね。")
+    0()
+   EndIf()
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,13)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("海って、怖いのです……")
+   ShowMessage("航海に出るのが怖くなったのです……")
+   ShowMessageFace("tatunoko_k_fc1",0,0,2,14)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("以上、三大海賊の講義でした。")
+   ShowMessage("あたしも立派な海賊に憧れるのです……")
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,15)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("……失言でした。")
+   ShowMessage("大将にはナイショなのです。")
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   ShowMessageFace("tatunoko_k_fc1",2,0,2,16)
+   ShowMessage("【たつのこ海兵】")
+   ShowMessage("……………………")
+   EndEventProcessing()
+   0()
+  404()
+  0()
+
+
+
+EVENT   53
+ PAGE   1
+  // condition: variable 1051 >= 6
+  0()
+ PAGE   2
+  // condition: variable 1051 >= 6
+  0()
+
+
+
+EVENT   54
+ PAGE   1
+  // condition: variable 1051 >= 6
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("自由の身って、いいよね～♪")
+  ShowMessageFace("ashel_fc1",1,0,2,2)
+  ShowMessage("【アシェル】")
+  ShowMessage("おさかな海賊団に、感謝するんだよ。")
+  0()
+
+
+
+EVENT   55
+ PAGE   1
+  // condition: variable 1051 >= 6
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("どうも、ご苦労さまっす！")
+  ShowMessageFace("bonny_fc1",1,0,2,2)
+  ShowMessage("【ボニー】")
+  ShowMessage("お疲れだな！")
+  0()
+
+
+
+EVENT   56
+ PAGE   1
+  // condition: variable 1051 >= 6
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("晴れて自由の身！")
+  ShowMessage("ところで、職業「海賊」について聞く？")
+  ShowChoices(strings("聞く","聞かない"),2)
+  IfPlayerPicksChoice(0,null)
+   ShowMessageFace("k_mermaid_fc1",0,0,2,2)
+   ShowMessage("【海賊マーメイド】")
+   ShowMessage("職業「海賊」は、戦闘向けの職業だよ。")
+   ShowMessage("攻撃力と防御力が高くて、殴り合いが大の得意！")
+   ShowMessageFace("k_mermaid_fc1",0,0,2,3)
+   ShowMessage("【海賊マーメイド】")
+   ShowMessage("装備できるのは、剣や銃。")
+   ShowMessage("使える「海賊技」は、強力な攻撃スキルが多いよ。")
+   ShowMessageFace("k_mermaid_fc1",0,0,2,4)
+   ShowMessage("【海賊マーメイド】")
+   ShowMessage("あと、スキルの消費SPが軽減される特殊能力があるの。")
+   ShowMessage("これで、強力な戦技スキルをたくさん使えるよね♪")
+   ShowMessageFace("k_mermaid_fc1",0,0,2,5)
+   ShowMessage("【海賊マーメイド】")
+   ShowMessage("水属性は通じないし、他の属性にもちょっと強いよ。")
+   ShowMessage("海の上だと能力が高まるし、海上戦にはもってこいだよね。")
+   ShowMessageFace("k_mermaid_fc1",0,0,2,6)
+   ShowMessage("【海賊マーメイド】")
+   ShowMessage("海兵と性能がかなり似てるのは、ルーツが同じだからなの。")
+   ShowMessage("でも海賊は、盗む技も色々と覚えるんだよ♪")
+   ShowMessageFace("k_mermaid_fc1",0,0,2,7)
+   ShowMessage("【海賊マーメイド】")
+   ShowMessage("転職するには「特定海洋事業許可証」と……")
+   ShowMessage("あと、職業「シーフ」をマスターしなくちゃダメだよ。")
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   EndEventProcessing()
+   0()
+  404()
+  0()
+
+
+
+EVENT   57
+ PAGE   1
+  // condition: variable 1051 >= 6
+  ShowMessageFace("k_mermaid_fc1",0,0,2,1)
+  ShowMessage("【海賊マーメイド】")
+  ShowMessage("お陰様で、牢から出られたよ！")
+  ShowMessageFace("bonny_fc1",1,0,2,2)
+  ShowMessage("【ボニー】")
+  ShowMessage("うむ！　もっと感謝しろ！")
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  If(1,822,0,2,1)
+   If(0,1571,1)
+    ShowMessageFace("mob_kaihei_fc1",0,0,2,1)
+    ShowMessage("【ミリオ】")
+    ShowMessage("ねぇ、あたしも仲間にしてよ。")
+    ShowMessage("広い世界に旅立ちたいな～！")
+    ShowChoices(strings("仲間にする","仲間にしない"),0)
+    IfPlayerPicksChoice(0,null)
+     ShowMessageFace("mob_kaihei_fc1",0,0,2,2)
+     ShowMessage("【ミリオ】")
+     ShowMessage("やったぁ！　いっくよ～！")
+     PictureClear(5)
+     205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x09,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x0f,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+     355("add_actor_ex(571)")
+     249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+     ShowMessageFace("",0,0,2,3)
+     ShowMessage("ミリオが仲間に加わった！")
+     Wait(60)
+     EndEventProcessing()
+     0()
+    IfPlayerPicksChoice(1,null)
+     ShowMessageFace("mob_kaihei_fc1",0,0,2,4)
+     ShowMessage("【ミリオ】")
+     ShowMessage("ここで待ってるからね……")
+     0()
+    404()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  RunCommonEvent(7211)
+  0()
+ PAGE   2
+  // condition: party contains actor #571
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventoryWeapon(20,0,0,1,false)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   58
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(2,0,0,3)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   59
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventoryArmor(188,0,0,1,false)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   60
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventoryArmor(64,0,0,1,false)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  125(0,0,10000)
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("10000\\G 手に入れた！")
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   62
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventoryWeapon(451,0,0,1,false)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   63
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(405,0,0,3)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()

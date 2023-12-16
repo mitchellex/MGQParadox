@@ -1,0 +1,5 @@
+﻿// EVENT 1538
+Name "会話：シオン"
+
+RunCommonEvent(1224)
+0()

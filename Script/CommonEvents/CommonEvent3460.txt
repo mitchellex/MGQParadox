@@ -1,0 +1,5 @@
+﻿// EVENT 3460
+Name "ギルゴーン"
+
+RunCommonEvent(3487)
+0()

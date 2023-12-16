@@ -1,0 +1,5 @@
+﻿// EVENT 3470
+Name "ベル"
+
+RunCommonEvent(3483)
+0()

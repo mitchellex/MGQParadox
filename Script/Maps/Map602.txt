@@ -1,0 +1,220 @@
+﻿
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【？？？】")
+  ShowMessage("影紬……祝福なき勇者はどうでしたか？")
+  205(2,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x46,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x0e,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x09,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x15,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("kagetumugi_fc1",4,0,2,2)
+  ShowMessage("【影紬】")
+  ShowMessage("さて……海の物やら、山の物やら。")
+  ShowMessage("私にはなんとも判断しかねます。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【？？？】")
+  ShowMessage("あら、なんとも気のないお返事……")
+  ShowMessageFace("kagetumugi_fc1",4,0,2,4)
+  ShowMessage("【影紬】")
+  ShowMessage("私への評価も、似たようなものでしょう。")
+  ShowMessage("あなたにとっては、この私とて海の物やら山の物やら……")
+  ScrollMap(8,5,4)
+  ShowMessageFace("kagetumugi_fc1",4,0,2,5)
+  ShowMessage("【影紬】")
+  ShowMessage("……そうでしょう、アリスフィーズ8世陛下？")
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0e,0x6b,0x75,0x72,0x6f,0x61,0x6c,0x69,0x63,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  PictureDisplay(5,"80_alice8th_st01",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("alice8th_fc1",0,0,2,6)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("私は、あなたを高く評価していますわよ……")
+  ShowMessage("最後の人形遣い、4代目影紬。")
+  PictureDisplay(6,"80_kagetumugi_st51",0,0,-150,0,100,100,255,0)
+  PictureDisplay(5,"80_alice8th_st01",0,0,150,0,100,100,255,0)
+  ShowMessageFace("kagetumugi_fc1",0,0,2,7)
+  ShowMessage("【影紬】")
+  ShowMessage("陛下は、500年前に初代影紬を見出されたお方。")
+  ShowMessage("そして現代、人形遣いの技は完成し、終わりを迎えました。")
+  ShowMessageFace("kagetumugi_fc1",0,0,2,8)
+  ShowMessage("【影紬】")
+  ShowMessage("4代目影紬の私が編み出した、究極にして最後の人形術……")
+  ShowMessage("必ず陛下のお力となりましょう。")
+  ShowMessageFace("alice8th_fc1",0,0,2,9)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("頼りにしておりますわ、二度も夢破れた身ですから。")
+  ShowMessage("負け続けてここまできた身、それもまた覇道の一興……")
+  ShowMessageFace("alice8th_fc1",0,0,2,10)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("聖魔融合を果たす秘薬「白の兎」……")
+  ShowMessage("その力でさえ、祝福なき勇者には勝てなかった……")
+  ShowMessageFace("kagetumugi_fc1",0,0,2,11)
+  ShowMessage("【影紬】")
+  ShowMessage("あの少年が、それほどのものとは……")
+  ShowMessage("正直、とても思えませんけれど。")
+  ShowMessageFace("alice8th_fc1",0,0,2,12)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("今度のパーティは、少数精鋭という趣向でいきましょう。")
+  ShowMessage("聖魔大戦の時代に君臨した、神話クラスの魔物達を率いて――")
+  PictureClear(5)
+  PictureClear(6)
+  Wait(60)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0e,0x6d,0x6f,0x6e,0x5f,0x66,0x6c,0x61,0x73,0x68,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+  PictureDisplay(10,"sys_white",0,0,0,0,100,100,0,0)
+  PictureMove(10,null,0,0,0,0,100,100,255,0,30,true)
+  ChangeSwitch(31,31,0)
+  PictureMove(10,null,0,0,0,0,100,100,0,0,30,true)
+  PictureClear(10)
+  Wait(60)
+  PictureDisplay(5,"80_azidahaka_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("azidahaka_fc1",0,0,2,13)
+  ShowMessage("【アジ・ダハーカ】")
+  ShowMessage("この世界、壊してやればいいのだな……")
+  PictureDisplay(5,"80_seitentaisei_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("seitentaisei_fc1",0,0,2,14)
+  ShowMessage("【斉天大聖】")
+  ShowMessage("任せなよ、思いっきり暴れてやるさ！")
+  PictureDisplay(5,"80_coatlus_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("coatlus_fc1",0,0,2,15)
+  ShowMessage("【ケツァルコァトル】")
+  ShowMessage("脆弱な現世の魔物など、相手にもならないわ……")
+  PictureDisplay(5,"80_tezcatlipoca_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("tezcatlipoca_fc1",0,0,2,16)
+  ShowMessage("【テスカトリポカ】")
+  ShowMessage("ウニャー！　あたしの力を見せてやるニャー！")
+  PictureDisplay(5,"80_izanami_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("izanami_fc1",0,0,2,17)
+  ShowMessage("【イザナミ】")
+  ShowMessage("全て、黄泉に還すとしよう……")
+  PictureDisplay(5,"80_tukumokomati_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("tukumokomati_fc1",0,0,2,18)
+  ShowMessage("【ヒミコ】")
+  ShowMessage("くくっ……派手な宴になりそうだのう。")
+  PictureDisplay(6,"80_kagetumugi_st51",0,0,-150,0,100,100,255,0)
+  PictureDisplay(5,"80_alice8th_st01",0,0,150,0,100,100,255,0)
+  ShowMessageFace("kagetumugi_fc1",0,0,2,19)
+  ShowMessage("【影紬】")
+  ShowMessage("ふふっ、なんとも頼もしき神話のお歴々……")
+  ShowMessage("では、私が作り上げた魔王人形もご覧にいれましょう。")
+  PictureDisplay(5,"80_alice9th_st01",0,0,0,0,100,100,255,0)
+  PictureClear(6)
+  ShowMessageFace("alice9th_fc1",0,0,2,20)
+  ShowMessage("【アリスフィーズ9世】")
+  ShowMessage("お、お姉様……")
+  ShowMessage("ご、ご機嫌……うるわしゅう……")
+  ShowMessageFace("alice8th_fc1",0,0,2,21)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("うふふっ、アルテイスト家の者に劣らぬゾンビ術ですわね。")
+  ShowMessage("これぞまさに、ゾンビ術と人形術の究極融合……")
+  ShowMessageFace("alice8th_fc1",1,0,2,22)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("あれだけ私に刃向かった妹も、こうなれば大人しいもの……")
+  ShowMessage("今なら仲良く、人形遊びでも出来そうですわね。")
+  PictureDisplay(5,"80_alice11th12th_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("alice11th12th_fc2",0,0,2,23)
+  ShowMessage("【アリスフィーズ11＋12世】")
+  ShowMessage("うふふっ……")
+  ShowMessage("あははっ……")
+  ShowMessageFace("kagetumugi_fc1",0,0,2,24)
+  ShowMessage("【影紬】")
+  ShowMessage("11世と12世は、死体の欠落箇所が多かったもので……")
+  ShowMessage("2体を融合させる事で、製作に成功したのです。")
+  ShowMessageFace("alice8th_fc1",0,0,2,25)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("うふふっ、素敵な姿。")
+  ShowMessage("あなたのそういうセンス、大好きですわ……")
+  PictureDisplay(5,"80_alice6th_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("alice6th_fc1",0,0,2,26)
+  ShowMessage("【アリスフィーズ6世】")
+  ShowMessage("控……えよ……")
+  ShowMessage("我は、魔王……アリスフィーズなるぞ……")
+  ShowMessageFace("alice8th_fc1",0,0,2,27)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("まあ、お婆様ではありませんか。")
+  ShowMessage("随分とご達者なようで……")
+  ShowMessageFace("kagetumugi_fc1",0,0,2,28)
+  ShowMessage("【影紬】")
+  ShowMessage("死体は、ヤマタイの聖廟に安置されておりましたので……")
+  ShowMessage("損傷も少なく、早急に仕上げることが出来ました。")
+  ShowMessageFace("kagetumugi_fc1",0,0,2,29)
+  ShowMessage("【影紬】")
+  ShowMessage("他の魔王人形は、少しばかりお待ちを。")
+  ShowMessage("死体はすでに揃えてありますが、損傷も多いもので……")
+  PictureDisplay(6,"80_kagetumugi_st51",0,0,-150,0,100,100,255,0)
+  PictureDisplay(5,"80_alice8th_st01",0,0,150,0,100,100,255,0)
+  ShowMessageFace("alice8th_fc1",0,0,2,30)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("これだけの戦力があれば、さぞ楽しいお茶会が開けますわ。")
+  ShowMessage("たっぷりと楽しみましょう、うふふっ。")
+  ShowMessageFace("kagetumugi_fc1",0,0,2,31)
+  ShowMessage("【影紬】")
+  ShowMessage("それでは、陛下に三度目の栄光を……")
+  ShowMessage("世界の全てを、その手に掴むために……")
+  ShowMessageFace("alice8th_fc1",0,0,2,32)
+  ShowMessage("【黒のアリス】")
+  ShowMessage("全ての世界を、この手に掴むために……")
+  ShowMessage("うふふふふっ……")
+  221()
+  ChangeSwitch(31,31,1)
+  PictureClear(5)
+  PictureClear(6)
+  242(1)
+  Wait(60)
+  211(1)
+  TeleportPlayer(0,2,188,294,2,2)
+  222()
+  355("gain_medal(25)")
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  // condition: switch 31 is ON
+  0()

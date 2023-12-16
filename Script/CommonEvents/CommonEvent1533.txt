@@ -1,0 +1,5 @@
+﻿// EVENT 1533
+Name "会話：黒薔薇"
+
+RunCommonEvent(1347)
+0()

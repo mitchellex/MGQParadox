@@ -1,0 +1,313 @@
+﻿
+DisplayName "グランドノア城 2F"
+
+
+
+EVENT   1
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,382,39,12,0,0)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,382,39,12,0,0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,382,39,12,0,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("謁見の間になります。")
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("女王陛下の御身をお守りするのが、我々近衛兵の務めです。")
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  // condition: switch 31 is ON
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  // condition: switch 33 is ON
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  // condition: switch 32 is ON
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  PictureDisplay(5,"80_grandnoa_st03",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("rest_fc1",0,0,2,1)
+  ShowMessage("【レスト】")
+  ShowMessage("女王陛下……お目通りが適いまして、光栄です。")
+  ShowMessage("私、剣士レストと申します。")
+  ShowMessageFace("tarsa_fc1",0,0,2,2)
+  ShowMessage("【ターサ】")
+  ShowMessage("コモドの巫女、ターサです。")
+  ShowMessage("えっと……ご機嫌麗しく存じます。")
+  ShowMessageFace("grandnoa_fc1",2,0,2,3)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("遠いところより、よくお越し下さいました。")
+  ShowMessage("事態は危急につき、畏まった礼は不要です。")
+  ShowMessageFace("rest_fc1",0,0,2,4)
+  ShowMessage("【レスト】")
+  ShowMessage("では、異世界に関してご説明を――")
+  ShowMessageFace("grandnoa_fc1",2,0,2,5)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("いえ、それには及びません。")
+  ShowMessage("全ての事情は、すでに聞き知っておりますので……")
+  ShowMessageFace("rest_fc1",0,0,2,6)
+  ShowMessage("【レスト】")
+  ShowMessage("なるほど、お耳がお早い。")
+  ShowMessage("では、七人の勇者をお求めになっておられるのですね？")
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6b,0x69,0x6b,0x69,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  ShowMessageFace("grandnoa_fc1",2,0,2,7)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("……そんな者達に、用などありませんよ。")
+  ShowMessageFace("rest_fc1",0,0,2,8)
+  ShowMessage("【レスト】")
+  ShowMessage("えっ……？")
+  ShowMessageFace("grandnoa_fc1",2,0,2,9)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("コモドの巫女、ターサ……")
+  ShowMessage("彼女こそ、我々が求める者。")
+  ShowMessageFace("tarsa_fc1",0,0,2,10)
+  ShowMessage("【ターサ】")
+  ShowMessage("私が……？")
+  ShowMessageFace("rest_fc1",0,0,2,11)
+  ShowMessage("【レスト】")
+  ShowMessage("どういう事です、女王陛下――")
+  ShowMessageFace("grandnoa_fc1",2,0,2,12)
+  ShowMessage("【グランドノア女王】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,13)
+  ShowMessage("妖しげな輝きを放つ、グランドノア女王の目。")
+  ShowMessage("かつて僕は、あれと同じ目を見た事があった。")
+  ShowMessageFace("",0,0,2,14)
+  ShowMessage("意志を奪われ、傀儡とされている者の目――")
+  ShowMessage("間違いない、グランドノア女王は洗脳されている！")
+  PictureClear(5)
+  ShowMessageFace("rest_fc1",0,0,2,15)
+  ShowMessage("【レスト】")
+  ShowMessage("そこにいるな……")
+  ShowMessage("出てこい、ミュゼット！")
+  212(5,501,false)
+  Wait(30)
+  ChangeSwitch(31,31,0)
+  Wait(90)
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x62,0x6f,0x73,0x73,0x30,0x2d,0x33,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  PictureDisplay(5,"80_muzet_st01",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,60,true)
+  ShowMessageFace("muzet_fc1",0,0,2,16)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("ふふふっ、ずいぶん早く見破ったわね。")
+  ShowMessage("もう少し、遊んでやるつもりだったのに……")
+  PictureClear(5)
+  Wait(30)
+  212(7,501,false)
+  Wait(30)
+  ChangeSwitch(32,32,0)
+  Wait(30)
+  212(6,501,false)
+  Wait(30)
+  ChangeSwitch(33,33,0)
+  Wait(90)
+  PictureDisplay(7,"80_lira_st01",0,0,-200,0,100,100,0,0)
+  PictureDisplay(6,"80_bell_st01",0,0,200,0,100,100,0,0)
+  PictureDisplay(5,"80_muzet_st01",0,0,0,0,100,100,0,0)
+  PictureMove(7,null,0,0,-200,0,100,100,255,0,30,false)
+  PictureMove(6,null,0,0,200,0,100,100,255,0,30,false)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("bell_fc1",0,0,2,17)
+  ShowMessage("【ベル】")
+  ShowMessage("まんまと、罠のど真ん中に飛び込んできたわね。")
+  ShowMessage("上手く行って嬉しいわ、万能剣士くん。")
+  ShowMessageFace("lira_fc1",0,0,2,18)
+  ShowMessage("【リラ】")
+  ShowMessage("グランドノアに行かせない、って言ったら……")
+  ShowMessage("君なら、逆に勇んで乗り込んで来ちゃうよね？")
+  ShowMessageFace("rest_fc1",0,0,2,19)
+  ShowMessage("【レスト】")
+  ShowMessage("まさか、すでに女王が洗脳されていたなんて……")
+  ShowMessage("これが、お前達のやり口だったな。")
+  ShowMessageFace("muzet_fc1",0,0,2,20)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("そうよ……この大国は、すでに私のもの。")
+  ShowMessage("それが「夢の主」との同盟条件なのよ。")
+  ShowMessageFace("muzet_fc1",0,0,2,21)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("後は、巫女の力さえあれば……")
+  ShowMessage("この世界は、一気に「夜の国」へと沈むわ。")
+  ShowMessageFace("rest_fc1",0,0,2,22)
+  ShowMessage("【レスト】")
+  ShowMessage("ターサ、理由は分からないが、狙いは君だ！")
+  ShowMessage("僕から、決して離れないで――")
+  ShowMessageFace("tarsa_fc1",1,0,2,23)
+  ShowMessage("【ターサ】")
+  ShowMessage("分かっているわよ、うふふっ……♡")
+  PictureClear(5)
+  PictureClear(6)
+  PictureClear(7)
+  Wait(30)
+  205(8,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x15,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("",0,0,2,24)
+  ShowMessage("ターサは、僕に身を寄せ……")
+  ShowMessage("そのまま、ぎゅっと抱き寄せてきた！")
+  ShowMessageFace("rest_fc1",0,0,2,25)
+  ShowMessage("【レスト】")
+  ShowMessage("な、何をするんだ……！？")
+  ShowMessageFace("tarsa_fc1",1,0,2,26)
+  ShowMessage("【ターサ】")
+  ShowMessage("うふふっ、何をされると思う……？")
+  ShowMessageFace("",0,0,2,27)
+  ShowMessage("ターサの手が、ズボンの中に滑り込んでくる。")
+  ShowMessage("そして、僕のモノを柔らかく握込んできた。")
+  ShowMessageFace("",0,0,2,28)
+  ShowMessage("しかも、そのターサの姿は――")
+  PictureDisplay(5,"80_tarsa_st12",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,60,true)
+  ShowMessageFace("rest_fc1",0,0,2,29)
+  ShowMessage("【レスト】")
+  ShowMessage("そんな……サキュバス……！？")
+  ShowMessageFace("muzet_fc1",0,0,2,30)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("その娘……なぜか淫魔の因子を持っていたようね。")
+  ShowMessage("そうなれば、洗脳するのはとても簡単だったわ。")
+  ShowMessageFace("rest_fc1",0,0,2,31)
+  ShowMessage("【レスト】")
+  ShowMessage("ミュゼット……！　これも、お前の仕業か……！")
+  ShowMessageFace("muzet_fc1",0,0,2,32)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("ほら、ターサ……")
+  ShowMessage("その万能剣士を、弱らせてやりなさい。")
+  ShowMessageFace("tarsa_fc2",1,0,2,33)
+  ShowMessage("【ターサ】")
+  ShowMessage("……だってさ、レスト。")
+  ShowMessage("それじゃあ、いたぶってあげる……♡")
+  ShowMessageFace("rest_fc1",0,0,2,34)
+  ShowMessage("【レスト】")
+  ShowMessage("や、やめ……あぅぅっ……！")
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x65,0x72,0x6f,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x12,0x6d,0x6f,0x6e,0x5f,0x65,0x72,0x6f,0x5f,0x6b,0x6f,0x6b,0x69,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+  ShowMessageFace("",0,0,2,35)
+  ShowMessage("ターサの柔らかな掌が、巧みにペニスを扱きたてる。")
+  ShowMessage("あまりにも甘い快感に、僕はたちまち脱力し――")
+  ShowMessageFace("rest_fc1",0,0,2,36)
+  ShowMessage("【レスト】")
+  ShowMessage("ダメだ、ターサ……はぅぅっ！")
+  RunCommonEvent(104)
+  RunCommonEvent(105)
+  ShowMessageFace("",0,0,2,37)
+  ShowMessage("あえなく、ターサの掌でイかされてしまった。")
+  ShowMessage("体から力が抜け、その場にくずおれてしまう――")
+  ShowMessageFace("muzet_fc1",0,0,2,38)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("正面から戦うと、厄介だけれど……")
+  ShowMessage("こうなれば、万能剣士も脆いものね。")
+  ShowMessageFace("rest_fc1",0,0,2,39)
+  ShowMessage("【レスト】")
+  ShowMessage("こんな……うぅぅっ……")
+  ShowMessageFace("tarsa_fc2",1,0,2,40)
+  ShowMessage("【ターサ】")
+  ShowMessage("もっと弱ってもらわないとね、レスト。")
+  ShowMessage("まだまだこんなものじゃ終わらないから……♡")
+  ShowMessageFace("rest_fc1",0,0,2,41)
+  ShowMessage("【レスト】")
+  ShowMessage("や、やめてくれ……！")
+  ShowMessageFace("",0,0,2,42)
+  ShowMessage("ターサはそのまま、僕に馬乗りになる。")
+  ShowMessage("そして、自身の蜜壺にペニスを導いた――")
+  ShowMessageFace("rest_fc1",0,0,2,43)
+  ShowMessage("【レスト】")
+  ShowMessage("あ、あぁぁぁ……")
+  221()
+  ShowMessageFace("",0,0,2,44)
+  ShowMessage("こうして、僕は――")
+  ShowMessage("ミュゼット達の前で、ターサに犯されてしまった。")
+  RunCommonEvent(104)
+  RunCommonEvent(105)
+  ShowMessageFace("",0,0,2,45)
+  ShowMessage("そのまま精気を吸い取られ、散々に陵辱され――")
+  ShowMessage("抗う力も、失ってしまい――")
+  RunCommonEvent(104)
+  RunCommonEvent(105)
+  ShowMessageFace("muzet_fc1",0,0,2,46)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("これで、万能剣士も終わりね。")
+  ShowMessage("そして巫女も私の元に……ふふふっ。")
+  ShowMessageFace("muzet_fc1",0,0,2,47)
+  ShowMessage("【ミュゼット】")
+  ShowMessage("巫女の力さえあれば、魔城召喚の儀が行えるわ。")
+  ShowMessage("そうすれば、私の計画も――")
+  ShowMessageFace("rest_fc1",0,0,2,48)
+  ShowMessage("【レスト】")
+  ShowMessage("ぅ……ぅぅ……")
+  RunCommonEvent(104)
+  RunCommonEvent(105)
+  ShowMessageFace("",0,0,2,49)
+  ShowMessage("こうして僕は、ミュゼット達に捕らえられてしまった。")
+  ShowMessage("そしてターサも、彼女達の手に堕ちたのである――")
+  ChangeVariable(1203,1203,0,0,11)
+  Wait(60)
+  242(2)
+  221()
+  Wait(120)
+  PictureDisplay(5,"iv_chapter04",0,0,0,0,100,100,255,0)
+  222()
+  Wait(180)
+  221()
+  PictureClear(5)
+  Wait(120)
+  TeleportPlayer(0,938,0,0,2,2)
+  0()

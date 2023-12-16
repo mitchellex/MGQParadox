@@ -1,0 +1,82 @@
+﻿
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  ShowMessageFace("stein_fc2",2,0,2,1)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("ゴルド大陸の消失を確認しました。")
+  ShowMessage("これで、世界の80%以上が混沌に沈んだ事に……")
+  ShowMessageFace("ruka_fc1",0,0,2,2)
+  ShowMessage("【ルカ】")
+  ShowMessage("くっ、なんて事だ……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("結局、僕達は――")
+  ShowMessage("破滅を防ぐ方策を、見つけ出す事はできなかった。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("無為に時間を費やしたまま、終わりの始まりが訪れる。")
+  ShowMessage("結局、第三の道なんて無かったのだろうか――")
+  ShowMessageFace("saniria_fc2",0,0,2,5)
+  ShowMessage("【サン・イリア王】")
+  ShowMessage("この塔が、人類の……")
+  ShowMessage("いや、全ての生命にとって最後の砦になるかもしれんな……")
+  ShowMessageFace("sonia_fc3",7,0,2,6)
+  ShowMessage("【ソニア】")
+  ShowMessage("そんな……これじゃ、あの消滅した世界と同じ……")
+  ShowMessageFace("stein_fc2",0,0,2,7)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("いいえ、私達は負けません！")
+  ShowMessage("物資を地下階層に集め、研究施設を構築します！")
+  ShowMessageFace("ruka_fc1",0,0,2,8)
+  ShowMessage("【ルカ】")
+  ShowMessage("僕も手伝うよ！")
+  ShowMessage("せいぜい、荷物運びしか出来ないけど――")
+  ShowMessageFace("",0,0,2,9)
+  ShowMessage("これで終わりなんて、絶対に認められない。")
+  ShowMessage("どんな苦境に追い込まれても、僕達は戦い続ける――")
+  242(1)
+  221()
+  Wait(60)
+  ShowMessageFace("",0,0,2,10)
+  ShowMessage("さらに、時間が流れ――")
+  Wait(60)
+  TeleportPlayer(0,413,0,0,0,2)
+  ChangeSwitch(31,31,1)
+  222()
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()

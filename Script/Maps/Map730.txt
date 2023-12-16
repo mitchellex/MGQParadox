@@ -1,0 +1,506 @@
+﻿
+
+
+EVENT   1
+ PAGE   1
+  ShowMessageFace("sirousagi_fc1",0,0,2,1)
+  ShowMessage("【白兎】")
+  ShowMessage("実験室は、そっちじゃないよ。")
+  ShowMessage("奥へ進んで、行き止まった部屋にある扉の向こうさ。")
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",2,0,2,1)
+   ShowMessage("【アリス】")
+   ShowMessage("この扉の向こうか……いよいよだな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,2)
+   ShowMessage("【イリアス】")
+   ShowMessage("この扉の向こうですか……")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,3)
+  ShowMessage("【ルカ】")
+  ShowMessage("いったい、何が起きるのか……")
+  ShowMessage("さあ、行こう。")
+  ChangeSaveEnabled(1)
+  ChangeSwitch(31,31,1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,727,12,23,0,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【博士】")
+  ShowMessage("とうとう、この日が来た……")
+  ShowMessage("長年の悲願、聖素と魔素の粒子衝突実験だ！")
+  ShowMessageFace("sirousagi_fc1",0,0,2,2)
+  ShowMessage("【白兎】")
+  ShowMessage("聖素と魔素を融合させると……")
+  ShowMessage("すごい力が生まれるのは、知っているよね？")
+  ShowMessageFace("sirousagi_fc1",0,0,2,3)
+  ShowMessage("【白兎】")
+  ShowMessage("この日、その実験が行われようとしていた。")
+  ShowMessage("いや、行われてしまった……")
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,4)
+   ShowMessage("【イリアス】")
+   ShowMessage("この実験が行われるはずがありません……！")
+   ShowMessage("これを防ぐために、私は……！")
+   ShowMessageFace("sirousagi_fc1",0,0,2,5)
+   ShowMessage("【白兎】")
+   ShowMessage("この実験を阻止するために、イリアス様はレミナを滅ぼした。")
+   ShowMessage("正史では「レミナの虐殺」と呼ばれる一件だね。")
+   ShowMessageFace("sirousagi_fc1",0,0,2,6)
+   ShowMessage("【白兎】")
+   ShowMessage("でも……正史においてイリアス様は死んだ。")
+   ShowMessage("それは過去にさえ、事象の歪みをもたらしたんだ。")
+   ShowMessageFace("iriasu_fc4",2,0,2,7)
+   ShowMessage("【イリアス】")
+   ShowMessage("……………………")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  ChangeSwitch(2307,2307,0)
+  ShowMessageFace("ruka_fc1",0,0,2,1)
+  ShowMessage("【ルカ】")
+  ShowMessage("ここは……")
+  If(0,4,0)
+   ShowMessageFace("alice_fc6",0,0,2,2)
+   ShowMessage("【アリス】")
+   ShowMessage("研究所……か？")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,3)
+   ShowMessage("【イリアス】")
+   ShowMessage("研究所……ですね。")
+   0()
+  EndIf()
+  PictureDisplay(5,"80_sirousagi_st01",0,0,0,0,100,100,255,0)
+  ShowMessageFace("sirousagi_fc1",0,0,2,4)
+  ShowMessage("【白兎】")
+  ShowMessage("その通り……ここは三十年前のレミナ研究所。")
+  ShowMessage("あの実験が行われてしまった日なのさ。")
+  ShowMessageFace("ruka_fc1",0,0,2,5)
+  ShowMessage("【ルカ】")
+  ShowMessage("あの実験、って……？")
+  ShowMessageFace("sirousagi_fc1",0,0,2,6)
+  ShowMessage("【白兎】")
+  ShowMessage("それを、今から君達に見てもらおうって訳さ。")
+  ShowMessage("説明が面倒だから連れてきたのに、説明させようとしないでよ。")
+  ShowMessageFace("sonia_fc3",7,0,2,7)
+  ShowMessage("【ソニア】")
+  ShowMessage("でも、今から三十年前なんだよね？")
+  ShowMessage("そんな時代のレミナに、こんな研究施設があったなんて……")
+  ShowMessageFace("sirousagi_fc1",0,0,2,8)
+  ShowMessage("【白兎】")
+  ShowMessage("プロメスティンっていう天使が、研究を支援していてね。")
+  ShowMessage("レミナは極秘裏に、ここまでの研究施設を持つ事が出来たのさ。")
+  If(4,41,0)
+   ShowMessageFace("stein_fc2",2,0,2,9)
+   ShowMessage("【プロメスティン】")
+   ShowMessage("正史での私が、そんな事を……")
+   0()
+  EndIf()
+  ShowMessageFace("sirousagi_fc1",0,0,2,10)
+  ShowMessage("【白兎】")
+  ShowMessage("そしてこの日、禁断の研究を行おうとしていた……")
+  ShowMessage("その結果を、これからその目で確かめて。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,11)
+  ShowMessage("【白兎】")
+  ShowMessage("実験は、ちょうど今から始まるところさ。")
+  ShowMessage("奥へ進んで、行き止まった部屋にある扉の向こうだよ。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,12)
+  ShowMessage("【白兎】")
+  ShowMessage("念のために言っておくけど……この光景は、過去の断片に過ぎない。")
+  ShowMessage("干渉する事も、歴史を変える事もできないよ。")
+  PictureClear(5)
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,13)
+   ShowMessage("【アリス】")
+   ShowMessage("三十年前のレミナ……")
+   ShowMessage("あの日に起きた出来事を、この目で見る事になるとはな。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,14)
+   ShowMessage("【イリアス】")
+   ShowMessage("三十年前のレミナ……")
+   ShowMessage("あの日に起きた出来事を、この目で見る事になろうとは。")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,15)
+  ShowMessage("【ルカ】")
+  ShowMessage("一番奥の部屋だね……それじゃあ、行こう！")
+  0()
+ PAGE   2
+  // condition: switch 2307 is ON
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【博士】")
+  ShowMessage("しかし、なぜ聖素と魔素の融合でこれほどの反応を……")
+  ShowMessage("膨大なエネルギは、いったいどこから生じるのでしょう。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,2)
+  ShowMessage("【白兎】")
+  ShowMessage("これ、実は逆なんだよね……")
+  ShowMessage("そもそも、原初の世界にあったのは混沌というエネルギー。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,3)
+  ShowMessage("【白兎】")
+  ShowMessage("その混沌が、聖素と魔素に分かれたんだから……")
+  ShowMessage("むしろ、本来の混沌に戻ったと言えるんだよね。")
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【助手】")
+  ShowMessage("召喚術式に用いる剣……なんだか、嫌な感じがしたな。")
+  ShowMessage("あれ、本当に勇者ハインリヒの剣なんだろうか。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【助手】")
+  ShowMessage("本当に、ハインリヒの魂を呼び出せるんだろうな……")
+  ShowMessage("聖遺物管理部の連中、紛い物を掴まされたんじゃ……")
+  ShowMessageFace("sirousagi_fc1",0,0,2,3)
+  ShowMessage("【白兎】")
+  ShowMessage("聖素と魔素の融合で生じたエネルギーで……")
+  ShowMessage("勇者ハインリヒの英霊を呼び出そうとしていたんだよ。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,4)
+  ShowMessage("【白兎】")
+  ShowMessage("その召喚術式の呼び水として使われたのが、")
+  ShowMessage("ハインリヒが使用されていたと伝わる剣なのさ。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",2,0,2,5)
+   ShowMessage("【アリス】")
+   ShowMessage("もしや、その剣が偽物だったと……？")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,6)
+   ShowMessage("【イリアス】")
+   ShowMessage("まさか、その剣が偽物だったのでは……？")
+   0()
+  EndIf()
+  ShowMessageFace("sirousagi_fc1",0,0,2,7)
+  ShowMessage("【白兎】")
+  ShowMessage("いや、正真正銘の本物だよ。")
+  ShowMessage("黒のアリスと戦った時に使った、由緒ある剣さ。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,8)
+  ShowMessage("【白兎】")
+  ShowMessage("確かに剣は本物だったんだけど……")
+  ShowMessage("……ここから先は、君達の目で確かめて。")
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【博士】")
+  ShowMessage("この実験、本当に行ってよいものか……")
+  ShowMessage("これが成功すれば、我々人類は強大な力を手にする事になる。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【博士】")
+  ShowMessage("我々は、この力を制御する事ができるのか……")
+  ShowMessage("そして、女神イリアスの怒りを買ってしまわないか……")
+  ShowMessageFace("sirousagi_fc1",0,0,2,3)
+  ShowMessage("【白兎】")
+  ShowMessage("もちろん、イリアス激おこ。")
+  ShowMessage("正史では、実験の直前に天罰が降るんだ。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,4)
+  ShowMessage("【白兎】")
+  ShowMessage("研究所どころか、レミナという町全体が壊滅……")
+  ShowMessage("これが正史に言う「レミナの虐殺」だよ。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",2,0,2,5)
+   ShowMessage("【アリス】")
+   ShowMessage("しかし、まだ信じられんのだが……")
+   ShowMessage("人間が行った程度の実験で、世界規模の災厄が起きたのか？")
+   ShowMessageFace("sirousagi_fc1",0,0,2,6)
+   ShowMessage("【白兎】")
+   ShowMessage("正史イリアスでさえ、そこまでの事態は予想してなかった。")
+   ShowMessage("「レミナの虐殺」を起こしたのは、むしろ面子の問題だね。")
+   ShowMessageFace("sirousagi_fc1",0,0,2,7)
+   ShowMessage("【白兎】")
+   ShowMessage("でも……神さえ予想しなかった事態が、起きてしまった。")
+   ShowMessage("とんでもない災厄を、この世界に呼び込んでしまったんだ……")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,8)
+   ShowMessage("【イリアス】")
+   ShowMessage("説明されなくても、分かっていますよ。")
+   ShowMessage("しかし歪んだ過去では、この実験が行われてしまった……")
+   ShowMessageFace("iriasu_fc4",2,0,2,9)
+   ShowMessage("【イリアス】")
+   ShowMessage("……とは言え、本当に大異変レベルの災厄が起きるのですか？")
+   ShowMessage("私がレミナを滅ぼしたのは、むしろメンツの問題でした。")
+   ShowMessageFace("iriasu_fc4",2,0,2,10)
+   ShowMessage("【イリアス】")
+   ShowMessage("実験自体に、世界をどうこうする規模の危険性はなかった……")
+   ShowMessage("私は、そう認識していたのですが。")
+   ShowMessageFace("sirousagi_fc1",0,0,2,11)
+   ShowMessage("【白兎】")
+   ShowMessage("神さえ予想しなかった事態が、起きてしまったんだよ。")
+   ShowMessage("とんでもない災厄を、この世界に呼び込んでしまったんだ……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  ShowMessageFace("sirousagi_fc1",0,0,2,1)
+  ShowMessage("【白兎】")
+  ShowMessage("念のために言っておくけど……この光景は、過去の断片に過ぎない。")
+  ShowMessage("干渉する事も、歴史を変える事もできないよ。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,2)
+  ShowMessage("【白兎】")
+  ShowMessage("だから、ここにいる人達にボクらの姿は見えないし声も聞こえない。")
+  ShowMessage("干渉もできないから、これから起きる結果も変えられないってわけさ。")
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  ShowMessageFace("sirousagi_fc1",0,0,2,1)
+  ShowMessage("【白兎】")
+  ShowMessage("実験室は、そっちじゃないよ。")
+  ShowMessage("奥へ進んで、行き止まった部屋にある扉の向こうさ。")
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  ShowMessageFace("sirousagi_fc1",0,0,2,1)
+  ShowMessage("【白兎】")
+  ShowMessage("実験室は、そっちじゃないよ。")
+  ShowMessage("奥へ進んで、行き止まった部屋にある扉の向こうさ。")
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【博士Ａ】")
+  ShowMessage("しかし、大丈夫なのですか……？")
+  ShowMessage("聖魔融合によって生じるエネルギを、召喚術式に転用するなんて……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【博士Ｂ】")
+  ShowMessage("実験の目的は、あくまでマナ粒子衝突による聖素と魔素の融合……")
+  ShowMessage("それによって生じた、エネルギレベルの測定なのだ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【博士Ｂ】")
+  ShowMessage("エネルギの使い道自体は、別に何だって良かったのさ。")
+  ShowMessage("測定さえ出来れば、召喚でも発電でも何でもな。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【博士Ａ】")
+  ShowMessage("だからって、わざわざ召喚儀礼に使わなくても……")
+  ShowMessage("やっぱり、聖遺物管理部の顔を立てたんでしょうか。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,5)
+  ShowMessage("【白兎】")
+  ShowMessage("……これがタテ割り行政ってやつ？")
+  ShowMessage("こういうのは、君達の方が詳しいんじゃないかな？")
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【博士Ａ】")
+  ShowMessage("しかし、大丈夫なのですか……？")
+  ShowMessage("聖魔融合によって生じるエネルギを、召喚術式に転用するなんて……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【博士Ｂ】")
+  ShowMessage("実験の目的は、あくまでマナ粒子衝突による聖素と魔素の融合……")
+  ShowMessage("それによって生じた、エネルギレベルの測定なのだ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【博士Ｂ】")
+  ShowMessage("エネルギの使い道自体は、別に何だって良かったのさ。")
+  ShowMessage("測定さえ出来れば、召喚でも発電でも何でもな。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【博士Ａ】")
+  ShowMessage("だからって、わざわざ召喚儀礼に使わなくても……")
+  ShowMessage("やっぱり、聖遺物管理部の顔を立てたんでしょうか。")
+  ShowMessageFace("sirousagi_fc1",0,0,2,5)
+  ShowMessage("【白兎】")
+  ShowMessage("……これがタテ割り行政ってやつ？")
+  ShowMessage("こういうのは、君達の方が詳しいんじゃないかな？")
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【レミナ兵】")
+  ShowMessage("……………………")
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【レミナ兵】")
+  ShowMessage("……………………")
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【助手】")
+  ShowMessage("兵達の格好、古式ゆかしいにも程があるな……")
+  ShowMessage("最先端技術の軍事転用は禁止とはいえ、鎧くらい作ってやってもいいんじゃないか？")
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【助手】")
+  ShowMessage("もうすぐだ……")
+  ShowMessage("ああ、緊張する……")
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【博士】")
+  ShowMessage("もうすぐ、歴史が動く瞬間だ！")
+  ShowMessage("この日は科学の歴史に残るぞ……！")
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【科学者】")
+  ShowMessage("実験は、プログラムに従い完全に自動化されている。")
+  ShowMessage("二年も掛けてコード化したんだ、ミスはないはずだ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【科学者】")
+  ShowMessage("見落としはない、見落としはないはずだ……")
+  ShowMessage("頼む、ちゃんと進行してくれよ。")
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【神職者】")
+  ShowMessage("まったく、英雄ハインリヒの剣を科学実験などのために使用するとは……")
+  ShowMessage("科学技術部は増長しすぎではないか？")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【神職者】")
+  ShowMessage("だが、この実験で発生する膨大なエネルギーとやらで、")
+  ShowMessage("ハインリヒの霊体召喚に成功すれば……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【神職者】")
+  ShowMessage("伝説の英雄の声を、生で聞けるかもしれんのだ。")
+  ShowMessage("そう考えると、有意義な実験かもしれんな。")
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【研究員】")
+  ShowMessage("五百年も前に死んだ勇者の声なんか、別にどうでもいいさ。")
+  ShowMessage("レミナ最新の粒子加速器で、とうとう聖魔融合を成し遂げる……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【研究員】")
+  ShowMessage("この歴史的偉業に、手が震えっぱなしだぜ。")
+  ShowMessage("……俺の担当した部分のコード、間違っていないだろうな。")
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ChangeSwitch(2308,2308,0)
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【博士】")
+  ShowMessage("ふー、もう一本……")
+  If(0,4,0)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("博士はポケットをごそごそしている……")
+   ShowMessage("一枚のカードがポケットから落ちた！")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   ChangeInventory_Item(557,0,0,1)
+   ShowMessageFace("ruka_fc1",0,0,2,3)
+   ShowMessage("【ルカ】")
+   ShowMessage("返してあげないと……")
+   ShowMessage("声をかけても聞こえないんだね、ポケットにねじ込もうか。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("博士はポケットをごそごそしている……")
+   ShowMessageFace("iriasu_fc4",1,0,2,5)
+   ShowMessage("【イリアス】")
+   ShowMessage("……いただきです。")
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("すれちがいざまに、イリアスは博士のポケットから何かを盗んだ！")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   ChangeInventory_Item(557,0,0,1)
+   ShowMessageFace("ruka_fc1",0,0,2,7)
+   ShowMessage("【ルカ】")
+   ShowMessage("なんて事するんです、返してあげないと……")
+   0()
+  EndIf()
+  ShowMessageFace("sirousagi_fc1",0,0,2,8)
+  ShowMessage("【白兎】")
+  ShowMessage("もらっちゃいなよ。")
+  ShowMessage("どうせ、14分25秒後に死ぬ人だしさ。")
+  EndEventProcessing()
+  0()
+ PAGE   2
+  // condition: switch 2308 is ON
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【博士】")
+  ShowMessage("今年から室内は禁煙か……")
+  ShowMessage("いずれ、研究施設全体が禁煙になるんじゃないか……？")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("博士は煙草を吸って一休みしている……")
+  0()

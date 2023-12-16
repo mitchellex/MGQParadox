@@ -1,0 +1,840 @@
+﻿
+
+
+EVENT   2
+ PAGE   1
+  // condition: switch 4 is ON
+  If(2,"A",1)
+   ChangeSelfSwitch("A",0)
+   ShowMessageFace("alice_fc5",0,0,2,1)
+   ShowMessage("【アリス】")
+   ShowMessage("いよいよ、イリアス神殿も間近。")
+   ShowMessage("ネロや白兎は、そこに謎の核心があると言うが……")
+   ShowMessageFace("ruka_fc1",0,0,2,2)
+   ShowMessage("【ルカ】")
+   ShowMessage("そう言えば雪越えの洞窟以来、白兎をさっぱり見ないね。")
+   ShowMessageFace("alice_fc5",0,0,2,3)
+   ShowMessage("【アリス】")
+   ShowMessage("一面の雪景色に興奮し、雪原を駆け回っているのではないか？")
+   ShowMessage("白兎だしな……")
+   ShowMessageFace("alice_fc5",0,0,2,4)
+   ShowMessage("【アリス】")
+   ShowMessage("そう言えば、白兎の事だが……")
+   ShowMessage("余がこの姿にされたのは、母上が裏で手を引いていたのだという。")
+   ShowMessageFace("alice_fc5",0,0,2,5)
+   ShowMessage("【アリス】")
+   ShowMessage("余を母上の計画から外し、自身が魔王に復帰するという目的だと……")
+   ShowMessage("たまもは、そんな事をほのめかしていた。")
+   ShowMessageFace("ruka_fc1",0,0,2,6)
+   ShowMessage("【ルカ】")
+   ShowMessage("じゃあ……白兎とアリスの母親は、組んでたってこと？")
+   ShowMessageFace("alice_fc5",0,0,2,7)
+   ShowMessage("【アリス】")
+   ShowMessage("あの白兎が、誰かと組むなど考えにくいが……")
+   ShowMessage("何か目的があるのかもしれん。")
+   ShowMessageFace("ruka_fc1",0,0,2,8)
+   ShowMessage("【ルカ】")
+   ShowMessage("そうした方が、歴史の流れが正史に近付く……とか？")
+   ShowMessageFace("alice_fc5",3,0,2,9)
+   ShowMessage("【アリス】")
+   ShowMessage("やはり、そう考えるのが適当か……")
+   ShowMessage("白兎の意図が見えない以上、実際のところは分からんが。")
+   ShowMessageFace("alice_fc5",1,0,2,10)
+   ShowMessage("【アリス】")
+   ShowMessage("まあ、ごちゃごちゃ考えていても始まらん。")
+   ShowMessage("目の前に答えがあるというのなら、それを掴むのみだ！")
+   ShowMessageFace("ruka_fc1",0,0,2,11)
+   ShowMessage("【ルカ】")
+   ShowMessage("ああ！")
+   ChangeSwitch(2260,2260,0)
+   0()
+  Else()
+   ShowMessageFace("alice_fc5",0,0,2,12)
+   ShowMessage("【アリス】")
+   ShowMessage("ゆっくり体を休めておけよ。")
+   ShowMessage("どんな激戦でも、乗り越えられるようにな……")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  If(2,"B",1)
+   ChangeSelfSwitch("B",0)
+   ShowMessageFace("iriasu_fc4",2,0,2,1)
+   ShowMessage("【イリアス】")
+   ShowMessage("とうとうイリアス神殿も間近ですね。")
+   ShowMessage("ネロや白兎は、そこに謎の核心があると言っていますが……")
+   ShowMessageFace("ruka_fc1",0,0,2,2)
+   ShowMessage("【ルカ】")
+   ShowMessage("そう言えば雪越えの洞窟以来、白兎をさっぱり見ないね。")
+   ShowMessageFace("iriasu_fc4",2,0,2,3)
+   ShowMessage("【イリアス】")
+   ShowMessage("どうせまた、思わぬ時に湧いて出てくるでしょう。")
+   ShowMessage("適当に引きずり回しているように見えて、結局は導かれているのです。")
+   ShowMessageFace("iriasu_fc4",2,0,2,4)
+   ShowMessage("【イリアス】")
+   ShowMessage("私ではなく……おそらく、あなたをね。")
+   ShowMessageFace("ruka_fc1",0,0,2,5)
+   ShowMessage("【ルカ】")
+   ShowMessage("僕？　何のために？")
+   ShowMessageFace("iriasu_fc4",2,0,2,6)
+   ShowMessage("【イリアス】")
+   ShowMessage("それは分かりませんが……")
+   ShowMessage("あなたは、自分で思っている以上に重要なキーなのですよ。")
+   ShowMessageFace("iriasu_fc4",2,0,2,7)
+   ShowMessage("【イリアス】")
+   ShowMessage("それはともかく、いったい誰が私に六祖大縛呪を掛けたのか……")
+   ShowMessage("まだ、まったく分かっていませんね。")
+   ShowMessageFace("ruka_fc1",0,0,2,8)
+   ShowMessage("【ルカ】")
+   ShowMessage("なんとか思い出せないんですか？")
+   ShowMessageFace("iriasu_fc4",2,0,2,9)
+   ShowMessage("【イリアス】")
+   ShowMessage("誰かに、六祖大縛呪をかけられたのは覚えているのです。")
+   ShowMessage("しかし、どういう状況で相手が誰だったかは、さっぱり……")
+   ShowMessageFace("ruka_fc1",0,0,2,10)
+   ShowMessage("【ルカ】")
+   ShowMessage("その答えも、イリアス神殿で見つかればいいですね。")
+   ShowMessageFace("iriasu_fc4",0,0,2,11)
+   ShowMessage("【イリアス】")
+   ShowMessage("ええ……元に戻る方法も見つかれば、なお嬉しいんですがね。")
+   ShowMessage("ルカ、あなたにも最後まで付き合ってもらいますよ。")
+   ShowMessageFace("ruka_fc1",0,0,2,12)
+   ShowMessage("【ルカ】")
+   ShowMessage("はい！")
+   ChangeSwitch(2260,2260,0)
+   0()
+  Else()
+   ShowMessageFace("iriasu_fc4",0,0,2,13)
+   ShowMessage("【イリアス】")
+   ShowMessage("さあ、ゆっくり体を休め戦いに備えるのです。")
+   ShowMessage("謎の核心に向かうにあたり、何の危険もないとは到底思えません。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  ShowMessageFace("ruka_fc1",0,0,2,1)
+  ShowMessage("【ルカ】")
+  ShowMessage("まだ、寝るには少し早いな……")
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x06,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  0()
+ PAGE   2
+  // condition: switch 2260 is ON
+  // condition: switch 4 is ON
+  ShowMessageFace("ruka_fc1",0,0,2,1)
+  ShowMessage("【ルカ】")
+  ShowMessage("まだ、寝るには少し早いな……")
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x06,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  205(2,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x18,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("alice_fc5",0,0,2,2)
+  ShowMessage("【アリス】")
+  ShowMessage("これより危険の中枢におもむく身だ、少しでも腕を上げておきたい。")
+  ShowMessage("今日は、水属性の秘技を伝授してやろう。")
+  ShowMessageFace("ruka_fc1",0,0,2,3)
+  ShowMessage("【ルカ】")
+  ShowMessage("今回は水だな……お願いします！")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("こうして、特訓が始まった――")
+  221()
+  Wait(120)
+  222()
+  ShowMessageFace("ruka_fc1",0,0,2,5)
+  ShowMessage("【ルカ】")
+  ShowMessage("明鏡止水の心で……")
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x11,0x6d,0x6f,0x6e,0x5f,0x6b,0x61,0x72,0x61,0x62,0x75,0x72,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  Wait(60)
+  ShowMessageFace("alice_fc5",6,0,2,6)
+  ShowMessage("【アリス】")
+  ShowMessage("危ない！　余を真っ二つにする気か……！")
+  ShowMessageFace("ruka_fc1",0,0,2,7)
+  ShowMessage("【ルカ】")
+  ShowMessage("ご、ごめん……まさかその距離で届きそうになるなんて。")
+  318(0,1,0,1023)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ShowMessageFace("",0,0,2,8)
+  ShowMessage("ルカは\\I[922]\\C[1]魔刀・明鏡止水\\C[0]を修得した！")
+  ShowMessageFace("alice_fc5",1,0,2,9)
+  ShowMessage("【アリス】")
+  ShowMessage("この技は、刀を装備して放てば最高の力を発揮できる。")
+  ShowMessage("剣で使用したとしても、決して見劣りはしないがな。")
+  ShowMessageFace("alice_fc5",1,0,2,10)
+  ShowMessage("【アリス】")
+  ShowMessage("それにしても、明鏡止水の心まで会得するか……")
+  ShowMessage("イリアスヴィルの裏山で偶然に会ったとは思えん素質だ。")
+  ShowMessageFace("alice_fc5",3,0,2,11)
+  ShowMessage("【アリス】")
+  ShowMessage("いや……もしかしたら、あの出会いも運命だったのかもな。")
+  ShowMessageFace("ruka_fc1",0,0,2,12)
+  ShowMessage("【ルカ】")
+  ShowMessage("運命か……旅の事情も似てるしね。")
+  ShowMessageFace("alice_fc5",1,0,2,13)
+  ShowMessage("【アリス】")
+  ShowMessage("もしかしたら、イリアス神殿で貴様の父の事も分かるかもしれん。")
+  ShowMessage("それにマナの乱れを正したら、神鳥で魔王城に突入だ。")
+  ShowMessageFace("alice_fc5",1,0,2,14)
+  ShowMessage("【アリス】")
+  ShowMessage("それぞれ親の元に至り、冒険は終わりというわけだ。")
+  ShowMessage("もちろん、世界を覆う危機というのもついでに解決してな。")
+  ShowMessageFace("ruka_fc1",0,0,2,15)
+  ShowMessage("【ルカ】")
+  ShowMessage("世界の危機の方は、ついでなのか……")
+  ShowMessage("まあ、そんなノリで軽く吹き飛ばしたいね。")
+  ShowMessageFace("alice_fc5",1,0,2,16)
+  ShowMessage("【アリス】")
+  ShowMessage("最後まで共に進むぞ、ルカ！")
+  ShowMessage("それぞれ、親の顔面に拳を叩きつけてやるまでな！")
+  ShowMessageFace("ruka_fc1",0,0,2,17)
+  ShowMessage("【ルカ】")
+  ShowMessage("いや、僕は父さんを殴りたいわけじゃないんだけど……")
+  ShowMessageFace("",0,0,2,18)
+  ShowMessage("いよいよ明日には、イリアス神殿に到着するだろう。")
+  ShowMessage("激動の予感を前に、僕達は静かな眠りに就くのだった。")
+  221()
+  249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x08,0x49,0x6e,0x6e,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+  Wait(180)
+  314(0,0)
+  223(bytes(0x04,0x08,0x75,0x3a,0x09,0x54,0x6f,0x6e,0x65,0x25,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00),1,true)
+  216(0)
+  TeleportPlayer(0,2,59,174,2,2)
+  222()
+  ChangeSwitch(100,100,1)
+  0()
+ PAGE   3
+  // condition: switch 2260 is ON
+  // condition: switch 5 is ON
+  ShowMessageFace("ruka_fc1",0,0,2,1)
+  ShowMessage("【ルカ】")
+  ShowMessage("まだ、寝るには少し早いな……")
+  205(-1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x06,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  205(2,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x18,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("iriasu_fc4",2,0,2,2)
+  ShowMessage("【イリアス】")
+  ShowMessage("イリアス神殿でも、過酷な戦いが待っているでしょう。")
+  ShowMessage("ここであなたに、特訓を行います。")
+  ShowMessageFace("ruka_fc1",0,0,2,3)
+  ShowMessage("【ルカ】")
+  ShowMessage("はい、お願いします！")
+  ShowMessageFace("iriasu_fc4",0,0,2,4)
+  ShowMessage("【イリアス】")
+  ShowMessage("今回は、聖なる剣技を授けましょう。")
+  ShowMessage("いかなる悪も、この技で斬り伏せるのです。")
+  ShowMessageFace("ruka_fc1",0,0,2,5)
+  ShowMessage("【ルカ】")
+  ShowMessage("聖なる剣技……がんばります！")
+  ShowMessageFace("",0,0,2,6)
+  ShowMessage("こうして、雪の中の特訓が始まった――")
+  221()
+  Wait(120)
+  222()
+  ShowMessageFace("ruka_fc1",0,0,2,7)
+  ShowMessage("【ルカ】")
+  ShowMessage("聖なる力で、一刀両断……はぁっ！")
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x11,0x6d,0x6f,0x6e,0x5f,0x6b,0x61,0x72,0x61,0x62,0x75,0x72,0x69,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ShowMessageFace("iriasu_fc4",2,0,2,8)
+  ShowMessage("【イリアス】")
+  ShowMessage("正直、この技は教えたくありませんでした。")
+  ShowMessage("これは堕天使の剣技なのですが、それゆえあなたと相性が良いはず……")
+  318(0,1,0,966)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ShowMessageFace("",0,0,2,9)
+  ShowMessage("ルカは\\I[171]\\C[1]烈空堕天斬\\C[0]を修得した！")
+  ShowMessageFace("iriasu_fc4",0,0,2,10)
+  ShowMessage("【イリアス】")
+  ShowMessage("やはり、堕天使の技もするっと習得できましたか。")
+  ShowMessage("ルシフィナの血を受け継ぐ以上、当然かもしれませんが……")
+  If(1,1077,0,2,1)
+   ShowMessageFace("rucyfinac_fc1",0,0,2,11)
+   ShowMessage("【ルシフィナちゃん】")
+   ShowMessage("よんだ？")
+   ShowMessageFace("iriasu_fc4",0,0,2,12)
+   ShowMessage("【イリアス】")
+   ShowMessage("あなたではないですよ。")
+   ShowMessage("ルカの母親であった、以前のあなたの事です。")
+   ShowMessageFace("rucyfinac_fc1",0,0,2,13)
+   ShowMessage("【ルシフィナちゃん】")
+   ShowMessage("それって、ルカのおかあさんなんだよね……？")
+   ShowMessageFace("ruka_fc1",0,0,2,14)
+   ShowMessage("【ルカ】")
+   ShowMessage("うん、そうだよ。")
+   ShowMessageFace("rucyfinac_fc1",0,0,2,15)
+   ShowMessage("【ルシフィナちゃん】")
+   ShowMessage("言ったでしょ、あたしをおかあさんだと思っていいんだよ。")
+   ShowMessage("寝るときに、ひざまくらしてあげる！")
+   ShowMessageFace("eden_fc1",0,0,2,16)
+   ShowMessage("【エデン】")
+   ShowMessage("ああ、なんと優しいルシフィナちゃん……")
+   ShowMessage("あなたはエデンお姉さんの誇りですよ。")
+   ShowMessageFace("micaelac_fc1",1,0,2,17)
+   ShowMessage("【ミカエラちゃん】")
+   ShowMessage("あははっ、雪だるまがしゃべってる～！")
+   ShowMessage("ぐりぐりぐり……")
+   ShowMessageFace("eden_fc1",0,0,2,18)
+   ShowMessage("【エデン】")
+   ShowMessage("ああ～")
+   ShowMessageFace("iriasu_fc4",1,0,2,19)
+   ShowMessage("【イリアス】")
+   ShowMessage("エデンもすっかり、お姉さんですね。")
+   ShowMessageFace("ruka_fc1",0,0,2,20)
+   ShowMessage("【ルカ】")
+   ShowMessage("仲が悪いんじゃなかったの……？")
+   0()
+  EndIf()
+  ShowMessageFace("iriasu_fc4",0,0,2,21)
+  ShowMessage("【イリアス】")
+  ShowMessage("ともかく、いよいよ明日はイリアス神殿に突入します。")
+  ShowMessage("そこで何かの答えに至るのは、間違いないでしょう。")
+  ShowMessageFace("iriasu_fc4",0,0,2,22)
+  ShowMessage("【イリアス】")
+  ShowMessage("ルカ、あなたに命じます。")
+  ShowMessage("最後まで、私に従うのですよ。")
+  ShowMessageFace("ruka_fc1",0,0,2,23)
+  ShowMessage("【ルカ】")
+  ShowMessage("はい！")
+  ShowMessageFace("iriasu_fc4",0,0,2,24)
+  ShowMessage("【イリアス】")
+  ShowMessage("ハインリヒ、あなたもです。")
+  ShowMessage("私と共に戦う事を誓いなさい。")
+  ShowMessageFace("heinrich_fc1",7,0,2,25)
+  ShowMessage("【ハインリヒ】")
+  ShowMessage("もちろんです、イリアス様！")
+  ShowMessageFace("iriasu_fc4",2,0,2,26)
+  ShowMessage("【イリアス】")
+  ShowMessage("（そして、結局は同じ事を繰り返すのでしょうか――）")
+  ShowMessageFace("ruka_fc1",0,0,2,27)
+  ShowMessage("【ルカ】")
+  ShowMessage("……イリアス様？")
+  ShowMessageFace("iriasu_fc4",0,0,2,28)
+  ShowMessage("【イリアス】")
+  ShowMessage("いえ……もう寝るとしましょう。")
+  ShowMessageFace("",0,0,2,29)
+  ShowMessage("いよいよ明日には、イリアス神殿に到着するだろう。")
+  ShowMessage("激動の予感を前に、僕達は静かな眠りに就くのだった。")
+  221()
+  249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x08,0x49,0x6e,0x6e,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+  Wait(180)
+  314(0,0)
+  223(bytes(0x04,0x08,0x75,0x3a,0x09,0x54,0x6f,0x6e,0x65,0x25,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00),1,true)
+  216(0)
+  TeleportPlayer(0,2,59,174,2,2)
+  222()
+  ChangeSwitch(100,100,1)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  If(2,"A",1)
+   ChangeSelfSwitch("A",0)
+   ShowMessageFace("sonia_fc2",2,0,2,1)
+   ShowMessage("【ソニア】")
+   ShowMessage("あの神殿に近付くにつれて、すっごくイヤな予感がするの。")
+   ShowMessage("いったい、あそこに何があるのかな……？")
+   ShowMessageFace("ruka_fc1",0,0,2,2)
+   ShowMessage("【ルカ】")
+   ShowMessage("分からない……")
+   ShowMessage("それを今から、確かめに行くんじゃないか。")
+   ShowMessageFace("sonia_fc2",2,0,2,3)
+   ShowMessage("【ソニア】")
+   ShowMessage("あそこが、終着点のような……")
+   ShowMessage("私の旅はあそこで終わるような、そんな感じがするのよ。")
+   ShowMessageFace("ruka_fc1",0,0,2,4)
+   ShowMessage("【ルカ】")
+   ShowMessage("近付くにつれ、威圧感や圧迫感は強くなるけど……")
+   ShowMessage("流石にそれは、考えすぎじゃないかな。")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",2,0,2,5)
+    ShowMessage("【アリス】")
+    ShowMessage("ソニア、貴様は人間だからな……")
+    ShowMessage("あの異様な圧迫感に直面すれば、精神が不安定にもなろう。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,6)
+    ShowMessage("【イリアス】")
+    ShowMessage("あなたは人間の身ですから……")
+    ShowMessage("神殿の放つ異様な圧迫感には、精神を乱されて当然です。")
+    0()
+   EndIf()
+   ShowMessageFace("sonia_fc4",0,0,2,7)
+   ShowMessage("【ソニア】")
+   ShowMessage("人間だから、か……")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",0,0,2,8)
+    ShowMessage("【アリス】")
+    ShowMessage("すまん、悪気はなかった。")
+    ShowMessage("だが無理はするなよ。")
+    ShowMessageFace("sonia_fc1",4,0,2,9)
+    ShowMessage("【ソニア】")
+    ShowMessage("うん……分かってる。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,10)
+    ShowMessage("【イリアス】")
+    ShowMessage("失礼、気にしていたのですね。")
+    ShowMessage("しかしあなたは人間の身、無理は自重なさい。")
+    ShowMessageFace("sonia_fc1",4,0,2,11)
+    ShowMessage("【ソニア】")
+    ShowMessage("はい、分かっています。")
+    0()
+   EndIf()
+   ShowMessageFace("sonia_fc2",2,0,2,12)
+   ShowMessage("【ソニア】")
+   ShowMessage("もっと強い力が欲しいな……")
+   ShowMessage("みんなの足を引っ張らないような、強い力が……")
+   0()
+  Else()
+   ShowMessageFace("sonia_fc2",2,0,2,13)
+   ShowMessage("【ソニア】")
+   ShowMessage("もっと強い力が欲しいな……")
+   ShowMessage("みんなの足を引っ張らないような、強い力が……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  // condition: switch 1079 is ON
+  ShowMessageFace("nuruko_fc1",2,0,2,1)
+  ShowMessage("【ヌルコ】")
+  ShowMessage("きゅ……")
+  ShowChoices(strings("何もしない","押す"),1)
+  IfPlayerPicksChoice(0,null)
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x54,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x46,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x0e,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x28,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x22,0x3b,0x0c,0x5b,0x06,0x69,0x0b,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x23,0x3b,0x0c,0x5b,0x06,0x69,0x0a,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x10,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x10,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x29,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x22,0x3b,0x0c,0x5b,0x06,0x69,0x09,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x23,0x3b,0x0c,0x5b,0x06,0x69,0x08,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+   0()
+  404()
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  // condition: switch 1072 is ON
+  ShowMessageFace("phoenix_fc1",5,0,2,1)
+  ShowMessage("【ミニ】")
+  ShowMessage("ツボがひんやりなのだー！")
+  ShowMessage("あたためてほしいのだー！")
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  // condition: switch 1143 is ON
+  ShowMessageFace("eva_fc1",0,0,2,1)
+  ShowMessage("【エヴァ】")
+  ShowMessage("すごい儲け話を思いついちゃった……")
+  ShowMessage("雪を売るのよ！")
+  ShowMessageFace("eva_fc1",0,0,2,2)
+  ShowMessage("【エヴァ】")
+  ShowMessage("サバサとかじゃ、いっぱい売れるんじゃない？")
+  ShowMessage("これ……私、楽して大金持ちになれるんじゃない？")
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  // condition: switch 1233 is ON
+  ShowMessageFace("mefist_fc1",0,0,2,1)
+  ShowMessage("【メフィスト】")
+  ShowMessage("各国に、今のところ異常はありません。")
+  ShowMessage("散発的な攻撃以外、敵側に組織だった動きは見られないようです。")
+  ShowMessageFace("mefist_fc1",0,0,2,2)
+  ShowMessage("【メフィスト】")
+  ShowMessage("私の立ち位置も、思えば奇妙なものですね……")
+  ShowMessage("ご安心を、裏切る前にきちんと辞表を提出しますので。")
+  0()
+ PAGE   2
+  // condition: switch 1391 is ON
+  ShowMessageFace("mefist_fc2",0,0,2,1)
+  ShowMessage("【メフィスト】")
+  ShowMessage("各国に、今のところ異常はありません。")
+  ShowMessage("散発的な攻撃以外、敵側に組織だった動きは見られないようです。")
+  ShowMessageFace("mefist_fc2",0,0,2,2)
+  ShowMessage("【メフィスト】")
+  ShowMessage("私の立ち位置も、思えば奇妙なものですね……")
+  ShowMessage("ご安心を、裏切る前にきちんと辞表を提出しますので。")
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  // condition: switch 1054 is ON
+  ShowMessageFace("bunnyslime_fc1",0,0,2,1)
+  ShowMessage("【うさ】")
+  ShowMessage("うさうさうさうさ～！　雪うさぎ～！")
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  // condition: switch 1053 is ON
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【ライム】")
+  ShowMessage("ゆき、ゆき～♪　まっしろ～♪")
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("sylph_fc1",0,0,2,1)
+  ShowMessage("【シルフ】")
+  ShowMessage("サラマンダーちゃん、あったか～い♪")
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  ShowMessageFace("gnome_fc1",0,0,2,1)
+  ShowMessage("【ノーム】")
+  ShowMessage("……………………")
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  // condition: switch 1103 is ON
+  If(0,1102,0)
+   ShowMessageFace("kamuro_fc1",0,0,2,1)
+   ShowMessage("【かむろ】")
+   ShowMessage("きつね先輩……")
+   ShowMessage("なんで雪は白くて、空から降ってくるんですか？")
+   ShowMessageFace("youko_fc1",0,0,2,2)
+   ShowMessage("【きつね】")
+   ShowMessage("お空はキャンパス、雲の絵の具で……")
+   ShowMessage("う～ん、え～っと……")
+   ShowMessageFace("kamuro_fc1",2,0,2,3)
+   ShowMessage("【かむろ】")
+   ShowMessage("きつね先輩……わざと詩的に言おうとしてません？")
+   0()
+  Else()
+   ShowMessageFace("kamuro_fc1",0,0,2,4)
+   ShowMessage("【かむろ】")
+   ShowMessage("なんで雪は白くて、空から降ってくるんでしょうか。")
+   ShowMessage("きつね先輩に聞いてみないと……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  // condition: switch 1102 is ON
+  If(0,1103,0)
+   ShowMessageFace("kamuro_fc1",0,0,2,1)
+   ShowMessage("【かむろ】")
+   ShowMessage("きつね先輩……")
+   ShowMessage("なんで雪は白くて、空から降ってくるんですか？")
+   ShowMessageFace("youko_fc1",0,0,2,2)
+   ShowMessage("【きつね】")
+   ShowMessage("お空はキャンパス、雲の絵の具で……")
+   ShowMessage("う～ん、え～っと……")
+   ShowMessageFace("kamuro_fc1",2,0,2,3)
+   ShowMessage("【かむろ】")
+   ShowMessage("きつね先輩……わざと詩的に言おうとしてません？")
+   0()
+  Else()
+   ShowMessageFace("youko_fc1",0,0,2,4)
+   ShowMessage("【きつね】")
+   ShowMessage("雪って、おいしそう……")
+   ShowMessage("むしゃむしゃ……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  // condition: switch 1529 is ON
+  ShowMessageFace("sara_fc1",0,0,2,1)
+  ShowMessage("【サラ】")
+  ShowMessage("寒い中でも、しっかり鍛錬……やぁっ！")
+  0()
+ PAGE   2
+  // condition: switch 1530 is ON
+  ShowMessageFace("sara_fc4",1,0,2,1)
+  ShowMessage("【サラ】")
+  ShowMessage("とっても寒いわねぇ……")
+  ShowMessage("私と抱き合って、暖め合わない？")
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  // condition: switch 1062 is ON
+  ShowMessageFace("gob_fc1",1,0,2,1)
+  ShowMessage("【ゴブ】")
+  ShowMessage("ヤマタイ出身だから、雪は全然平気！")
+  ShowMessage("ばびゅびゅーん！！")
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  // condition: switch 1068 is ON
+  ShowMessageFace("dragonp_fc1",0,0,2,1)
+  ShowMessage("【パピ】")
+  ShowMessage("すごい雪なのだ！")
+  ShowMessage("ツボに雪を集めるのだー！")
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  // condition: switch 1066 is ON
+  ShowMessageFace("vgirl_fc1",2,0,2,1)
+  ShowMessage("【ヴァニラ】")
+  ShowMessage("ううっ、さむ……")
+  ShowMessage("我は高貴だから、寒がりなのだぞ。")
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  // condition: switch 1531 is ON
+  ShowMessageFace("saniria_fc2",0,0,2,1)
+  ShowMessage("【サン・イリア王】")
+  ShowMessage("寒冷地用装備を用意しておくべきだったな……")
+  ShowMessage("凍結しないよう、メンテナンスが面倒だ。")
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  // condition: switch 1129 is ON
+  ShowMessageFace("brunhild_fc1",0,0,2,1)
+  ShowMessage("【ヒルデ】")
+  ShowMessage("ヒルデ、寒いのキライ……")
+  ShowMessage("ぶるぶる……")
+  ShowMessageFace("brunhild_fc1",0,0,2,2)
+  ShowMessage("【ヒルデ】")
+  ShowMessage("……ヒルデ、なんで寒さを感じる機能がついてるの？")
+  ShowMessage("これ、無駄じゃないかな。")
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  // condition: switch 1064 is ON
+  ShowMessageFace("pramia_fc1",0,0,2,1)
+  ShowMessage("【プチ】")
+  ShowMessage("もう水が凍っちゃった……")
+  ShowMessage("誰か、水汲み手伝ってくれない？")
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  // condition: switch 1041 is ON
+  ShowMessageFace("stein_fc2",0,0,2,1)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("木からサンプルを採っています。")
+  ShowMessage("どうにも生育具合が異常な気がしたので……")
+  ShowMessageFace("stein_fc2",0,0,2,2)
+  ShowMessage("【プロメスティン】")
+  ShowMessage("各地で採取しているサンプルですが、共通して異常発育が見られます。")
+  ShowMessage("タルタロスから、周辺へと広がっているんですよ……")
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  ShowMessageFace("undine_fc1",1,0,2,1)
+  ShowMessage("【ウンディーネ】")
+  ShowMessage("こういう時は、役に立つわね……")
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  ShowMessageFace("salamander_fc1",2,0,2,1)
+  ShowMessage("【サラマンダー】")
+  ShowMessage("まったく……")
+  ShowMessage("こういう時だけ、もてはやしおって……")
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  // condition: switch 4 is ON
+  ShowMessageFace("alicetromeria_fc1",4,0,2,1)
+  ShowMessage("【アリストロメリア】")
+  ShowMessage("多人数でのキャンプなんて、初めてですわ。")
+  ShowMessage("肝試しは？　歌を歌ったり、皆で踊ったりはしませんの？")
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  ShowMessageFace("eden_fc1",0,0,2,1)
+  ShowMessage("【エデン】")
+  ShowMessage("ところで、ミカエラとルシフィナ復活の儀式は行わないのですね……")
+  ShowMessage("いえいえ、それで良いのです。")
+  0()
+ PAGE   3
+  // condition: switch 5 is ON
+  // condition: variable 1077 >= 2
+  If(1,1088,0,0,0)
+   ShowMessageFace("micaelac_fc1",3,0,2,1)
+   ShowMessage("【ミカエラちゃん】")
+   ShowMessage("雪だるま作るの、楽しい……")
+   ShowMessageFace("rucyfinac_fc1",0,0,2,2)
+   ShowMessage("【ルシフィナちゃん】")
+   ShowMessage("ねぇねぇ……寒い？　暗い？")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("雪だるまの中から声がする……")
+   ShowMessageFace("eden_fc1",0,0,2,4)
+   ShowMessage("【エデン】")
+   ShowMessage("うふふふっ、わんぱくな子達。")
+   ShowMessage("エデンお姉さんを雪だるまの中に閉じ込めるなんて……うふふふっ。")
+   ShowMessageFace("iriasu_fc4",1,0,2,5)
+   ShowMessage("【イリアス】")
+   ShowMessage("楽しそうですね、エデン。")
+   ShowMessageFace("rucyfinac_fc1",1,0,2,6)
+   ShowMessage("【ルシフィナちゃん】")
+   ShowMessage("あはっ……雪だるまの中、冷たいよね……")
+   ShowMessage("あはははっ……")
+   ShowMessageFace("micaelac_fc1",1,0,2,7)
+   ShowMessage("【ミカエラちゃん】")
+   ShowMessage("エデン姉さんと遊ぶの、楽しい……")
+   ShowMessageFace("eden_fc1",0,0,2,8)
+   ShowMessage("【エデン】")
+   ShowMessage("ああ～")
+   ShowMessageFace("ruka_fc1",0,0,2,9)
+   ShowMessage("【ルカ】")
+   ShowMessage("……………………")
+   ShowMessageFace("sonia_fc2",2,0,2,10)
+   ShowMessage("【ソニア】")
+   ShowMessage("……………………")
+   ShowMessageFace("eden_fc1",1,0,2,11)
+   ShowMessage("【エデン】")
+   ShowMessage("……ところでイリアス様、エデンよりお願いがあるのですが。")
+   ShowMessageFace("iriasu_fc4",0,0,2,12)
+   ShowMessage("【イリアス】")
+   ShowMessage("あなたが、私に願いを……？")
+   ShowMessageFace("eden_fc1",1,0,2,13)
+   ShowMessage("【エデン】")
+   ShowMessage("ミカエラちゃんとルシフィナちゃんは、この雪の大地の生まれ。")
+   ShowMessage("海や山など、外界の風景を目にした事はないのです。")
+   ShowMessageFace("eden_fc1",1,0,2,14)
+   ShowMessage("【エデン】")
+   ShowMessage("運命の地に踏み込む前に、こんな事を願うのは愚かでしょうが……")
+   ShowMessage("なにとぞ、二人に美しい自然を見せてあげては頂けないでしょうか。")
+   ShowMessageFace("micaelac_fc1",3,0,2,15)
+   ShowMessage("【ミカエラちゃん】")
+   ShowMessage("海？　山？　行ってみたいな……")
+   ShowMessageFace("rucyfinac_fc1",0,0,2,16)
+   ShowMessage("【ルシフィナちゃん】")
+   ShowMessage("わ～い、連れてって～♪")
+   ShowMessageFace("iriasu_fc4",0,0,2,17)
+   ShowMessage("【イリアス】")
+   ShowMessage("エデンが私に何かをお願いするなど、幾星霜の年月で初めてですね。")
+   ShowMessage("どうしますか、ルカ……？")
+   ShowChoices(strings("いいよ","ダメだ"),2)
+   IfPlayerPicksChoice(0,null)
+    ShowMessageFace("micaelac_fc1",3,0,2,18)
+    ShowMessage("【ミカエラちゃん】")
+    ShowMessage("嬉しい……")
+    ShowMessageFace("rucyfinac_fc1",1,0,2,19)
+    ShowMessage("【ルシフィナちゃん】")
+    ShowMessage("わ～い♪")
+    0()
+   IfPlayerPicksChoice(1,null)
+    ShowMessageFace("eden_fc1",1,0,2,20)
+    ShowMessage("【エデン】")
+    ShowMessage("確かに、今は大きな戦いが控えているでしょうが……")
+    ShowMessage("その後でも結構ですので、お願いします。")
+    ShowMessageFace("sonia_fc2",2,0,2,21)
+    ShowMessage("【ソニア】")
+    ShowMessage("ねぇルカ、連れて行ってあげようよ……")
+    0()
+   404()
+   ShowMessageFace("iriasu_fc4",0,0,2,22)
+   ShowMessage("【イリアス】")
+   ShowMessage("まず最初に、神聖なる霊峰を見せてあげましょう……")
+   ShowMessage("二人を連れて、聖山アモスの頂上に登るのです。")
+   ChangeVariable(1088,1088,0,0,1)
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1088,0,1,0)
+   ShowMessageFace("eden_fc1",1,0,2,23)
+   ShowMessage("【エデン】")
+   ShowMessage("運命の地に踏み込む前に、こんな事を願うのは愚かでしょうが……")
+   ShowMessage("なにとぞ、二人に美しい自然を見せてあげては頂けないでしょうか。")
+   ShowMessageFace("iriasu_fc4",0,0,2,24)
+   ShowMessage("【イリアス】")
+   ShowMessage("まず最初に、神聖なる霊峰を見せてあげましょう……")
+   ShowMessage("二人を連れて、聖山アモスの頂上に登るのです。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  // condition: switch 5 is ON
+  // condition: variable 1077 >= 2
+  ShowMessageFace("rucyfinac_fc1",0,0,2,1)
+  ShowMessage("【ルシフィナちゃん】")
+  ShowMessage("ねぇねぇ……寒い？　暗い？")
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  // condition: switch 5 is ON
+  // condition: variable 1077 >= 2
+  ShowMessageFace("micaelac_fc1",3,0,2,1)
+  ShowMessage("【ミカエラちゃん】")
+  ShowMessage("雪だるま作るの、楽しい……")
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  // condition: switch 5 is ON
+  ShowMessageFace("heinrich_fc1",7,0,2,1)
+  ShowMessage("【ハインリヒ】")
+  ShowMessage("パーティが賑やかだと楽しいね。")
+  ShowMessage("これまで、アリストロメリアとずっと二人で旅をしていたから……")
+  ShowMessageFace("heinrich_fc1",7,0,2,2)
+  ShowMessage("【ハインリヒ】")
+  ShowMessage("今、僕のいた世界に戻っても、")
+  ShowMessage("出て行った時からほとんど経っていないんだよね？")
+  ShowMessageFace("heinrich_fc1",7,0,2,3)
+  ShowMessage("【ハインリヒ】")
+  ShowMessage("こっちでこれだけ冒険しても、あっちじゃアリストロメリアが")
+  ShowMessage("コーヒー一杯を飲む時間なんて……不思議な感じだね。")
+  0()

@@ -1,0 +1,275 @@
+﻿
+
+
+EVENT   2
+ PAGE   1
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  205(2,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x0b,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x09,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x09,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("eden_fc1",1,0,2,1)
+  ShowMessage("【エデン】")
+  ShowMessage("魔物の群れ……！")
+  ShowMessage("このまま、我々天使を攻め滅ぼそうというのですね。")
+  ShowMessageFace("eden_fc1",1,0,2,2)
+  ShowMessage("【エデン】")
+  ShowMessage("しかし、私がいる限りは――")
+  ShowMessageFace("shirokuma_fc1",0,0,2,3)
+  ShowMessage("【シロクマ娘Ａ】")
+  ShowMessage("けが人、いっぱい……")
+  ShowMessage("……おくすり、持ってきたよ。")
+  ShowMessageFace("shirokuma_fc1",0,0,2,4)
+  ShowMessage("【シロクマ娘Ｂ】")
+  ShowMessage("おなか、へってない？")
+  ShowMessage("食べ物も、持ってきたよ……")
+  ShowMessageFace("eden_fc1",1,0,2,5)
+  ShowMessage("【エデン】")
+  ShowMessage("まさか、私達に救援物資を持ってきてくれたのですか……！？")
+  ShowMessage("しかし――")
+  ShowMessageFace("eden_fc1",1,0,2,6)
+  ShowMessage("【エデン】")
+  ShowMessage("（イリアス様の五戒、魔物と交わることなかれ――")
+  ShowMessage("　ここで救援を受け入れれば、魔物と交わることになる――）")
+  ShowMessageFace("eden_fc1",1,0,2,7)
+  ShowMessage("【エデン】")
+  ShowMessage("（この私が、五戒を破ることなど――）")
+  ShowMessageFace("cupid_fc1",2,0,2,8)
+  ShowMessage("【キューピッド】")
+  ShowMessage("足が痛いよ～！　血が止まらないよ～！！")
+  ShowMessageFace("trinity_fc1",2,0,2,9)
+  ShowMessage("【トリニティＡ】")
+  ShowMessage("こちらの者も、呼吸が弱々しくなって……！")
+  ShowMessage("ああ、このままでは……！")
+  ShowMessageFace("shirokuma_fc1",0,0,2,10)
+  ShowMessage("【シロクマ娘Ａ】")
+  ShowMessage("たいへん……")
+  ShowMessage("早く、おくすり使わないと……")
+  ShowMessageFace("eden_fc1",2,0,2,11)
+  ShowMessage("【エデン】")
+  ShowMessage("イリアス様、私は……")
+  ShowMessageFace("eden_fc1",2,0,2,12)
+  ShowMessage("【エデン】")
+  ShowMessage("……………………")
+  205(2,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x15,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  ShowMessageFace("eden_fc1",1,0,2,13)
+  ShowMessage("【エデン】")
+  ShowMessage("皆の者、魔物の救援を受け入れます！")
+  ShowMessage("さあ、救援物資の搬入を！！")
+  ShowMessageFace("eden_fc1",1,0,2,14)
+  ShowMessage("【エデン】")
+  ShowMessage("（イリアス様、お許し下さい……")
+  ShowMessage("　私は、禁を破ってしまいました……）")
+  242(1)
+  221()
+  Wait(60)
+  211(1)
+  TeleportPlayer(0,42,60,9,8,2)
+  222()
+  ShowMessageFace("iriasu_fc4",2,0,2,15)
+  ShowMessage("【イリアス】")
+  ShowMessage("エデン……")
+  ShowMessageFace("eden_fc1",1,0,2,16)
+  ShowMessage("【エデン】")
+  ShowMessage("こうして、私は禁を破りました。")
+  ShowMessage("五戒を破り、シロクマ娘の救援を受け入れたのです。")
+  ShowMessageFace("eden_fc1",0,0,2,17)
+  ShowMessage("【エデン】")
+  ShowMessage("……ですが、今の私はこう考えています。")
+  ShowMessageFace("eden_fc1",0,0,2,18)
+  ShowMessage("【エデン】")
+  ShowMessage("配下の天使達を守ること――")
+  ShowMessage("それも、イリアス様から与えられた私の大切な責務。")
+  ShowMessageFace("eden_fc1",0,0,2,19)
+  ShowMessage("【エデン】")
+  ShowMessage("あの時、シロクマ娘達の救援をはね除けてしまえば――")
+  ShowMessage("五戒を守れても、私の責務は守れなかったでしょう。")
+  ShowMessageFace("eden_fc1",0,0,2,20)
+  ShowMessage("【エデン】")
+  ShowMessage("どちらを選択しても、イリアス様を裏切る事になります。")
+  ShowMessage("ならば、命が失われない選択の方が良いと思ったのです。")
+  ShowMessageFace("iriasu_fc4",2,0,2,21)
+  ShowMessage("【イリアス】")
+  ShowMessage("エデン……")
+  ShowMessageFace("iriasu_fc4",1,0,2,22)
+  ShowMessage("【イリアス】")
+  ShowMessage("本当に、三十年間もよく頑張りましたね。")
+  ShowMessage("あなたは、私の誇りです。")
+  ShowMessageFace("eden_fc1",0,0,2,23)
+  ShowMessage("【エデン】")
+  ShowMessage("イリアス様……")
+  ShowMessage("なんと勿体ないお言葉でしょう……")
+  ShowMessageFace("eden_fc1",0,0,2,24)
+  ShowMessage("【エデン】")
+  ShowMessage("それ以降、シロクマ娘達とは良好な関係となりました。")
+  ShowMessage("当初は、向こうからの無償の援助に甘んじていましたが――")
+  ShowMessageFace("eden_fc1",0,0,2,25)
+  ShowMessage("【エデン】")
+  ShowMessage("こちらの復興後は、物々交換の取引を行うようになりました。")
+  ShowMessage("魔石や天使の羽根、それに天界にあった宝具――")
+  ShowMessageFace("eden_fc1",0,0,2,26)
+  ShowMessage("【エデン】")
+  ShowMessage("そうしたものを、商取引でシロクマ娘の集落に贈ったのです。")
+  ShowMessage("サイコシャードも、交換物品の一つでした。")
+  ShowMessageFace("sonia_fc1",0,0,2,27)
+  ShowMessage("【ソニア】")
+  ShowMessage("シロクマ娘の集落は、雪越えの洞窟の真ん中あたりよね。")
+  ShowMessage("確か、この村からすぐ北だったはずよ。")
+  ShowMessageFace("ruka_fc1",0,0,2,28)
+  ShowMessage("【ルカ】")
+  ShowMessage("ああ、行ってみよう！")
+  ShowMessage("シロクマ娘に、その転職アイテムを譲ってもらうんだ。")
+  EndEventProcessing()
+  0()

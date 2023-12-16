@@ -1,0 +1,1013 @@
+﻿
+DisplayName "ハーピーの集落"
+
+
+
+EVENT   1
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  282(37)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  282(37)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  282(37)
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  282(37)
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  282(37)
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,339,9,13,2,0)
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,339,30,28,2,0)
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,339,9,1,2,0)
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,339,8,1,2,0)
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,340,11,12,0,0)
+  If(1,1011,0,2,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("部屋の中に、争った形跡はないようだ……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,340,12,61,0,0)
+  If(1,1011,0,1,0)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("部屋の中に、争った形跡はないようだ……")
+   ShowMessage("……奥の方に、誰かいる！")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,355,325,0,0)
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,340,12,12,0,0)
+  If(1,1011,0,2,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("部屋の中に、争った形跡はないようだ……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,355,325,0,0)
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,355,325,0,0)
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  // condition: variable 1011 >= 1
+  ChangeSelfSwitch("A",0)
+  If(0,6,0)
+   ShowMessageFace("sonia_fc2",2,0,2,1)
+   ShowMessage("【ソニア】")
+   ShowMessage("噂に聞いた通り、誰もいないね。")
+   ShowMessage("全く気配もしないや……")
+   0()
+  Else()
+   ShowMessageFace("ruka_fc1",0,0,2,2)
+   ShowMessage("【ルカ】")
+   ShowMessage("噂に聞いた通り、誰もいないね。")
+   ShowMessage("全く気配もしない……")
+   0()
+  EndIf()
+  If(4,68,0)
+   ShowMessageFace("dragonp_fc1",2,0,2,3)
+   ShowMessage("【パピ】")
+   ShowMessage("なんだか、気味が悪いのだ……")
+   0()
+  EndIf()
+  If(4,58,0)
+   ShowMessageFace("inp_fc2",2,0,2,4)
+   ShowMessage("【レミ】")
+   ShowMessage("びくびく……こわいよう……")
+   0()
+  EndIf()
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,5)
+   ShowMessage("【アリス】")
+   ShowMessage("念のため、隅々まで調べてみるぞ。")
+   ShowMessage("なんらかの手掛かりがあるかもしれんからな……")
+   ShowMessageFace("alice_fc5",0,0,2,6)
+   ShowMessage("【アリス】")
+   ShowMessage("また、木の裏に回り込める場所もあるようだな。")
+   ShowMessage("立て札が立っているから、しっかりチェックしておけ。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,7)
+   ShowMessage("【イリアス】")
+   ShowMessage("念のため、隅々まで調べてみましょう。")
+   ShowMessage("なんらかの証拠が残されているかもしれません。")
+   ShowMessageFace("iriasu_fc4",2,0,2,8)
+   ShowMessage("【イリアス】")
+   ShowMessage("木の裏に回り込める場所もあるようですね。")
+   ShowMessage("立て札に書かれていますので、見逃さないように。")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+ PAGE   3
+  // condition: variable 1011 >= 6
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ChangeSelfSwitch("A",0)
+  ChangeSwitch(100,100,1)
+  ShowMessageFace("ruka_fc1",0,0,2,1)
+  ShowMessage("【ルカ】")
+  ShowMessage("女王の事は気に掛かるけど……")
+  ShowMessage("今の僕達じゃ、これで精一杯だよね。")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,2)
+   ShowMessage("【アリス】")
+   ShowMessage("ああ、いちおう事件は解決したと言ってよかろう。")
+   ShowMessage("さて、次の行き先はどうする……？")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,3)
+   ShowMessage("【イリアス】")
+   ShowMessage("まあ、だいたい解決でしょう。")
+   ShowMessage("さて、次の目的地はどうしますか……？")
+   0()
+  EndIf()
+  ShowMessageFace("ruka_fc1",0,0,2,4)
+  ShowMessage("【ルカ】")
+  ShowMessage("東のタルタロスに直行するか……")
+  ShowMessage("それとも、困難に備えて金の装備を揃えておくか……")
+  If(0,4,0)
+   ShowMessageFace("alice_fc5",0,0,2,5)
+   ShowMessage("【アリス】")
+   ShowMessage("金の装備を揃えるなら、目的地はミダス村だな。")
+   ShowMessage("ハーピーの塔からさらに北、海岸線に沿って北東だ。")
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",0,0,2,6)
+   ShowMessage("【イリアス】")
+   ShowMessage("金の装備を揃えるなら、目的地はミダス村ですね。")
+   ShowMessage("ハーピーの塔からさらに北、海岸線に沿って北東です。")
+   0()
+  EndIf()
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+ PAGE   3
+  // condition: variable 1001 >= 11
+  0()
+ PAGE   4
+  // condition: variable 1015 >= 2
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  // condition: variable 1011 >= 4
+  If(1,1011,0,4,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【ハーピー】")
+   ShowMessage("ありがとね！")
+   ShowMessage("自然治癒だけに頼った場合、完治まで数十年はかかったところよ！")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("56")
+   ShowMessageFace("inp_fc1",0,0,2,2)
+   ShowMessage("【ラミ】")
+   ShowMessage("ねぇねぇ、お空を飛ぶ方法おしえて？")
+   ShowMessage("あたし、飛ぶのがとっても苦手なの……")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【ハーピー】")
+   ShowMessage("う～ん、方法って言われても……")
+   ShowMessage("私達は当たり前のように飛べるから、逆に難しいわね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1011,0,5,1)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【ハーピー】")
+   ShowMessage("女王様まで助けてくれたんだ！")
+   ShowMessage("キミって、本当にこの集落の恩人だよね♪")
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【ハーピー】")
+   ShowMessage("冒険が終わったら、ここに住みなよ。")
+   ShowMessage("それで、いっぱい子孫を残そうよ……♪")
+   If(1,1142,0,62,2)
+    If(0,6,0)
+     ShowMessageFace("sonia_fc2",6,0,2,6)
+     ShowMessage("【ソニア】")
+     ShowMessage("ダメ～！")
+     0()
+    EndIf()
+    0()
+   EndIf()
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   48
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【ハーピー】")
+  ShowMessage("ミダス村には、伝説のメイドさんがいるらしいわ。")
+  ShowMessage("今はおばあさんだけど、孫娘姉妹もメイド職を継いでいるみたいよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("64")
+  If(1,1017,0,0,0)
+   ShowMessageFace("pramia_fc1",0,0,2,2)
+   ShowMessage("【プチ】")
+   ShowMessage("伝説のメイド！？")
+   ShowMessage("ぜひ会いに行かないとね……")
+   0()
+  EndIf()
+  If(1,1017,0,1,1)
+   ShowMessageFace("pramia_fc1",0,0,2,3)
+   ShowMessage("【プチ】")
+   ShowMessage("会いに行ったよ！")
+   ShowMessage("すごく気品のある人だったよね……")
+   0()
+  EndIf()
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   50
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【セイレーン】")
+  ShowMessage("洞窟や塔で目的を果たした後、徒歩で戻るのは面倒じゃない？")
+  ShowMessage("そういう時、ダンジョンから一気に脱出できる魔法があるわよ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【セイレーン】")
+  ShowMessage("時魔導師が覚える「テレポート」っていう魔法ね。")
+  ShowMessage("パーティに使えるヒトがいると、とても便利よ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【セイレーン】")
+  ShowMessage("時魔導師に転職するには、どうすればいいかって……？")
+  ShowMessage("魔法使いをマスターにすると、転職可能になるわよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("56")
+  ShowMessageFace("inp_fc1",0,0,2,4)
+  ShowMessage("【ラミ】")
+  ShowMessage("あたしは、時魔導師より黒魔導師になりたいな。")
+  ShowMessage("なんか、バ～ッと燃やせるしね♪")
+  EndEventProcessing()
+  DefineLabel("78")
+  ShowMessageFace("syesta_fc1",0,0,2,5)
+  ShowMessage("【シェスタ】")
+  ShowMessage("時魔導師……少し興味があるわ……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   51
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【ハーピー】")
+  ShowMessage("ハーピーの憧れの職業は、やっぱり竜騎士よね。")
+  ShowMessage("槍を片手に空を駆ける騎士……ああ、憧れるわ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【ハーピー】")
+  ShowMessage("槍技の威力は素早さが高いほど上がるから、相性も良いわよ。")
+  ShowMessage("空を飛び回りながら、大暴れしてみたいわよね。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【ハーピー】")
+  ShowMessage("竜騎士に転職するには、どうすればいいかって……？")
+  ShowMessage("戦士をマスターすればいいわよ。")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【ハーピー】")
+  ShowMessage("問題は、ハーピーと戦士の相性が良くない事よね。")
+  ShowMessage("あたし達は貧弱だから、肉体系の戦士には向かないのよ……")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("【ハーピー】")
+  ShowMessage("でも、辛い下積みを乗り越えてこその栄光よ！")
+  ShowMessage("ハーピーが仲間にいたら、竜騎士にしてみたらどう？")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("101")
+  ShowMessageFace("cent2_fc1",0,0,2,6)
+  ShowMessage("【リヒティーヌ】")
+  ShowMessage("ケンタウロスも、竜騎士向きよ。")
+  ShowMessage("しっかり育ててよね。")
+  EndEventProcessing()
+  DefineLabel("260")
+  ShowMessageFace("k_hapy_fc1",0,0,2,7)
+  ShowMessage("【クリス】")
+  ShowMessage("私はすでに、ハーピーの騎士だ。")
+  ShowMessage("しかし気性の問題もあり、武芸を志す同胞は少ないな……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   52
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【ハーピー】")
+  ShowMessage("ハーピーは「翼技」っていうスキルが使えるわよ。")
+  ShowMessage("はばたきで突風を起こしたりする技が代表的ね。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【ハーピー】")
+  ShowMessage("「翼技」は、素早さが高いほど威力も上がるの。")
+  ShowMessage("私達ハーピーには、相性がとってもいいスキルよ。")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【ハーピー】")
+  ShowMessage("だからハーピーを仲間にしたら、素早さの上がる装備を心掛けてね。")
+  ShowMessage("扇とか、特にオススメよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("72")
+  ShowMessageFace("phoenix_fc1",1,0,2,4)
+  ShowMessage("【ミニ】")
+  ShowMessage("扇を片手にダンシングだぞー！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   53
+ PAGE   1
+  // condition: variable 1011 >= 4
+  If(1,1011,0,4,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【ハーピー】")
+   ShowMessage("長い間集落を空けてたから、掃除が大変よ。")
+   ShowMessage("草もぼうぼうになってるしね……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("56")
+   ShowMessageFace("inp_fc1",0,0,2,2)
+   ShowMessage("【ラミ】")
+   ShowMessage("草むしり手伝ってあげるから、空飛ぶ方法を教えて？")
+   ShowMessage("あたし、飛ぶのがとっても苦手なの。")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【ハーピー】")
+   ShowMessage("どうやって飛ぶのかなんて、逆に難しいわね……")
+   ShowMessage("なんかこう、パタパタと……どう？")
+   ShowMessageFace("inp_fc1",2,0,2,4)
+   ShowMessage("【ラミ】")
+   ShowMessage("ぱたぱたしても、浮かないよ～！")
+   EndEventProcessing()
+   DefineLabel("540")
+   ShowMessageFace("amira_fc1",0,0,2,5)
+   ShowMessage("【アミラ】")
+   ShowMessage("草むしりは大の得意よ。")
+   ShowMessage("手伝ってあげようかしら……？")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1011,0,5,1)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【ハーピー】")
+   ShowMessage("わ～い、女王様が帰ってきた～♪")
+   ShowMessage("ありがとね、女王様まで助けてくれて♪")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   54
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,355,325,0,0)
+  0()
+
+
+
+EVENT   55
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,355,325,0,0)
+  0()
+
+
+
+EVENT   56
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,355,325,0,0)
+  0()
+
+
+
+EVENT   57
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,355,325,0,0)
+  0()
+
+
+
+EVENT   58
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,2,355,325,0,0)
+  0()
+
+
+
+EVENT   49
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【ハーピー】")
+  ShowMessage("ハーピーの集落にようこそ！")
+  ShowMessage("さあ、どこへ行きたい？")
+  281(1)
+  ShowChoices(strings("宿屋","道具屋","女王の家","やめる"),4)
+  IfPlayerPicksChoice(0,null)
+   TeleportPlayer(0,339,20,43,2,0)
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(1,null)
+   TeleportPlayer(0,339,15,26,2,0)
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(2,null)
+   TeleportPlayer(0,223,35,5,2,0)
+   EndEventProcessing()
+   0()
+  IfPlayerPicksChoice(3,null)
+   EndEventProcessing()
+   0()
+  404()
+  0()
+
+
+
+EVENT   60
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【ハーピー】")
+  ShowMessage("塔の中で、小さなメダル拾ったんだ。")
+  ShowMessage("メダル女王に交換してもらおっと！")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【ハーピー】")
+  ShowMessage("え……？　メダル女王の場所？")
+  ShowMessage("ハーピーの塔から北にある、転送のほこらから行けるわよ。")
+  0()
+
+
+
+EVENT   59
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【セイレーン】")
+  ShowMessage("ららららら～♪")
+  ShowMessage("……っと、集落の中じゃ歌っちゃいけないんだっけ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【セイレーン】")
+  ShowMessage("意図しなくても、歌声に魔力が乗っちゃうのは困りものよね。")
+  ShowMessage("いっそ、みんな耳栓してくれないかしら……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("59")
+  ShowMessageFace("mdg_fc1",0,0,2,3)
+  ShowMessage("【ラゴラ】")
+  ShowMessage("その気持ち、すごく分かるわ……！")
+  ShowMessage("私も、めいっぱい歌ってみたいんだけど……")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【セイレーン】")
+  ShowMessage("お互い、苦労するわよね……")
+  EndEventProcessing()
+  DefineLabel("75")
+  ShowMessageFace("hituzi_fc1",3,0,2,5)
+  ShowMessage("【メリー】")
+  ShowMessage("ひつじさんは最初から頭ラリってるから、気にしないのらよ。")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",3,0,2,6)
+  ShowMessage("【サキ】")
+  ShowMessage("いいじゃない、一緒に歌って踊ろうよ♪")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   62
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("→まっすぐ右、木の裏側")
+  0()
+
+
+
+EVENT   63
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("←まっすぐ左、木の裏側")
+  0()
+
+
+
+EVENT   64
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("↑まっすぐ、木の裏側")
+  0()
+
+
+
+EVENT   65
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,339,30,28,2,0)
+  0()
+
+
+
+EVENT   66
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,339,9,13,2,0)
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  // condition: variable 1011 >= 4
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【ハーピー】")
+  ShowMessage("先代の女王は、戦神と呼ばれていたほど戦いに強かったわ。")
+  ShowMessage("でも戦乱の日々が長く続き、種族全体が疲れ果ててしまったの……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【ハーピー】")
+  ShowMessage("代替わりした今の女王様は、本当にお優しく聡明な方よ。")
+  ShowMessage("強さは前女王ほどではないけど、断然今の女王様の方がいいわ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("71")
+  ShowMessageFace("okami_fc1",2,0,2,3)
+  ShowMessage("【アマラ】")
+  ShowMessage("無駄な争いは、仲間の数を減らすもんな……")
+  EndEventProcessing()
+  DefineLabel("82")
+  ShowMessageFace("suzume_fc1",0,0,2,4)
+  ShowMessage("【ちゅん】")
+  ShowMessage("私も、今の女王様が大好きです。")
+  ShowMessage("戦争ばかりなんて、イヤですよね……")
+  EndEventProcessing()
+  DefineLabel("323")
+  ShowMessageFace("queenhapy_fc1",0,0,2,5)
+  ShowMessage("【ルクレツィア】")
+  ShowMessage("皆に平和をもたらす事が、女王の職務……")
+  ShowMessage("私はそう考えています。")
+  ShowMessageFace("",0,0,2,6)
+  ShowMessage("【ハーピー】")
+  ShowMessage("あっ、女王様～♪")
+  EndEventProcessing()
+  DefineLabel("376")
+  ShowMessageFace("cirqueb_fc5",0,0,2,7)
+  ShowMessage("【リフレツィア】")
+  ShowMessage("私の代に敵対勢力を壊滅させたからこそ……")
+  ShowMessage("今のこの繁栄があるのよ。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  282(38)
+  0()
+
+
+
+EVENT   71
+ PAGE   1
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  0()
+
+
+
+EVENT   67
+ PAGE   1
+  0()
+
+
+
+EVENT   68
+ PAGE   1
+  0()
+
+
+
+EVENT   69
+ PAGE   1
+  0()
+
+
+
+EVENT   70
+ PAGE   1
+  0()
+
+
+
+EVENT   72
+ PAGE   1
+  0()
+
+
+
+EVENT   73
+ PAGE   1
+  0()
+
+
+
+EVENT   74
+ PAGE   1
+  0()
+
+
+
+EVENT   75
+ PAGE   1
+  0()
+
+
+
+EVENT   76
+ PAGE   1
+  0()
+
+
+
+EVENT   77
+ PAGE   1
+  0()
+
+
+
+EVENT   78
+ PAGE   1
+  0()
+
+
+
+EVENT   79
+ PAGE   1
+  0()
+
+
+
+EVENT   80
+ PAGE   1
+  0()
+
+
+
+EVENT   81
+ PAGE   1
+  0()
+
+
+
+EVENT   82
+ PAGE   1
+  0()
+
+
+
+EVENT   83
+ PAGE   1
+  0()
+
+
+
+EVENT   84
+ PAGE   1
+  0()
+
+
+
+EVENT   85
+ PAGE   1
+  0()
+
+
+
+EVENT   86
+ PAGE   1
+  // condition: variable 1011 >= 4
+  If(1,1011,0,4,2)
+   ShowMessageFace("suzume_fc1",1,0,2,1)
+   ShowMessage("【スズメ娘】")
+   ShowMessage("ちゅんちゅん！　やっぱり外はいいですね～♪")
+   ShowMessage("本当にありがとうございました♪")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("72")
+   ShowMessageFace("phoenix_fc1",1,0,2,2)
+   ShowMessage("【ミニ】")
+   ShowMessage("そうだな！　外でパタパタするのは、楽しいもんな！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1011,0,5,1)
+   ShowMessageFace("suzume_fc1",1,0,2,3)
+   ShowMessage("【スズメ娘】")
+   ShowMessage("ちゅんちゅん！　女王様の病気が治りました！")
+   ShowMessage("これで集落の上下関係も、大きく激動しますね♪")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,340,12,61,0,0)
+  If(1,1011,0,1,0)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("部屋の中に、争った形跡はないようだ……")
+   ShowMessage("……奥の方に、誰かいる！")
+   0()
+  EndIf()
+  0()

@@ -1,0 +1,612 @@
+﻿
+DisplayName "サン・イリア城 兵舎"
+
+
+
+EVENT   7
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,355,3,35,0,0)
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,355,3,35,0,0)
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,355,3,35,0,0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,355,3,35,0,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,355,3,35,0,0)
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,355,3,35,0,0)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  281(0)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,355,3,35,0,0)
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵Ａ】")
+  ShowMessage("ふぅ、今日もコーヒーが美味しい……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【衛兵Ｂ】")
+  ShowMessage("この仕事は、メリハリが大切なのだ。")
+  ShowMessage("職務中にはしっかり気合いを入れ、休憩時はしっかり休む……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【衛兵Ｂ】")
+  ShowMessage("そういう事で、決してサボっている訳ではないぞ。")
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵Ａ】")
+  ShowMessage("ふぅ、今日もコーヒーが美味しい……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【衛兵Ｂ】")
+  ShowMessage("この仕事は、メリハリが大切なのだ。")
+  ShowMessage("職務中にはしっかり気合いを入れ、休憩時はしっかり休む……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【衛兵Ｂ】")
+  ShowMessage("そういう事で、決してサボっている訳ではないぞ。")
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【衛兵】")
+   ShowMessage("グランドノア国境では、サン・イリアからの遠征軍が今も戦っている。")
+   ShowMessage("私の友人は、無事だろうか……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【衛兵】")
+   ShowMessage("遠征先から戻ってきたと思えば、領内警備の日々……")
+   ShowMessage("心が安まる暇はないな。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【騎士】")
+   ShowMessage("次は、私も遠征軍に参加する予定だ。")
+   ShowMessage("今のうちに英気を養っておかねばな……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("75")
+   ShowMessageFace("hituzi_fc1",3,0,2,2)
+   ShowMessage("【メリー】")
+   ShowMessage("酒もいっぱい飲んでおくのら。")
+   EndEventProcessing()
+   DefineLabel("100")
+   ShowMessageFace("rahure_fc1",1,0,2,3)
+   ShowMessage("【フレシア】")
+   ShowMessage("それじゃあ、闘志の湧き出る匂いをプレゼント……")
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【騎士】")
+   ShowMessage("くっ、臭っ……！　ぐぁぁぁぁっ！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【騎士】")
+   ShowMessage("当分は休暇など無しだな……")
+   ShowMessage("とは言え今は五百年前以来の危機、それも致し方あるまい。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【衛兵】")
+   ShowMessage("グランゴルドの圧政、許してはおけない！")
+   ShowMessage("悪しき侵攻を食い止める盾とならん！　オリャー！")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("71")
+   ShowMessageFace("okami_fc1",0,0,2,2)
+   ShowMessage("【アマラ】")
+   ShowMessage("ドリャー！")
+   EndEventProcessing()
+   DefineLabel("74")
+   ShowMessageFace("usagi_fc1",2,0,2,3)
+   ShowMessage("【バーニー】")
+   ShowMessage("そんなに飛ばしていると、戦場じゃすぐへたばるわよ。")
+   ShowMessage("なんだか危なっかしい子ね……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【衛兵】")
+   ShowMessage("魔王軍の侵略、許してはおけない！")
+   ShowMessage("悪しき侵攻を食い止める盾とならん！　オリャー！")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【衛兵】")
+   ShowMessage("大きな声では言えないけど……")
+   ShowMessage("遠征軍には参加したくないものだよ。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【衛兵】")
+   ShowMessage("グランゴルドの率いる自動人形やアリ娘の大軍団……")
+   ShowMessage("そんなの、怖すぎて戦いたくないよ。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【衛兵】")
+   ShowMessage("大きな声では言えないけど……")
+   ShowMessage("魔王軍となんて戦いたくないのだよ。")
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【衛兵】")
+   ShowMessage("上級の妖魔相手に、俺なんかが勝てるものか。")
+   ShowMessage("命がいくつあっても足りないぜ……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   0()
+  EndIf()
+  DefineLabel("75")
+  ShowMessageFace("hituzi_fc1",3,0,2,5)
+  ShowMessage("【メリー】")
+  ShowMessage("そういう時は、ぐびぐび飲むのら！")
+  EndEventProcessing()
+  DefineLabel("114")
+  ShowMessageFace("wakame_fc1",1,0,2,6)
+  ShowMessage("【わかめ】")
+  ShowMessage("それでも、いいよね。")
+  ShowMessage("こわいものは、こわいんだから……ゆらゆら。")
+  EndEventProcessing()
+  DefineLabel("143")
+  ShowMessageFace("eva_fc1",2,0,2,7)
+  ShowMessage("【エヴァ】")
+  ShowMessage("イヤならサボっちゃえば？")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【騎士】")
+  ShowMessage("はっ……！　やっ……！")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【騎士】")
+  ShowMessage("戦場で重要なのはスタミナだ。")
+  ShowMessage("派手に暴れ回ってたら、たちまちバテて討ち取られるぞ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("103")
+  ShowMessageFace("kamuro_fc1",0,0,2,3)
+  ShowMessage("【かむろ】")
+  ShowMessage("なるほど、勉強になります……")
+  EndEventProcessing()
+  DefineLabel("141")
+  ShowMessageFace("mino_fc1",0,0,2,4)
+  ShowMessage("【ミナ】")
+  ShowMessage("つまり、牛丼が大事だって事だな！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【衛兵】")
+   ShowMessage("やっぱ、ナメられないように格好良い鎧にしないとな……")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【衛兵】")
+   ShowMessage("でも、あまり立派なのにすると敵兵に狙われすぎたり……")
+   ShowMessage("うむむ、悩むなぁ。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("113")
+   ShowMessageFace("lamia_fc1",0,0,2,3)
+   ShowMessage("【アナスタシア】")
+   ShowMessage("へぇ……鎧選びも大変なのね。")
+   ShowMessage("好きにお洒落できないなんて、お気の毒……")
+   EndEventProcessing()
+   DefineLabel("156")
+   ShowMessageFace("d_fighter_fc1",0,0,2,4)
+   ShowMessage("【レジーナ】")
+   ShowMessage("じろじろ見られるよりは、狙われる方がマシでしょ……")
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【衛兵】")
+   ShowMessage("わっ！　なんだ、その格好……！？")
+   ShowMessageFace("d_fighter_fc1",0,0,2,6)
+   ShowMessage("【レジーナ】")
+   ShowMessage("……………………")
+   EndEventProcessing()
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【衛兵】")
+   ShowMessage("魔王軍と戦うんだ、勇者っぽい鎧がいいよな。")
+   ShowMessage("うむむ、迷うぜ……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【青年】")
+  ShowMessage("今週は久々の休暇だよ。")
+  ShowMessage("家に帰ってゆっくりするか……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("59")
+  ShowMessageFace("mdg_fc1",0,0,2,2)
+  ShowMessage("【ラゴラ】")
+  ShowMessage("私はいつも休暇よ……")
+  EndEventProcessing()
+  DefineLabel("109")
+  ShowMessageFace("kani_fc1",0,0,2,3)
+  ShowMessage("【ソープ】")
+  ShowMessage("ちゃんと体も洗いなさいね。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【衛兵】")
+   ShowMessage("俺の友人は、遠征先で戦死しちまった。")
+   ShowMessage("仇を取るため、次の遠征部隊に志願したんだ。")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("93")
+   ShowMessageFace("liot_fc1",0,0,2,2)
+   ShowMessage("【ライオット】")
+   ShowMessage("その友の分まで、戦い抜くがいい……")
+   EndEventProcessing()
+   DefineLabel("109")
+   ShowMessageFace("kani_fc1",0,0,2,3)
+   ShowMessage("【ソープ】")
+   ShowMessage("ちょっと頭冷やしなよ、あんたも死んじゃうよ？")
+   ShowMessage("あたしが洗ってあげようか？")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【衛兵】")
+   ShowMessage("グランゴルドとの戦争は終わったけど……")
+   ShowMessage("それでも、死んだ戦友のために戦い続けるよ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  If(1,1001,0,19,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【衛兵】")
+   ShowMessage("マールポートへの洞窟が封鎖されて、ずいぶんになりますね。")
+   ShowMessage("ラダイト村の北に、洞窟があるのをご存じですか？")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【衛兵】")
+   ShowMessage("あの洞窟は、北のマールポートという港町と繋がっているのですが……")
+   ShowMessage("戦争の勃発により、封鎖されてしまったのですよ。")
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【衛兵】")
+   ShowMessage("そういうわけで、陸路でマールポートに行くことは出来ません。")
+   ShowMessage("いつになったら解除されるんですかね……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("62")
+   ShowMessageFace("gob_fc1",3,0,2,4)
+   ShowMessage("【ゴブ】")
+   ShowMessage("さすがのボクも、海の上は走れないや……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,20,1)
+   If(1,1001,0,25,2)
+    ShowMessageFace("",0,0,2,5)
+    ShowMessage("【衛兵】")
+    ShowMessage("マールポートへの洞窟ですが、通行止めが解除されたようですね。")
+    ShowMessage("しかし海上封鎖が厳しく、グランドノアへの客船は出ていないとか……")
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【衛兵】")
+   ShowMessage("グランゴルド王まで、魔王の手先に操られていたとは……")
+   ShowMessage("各国の王を洗脳するとは、魔王おそるべし……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("ぐごー、ぐごー……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("ぐっすり眠っている……")
+  ShowMessage("単にベッドからずり落ちただけのようだ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("56")
+  ShowMessageFace("inp_fc1",0,0,2,3)
+  ShowMessage("【ラミ】")
+  ShowMessage("あたしもたまに、おっぱいの重みでベッドから落ちちゃうよ。")
+  EndEventProcessing()
+  DefineLabel("99")
+  ShowMessageFace("namazu_fc1",0,0,2,4)
+  ShowMessage("【ギギ】")
+  ShowMessage("なんという寝相じゃ。")
+  ShowMessage("これ起きんか、風邪を引くぞ……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("アッー！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("120")
+  ShowMessageFace("page257_fc1",0,0,2,2)
+  ShowMessage("【ヨーコ】")
+  ShowMessage("…………♪")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("備蓄もずいぶん減ったな……")
+  ShowMessage("正直なところ、サン・イリアの軍事力は高いとは言えない。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【衛兵】")
+  ShowMessage("騎士団の精鋭達はかなりの練度だが……")
+  ShowMessage("他の大国に比べて、少数精鋭志向なのは否めないな。")
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【衛兵】")
+   ShowMessage("遠征に行く前に、マリアさんに想いを伝えて……")
+   ShowMessage("あわよくば、結婚の約束を……")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【衛兵】")
+   ShowMessage("……って、これ死亡フラグじゃないか！")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("83")
+   ShowMessageFace("hapy_a_fc1",0,0,2,3)
+   ShowMessage("【レイナ】")
+   ShowMessage("でも、想いは伝えないとね～♪")
+   EndEventProcessing()
+   DefineLabel("122")
+   ShowMessageFace("sisterlamia_fc1",0,0,2,4)
+   ShowMessage("【ソフィア】")
+   ShowMessage("ご安心を……")
+   ShowMessage("あからさまな死亡フラグは、逆に生存フラグなのです。")
+   EndEventProcessing()
+   DefineLabel("152")
+   ShowMessageFace("lamias_fc2",4,0,2,5)
+   ShowMessage("【ネフェルラミアス】")
+   ShowMessage("ほら、早く行きなさいよ！")
+   ShowMessage("どうなったか、結果聞かせてよね。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,6)
+   ShowMessage("【衛兵】")
+   ShowMessage("マリアさんにプロポーズしましたが、玉砕しました。")
+   ShowMessage("そもそも恋人でも何でもなかったので、それも当然ですね。")
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【衛兵】")
+   ShowMessage("なんと、魔王が人類を滅ぼそうとしているのですか？")
+   ShowMessage("それはいい、なるようになれ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  If(1,1001,0,25,2)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【騎士】")
+   ShowMessage("この戦争、なんとか早く終わってもらいたいものだ……")
+   ShowMessage("グランゴルドは、なぜ急に領土欲を剥き出しにしたのだろう。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【騎士】")
+   ShowMessage("少なくとも、先代まではグランドノアとの関係は良好だった。")
+   ShowMessage("やはり、現在の魔導王に代替わりしてから……")
+   355("actor_label_jump")
+   EndEventProcessing()
+   DefineLabel("103")
+   ShowMessageFace("kamuro_fc1",0,0,2,3)
+   ShowMessage("【かむろ】")
+   ShowMessage("人間同士も戦争をするのですね。")
+   ShowMessage("争い合うのは魔物だけかと思っていました……")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1001,0,26,1)
+   ShowMessageFace("",0,0,2,4)
+   ShowMessage("【騎士】")
+   ShowMessage("グランゴルドを打ち破ったと思えば、次は魔王か……")
+   ShowMessage("噂の勇者ルカにがんばってもらうしかないな。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【犬】")
+  ShowMessage("わん！　わん！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("60")
+  ShowMessageFace("dog_fc1",4,0,2,2)
+  ShowMessage("【ポチ】")
+  ShowMessage("わうー♪")
+  EndEventProcessing()
+  DefineLabel("525")
+  ShowMessageFace("sonia_fc1",0,0,2,3)
+  ShowMessage("【ソニア】")
+  ShowMessage("兵舎で飼われてる犬みたいね。")
+  ShowMessage("みんなのマスコットかな？")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(40,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【シスター】")
+  ShowMessage("汗だらけで訓練する殿方って……ステキ……")
+  ShowMessage("……はぁはぁ……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("82")
+  ShowMessageFace("suzume_fc1",3,0,2,2)
+  ShowMessage("【ちゅん】")
+  ShowMessage("私は、汗臭いのって苦手です……")
+  EndEventProcessing()
+  DefineLabel("107")
+  ShowMessageFace("namako_fc1",0,0,2,3)
+  ShowMessage("【ユメ】")
+  ShowMessage("その汗を、じゅるじゅる搾りたいわ……")
+  EndEventProcessing()
+  DefineLabel("108")
+  ShowMessageFace("kai_fc1",0,0,2,4)
+  ShowMessage("【シェリー】")
+  ShowMessage("ええ、本当に……")
+  ShowMessage("お婿さんになりそうな方は、いないでしょうか？")
+  EndEventProcessing()
+  DefineLabel("120")
+  ShowMessageFace("page257_fc1",0,0,2,5)
+  ShowMessage("【ヨーコ】")
+  ShowMessage("まったく興味をそそりません……")
+  ShowMessage("理知的な殿方はいないのですか？")
+  EndEventProcessing()
+  0()

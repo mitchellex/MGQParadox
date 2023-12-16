@@ -1,0 +1,1299 @@
+﻿
+
+
+EVENT   2
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,53,47,22,0,0)
+  216(0)
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,53,24,24,0,0)
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,53,11,32,0,0)
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,53,50,31,0,0)
+  0()
+
+
+
+EVENT   6
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,53,30,44,0,0)
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,53,48,40,0,0)
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【店主】")
+  ShowMessage("ふむ……何の用だね？")
+  Shop(1,128,0,0,false)
+  605(1,243,0,0)
+  605(1,268,0,0)
+  605(2,12,0,0)
+  605(2,136,0,0)
+  605(2,189,0,0)
+  605(2,212,0,0)
+  605(2,248,0,0)
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【ノブナガ】")
+  ShowMessage("汝、道具の準備を怠るなかれ……")
+  Shop(0,2,0,0,false)
+  605(0,13,0,0)
+  605(0,17,0,0)
+  605(0,18,0,0)
+  605(0,20,0,0)
+  605(0,102,0,0)
+  605(2,1051,0,0)
+  605(2,1143,0,0)
+  605(2,1148,0,0)
+  605(2,1163,0,0)
+  605(2,1164,0,0)
+  605(2,1721,0,0)
+  0()
+
+
+
+EVENT   12
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【野菜売りの少女】")
+  ShowMessage("やさい、いりませんかー？")
+  Shop(0,308,0,0,false)
+  605(0,310,0,0)
+  605(0,312,0,0)
+  0()
+
+
+
+EVENT   13
+ PAGE   1
+  281(1)
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x09,0x4d,0x6f,0x76,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  TeleportPlayer(0,53,31,18,0,0)
+  0()
+
+
+
+EVENT   14
+ PAGE   1
+  0()
+
+
+
+EVENT   18
+ PAGE   1
+  ShowMessageFace("youki_fc1",0,0,2,1)
+  ShowMessage("【妖鬼】")
+  ShowMessage("職業「狂戦士」って知ってるか？")
+  ShowMessage("斧を振り回して暴れ回る、文字通り狂った戦士だ。")
+  ShowMessageFace("youki_fc1",0,0,2,2)
+  ShowMessage("【妖鬼】")
+  ShowMessage("戦闘中、いっさいの命令を受け付けないが……")
+  ShowMessage("そのパワーは、圧倒的だとさ。")
+  ShowMessageFace("youki_fc1",0,0,2,3)
+  ShowMessage("【妖鬼】")
+  ShowMessage("通常攻撃で溜まるSPの量が多くなるアビリティも、魅力らしい。")
+  ShowMessage("戦技スキルが得意な奴は、狂戦士を経験させてみたらどうだ？")
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【店員】")
+  ShowMessage("お食事処へようこそ！")
+  ShowMessage("ご注文は何になさいますか？")
+  Shop(0,361,0,0,false)
+  605(0,408,0,0)
+  605(0,410,0,0)
+  605(0,411,0,0)
+  0()
+
+
+
+EVENT   19
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【店員】")
+  ShowMessage("鬼ってのは、よく食うな……")
+  ShowMessage("また買い出しに行かなくちゃ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("164")
+  ShowMessageFace("kooni_fc1",0,0,2,2)
+  ShowMessage("【雫】")
+  ShowMessage("小鬼だって、いっぱい食べるよ～！")
+  EndEventProcessing()
+  DefineLabel("300")
+  ShowMessageFace("youki_fc1",0,0,2,3)
+  ShowMessage("【くれは】")
+  ShowMessage("そりゃ、鬼だもんな！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   20
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【店員】")
+  ShowMessage("こっちは炊事場です。")
+  ShowMessage("注文は、お座敷の方でどうぞ～。")
+  0()
+
+
+
+EVENT   21
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【老婆】")
+  ShowMessage("こんな遠くの村まで、よくぞ来なさった。")
+  ShowMessage("5Gで泊まっていくかね？\\$")
+  ShowChoices(strings("はい","いいえ"),2)
+  IfPlayerPicksChoice(0,null)
+   If(7,5,0)
+    125(1,0,5)
+    221()
+    249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x08,0x49,0x6e,0x6e,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+    Wait(150)
+    314(0,0)
+    222()
+    0()
+   Else()
+    ShowMessageFace("",0,0,2,2)
+    ShowMessage("【老婆】")
+    ShowMessage("文無しか……さっさと失せな。")
+    0()
+   EndIf()
+   0()
+  IfPlayerPicksChoice(1,null)
+   0()
+  404()
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  ShowMessageFace("kappa_fc1",0,0,2,1)
+  ShowMessage("【河童の鍛冶屋】")
+  ShowMessage("かっぱっぱ～♪")
+  ShowMessage("河童の鍛冶屋だよ～♪")
+  355("call_synthesize(15)")
+  0()
+
+
+
+EVENT   16
+ PAGE   1
+  If(1,1217,0,1,1)
+   If(1,1217,0,3,2)
+    If(1,1217,0,1,0)
+     ChangeVariable(1217,1217,0,0,2)
+     0()
+    EndIf()
+    ShowMessageFace("",0,0,2,1)
+    ShowMessage("【村長】")
+    ShowMessage("おおっ、来て下さいましたか！")
+    ShowMessage("妲己なる者が、狐神社にて目撃されたのです！")
+    ShowMessageFace("",0,0,2,2)
+    ShowMessage("【村長】")
+    ShowMessage("その外見は、グランドノアの手配書の通り。")
+    ShowMessage("紫の狐の姿をしておりました。")
+    ShowMessageFace("",0,0,2,3)
+    ShowMessage("【村長】")
+    ShowMessage("聞いた話、とても恐ろしい妖魔とか……")
+    ShowMessage("なにとぞ、退治をお願いいたします。")
+    ShowMessageFace("kazuya_fc1",0,0,2,4)
+    ShowMessage("【カズヤ】")
+    ShowMessage("ああ、任せておいてくれ。")
+    If(0,4,0)
+     ShowMessageFace("alice_fc5",2,0,2,5)
+     ShowMessage("【アリス】")
+     ShowMessage("狐神社か……さっそく、行ってみるぞ！")
+     0()
+    EndIf()
+    If(0,5,0)
+     ShowMessageFace("iriasu_fc4",7,0,2,6)
+     ShowMessage("【イリアス】")
+     ShowMessage("狐神社ですね……さっそく行きましょう！")
+     0()
+    EndIf()
+    EndEventProcessing()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(1,1055,0,0,0)
+   ShowMessageFace("",0,0,2,7)
+   ShowMessage("【村長】")
+   ShowMessage("おお、困った……")
+   ShowMessage("実に困った……")
+   ShowMessageFace("",0,0,2,8)
+   ShowMessage("【村長】")
+   ShowMessage("いえいえ、こちらの都合です。")
+   ShowMessage("旅人の方には、関わりのない話ですよ。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1055,0,1,0)
+   ChangeVariable(1055,1055,0,0,2)
+   ShowMessageFace("",0,0,2,9)
+   ShowMessage("【村長】")
+   ShowMessage("おお！　来てくれましたか！")
+   ShowMessage("グランドノアからの使いですな？")
+   ShowMessageFace("durahan_fc1",0,0,2,10)
+   ShowMessage("【アーサー】")
+   ShowMessage("その通り、要請を受けて参った。")
+   ShowMessage("いったい、何が起きているのだ？")
+   If(4,203,0)
+    ShowMessageFace("tatunoko_k_fc1",1,0,2,11)
+    ShowMessage("【たつこ】")
+    ShowMessage("あたし達が、解決するのです！")
+    0()
+   EndIf()
+   ShowMessageFace("",0,0,2,12)
+   ShowMessage("【村長】")
+   ShowMessage("この村には、狐神社、狸神社、猫神社、蛇神社の")
+   ShowMessage("四大神社があるのですが……")
+   ShowMessageFace("",0,0,2,13)
+   ShowMessage("【村長】")
+   ShowMessage("そこに奉じられているそれぞれの神が、ご乱心なのです。")
+   ShowMessage("困り事が立て続けに四つも発生し、どうして良いやら……")
+   If(4,201,0)
+    ShowMessageFace("ashel_fc1",0,0,2,14)
+    ShowMessage("【アシェル】")
+    ShowMessage("トラブルは往々にして重なるもんだけど……")
+    ShowMessage("四つも同時とはねぇ。")
+    0()
+   EndIf()
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",0,0,2,15)
+    ShowMessage("【アリス】")
+    ShowMessage("なるほど……")
+    ShowMessage("四つの困り事というのを、説明してもらおうか。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,16)
+    ShowMessage("【イリアス】")
+    ShowMessage("困りごとが四つですか……")
+    ShowMessage("とりあえず、ひとつひとつ報告するのです。")
+    0()
+   EndIf()
+   ShowMessageFace("",0,0,2,17)
+   ShowMessage("【村長】")
+   ShowMessage("まず、蛇神社の白蛇様ですが……")
+   ShowMessage("配下の妖怪達を集め、妖怪軍団を結成しているのです。")
+   ShowMessageFace("",0,0,2,18)
+   ShowMessage("【村長】")
+   ShowMessage("どうやら手勢を集め、村を支配するつもりとか……")
+   ShowMessage("そのための準備を、着々と進めているというのです。")
+   ShowMessageFace("ruka_fc1",0,0,2,19)
+   ShowMessage("【ルカ】")
+   ShowMessage("妖怪軍を率いて、村を攻撃……？")
+   ShowMessage("そんなの、やめさせないと！")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",0,0,2,20)
+    ShowMessage("【アリス】")
+    ShowMessage("白蛇様は姉妹だったはずだが……素行の悪い姉の仕業だな。")
+    ShowMessage("蛮行を止めるため、叩きのめしてやらねばなるまい。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,21)
+    ShowMessage("【イリアス】")
+    ShowMessage("確か、白蛇様は姉妹のはず……")
+    ShowMessage("姉は特に邪悪なので、この機会に討伐せねばなりませんね。")
+    0()
+   EndIf()
+   If(4,129,0)
+    ShowMessageFace("brunhild_fc1",0,0,2,22)
+    ShowMessage("【ヒルデ】")
+    ShowMessage("任務確認、白蛇様率いる妖怪軍団を殲滅……")
+    0()
+   EndIf()
+   If(0,6,0)
+    ShowMessageFace("sonia_fc1",3,0,2,23)
+    ShowMessage("【ソニア】")
+    ShowMessage("突撃、蛇神社よね！")
+    ShowMessage("夜討ち朝駆け、乱戦上等！")
+    ShowMessageFace("ruka_fc1",0,0,2,24)
+    ShowMessage("【ルカ】")
+    ShowMessage("（火が着いてしまった……）")
+    0()
+   EndIf()
+   ShowMessageFace("",0,0,2,25)
+   ShowMessage("【村長】")
+   ShowMessage("次に狐神社の主ですが、なにやら鬱に沈んでしまい……")
+   ShowMessage("他の狐神様達にも、動揺は広がっているのです。")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",0,0,2,26)
+    ShowMessage("【アリス】")
+    ShowMessage("狐神社の主は、たまもではなかったか？")
+    ShowMessage("あいつが鬱になるなど、何があった……？")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,27)
+    ShowMessage("【イリアス】")
+    ShowMessage("狐神社の主は、あの忌々しいたまも……")
+    ShowMessage("奴が鬱になるなど、事態が読めず不気味ですね。")
+    0()
+   EndIf()
+   If(4,102,0)
+    ShowMessageFace("youko_fc1",2,0,2,28)
+    ShowMessage("【きつね】")
+    ShowMessage("たまも様、どうしちゃったのかな……？")
+    0()
+   EndIf()
+   If(4,103,0)
+    ShowMessageFace("kamuro_fc1",2,0,2,29)
+    ShowMessage("【かむろ】")
+    ShowMessage("たまも様……すごく心配です……")
+    0()
+   EndIf()
+   ShowMessageFace("",0,0,2,30)
+   ShowMessage("【村長】")
+   ShowMessage("そして狸神社の狸神様は、姿が見当たらなくなりました。")
+   ShowMessage("その代わり、そこではなぜか狐神様が泣いているのです……")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc2",2,0,2,31)
+    ShowMessage("【ソニア】")
+    ShowMessage("タヌキがいなくなって、キツネが泣いてる……")
+    ShowMessage("何か事情がありそうよね。")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,32)
+    ShowMessage("【ルカ】")
+    ShowMessage("タヌキがいなくなって、キツネが泣いてる……")
+    ShowMessage("何か事情がありそうだね。")
+    0()
+   EndIf()
+   If(4,53,0)
+    ShowMessageFace("slime_fc1",2,0,2,33)
+    ShowMessage("【ライム】")
+    ShowMessage("いじめられたのかな……？")
+    0()
+   EndIf()
+   ShowMessageFace("",0,0,2,34)
+   ShowMessage("【村長】")
+   ShowMessage("猫神社は……まあ、見れば分かるでしょう。")
+   ShowMessage("どれが猫神様だか分からなくなってしまいました。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc2",2,0,2,35)
+    ShowMessage("【ソニア】")
+    ShowMessage("分からなくなったって……どういう事？")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,36)
+    ShowMessage("【ルカ】")
+    ShowMessage("いったい、どういう事なんだ……")
+    0()
+   EndIf()
+   If(4,222,0)
+    ShowMessageFace("nekomata_fc1",4,0,2,37)
+    ShowMessage("【たま】")
+    ShowMessage("……うにゃっ？")
+    0()
+   EndIf()
+   ShowMessageFace("durahan_fc1",0,0,2,38)
+   ShowMessage("【アーサー】")
+   ShowMessage("……とりあえず、話は分かった。")
+   ShowMessage("それでは、おのおのの神社に行ってみるとしよう。")
+   ShowMessageFace("",0,0,2,39)
+   ShowMessage("【村長】")
+   ShowMessage("なにとぞ、よろしくお願い致します……")
+   ShowMessage("四神社のある神社坂は、ここから北東の村はずれです。")
+   ShowMessageFace("",0,0,2,40)
+   ShowMessage("【村長】")
+   ShowMessage("全て解決した暁には、「東方秘伝書」を差し上げましょう。")
+   ShowMessage("どうか、ご武運を。")
+   If(4,218,0)
+    ShowMessageFace("nyumaou_fc1",0,0,2,41)
+    ShowMessage("【牛魔王】")
+    ShowMessage("うむ、全て妾に任せよ！")
+    0()
+   EndIf()
+   If(4,79,0)
+    ShowMessageFace("nuruko_fc1",0,0,2,42)
+    ShowMessage("【ヌルコ】")
+    ShowMessage("きゅ～！")
+    0()
+   EndIf()
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1055,0,2,0)
+   ShowMessageFace("",0,0,2,43)
+   ShowMessage("【村長】")
+   ShowMessage("なにとぞ、よろしくお願い致します……")
+   ShowMessage("四神社のある神社坂は、ここから北西の村はずれです。")
+   ShowMessageFace("",0,0,2,44)
+   ShowMessage("【村長】")
+   ShowMessage("全て解決した暁には、「東方秘伝書」を差し上げましょう。")
+   ShowMessage("どうか、ご武運を。")
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1055,0,3,0)
+   ChangeVariable(1055,1055,0,0,4)
+   241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x14,0x73,0x63,0x65,0x6e,0x65,0x5f,0x65,0x70,0x69,0x6c,0x6f,0x67,0x75,0x65,0x32,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+   355("gain_medal(35)")
+   ShowMessageFace("durahan_fc1",1,0,2,45)
+   ShowMessage("【アーサー】")
+   ShowMessage("村長よ、困り事は全て解決したぞ。")
+   ShowMessageFace("",0,0,2,46)
+   ShowMessage("【村長】")
+   ShowMessage("おお、ありがとうございます！")
+   ShowMessage("お礼に、これをお受け取り下さい！")
+   250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+   ChangeInventory_Item(603,0,0,1)
+   If(4,202,0)
+    ShowMessageFace("bonny_fc1",1,0,2,47)
+    ShowMessage("【ボニー】")
+    ShowMessage("やったぞ、お宝ゲットだ！")
+    0()
+   EndIf()
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",1,0,2,48)
+    ShowMessage("【アリス】")
+    ShowMessage("これがあれば侍や忍者、陰陽師に転職できるな……")
+    ShowMessage("ありがたく受け取っておこう。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",0,0,2,49)
+    ShowMessage("【イリアス】")
+    ShowMessage("これがあれば侍や忍者、陰陽師に転職できますね……")
+    ShowMessage("確かに受け取りました。")
+    0()
+   EndIf()
+   ShowMessageFace("",0,0,2,50)
+   ShowMessage("【村長】")
+   ShowMessage("あなた方には、感謝の言葉もありません。")
+   ShowMessage("いつでも、この村にお越し下さいね。")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc1",0,0,2,51)
+    ShowMessage("【ソニア】")
+    ShowMessage("めでたし、めでたし……よね？")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,52)
+    ShowMessage("【ルカ】")
+    ShowMessage("これで、この村での用事は終わったね。")
+    0()
+   EndIf()
+   ShowMessageFace("durahan_fc1",1,0,2,53)
+   ShowMessage("【アーサー】")
+   ShowMessage("私からも、礼を言おう。")
+   ShowMessage("お前達には、本当に世話になったな。")
+   ShowMessageFace("durahan_fc1",1,0,2,54)
+   ShowMessage("【アーサー】")
+   ShowMessage("実は、女王陛下により密命を帯びている。")
+   ShowMessage("ヤマタイの任務が片付いた後も、お前達に同行しろ……とな。")
+   ShowMessageFace("durahan_fc1",1,0,2,55)
+   ShowMessage("【アーサー】")
+   ShowMessage("そういうわけで、これからも世話になろう。")
+   ShowMessage("世界を救う冒険に、私の剣も役立ててくれ。")
+   249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+   ShowMessageFace("",0,0,2,56)
+   ShowMessage("アーサーが正式に仲間に加わった！")
+   If(0,6,0)
+    ShowMessageFace("sonia_fc1",0,0,2,57)
+    ShowMessage("【ソニア】")
+    ShowMessage("グランドノア女王も、密かに旅を支援してくれるのね。")
+    ShowMessage("心強いなぁ……")
+    0()
+   Else()
+    ShowMessageFace("ruka_fc1",0,0,2,58)
+    ShowMessage("【ルカ】")
+    ShowMessage("グランドノア女王も、密かに旅を支援してくれるんだね。")
+    ShowMessage("とっても助かるよ……")
+    0()
+   EndIf()
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",2,0,2,59)
+    ShowMessage("【アリス】")
+    ShowMessage("だがそれは、世界を救うという重責の裏返し。")
+    ShowMessage("浮かれている余裕など、決してない事を忘れるなよ。")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,60)
+    ShowMessage("【イリアス】")
+    ShowMessage("その分、我々は重い使命を背負っているのです。")
+    ShowMessage("それを忘れてはなりませんよ……")
+    0()
+   EndIf()
+   ShowMessageFace("ruka_fc1",0,0,2,61)
+   ShowMessage("【ルカ】")
+   ShowMessage("もちろん、背負ったものの重さは分かってるさ。")
+   ShowMessage("それじゃあ、旅を続けよう！")
+   If(4,62,0)
+    ShowMessageFace("gob_fc1",0,0,2,62)
+    ShowMessage("【ゴブ】")
+    ShowMessage("また余裕があったら、ヤマタイに戻ってこようね！")
+    0()
+   EndIf()
+   241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6d,0x75,0x72,0x61,0x37,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+   EndEventProcessing()
+   0()
+  EndIf()
+  If(1,1055,0,4,1)
+   ShowMessageFace("",0,0,2,63)
+   ShowMessage("【村長】")
+   ShowMessage("現在、この村に大きな問題はありません。")
+   ShowMessage("若衆が煩悩のカタマリなのは、今に始まった事ではありませんし……")
+   ShowMessageFace("",0,0,2,64)
+   ShowMessage("【村長】")
+   ShowMessage("それに……若者がエロを捨てた時の方が、世の中は危ないのです。")
+   ShowMessage("子供がいなければ、村が寂れてしまいますよ。")
+   If(4,382,0)
+    ShowMessageFace("morrigan_fc1",0,0,2,65)
+    ShowMessage("【モリガン】")
+    ShowMessage("そりゃまあ、そうだよな。")
+    0()
+   EndIf()
+   ShowMessageFace("",0,0,2,66)
+   ShowMessage("【村長】")
+   ShowMessage("結婚し出産せよ。消費しろ。眠っていろ。")
+   ShowMessage("考えるな。従え。")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",6,0,2,67)
+    ShowMessage("【アリス】")
+    ShowMessage("どうした！？　電波でも受信したのか！？")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",5,0,2,68)
+    ShowMessage("【イリアス】")
+    ShowMessage("本音がダダ漏れですよ！　心労で壊れたのですか！？")
+    0()
+   EndIf()
+   If(12,"exist_party_persona_id?(241)")
+    ShowMessageFace("a_emp_fc1",0,0,2,69)
+    ShowMessage("【プリエステス】")
+    ShowMessage("心がお疲れなのでしょう。")
+    0()
+   EndIf()
+   If(12,"exist_party_persona_id?(242)")
+    ShowMessageFace("a_emp_fc1",4,0,2,70)
+    ShowMessage("【プリエステス】")
+    ShowMessage("フフッ。")
+    0()
+   EndIf()
+   If(0,2183,0)
+    If(0,2283,1)
+     If(0,2228,0)
+      If(0,2229,0)
+       If(0,2230,0)
+        If(0,2231,0)
+         ChangeSwitch(2283,2283,0)
+         ShowMessageFace("",0,0,2,71)
+         ShowMessage("【村長】")
+         ShowMessage("そう言えば、世界に散った四人の若衆を見つけたようだな。")
+         ShowMessage("その労に報い、これを授けよう……")
+         250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+         ChangeInventory_Item(546,0,0,1)
+         ShowMessageFace("",0,0,2,72)
+         ShowMessage("【村長】")
+         ShowMessage("ＯＢＥＹ")
+         If(0,4,0)
+          ShowMessageFace("alice_fc5",2,0,2,73)
+          ShowMessage("【アリス】")
+          ShowMessage("少し休んだ方がいいのではないか？")
+          0()
+         EndIf()
+         If(0,5,0)
+          ShowMessageFace("iriasu_fc4",2,0,2,74)
+          ShowMessage("【イリアス】")
+          ShowMessage("少し休むのです……")
+          0()
+         EndIf()
+         EndEventProcessing()
+         0()
+        EndIf()
+        0()
+       EndIf()
+       0()
+      EndIf()
+      0()
+     EndIf()
+     ShowMessageFace("",0,0,2,75)
+     ShowMessage("【村長】")
+     ShowMessage("お～っと、ここでワクワクチャンス！")
+     ShowMessage("世界に散らばった若衆を探せ！")
+     ShowMessageFace("",0,0,2,76)
+     ShowMessage("【村長】")
+     ShowMessage("四人全員見つける事ができたら、豪華賞品をゲット！")
+     ShowMessage("それでは、シーキング・タ～イム！！")
+     0()
+    EndIf()
+    0()
+   EndIf()
+   EndEventProcessing()
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   22
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【衛兵】")
+  ShowMessage("職業「侍」は、力だけじゃなく器用さも重要だ。")
+  ShowMessage("スキル「刀技」の威力も、器用さが関わってくるぞ。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【衛兵】")
+  ShowMessage("それゆえ、パワー一辺倒の者には向かない職業だな。")
+  ShowMessage("器用さが高い者なら、存分に強さを発揮するだろう。")
+  0()
+
+
+
+EVENT   23
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【忍者】")
+  ShowMessage("忍者には器用さが重要……")
+  ShowMessage("忍びの術にも、器用さが深く関わるのだ。")
+  0()
+
+
+
+EVENT   25
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【村人】")
+  ShowMessage("オロチの洞には、隠し宝物庫があるという。")
+  ShowMessage("行き方を記したメモを入手したんだが、字が掠れてほとんど読めなくてね……")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【村人】")
+  ShowMessage("かろうじて、判読できた箇所だと……")
+  ShowMessage("「ぴょんと飛んで～」「縄を降り～」くらいかね。")
+  If(0,2149,0)
+   ShowMessageFace("bonny_fc1",1,0,2,3)
+   ShowMessage("【ボニー】")
+   ShowMessage("宝物庫への行き方を記したメッセージ！")
+   ShowMessage("海賊魂が燃え上がるぞ！")
+   ShowMessageFace("ashel_fc1",0,0,2,4)
+   ShowMessage("【アシェル】")
+   ShowMessage("ジャンプして、縄を降りる……")
+   ShowMessage("覚えておいた方がよさそうだね。")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   17
+ PAGE   1
+  ShowMessageFace("kooni_fc1",0,0,2,1)
+  ShowMessage("【小鬼】")
+  ShowMessage("「東方秘伝書」があれば、亜人種は「夜叉」に転種できるの。")
+  ShowMessage("刀技を使いこなす、強力な鬼だよ！")
+  0()
+
+
+
+EVENT   26
+ PAGE   1
+  ShowMessageFace("hutakuti_fc1",1,0,2,1)
+  ShowMessage("【二口娘】")
+  ShowMessage("お茶もおだんごも、とっても美味しいです……♪")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("5")
+  ShowMessageFace("alice_fc5",7,0,2,2)
+  ShowMessage("【アリス】")
+  ShowMessage("おいしそう……♪")
+  ShowMessage("ルカ、余にも買って！")
+  EndEventProcessing()
+  DefineLabel("26")
+  ShowMessageFace("iriasu_fc4",1,0,2,3)
+  ShowMessage("【イリアス】")
+  ShowMessage("おいしそうです……♪")
+  ShowMessage("ルカ、私にも買って下さい！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   27
+ PAGE   1
+  ShowMessageFace("hutakuti_fc1",6,0,2,1)
+  ShowMessage("【二口娘】")
+  ShowMessage("後ろの口が、勝手におだんごを～！")
+  ShowMessage("きゃぁぁぁ～～！！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("75")
+  ShowMessageFace("hituzi_fc1",7,0,2,2)
+  ShowMessage("【メリー】")
+  ShowMessage("前の口が、勝手にお酒を～！")
+  ShowMessage("メェェェェェ～！！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   32
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【村人】")
+  ShowMessage("昔ならば、ヤマタノオロチに若衆を奪われれば、困ったところだが……")
+  ShowMessage("外国人の働き手も多い昨今、労働力が不足する事もなくなってな。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【村人】")
+  ShowMessage("若衆が自発的に生け贄に行きたいなら、好きにするがよかろう……")
+  ShowMessage("……というのが、実際のところよ。")
+  0()
+
+
+
+EVENT   30
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若衆】")
+  ShowMessage("あへぇぇぇ……")
+  ShowMessage("ヤマタノオロチさまぁ……")
+  0()
+
+
+
+EVENT   34
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若衆】")
+  ShowMessage("ヤマタノオロチさまぁ……もっとぉ……")
+  0()
+
+
+
+EVENT   36
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【村人】")
+  ShowMessage("情欲に駆られ、ヤマタノオロチの元に行こうかと思った事もあったけど……")
+  ShowMessage("ああして晒し者になる事を考えると、ちょっとなぁ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("134")
+  ShowMessageFace("chrom_fc2",5,0,2,2)
+  ShowMessage("【クロム】")
+  ShowMessage("惨めな有様じゃのう……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   28
+ PAGE   1
+  If(0,2317,1)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【村人】")
+   ShowMessage("オロチの洞に、ヤマタノオロチという大妖怪が棲んでいるのですが……")
+   ShowMessage("生け贄を出すよう、この村にしょっちゅう脅しをかけてくるのです。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【村人】")
+   ShowMessage("若衆達が自発的かつ勝手に生け贄に行くので、実害はありませんが……")
+   ShowMessage("危険な大妖怪が村の側に棲んでいるのは、やはり不安ですね。")
+   If(0,4,0)
+    ShowMessageFace("alice_fc5",3,0,2,3)
+    ShowMessage("【アリス】")
+    ShowMessage("放置すべきでないが、ヤマタノオロチは非常に強力な妖魔。")
+    ShowMessage("今の我々の手に余るようなら、討伐を先送りにすべきだな……")
+    0()
+   EndIf()
+   If(0,5,0)
+    ShowMessageFace("iriasu_fc4",2,0,2,4)
+    ShowMessage("【イリアス】")
+    ShowMessage("ヤマタノオロチなど、ただちに討ち滅ぼすべきですが……")
+    ShowMessage("今の我々では難しいかもしれませんね、先送りにしましょう。")
+    0()
+   EndIf()
+   0()
+  Else()
+   ShowMessageFace("",0,0,2,5)
+   ShowMessage("【村人】")
+   ShowMessage("ヤマタノオロチが、旅の戦士に退治されたという話です。")
+   ShowMessage("元より実害は少なかったですが、不安はすっかり解消されました。")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   37
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【女の子】")
+  ShowMessage("ママー！　あそこで転がってる人達、なぁに？")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【母親】")
+  ShowMessage("あれは、欲望に溺れた馬鹿男の成れの果てだよ。")
+  0()
+
+
+
+EVENT   38
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【女の子】")
+  ShowMessage("ママー！　あそこで転がってる人達、なぁに？")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【母親】")
+  ShowMessage("あれは、欲望に溺れた馬鹿男の成れの果てだよ。")
+  0()
+
+
+
+EVENT   35
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若衆】")
+  ShowMessage("あひーーーーッ！！")
+  0()
+
+
+
+EVENT   39
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若衆】")
+  ShowMessage("ふぁぁぁ……きもちいい……")
+  0()
+
+
+
+EVENT   31
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【娘】")
+  ShowMessage("ヤマタノオロチの生け贄になった人も、一年もすれば戻ってくるんですが……")
+  ShowMessage("しばらくは、このザマです。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【娘】")
+  ShowMessage("最初のうちは、身を挺して村を救った英雄という事で、")
+  ShowMessage("丁重に看護されていたんですが……")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【娘】")
+  ShowMessage("次から次へと生け贄志願の若衆がなだれ込んでいく昨今、")
+  ShowMessage("出戻り組はそこらに転がしておく程度の扱いになりました。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("163")
+  ShowMessageFace("lily_fc1",3,0,2,4)
+  ShowMessage("【リリィ】")
+  ShowMessage("もったいないわね……何かに再利用できないかしら？")
+  EndEventProcessing()
+  DefineLabel("155")
+  ShowMessageFace("saki_fc1",0,0,2,5)
+  ShowMessage("【サキ】")
+  ShowMessage("慰問ライブ、やっちゃおうかな～？")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   29
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【若衆】")
+  ShowMessage("干涸らびちゃうよぉ……")
+  0()
+
+
+
+EVENT   33
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【老人】")
+  ShowMessage("ヤマタノオロチ様は、生け贄を求めるだけ。")
+  ShowMessage("殺生をなさらぬどころか、いざという時は村を守護して下さる方よ。")
+  If(1,1055,0,3,2)
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【老人】")
+   ShowMessage("四大神社の凶事の方が、よほどの大問題じゃ。")
+   ShowMessage("ああ、この村はどうなってしまうのか……")
+   0()
+  EndIf()
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("230")
+  ShowMessageFace("yamatanooroti_fc1",3,0,2,3)
+  ShowMessage("【ヤマタノオロチ】")
+  ShowMessage("うむ、この村は妾の縄張り……")
+  ShowMessage("害をもたらす事などせぬわ。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   40
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【娘】")
+  ShowMessage("ヤマタノオロチの生け贄と言っても……")
+  ShowMessage("一年くらい、全身をベロベロ舐め回されるだけでしょ？")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【娘】")
+  ShowMessage("どうせ馬鹿男はみんな、エロ心で生け贄になってるんだし……")
+  ShowMessage("本人が悦んでるなら、放っておけばいいんじゃない？")
+  0()
+
+
+
+EVENT   41
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【老婆】")
+  ShowMessage("ヤマタノオロチの件、あたしゃ不安だね……")
+  ShowMessage("今は無害っていっても、この先どうなるか分からないじゃないか。")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【老婆】")
+  ShowMessage("とんでもなくおっかない大妖怪、って事には違いないんだ。")
+  ShowMessage("いつか気が変わって、村を荒らしたりするかもしれないよ。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("230")
+  ShowMessageFace("yamatanooroti_fc1",3,0,2,3)
+  ShowMessage("【ヤマタノオロチ】")
+  ShowMessage("安心せよ、小娘。")
+  ShowMessage("妾はこの村に愛着があるのだ。")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   42
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【商人】")
+  ShowMessage("食べ物、甘味、色々あるよっ！")
+  Shop(0,332,0,0,false)
+  605(0,333,0,0)
+  605(0,334,0,0)
+  605(0,335,0,0)
+  605(0,336,0,0)
+  0()
+
+
+
+EVENT   43
+ PAGE   1
+  ShowMessageFace("nekomata_fc1",0,0,2,1)
+  ShowMessage("【ねこまた】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("ねこまたが魚に忍び寄っている！")
+  0()
+
+
+
+EVENT   44
+ PAGE   1
+  ShowMessageFace("hutakuti_fc1",2,0,2,1)
+  ShowMessage("【二口娘】")
+  ShowMessage("このあんこ、おいしそう……")
+  ShowMessage("じゅるり……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("143")
+  ShowMessageFace("eva_fc1",0,0,2,2)
+  ShowMessage("【エヴァ】")
+  ShowMessage("頂いちゃおうよ！")
+  ShowMessageFace("hutakuti_fc1",2,0,2,3)
+  ShowMessage("【二口娘】")
+  ShowMessage("ああ、悪の誘惑が……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   46
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【夫】")
+  ShowMessage("妻は、なぜあれでバレてないと思っているのだろう……")
+  ShowMessage("ああ、味噌汁がまた凍り付いている。")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("72")
+  ShowMessageFace("phoenix_fc1",1,0,2,2)
+  ShowMessage("【ミニ】")
+  ShowMessage("溶かしてあげるのだ！")
+  ShowMessage("ぼわ～っ！！")
+  ShowMessageFace("",0,0,2,3)
+  ShowMessage("【夫】")
+  ShowMessage("あつっ！　あぁっ、熱っ！！")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   45
+ PAGE   1
+  ShowMessageFace("yukionna_fc1",2,0,2,1)
+  ShowMessage("【雪女】")
+  ShowMessage("実は、私には秘密があるの……")
+  ShowMessage("人間でない事が夫にバレたら、一緒に暮らせない……")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("121")
+  ShowMessageFace("page65537_fc1",1,0,2,2)
+  ShowMessage("【コーネリア】")
+  ShowMessage("悲恋ですね、大好物です……")
+  EndEventProcessing()
+  DefineLabel("221")
+  ShowMessageFace("yukionna_fc1",0,0,2,3)
+  ShowMessage("【お雪】")
+  ShowMessage("幸せになりたいわね……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   24
+ PAGE   1
+  If(1,825,0,2,1)
+   If(0,1574,1)
+    ShowMessageFace("mob_miko1_fc1",1,0,2,1)
+    ShowMessage("【さつき】")
+    ShowMessage("あの、少しばかり旅をしたいんです。")
+    ShowMessage("私も連れて行ってくれませんか……？")
+    ShowChoices(strings("仲間にする","仲間にしない"),0)
+    IfPlayerPicksChoice(0,null)
+     ShowMessageFace("mob_miko1_fc1",6,0,2,2)
+     ShowMessage("【さつき】")
+     ShowMessage("うふふっ、楽しみです……♪")
+     PictureClear(5)
+     205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x09,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x0f,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+     355("add_actor_ex(574)")
+     249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+     ShowMessageFace("",0,0,2,3)
+     ShowMessage("さつきが仲間に加わった！")
+     Wait(60)
+     EndEventProcessing()
+     0()
+    IfPlayerPicksChoice(1,null)
+     ShowMessageFace("mob_miko1_fc1",0,0,2,4)
+     ShowMessage("【さつき】")
+     ShowMessage("そうですか……")
+     ShowMessage("残念ですけど、仕方ありませんね。")
+     0()
+    404()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  RunCommonEvent(7241)
+  0()
+ PAGE   2
+  // condition: party contains actor #574
+  0()
+
+
+
+EVENT   15
+ PAGE   1
+  If(1,826,0,2,1)
+   If(0,1575,1)
+    ShowMessageFace("mob_samurai_fc1",0,0,2,1)
+    ShowMessage("【弥生】")
+    ShowMessage("私も冒険に連れて行ってくれないか？")
+    ShowMessage("なんでもいいから斬りたくなってな……")
+    ShowChoices(strings("仲間にする","仲間にしない"),0)
+    IfPlayerPicksChoice(0,null)
+     ShowMessageFace("mob_samurai_fc1",0,0,2,2)
+     ShowMessage("【弥生】")
+     ShowMessage("そうか！　さあ、斬ろう！")
+     PictureClear(5)
+     205(0,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x09,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x2a,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x0f,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x2c,0x3b,0x0c,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+     355("add_actor_ex(575)")
+     249(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0c,0x66,0x61,0x6e,0x66,0x61,0x6c,0x65,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69))
+     ShowMessageFace("",0,0,2,3)
+     ShowMessage("弥生が仲間に加わった！")
+     Wait(60)
+     EndEventProcessing()
+     0()
+    IfPlayerPicksChoice(1,null)
+     ShowMessageFace("mob_samurai_fc1",1,0,2,4)
+     ShowMessage("【弥生】")
+     ShowMessage("ダメか……")
+     0()
+    404()
+    0()
+   EndIf()
+   0()
+  EndIf()
+  RunCommonEvent(7251)
+  0()
+ PAGE   2
+  // condition: party contains actor #575
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【村人】")
+  ShowMessage("ここは村の集会所です。")
+  ShowMessage("村長も、普段はここにおられますよ。")
+  0()
+
+
+
+EVENT   47
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("ござる～♪　ござる～♪")
+  0()
+
+
+
+EVENT   48
+ PAGE   1
+  ShowMessageFace("slime_fc1",0,0,2,1)
+  ShowMessage("【スライム娘】")
+  ShowMessage("この村で、ニンジャを見つけたよ！")
+  355("actor_label_jump")
+  EndEventProcessing()
+  DefineLabel("219")
+  ShowMessageFace("kunoitielf_fc1",0,0,2,2)
+  ShowMessage("【かすみ】")
+  ShowMessage("見つかってしまったか……")
+  EndEventProcessing()
+  DefineLabel("266")
+  ShowMessageFace("kunoitisanbi_fc1",0,0,2,3)
+  ShowMessage("【ミナモ】")
+  ShowMessage("そのような忍びは、下の下……")
+  EndEventProcessing()
+  0()
+
+
+
+EVENT   49
+ PAGE   1
+  If(0,2317,1)
+   ShowMessageFace("",0,0,2,1)
+   ShowMessage("【戦士】")
+   ShowMessage("オロチの洞に、ヤマタノオロチ退治に向かったのだが……")
+   ShowMessage("一目見て、逃げ出してしまったよ。")
+   ShowMessageFace("",0,0,2,2)
+   ShowMessage("【戦士】")
+   ShowMessage("あんなバケモノ、人間に敵うはずがない。")
+   ShowMessage("君達も、ヤマタノオロチとは戦わない方がいいぞ。")
+   0()
+  Else()
+   ShowMessageFace("",0,0,2,3)
+   ShowMessage("【戦士】")
+   ShowMessage("まさか、ヤマタノオロチを退治したのか……！？")
+   ShowMessage("感服したよ、とんでもない勇者もいたものだな……")
+   0()
+  EndIf()
+  0()
+
+
+
+EVENT   50
+ PAGE   1
+  ShowMessageFace("",0,0,2,1)
+  ShowMessage("【老人】")
+  ShowMessage("河童の鍛冶屋は、実に良い腕前をしとるよ。")
+  ShowMessage("クワ一本で、世界を救える気がするほどじゃ。")
+  0()
+
+
+
+EVENT   51
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(32,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   52
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(56,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   53
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(209,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()
+
+
+
+EVENT   54
+ PAGE   1
+  250(bytes(0x04,0x08,0x6f,0x3a,0x0c,0x52,0x50,0x47,0x3a,0x3a,0x53,0x45,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x49,0x74,0x65,0x6d,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x55))
+  ChangeSelfSwitch("A",0)
+  ChangeInventory_Item(21,0,0,1)
+  0()
+ PAGE   2
+  // condition: self-switch A is ON
+  0()

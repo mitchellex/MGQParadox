@@ -1,0 +1,11 @@
+﻿// EVENT 1146
+Name "会話：ラナエル"
+
+ChangeVariable(25,25,0,0,0)
+ShowMessageFace("ranael_fc1",0,0,2,1)
+ShowMessage("【ラナエル】")
+ShowMessage("神に逆らう者と交わす言葉などないわ……")
+ShowMessageFace("",0,0,2,2)
+ShowMessage("ラナエルは会話を拒絶している！")
+EndEventProcessing()
+0()

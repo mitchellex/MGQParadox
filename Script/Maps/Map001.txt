@@ -1,0 +1,410 @@
+﻿
+
+
+EVENT   6
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 2
+  0()
+
+
+
+EVENT   62
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 2
+  0()
+
+
+
+EVENT   63
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 2
+  0()
+
+
+
+EVENT   61
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 2
+  0()
+
+
+
+EVENT   1
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 4
+  0()
+
+
+
+EVENT   2
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 2
+  0()
+
+
+
+EVENT   3
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 2
+  0()
+
+
+
+EVENT   4
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 2
+  0()
+
+
+
+EVENT   5
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 2
+  0()
+
+
+
+EVENT   7
+ PAGE   1
+  0()
+ PAGE   2
+  // condition: variable 1220 >= 2
+  0()
+
+
+
+EVENT   8
+ PAGE   1
+  0()
+
+
+
+EVENT   9
+ PAGE   1
+  // condition: switch 4 is ON
+  0()
+ PAGE   2
+  // condition: switch 5 is ON
+  0()
+
+
+
+EVENT   10
+ PAGE   1
+  0()
+
+
+
+EVENT   11
+ PAGE   1
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x10,0x73,0x63,0x65,0x6e,0x65,0x5f,0x63,0x6f,0x6d,0x69,0x31,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  Wait(60)
+  PictureDisplay(5,"80_amabie_st01",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("amabie_fc1",0,0,2,1)
+  ShowMessage("【アマビエ】")
+  ShowMessage("フリーハグです。")
+  ShowMessage("さあ、私とハグをするのです……")
+  PictureClear(5)
+  ShowMessageFace("",0,0,2,2)
+  ShowMessage("【村人】")
+  ShowMessage("……………………")
+  ShowMessageFace("amabie_fc1",0,0,2,3)
+  ShowMessage("【アマビエ】")
+  ShowMessage("とても癒されますよ。")
+  ShowMessage("さあ、ハグをしましょう……")
+  ShowMessageFace("",0,0,2,4)
+  ShowMessage("【村人】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,5)
+  ShowMessage("村人達は、誰も近付いてこない……")
+  ShowMessageFace("sonia_fc2",2,0,2,6)
+  ShowMessage("【ソニア】")
+  ShowMessage("予想通り、引かれてるわね。")
+  ShowMessage("誰も濃厚接触してこないみたいだけど……")
+  ShowMessageFace("amabie_fc1",0,0,2,7)
+  ShowMessage("【アマビエ】")
+  ShowMessage("なぜ私に対してソーシャルディスタンスを……")
+  ShowMessage("遠慮はいりません、濃厚接触するのです……")
+  ShowMessageFace("",0,0,2,8)
+  ShowMessage("【村人】")
+  ShowMessage("……………………")
+  ShowMessageFace("amabie_fc1",0,0,2,9)
+  ShowMessage("【アマビエ】")
+  ShowMessage("さあ、ハグをするのです……")
+  ShowMessageFace("",0,0,2,10)
+  ShowMessage("【村人】")
+  ShowMessage("……………………")
+  ShowMessageFace("",0,0,2,11)
+  ShowMessage("結局、民衆は不気味がって近寄ってこなかった――")
+  242(1)
+  221()
+  ChangeVariable(1220,1220,0,0,2)
+  Wait(60)
+  205(1,bytes(0x04,0x08,0x6f,0x3a,0x13,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x52,0x6f,0x75,0x74,0x65,0x09,0x3a,0x0c,0x40,0x72,0x65,0x70,0x65,0x61,0x74,0x46,0x3a,0x0f,0x40,0x73,0x6b,0x69,0x70,0x70,0x61,0x62,0x6c,0x65,0x46,0x3a,0x0a,0x40,0x77,0x61,0x69,0x74,0x54,0x3a,0x0a,0x40,0x6c,0x69,0x73,0x74,0x5b,0x07,0x6f,0x3a,0x15,0x52,0x50,0x47,0x3a,0x3a,0x4d,0x6f,0x76,0x65,0x43,0x6f,0x6d,0x6d,0x61,0x6e,0x64,0x07,0x3a,0x0a,0x40,0x63,0x6f,0x64,0x65,0x69,0x18,0x3a,0x10,0x40,0x70,0x61,0x72,0x61,0x6d,0x65,0x74,0x65,0x72,0x73,0x5b,0x00,0x6f,0x3b,0x0a,0x07,0x3b,0x0b,0x69,0x00,0x3b,0x0c,0x5b,0x00))
+  222()
+  241(bytes(0x04,0x08,0x6f,0x3a,0x0d,0x52,0x50,0x47,0x3a,0x3a,0x42,0x47,0x4d,0x08,0x3a,0x0a,0x40,0x6e,0x61,0x6d,0x65,0x49,0x22,0x0a,0x6d,0x75,0x72,0x61,0x37,0x06,0x3a,0x06,0x45,0x54,0x3a,0x0c,0x40,0x76,0x6f,0x6c,0x75,0x6d,0x65,0x69,0x69,0x3a,0x0b,0x40,0x70,0x69,0x74,0x63,0x68,0x69,0x69))
+  PictureDisplay(5,"80_amabie_st01",0,0,0,0,100,100,0,0)
+  PictureMove(5,null,0,0,0,0,100,100,255,0,30,true)
+  ShowMessageFace("amabie_fc1",0,0,2,12)
+  ShowMessage("【アマビエ】")
+  ShowMessage("なんという事でしょう……")
+  ShowMessage("誰一人として、ハグをしてくれないとは……")
+  ShowMessageFace("ruka_fc1",0,0,2,13)
+  ShowMessage("【ルカ】")
+  ShowMessage("ざ、残念だったね……")
+  ShowMessageFace("amabie_fc1",0,0,2,14)
+  ShowMessage("【アマビエ】")
+  ShowMessage("これも、私の力不足ゆえ……")
+  ShowMessage("もっと癒しの力を高め、出直しましょう。")
+  ShowMessageFace("sonia_fc4",0,0,2,15)
+  ShowMessage("【ソニア】")
+  ShowMessage("いや、根本的な解決になってないと思うけど……")
+  ShowMessageFace("",0,0,2,16)
+  ShowMessage("癒しの力は関係なく、見た目が不気味だから――")
+  ShowMessage("――などとは、流石に言えなかった。")
+  ShowMessageFace("mefist_fc1",0,0,2,17)
+  ShowMessage("【メフィスト】")
+  ShowMessage("癒しの力を高めるというのなら……良案がありますよ。")
+  ShowMessage("伝説の秘宝、「神癒の宝玉」の力を得れば良いのでは？")
+  ShowMessageFace("amabie_fc1",0,0,2,18)
+  ShowMessage("【アマビエ】")
+  ShowMessage("神癒の宝玉……聞いたことがあります。")
+  ShowMessage("その秘宝の力があれば、私の力も増すでしょう。")
+  If(0,4,0)
+   If(0,1005,0)
+    ShowMessageFace("alice_fc5",0,0,2,19)
+    ShowMessage("【アリス】")
+    ShowMessage("その宝玉だが、今は行方不明ではなかったか？")
+    ShowMessage("過去に、ラミア族とスキュラ族の争いで――")
+    ShowMessageFace("alice_fc5",2,0,2,20)
+    ShowMessage("【アリス】")
+    ShowMessage("……っと、当事者が仲間にいるではないか。")
+    ShowMessage("クィーンラミアにクィーンスキュラ、話を聞かせろ。")
+    0()
+   EndIf()
+   If(0,1006,0)
+    ShowMessageFace("alice_fc1",0,0,2,21)
+    ShowMessage("【アリス】")
+    ShowMessage("その宝玉だが、今は行方不明ではなかったか？")
+    ShowMessage("過去に、ラミア族とスキュラ族の争いで――")
+    ShowMessageFace("alice_fc1",3,0,2,22)
+    ShowMessage("【アリス】")
+    ShowMessage("……っと、当事者が仲間にいるではないか。")
+    ShowMessage("クィーンラミアにクィーンスキュラ、話を聞かせろ。")
+    0()
+   EndIf()
+   If(0,1007,0)
+    ShowMessageFace("alice_fc7",0,0,2,23)
+    ShowMessage("【アリス】")
+    ShowMessage("その宝玉だが、今は行方不明ではなかったか？")
+    ShowMessage("過去に、ラミア族とスキュラ族の争いで――")
+    ShowMessageFace("alice_fc7",3,0,2,24)
+    ShowMessage("【アリス】")
+    ShowMessage("……っと、当事者が仲間にいるではないか。")
+    ShowMessage("クィーンラミアにクィーンスキュラ、話を聞かせろ。")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",2,0,2,25)
+   ShowMessage("【イリアス】")
+   ShowMessage("その宝玉ですが、今は確か……")
+   ShowMessage("数百年前、ラミア族とスキュラ族の争いで……")
+   ShowMessageFace("iriasu_fc4",2,0,2,26)
+   ShowMessage("【イリアス】")
+   ShowMessage("……おっと、当事者が仲間にいましたね。")
+   ShowMessage("クィーンラミアにクィーンスキュラ、話は任せます。")
+   0()
+  EndIf()
+  ShowMessageFace("cirqueb_fc4",0,0,2,27)
+  ShowMessage("【アリア・ラミア】")
+  ShowMessage("「神癒の宝玉」は、ラミア族の秘宝。")
+  ShowMessage("ラミアの祖たる六祖の沙蛇様が造り出した品で――")
+  ShowMessageFace("cirqueb_fc6",0,0,2,28)
+  ShowMessage("【ゼノビア】")
+  ShowMessage("「神癒の宝玉」は、スキュラの祖である蛭蟲様の造った品。")
+  ShowMessage("ゆえに、我がスキュラ族の秘宝として伝わり――")
+  ShowMessageFace("cirqueb_fc4",0,0,2,29)
+  ShowMessage("【アリア・ラミア】")
+  ShowMessage("ですが、スキュラ族は厚かましくも宝玉の所有権を主張。")
+  ShowMessage("ラミアとスキュラの長きにわたる抗争の一因となり――")
+  ShowMessageFace("cirqueb_fc6",0,0,2,30)
+  ShowMessage("【ゼノビア】")
+  ShowMessage("しかしラミア族は、盗人のように宝玉を欲しがりました。")
+  ShowMessage("我々スキュラ族はこの秘宝を守るため、長き闘争に――")
+  ShowMessageFace("ruka_fc1",0,0,2,31)
+  ShowMessage("【ルカ】")
+  ShowMessage("話が見事に食い違ってるね……")
+  If(0,4,0)
+   If(0,1005,0)
+    ShowMessageFace("alice_fc5",0,0,2,32)
+    ShowMessage("【アリス】")
+    ShowMessage("相変わらず、ラミアとスキュラは仲が悪いな……")
+    ShowMessage("それで結局、神癒の宝玉はどうなったのだ？")
+    0()
+   EndIf()
+   If(0,1006,0)
+    ShowMessageFace("alice_fc1",0,0,2,33)
+    ShowMessage("【アリス】")
+    ShowMessage("相変わらず、ラミアとスキュラは仲が悪いな……")
+    ShowMessage("それで結局、神癒の宝玉はどうなったのだ？")
+    0()
+   EndIf()
+   If(0,1007,0)
+    ShowMessageFace("alice_fc7",0,0,2,34)
+    ShowMessage("【アリス】")
+    ShowMessage("相変わらず、ラミアとスキュラは仲が悪いな……")
+    ShowMessage("それで結局、神癒の宝玉はどうなったのだ？")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",1,0,2,35)
+   ShowMessage("【イリアス】")
+   ShowMessage("ふふふ……")
+   ShowMessage("憎み合いなさい……殺し合いなさい……")
+   ShowMessageFace("iriasu_fc4",7,0,2,36)
+   ShowMessage("【イリアス】")
+   ShowMessage("……などと、今は言っていられません！")
+   ShowMessage("結局、神癒の宝玉はどうなったのですか？")
+   0()
+  EndIf()
+  ShowMessageFace("cirqueb_fc4",2,0,2,37)
+  ShowMessage("【アリア・ラミア】")
+  ShowMessage("あれは確か、アボルン砦の攻防戦の際……")
+  ShowMessage("そう、スキュラ族の砲撃で宝玉は砕けてしまったのです。")
+  ShowMessageFace("cirqueb_fc6",2,0,2,38)
+  ShowMessage("【ゼノビア】")
+  ShowMessage("あんな係争地の、戦火が届く場所に安置するとは愚の骨頂……")
+  ShowMessage("宝玉が壊れた責任は全面的にラミア側にあります。")
+  ShowMessageFace("sonia_fc2",2,0,2,39)
+  ShowMessage("【ソニア】")
+  ShowMessage("つまり、宝玉は壊れちゃったの？")
+  ShowMessage("それじゃあ、もう手に入らないじゃない……")
+  ShowMessageFace("cirqueb_fc4",0,0,2,40)
+  ShowMessage("【アリア・ラミア】")
+  ShowMessage("ですが、それから七年後……")
+  ShowMessage("ニスカの和議で、宝玉を共同修復することが決まりました。")
+  ShowMessageFace("cirqueb_fc6",0,0,2,41)
+  ShowMessage("【ゼノビア】")
+  ShowMessage("まずは、壊れた宝玉に霊気を溜め込むため……")
+  ShowMessage("癒しの力に満ちた地に、数百年ほど安置する事になりました。")
+  ShowMessageFace("cirqueb_fc6",2,0,2,42)
+  ShowMessage("【ゼノビア】")
+  ShowMessage("しかしその直後、ラミア族はまさかの裏切りを働いたのです。")
+  ShowMessage("ラミア族の重臣であるボアンの奇襲で、和議はご破算に……")
+  ShowMessageFace("cirqueb_fc4",2,0,2,43)
+  ShowMessage("【アリア・ラミア】")
+  ShowMessage("……あれはボアンの独断による愚行です。")
+  ShowMessage("そもそもボアンは、スキュラ族側に手引きされていたのでは？")
+  If(0,4,0)
+   If(0,1005,0)
+    ShowMessageFace("alice_fc5",2,0,2,44)
+    ShowMessage("【アリス】")
+    ShowMessage("……ああもう、過去のいざこざは後にしろ。")
+    ShowMessage("それで、壊れた宝玉を安置した地はどこなのだ？")
+    0()
+   EndIf()
+   If(0,1006,0)
+    ShowMessageFace("alice_fc1",3,0,2,45)
+    ShowMessage("【アリス】")
+    ShowMessage("……ああもう、過去のいざこざは後にしろ。")
+    ShowMessage("それで、壊れた宝玉を安置した地はどこなのだ？")
+    0()
+   EndIf()
+   If(0,1007,0)
+    ShowMessageFace("alice_fc7",3,0,2,46)
+    ShowMessage("【アリス】")
+    ShowMessage("……ああもう、過去のいざこざは後にしろ。")
+    ShowMessage("それで、壊れた宝玉を安置した地はどこなのだ？")
+    0()
+   EndIf()
+   0()
+  EndIf()
+  If(0,5,0)
+   ShowMessageFace("iriasu_fc4",7,0,2,47)
+   ShowMessage("【イリアス】")
+   ShowMessage("……いつまで過去の憎悪に踊らされているのです！")
+   ShowMessage("しがらみなど捨て、未来に目を向けなさい！")
+   ShowMessageFace("iriasu_fc4",1,0,2,48)
+   ShowMessage("【イリアス】")
+   ShowMessage("なおボアンの裏切りの一件、裏で手を引いていたのは私です。")
+   ShowMessage("ラミア族とスキュラ族は、末長く潰し合ってほしかったので。")
+   ShowMessageFace("ruka_fc1",0,0,2,49)
+   ShowMessage("【ルカ】")
+   ShowMessage("……相変わらず、汚いやり方だなぁ。")
+   ShowMessageFace("iriasu_fc4",2,0,2,50)
+   ShowMessage("【イリアス】")
+   ShowMessage("ともかく、壊れた宝玉をどこに安置したのです？")
+   ShowMessage("陰謀で忙しくて、私もすっかり記憶にありません。")
+   0()
+  EndIf()
+  ShowMessageFace("cirqueb_fc4",0,0,2,51)
+  ShowMessage("【アリア・ラミア】")
+  ShowMessage("その場所とは……世界樹です。")
+  ShowMessage("この一件は極秘であり、知る者は世界でただ三人。")
+  ShowMessageFace("cirqueb_fc6",0,0,2,52)
+  ShowMessage("【ゼノビア】")
+  ShowMessage("私とクィーンラミア……そして、当時のクィーンアルラウネ。")
+  ShowMessage("世界樹を守る植物族に、壊れた宝玉の管理を委ねたのです。")
+  ShowMessageFace("cirqueb_fc4",0,0,2,53)
+  ShowMessage("【アリア・ラミア】")
+  ShowMessage("クィーンアルラウネも、今は代替わりしましたが……")
+  ShowMessage("現在のクィーンアルラウネよ、先代から聞いていませんか？")
+  ShowMessageFace("a_emp_fc1",4,0,2,54)
+  ShowMessage("【プリエステス】")
+  ShowMessage("私はクィーンではありません。")
+  ShowMessage("路傍に咲くひとひらの花です。")
+  ShowMessageFace("cirqueb_fc6",2,0,2,55)
+  ShowMessage("【ゼノビア】")
+  ShowMessage("相変わらず、植物族は壊れていますね。")
+  ShowMessage("先代のアルルーナに聞きましょうか。")
+  ShowMessageFace("queenalraune_fc1",3,0,2,56)
+  ShowMessage("【アルルーナ】")
+  ShowMessage("あの宝玉は、確か……")
+  ShowMessage("世界樹の、最も高いところに安置してあるはずです。")
+  ShowMessageFace("amabie_fc1",0,0,2,57)
+  ShowMessage("【アマビエ】")
+  ShowMessage("世界樹の最高階層に、神癒の宝玉が……")
+  ShowMessage("どうか、私をそこに連れて行ってくれませんか？")
+  ShowMessageFace("amabie_fc1",0,0,2,58)
+  ShowMessage("【アマビエ】")
+  ShowMessage("その宝玉の力で、癒しの力が増せば――")
+  ShowMessage("きっと民は、私とのハグに応じてくれるはずです。")
+  ShowMessageFace("ruka_fc1",0,0,2,59)
+  ShowMessage("【ルカ】")
+  ShowMessage("いや、それは……うん……")
+  ShowMessage("とにかく、世界樹に行ってみよう！")
+  ShowMessageFace("",0,0,2,60)
+  ShowMessage("世界樹のある島は、世界地図の最南西だ。")
+  ShowMessage("アマビエのため、神癒の宝玉を取りに行こう――")
+  242(1)
+  221()
+  PictureClear(5)
+  Wait(60)
+  211(1)
+  TeleportPlayer(0,2,372,165,2,2)
+  222()
+  EndEventProcessing()
+  0()

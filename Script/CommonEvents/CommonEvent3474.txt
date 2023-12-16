@@ -1,0 +1,5 @@
+﻿// EVENT 3474
+Name "妲己"
+
+RunCommonEvent(3490)
+0()

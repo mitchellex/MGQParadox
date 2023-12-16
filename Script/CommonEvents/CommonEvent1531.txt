@@ -1,0 +1,5 @@
+﻿// EVENT 1531
+Name "会話：黒華"
+
+RunCommonEvent(1345)
+0()

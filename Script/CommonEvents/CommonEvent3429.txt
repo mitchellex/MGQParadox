@@ -1,0 +1,14 @@
+﻿// EVENT 3429
+Name "コラボ"
+
+ShowChoices(strings("難易度を変更する","輪廻に戻る"),2)
+IfPlayerPicksChoice(0,"難易度を変更する")
+ ShowMessageFace("",0,0,2,1)
+ ShowMessage("難易度を選択して下さい。")
+ RunCommonEvent(110)
+ 0()
+IfPlayerPicksChoice(1,"輪廻に戻る")
+ 0()
+404()
+RunCommonEvent(2999)
+0()
