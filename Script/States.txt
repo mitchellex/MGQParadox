@@ -1,0 +1,2677 @@
+﻿State 001
+ Name "戦闘不能"
+ Message1 "は戦闘不能になった！"
+ Message2 "を倒した！"
+ Message4 "は戦闘に復帰した！"
+ Notes "ステート１番はＨＰが０になったときに自動的に付加されます。"
+State 002
+ Name "防御"
+ Notes "<エネミー不可ステート>"
+State 003
+ Name "相手を拘束"
+ Notes "<表示：なし>"
+State 004
+ Name "被拘束"
+ Notes "<表示：拘束>"
+State 005
+ Name "相手を永久拘束"
+ Notes "<表示：なし>"
+State 006
+ Name "被永久拘束"
+ Notes "<表示：拘束>"
+State 007
+ Name "毒"
+ Message1 "は毒に冒された！"
+ Message2 "は毒に冒された！"
+ Message3 "は毒に冒されている……"
+ Message4 "の毒が癒えた！"
+State 008
+ Name "暗闇"
+ Message1 "の視界が閉ざされた！"
+ Message2 "の視界が閉ざされた！"
+ Message3 "の視界が閉ざされている……"
+ Message4 "の視界が元通りになった！"
+State 009
+ Name "沈黙"
+ Message1 "は魔法スキルを封じられた！"
+ Message2 "は魔法スキルを封じられた！"
+ Message4 "の魔法スキル封印が解けた！"
+State 010
+ Name "混乱"
+ Message1 "は混乱してしまった！"
+ Message2 "は混乱してしまった！"
+ Message3 "は混乱している……"
+ Message4 "は我に返った！"
+ Notes "<ステート解除:id=3,4,5,6>"
+State 011
+ Name "睡眠"
+ Message1 "は眠ってしまった！"
+ Message2 "は眠ってしまった！"
+ Message3 "は眠っている……"
+ Message4 "は目を覚ました！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<ステート解除:id=3,4,5,6>"
+State 012
+ Name "麻痺"
+ Message1 "は麻痺してしまった！"
+ Message2 "は麻痺してしまった！"
+ Message3 "は体がしびれて動けない！"
+ Message4 "の麻痺が解けた！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<ステート解除:id=3,4,5,6>"
+State 013
+ Name "バーン"
+ Message1 "の体に火がついてしまった！"
+ Message2 "の体に火がついてしまった！"
+ Message3 "の体に火がついている……"
+ Message4 "の体についた火が消えた！"
+State 014
+ Name "フリーズ"
+ Message1 "の体は凍結した！"
+ Message2 "の体は凍結した！"
+ Message3 "は凍結している……"
+ Message4 "の凍結が解けた！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<ステート解除:id=3,4,5,6>"
+State 015
+ Name "ショック"
+ Message1 "は感電して動けなくなった！"
+ Message2 "は感電して動けなくなった！"
+ Message3 "は感電して動けない……"
+ Message4 "の感電が治った！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<ステート解除:id=3,4,5,6>"
+State 016
+ Name "スロウ"
+ Message1 "の動きがスローになった！"
+ Message2 "の動きがスローになった！"
+ Message3 "の動きはスローになっている……"
+ Message4 "の動きが元に戻った！"
+State 017
+ Name "ストップ"
+ Message1 "の時間が停止した！"
+ Message2 "の時間が停止した！"
+ Message3 "は停止している……"
+ Message4 "の時間が動き出した！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<ステート解除:id=3,4,5,6>"
+State 018
+ Name "ミニマム"
+ Message1 "の体は小さくなった！"
+ Message2 "の体は小さくなった！"
+ Message3 "の体は小さくなっている……"
+ Message4 "の体は元に戻った！"
+State 019
+ Name "ゾンビ"
+ Message1 "はゾンビ化した！"
+ Message2 "はゾンビ化した！"
+ Message4 "の体が元に戻った！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<回復反転 100%>\r\n<属性吸収 36-100>\r\n<即死反転>"
+State 020
+ Name "石化"
+ Message1 "は石化してしまった！"
+ Message2 "は石化してしまった！"
+ Message3 "は石化している……"
+ Message4 "の石化が解けた！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<獲得経験値倍率 0%>\r\n<獲得職業経験値倍率 0%>\r\n<ステート解除:id=3,4,5,6>\r\n<全滅判定有>"
+State 021
+ Name "消化"
+ Message1 "は消化液にまみれてしまった！"
+ Message2 "は消化液にまみれてしまった！"
+ Message3 "は消化液にまみれている……"
+ Message4 "の消化液が消えた！"
+State 022
+ Name "スタン"
+ Message1 "は体勢を崩した！"
+ Message2 "は体勢を崩した！"
+ Message3 "は体勢を崩している……"
+ Message4 "は体勢を立て直した！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>"
+State 023
+ Name "ヌルヌル"
+ Message1 "はヌルヌルになってしまった！"
+ Message2 "はヌルヌルになってしまった！"
+ Message3 "はヌルヌルになっている……"
+ Message4 "のヌルヌルが落ちた！"
+State 024
+ Name "敏感"
+ Message1 "は敏感になってしまった！"
+ Message2 "は敏感になってしまった！"
+ Message3 "は敏感になっている……"
+ Message4 "は敏感ではなくなった！"
+ Notes "<属性強化 2-15>"
+State 025
+ Name "恍惚"
+ Message1 "は恍惚に浸ってしまった！"
+ Message2 "は恍惚に浸ってしまった！"
+ Message3 "は恍惚に浸っている……"
+ Message4 "は我に返った！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<ステート解除:id=3,4,5,6>"
+State 026
+ Name "誘惑"
+ Message1 "は誘惑されてしまった！"
+ Message2 "は誘惑されてしまった！"
+ Message3 "は誘惑されている……"
+ Message4 "は我に返った！"
+ Notes "<ステート解除:id=3,4,5,6>"
+State 027
+ Name "失禁"
+ Message1 "は失禁してしまった！"
+ Message2 "は失禁してしまった！"
+ Message3 "は失禁の屈辱に浸っている……"
+ Message4 "は我に返った！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<ステート解除:id=3,4,5,6>"
+State 028
+ Name "拘束"
+ Message1 "は拘束されてしまった！"
+ Message2 "は拘束されてしまった！"
+ Message3 "は拘束されている……"
+ Message4 "は拘束から逃れた！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>"
+State 029
+ Name "クィック"
+ Message1 "の動きが速くなった！"
+ Message2 "の動きが速くなった！"
+ Message3 "の動きは速くなっている……"
+ Message4 "の動きが元に戻った！"
+State 030
+ Name "バーサク"
+ Message1 "は暴走した！"
+ Message2 "は暴走した！"
+ Message3 "は暴走している……"
+ Message4 "の暴走が解けた！"
+State 031
+ Name "ハイバーサク"
+ Message1 "は暴走した！"
+ Message2 "は暴走した！"
+ Message3 "は暴走している……"
+ Message4 "の暴走が解けた！"
+State 032
+ Name "変身"
+ Message4 "の変身が解けた！"
+State 033
+ Name "ターンHP小回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 034
+ Name "ターンHP中回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 035
+ Name "ターンHP大回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 036
+ Name "ターンMP小回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 037
+ Name "ターンMP中回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 038
+ Name "ターンMP大回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 039
+ Name "ターンSP小回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 040
+ Name "ターンSP中回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 041
+ Name "ターンSP大回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 042
+ Name "聖痕"
+ Message1 "は聖エネルギーの影響を受けた！"
+ Message2 "は聖エネルギーの影響を受けた！"
+ Message4 "から聖エネルギーの影響が失われた！"
+State 043
+ Name "闇穢"
+ Message1 "は闇エネルギーの影響を受けた！"
+ Message2 "は闇エネルギーの影響を受けた！"
+ Message4 "から闇エネルギーの影響が失われた！"
+State 044
+ Name "ターンHP全回復"
+State 045
+ Name "回避率30%アップ"
+ Message1 "の回避率が上がった！"
+ Message2 "の回避率が上がった！"
+ Message4 "の回避率が元に戻った！"
+State 046
+ Name "回避率50%アップ"
+ Message1 "の回避率が上がった！"
+ Message2 "の回避率が上がった！"
+ Message4 "の回避率が元に戻った！"
+State 047
+ Name "回避率100%アップ"
+ Message1 "の回避率が上がった！"
+ Message2 "の回避率が上がった！"
+ Message4 "の回避率が元に戻った！"
+State 048
+ Name "回避率100%ダウン"
+State 049
+ Name "魔法回避率30%アップ"
+ Message1 "の魔法回避率が上がった！"
+ Message2 "の魔法回避率が上がった！"
+ Message4 "の魔法回避率が元に戻った！"
+State 050
+ Name "魔法回避率50%アップ"
+ Message1 "の魔法回避率が上がった！"
+ Message2 "の魔法回避率が上がった！"
+ Message4 "の魔法回避率が元に戻った！"
+State 051
+ Name "魔法回避率100%アップ"
+ Message1 "の魔法回避率が上がった！"
+ Message2 "の魔法回避率が上がった！"
+ Message4 "の魔法回避率が元に戻った！"
+State 052
+ Name "魔法回避率100%ダウン"
+State 053
+ Name "会心率50%アップ"
+ Message1 "の会心率が上がった！"
+ Message2 "の会心率が上がった！"
+ Message4 "の会心率が元に戻った！"
+State 054
+ Name "会心率100%アップ"
+ Message1 "の会心率が上がった！"
+ Message2 "の会心率が上がった！"
+ Message4 "の会心率が元に戻った！"
+State 055
+ Name "命中率50%アップ"
+ Message1 "の命中率が上がった！"
+ Message2 "の命中率が上がった！"
+ Message4 "の命中率が元に戻った！"
+State 056
+ Name "命中率100%アップ"
+ Message1 "の命中率が上がった！"
+ Message2 "の命中率が上がった！"
+ Message4 "の命中率が元に戻った！"
+ Notes "<命中率 200%>"
+State 057
+ Name "チャージ増加2倍"
+ Message1 "のチャージ増加率が上がった！"
+ Message2 "のチャージ増加率が上がった！"
+ Message4 "のチャージ増加率が元に戻った！"
+State 058
+ Name "チャージ増加3倍"
+ Message1 "のチャージ増加率が上がった！"
+ Message2 "のチャージ増加率が上がった！"
+ Message4 "のチャージ増加率が元に戻った！"
+State 059
+ Name "チャージ増加5倍"
+ Message1 "のチャージ増加率が上がった！"
+ Message2 "のチャージ増加率が上がった！"
+ Message4 "のチャージ増加率が元に戻った！"
+State 060
+ Name "炎属性付加"
+ Message4 "の刃から炎の力が消えた！"
+ Notes "<属性強化 3-50>\r\n<ステート解除:id=521>\r\n<ステート解除:id=537>"
+State 061
+ Name "氷属性付加"
+ Message4 "の刃から氷の力が消えた！"
+ Notes "<属性強化 4-50>\r\n<ステート解除:id=522>\r\n<ステート解除:id=538>"
+State 062
+ Name "雷属性付加"
+ Message4 "の刃から雷の力が消えた！"
+ Notes "<属性強化 5-50>\r\n<ステート解除:id=523>\r\n<ステート解除:id=539>"
+State 063
+ Name "風属性付加"
+ Message4 "の刃から風の力が消えた！"
+ Notes "<属性強化 6-50>\r\n<ステート解除:id=524>\r\n<ステート解除:id=540>"
+State 064
+ Name "土属性付加"
+ Message4 "の刃から土の力が消えた！"
+ Notes "<属性強化 7-50>\r\n<ステート解除:id=525>\r\n<ステート解除:id=541>"
+State 065
+ Name "水属性付加"
+ Message4 "の刃から水の力が消えた！"
+ Notes "<属性強化 8-50>\r\n<ステート解除:id=526>\r\n<ステート解除:id=542>"
+State 066
+ Name "聖属性付加"
+ Message4 "の刃から聖なる力が消えた！"
+ Notes "<属性強化 9-50>\r\n<ステート解除:id=527>\r\n<ステート解除:id=543>"
+State 067
+ Name "闇属性付加"
+ Message4 "の刃から闇の力が消えた！"
+ Notes "<属性強化 10-50>\r\n<ステート解除:id=528>\r\n<ステート解除:id=544>"
+State 068
+ Name "全属性強化"
+ Message1 "の全属性攻撃が強化された！"
+ Message2 "の全属性攻撃が強化された！"
+ Message4 "の属性威力が元に戻った！"
+ Notes "<属性強化 3-50,4-50,5-50,6-50,7-50,8-50,9-50,10-50>"
+State 069
+ Name "漸時:エリクサー"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 070
+ Name "漸時:ラストエリクサー"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 071
+ Name "酔拳"
+ Message1 "は酔拳を発動した！"
+ Message2 "は酔拳を発動した！"
+ Message4 "の酔いが醒めた！"
+ Notes "<連続発動タイプ 21-2,37-2,38-2,53-2>\r\n<会心ダメージ増加:50>"
+State 072
+ Name "会心率・会心ダメージアップ"
+ Message1 "の会心率と会心ダメージが上がった！"
+ Message2 "の会心率と会心ダメージが上がった！"
+ Message4 "の会心率と会心ダメージが元に戻った！"
+ Notes "<会心ダメージ増加:50>"
+State 073
+ Name "回避率90%アップ"
+ Message1 "の回避率が上がった！"
+ Message2 "の回避率が上がった！"
+ Message4 "の回避率が元に戻った！"
+State 074
+ Name "出血"
+ Message1 "は出血した！"
+ Message2 "は出血した！"
+ Message3 "は出血している……"
+ Message4 "の出血が癒えた！"
+State 075
+ Name "銀河属性弱点"
+ Message1 "は銀河属性に弱くなった！"
+ Message2 "は銀河属性に弱くなった！"
+ Message4 "の銀河耐性が元に戻った！"
+ Notes "<属性耐性固定 41-150>"
+State 076
+ Name "炎属性弱点"
+ Message1 "は炎属性に弱くなった！"
+ Message2 "は炎属性に弱くなった！"
+ Message4 "の炎耐性が元に戻った！"
+ Notes "<属性耐性固定 3-150>"
+State 077
+ Name "氷属性弱点"
+ Message1 "は氷属性に弱くなった！"
+ Message2 "は氷属性に弱くなった！"
+ Message4 "の氷耐性が元に戻った！"
+ Notes "<属性耐性固定 4-150>"
+State 078
+ Name "雷属性弱点"
+ Message1 "は雷属性に弱くなった！"
+ Message2 "は雷属性に弱くなった！"
+ Message4 "の雷耐性が元に戻った！"
+ Notes "<属性耐性固定 5-150>"
+State 079
+ Name "風属性弱点"
+ Message1 "は風属性に弱くなった！"
+ Message2 "は風属性に弱くなった！"
+ Message4 "の風耐性が元に戻った！"
+ Notes "<属性耐性固定 6-150>"
+State 080
+ Name "土属性弱点"
+ Message1 "は土属性に弱くなった！"
+ Message2 "は土属性に弱くなった！"
+ Message4 "の土耐性が元に戻った！"
+ Notes "<属性耐性固定 7-150>"
+State 081
+ Name "水属性弱点"
+ Message1 "は水属性に弱くなった！"
+ Message2 "は水属性に弱くなった！"
+ Message4 "の水耐性が元に戻った！"
+ Notes "<属性耐性固定 8-150>"
+State 082
+ Name "聖属性弱点"
+ Message1 "は聖属性に弱くなった！"
+ Message2 "は聖属性に弱くなった！"
+ Message4 "の聖耐性が元に戻った！"
+ Notes "<属性耐性固定 9-150>"
+State 083
+ Name "闇属性弱点"
+ Message1 "は闇属性に弱くなった！"
+ Message2 "は闇属性に弱くなった！"
+ Message4 "の闇耐性が元に戻った！"
+ Notes "<属性耐性固定 10-150>"
+State 084
+ Name "音波属性弱点"
+ Message1 "は音波属性に弱くなった！"
+ Message2 "は音波属性に弱くなった！"
+ Message4 "の音波耐性が元に戻った！"
+ Notes "<属性耐性固定 35-150>"
+State 085
+ Name "バイオ属性弱点"
+ Message1 "はバイオ属性に弱くなった！"
+ Message2 "はバイオ属性に弱くなった！"
+ Message4 "のバイオ耐性が元に戻った！"
+ Notes "<属性耐性固定 36-150>"
+State 086
+ Name "物理属性弱点"
+ Message1 "は物理攻撃に弱くなった！"
+ Message2 "は物理攻撃に弱くなった！"
+ Message4 "の物理耐性が元に戻った！"
+ Notes "<属性耐性固定 1-150>"
+State 087
+ Name "快楽属性弱点"
+ Message1 "は快楽に弱くなった！"
+ Message2 "は快楽に弱くなった！"
+ Message4 "の快楽耐性が元に戻った！"
+ Notes "<属性耐性固定 2-150>"
+State 088
+ Name "六属性無効"
+ Message1 "にほとんどの属性は通じなくなった！"
+ Message2 "にほとんどの属性は通じなくなった！"
+ Message4 "の属性耐性が元に戻った！"
+State 089
+ Name "三魔の拳"
+ Message1 "の拳に三魔の力が宿った！"
+ Message2 "の拳に三魔の力が宿った！"
+ Message4 "の拳から三魔の力が消えた！"
+ Notes "<属性強化 3-50,4-50,5-50>"
+State 090
+ Name "四精の拳"
+ Message1 "の拳に四精の力が宿った！"
+ Message2 "の拳に四精の力が宿った！"
+ Message4 "の拳から四精の力が消えた！"
+ Notes "<属性強化 3-50,6-50,7-50,8-50>"
+State 091
+ Name "聖魔の拳"
+ Message1 "の拳に聖魔の力が宿った！"
+ Message2 "の拳に聖魔の力が宿った！"
+ Message4 "の拳から聖魔の力が消えた！"
+ Notes "<属性強化 9-50,10-50>"
+State 092
+ Name "炎・氷・雷属性無効"
+ Message1 "に炎・氷・雷属性は通じなくなった！"
+ Message2 "に炎・氷・雷属性は通じなくなった！"
+ Message4 "の属性耐性が元に戻った！"
+State 094
+ Name "聖属性無効"
+State 095
+ Name "闇属性無効"
+State 096
+ Name "音波属性無効"
+State 097
+ Name "バイオ属性無効"
+State 098
+ Name "物理属性無効"
+ Message1 "は物理攻撃を受け付けなくなった！"
+ Message2 "は物理攻撃を受け付けなくなった！"
+ Message4 "の物理耐性が元に戻った！"
+State 099
+ Name "快楽属性無効"
+ Message1 "は快楽攻撃を受け付けなくなった！"
+ Message2 "は快楽攻撃を受け付けなくなった！"
+ Message4 "の快楽耐性が元に戻った！"
+State 100
+ Name "魔法無効"
+ Message1 "は魔法攻撃を受け付けなくなった！"
+ Message2 "は魔法攻撃を受け付けなくなった！"
+ Message4 "の魔法耐性が元に戻った！"
+State 101
+ Name "炎属性吸収"
+ Notes "<属性吸収 3>"
+State 102
+ Name "氷属性吸収"
+ Notes "<属性吸収 4>"
+State 103
+ Name "雷属性吸収"
+ Notes "<属性吸収 5>"
+State 104
+ Name "風・土・水属性吸収"
+ Message1 "は自然エネルギーの加護を得た！"
+ Message2 "は自然エネルギーの加護を得た！"
+ Message4 "の属性耐性が元に戻った！"
+ Notes "<属性吸収 6,7,8>"
+State 107
+ Name "聖属性吸収"
+ Notes "<属性吸収 9>"
+State 108
+ Name "闇属性吸収"
+ Notes "<属性吸収 10>"
+State 109
+ Name "音波属性吸収"
+ Notes "<属性吸収 35>"
+State 110
+ Name "バイオ属性吸収"
+ Notes "<属性吸収 36>"
+State 111
+ Name "快楽属性吸収"
+ Message1 "は快楽攻撃を吸収するようになった！"
+ Message2 "は快楽攻撃を吸収するようになった！"
+ Message4 "の快楽耐性が元に戻った！"
+ Notes "<属性吸収 2>"
+State 112
+ Name "物理属性半減"
+State 113
+ Name "快楽属性半減"
+ Message1 "は快楽攻撃を受けにくくなった！"
+ Message2 "は快楽攻撃を受けにくくなった！"
+ Message4 "の快楽耐性が元に戻った！"
+State 114
+ Name "魔法半減"
+ Message1 "の前に魔法の防護壁が発生した！"
+ Message2 "の前に魔法の防護壁が発生した！"
+ Message4 "の魔法防護壁が消滅した！"
+State 115
+ Name "魔法反射"
+ Message1 "の前に魔法を反射する壁が発生した！"
+ Message2 "の前に魔法を反射する壁が発生した！"
+ Message4 "の魔法反射壁が消滅した！"
+State 116
+ Name "昇天付加100%"
+ Message4 "の刃から死の力が消えた！"
+State 117
+ Name "即死付加100%"
+ Message4 "の刃から昇天の力が消えた！"
+State 118
+ Name "毒付加100%"
+ Message4 "の刃から毒の力が消えた！"
+State 119
+ Name "暗闇付加100%"
+ Message4 "の刃から暗闇の力が消えた！"
+State 120
+ Name "沈黙付加100%"
+ Message4 "の刃から沈黙の力が消えた！"
+State 121
+ Name "混乱付加100%"
+ Message4 "の刃から混乱の力が消えた！"
+State 122
+ Name "睡眠付加100%"
+ Message4 "の刃から睡眠の力が消えた！"
+State 123
+ Name "麻痺付加100%"
+ Message4 "の刃から麻痺の力が消えた！"
+State 124
+ Name "消化付加100%"
+State 125
+ Name "HP吸収付加100%"
+ Message4 "の刃から体力吸収の力が消えた！"
+ Notes "<通常攻撃 7>"
+State 126
+ Name "MP吸収付加100%"
+ Message4 "の刃から魔力吸収の力が消えた！"
+ Notes "<通常攻撃 8>"
+State 127
+ Name "通常攻撃強化"
+ Message1 "の通常攻撃が強化された！"
+ Message2 "の通常攻撃が強化された！"
+ Message4 "の通常攻撃が元に戻った！"
+ Notes "<通常攻撃強化 0-400,1-400,2-400,3-400,4-400,5-400,6-400,7-400,8-400,9-400,10-400,11-400,12-400,13-400,14-400,15-400,16-400,17-400,18-400,19-400,20-400,21-400,22-400,23-400,24-400,25-400,26-400,27-400,28-400,29-400,30-400,31-400>"
+State 128
+ Name "毒無効"
+ Message1 "に毒は効かなくなった！"
+ Message2 "に毒は効かなくなった！"
+ Message4 "の毒耐性が元に戻った！"
+State 129
+ Name "暗闇無効"
+ Message1 "に暗闇は効かなくなった！"
+ Message2 "に暗闇は効かなくなった！"
+ Message4 "の暗闇耐性が元に戻った！"
+State 130
+ Name "沈黙無効"
+ Message1 "に沈黙は効かなくなった！"
+ Message2 "に沈黙は効かなくなった！"
+ Message4 "の沈黙耐性が元に戻った！"
+State 131
+ Name "混乱睡眠無効"
+ Message1 "に混乱と睡眠は効かなくなった！"
+ Message2 "に混乱と睡眠は効かなくなった！"
+ Message4 "の混乱と睡眠耐性が元に戻った！"
+State 132
+ Name "麻痺無効"
+ Message1 "に麻痺は効かなくなった！"
+ Message2 "に麻痺は効かなくなった！"
+ Message4 "の麻痺耐性が元に戻った！"
+State 133
+ Name "ミニマム無効"
+ Message1 "にミニマムは効かなくなった！"
+ Message2 "にミニマムは効かなくなった！"
+ Message4 "のミニマム耐性が元に戻った！"
+State 134
+ Name "ゾンビ無効"
+ Message1 "にゾンビは効かなくなった！"
+ Message2 "にゾンビは効かなくなった！"
+ Message4 "のゾンビ耐性が元に戻った！"
+State 135
+ Name "石化無効"
+ Message1 "に石化は効かなくなった！"
+ Message2 "に石化は効かなくなった！"
+ Message4 "の石化耐性が元に戻った！"
+State 136
+ Name "催淫無効"
+ Message1 "に快楽状態異常は効かなくなった！"
+ Message2 "に快楽状態異常は効かなくなった！"
+ Message4 "の快楽状態異常耐性が元に戻った！"
+State 137
+ Name "全状態異常無効"
+ Message1 "に状態異常は効かなくなった！"
+ Message2 "に状態異常は効かなくなった！"
+ Message4 "の状態異常耐性が元に戻った！"
+State 138
+ Name "二回攻撃"
+ Message1 "の刃に戦神が宿る！"
+ Message2 "の刃に戦神が宿る！"
+ Message4 "の刃は普通に戻った！"
+State 139
+ Name "三回攻撃"
+ Message1 "の刃に戦神が宿る！"
+ Message2 "の刃に戦神が宿る！"
+ Message4 "の刃は普通に戻った！"
+State 140
+ Name "四回攻撃"
+ Message1 "の刃に戦神が宿る！"
+ Message2 "の刃に戦神が宿る！"
+ Message4 "の刃は普通に戻った！"
+State 141
+ Name "五回攻撃"
+ Message1 "の刃に戦神が宿る！"
+ Message2 "の刃に戦神が宿る！"
+ Message4 "の刃は普通に戻った！"
+State 142
+ Name "六回攻撃"
+ Message1 "の刃に戦神が宿る！"
+ Message2 "の刃に戦神が宿る！"
+ Message4 "の刃は普通に戻った！"
+State 143
+ Name "八回攻撃"
+ Message1 "の刃に戦神が宿る！"
+ Message2 "の刃に戦神が宿る！"
+ Message4 "の刃は普通に戻った！"
+State 144
+ Name "二回行動"
+State 145
+ Name "三回行動"
+State 146
+ Name "乱れ打ち"
+ Message1 "の刃に戦神が宿る！"
+ Message2 "の刃に戦神が宿る！"
+ Message4 "の刃は普通に戻った！"
+ Notes "<通常攻撃 3>"
+State 147
+ Name "皆伝乱れ打ち"
+ Message1 "の刃に戦神が宿る！"
+ Message2 "の刃に戦神が宿る！"
+ Message4 "の刃は普通に戻った！"
+ Notes "<通常攻撃 4>"
+State 148
+ Name "二回行動1ターン"
+ Notes "<表示：二回行動>"
+State 149
+ Name "快楽状態異常無効"
+ Message1 "に快楽状態異常は効かなくなった！"
+ Message2 "に快楽状態異常は効かなくなった！"
+ Message4 "の快楽状態異常耐性が元に戻った！"
+State 151
+ Name "再蘇生"
+ Message1 "に再蘇生の加護が与えられた！"
+ Message2 "に再蘇生の加護が与えられた！"
+ Notes "<死亡時スキル 3264>\r\n<即死時スキル 3264>"
+State 152
+ Name "獲得経験値2倍"
+ Notes "<獲得経験値倍率 200%>"
+State 153
+ Name "獲得経験値3倍"
+ Notes "<獲得経験値倍率 300%>"
+State 154
+ Name "獲得職業経験値2倍"
+ Notes "<獲得職業経験値倍率 200%>"
+State 155
+ Name "獲得職業経験値3倍"
+ Notes "<獲得職業経験値倍率 300%>"
+State 156
+ Name "獲得ゴールド2倍"
+ Notes "<獲得金額倍率 200%>"
+State 157
+ Name "獲得ゴールド3倍"
+ Notes "<獲得金額倍率 300%>"
+State 158
+ Name "ドロップアイテム2倍"
+ Notes "<獲得アイテム倍率 200%>"
+State 159
+ Name "ドロップアイテム3倍"
+ Notes "<獲得アイテム倍率 300%>"
+State 160
+ Name "仲間確率2倍"
+ Notes "<仲間加入倍率 200%>"
+State 161
+ Name "仲間確率3倍"
+ Notes "<仲間加入倍率 300%>"
+State 162
+ Name "MP消費1/2"
+State 163
+ Name "MP消費1/4"
+State 164
+ Name "MP消費なし"
+State 165
+ Name "SP消費1/2"
+ Notes "<TP消費率 50%>"
+State 166
+ Name "SP消費1/4"
+ Notes "<TP消費率 25%>"
+State 167
+ Name "SP消費なし"
+ Notes "<TP消費率 0%>"
+State 168
+ Name "マジックカーテン"
+ Message1 "の前に魔法の防護壁が発生した！"
+ Message2 "の前に魔法の防護壁が発生した！"
+ Message4 "の前から魔法の防護壁が消えた！"
+ Notes "<ダメージMP吸収 10%>"
+State 169
+ Name "マジックウォール"
+ Message1 "の前に魔法の防護壁が発生した！"
+ Message2 "の前に魔法の防護壁が発生した！"
+ Message4 "の前から魔法の防護壁が消えた！"
+ Notes "<ダメージMP変換 100%>"
+State 170
+ Name "マネーカーテン"
+ Message1 "の前に不思議な防護壁が発生した！"
+ Message2 "の前に不思議な防護壁が発生した！"
+ Message4 "の前から不思議な防護壁が消えた！"
+ Notes "<ダメージゴールド回収 100%>"
+State 171
+ Name "マネーウォール"
+ Message1 "の前に不思議な防護壁が発生した！"
+ Message2 "の前に不思議な防護壁が発生した！"
+ Message4 "の前から不思議な防護壁が消えた！"
+ Notes "<ダメージゴールド変換 100%>"
+State 172
+ Name "魔力集中"
+ Message1 "の魔力と精神力が一時的に上昇する！"
+ Message2 "の魔力と精神力が一時的に上昇する！"
+ Notes "<命中率 200%>"
+State 173
+ Name "精神集中"
+ Message1 "の器用さと素早さが一時的に上昇する！"
+ Message2 "の器用さと素早さが一時的に上昇する！"
+ Notes "<命中率 200%>"
+State 174
+ Name "バトルメイド"
+ Message1 "の武技スキルタイプが解放された！"
+ Message2 "の武技スキルタイプが解放された！"
+ Message4 "のスキルタイプが元に戻った！"
+State 175
+ Name "マジカルメイド"
+ Message1 "の魔法スキルタイプが解放された！"
+ Message2 "の魔法スキルタイプが解放された！"
+ Message4 "のスキルタイプが元に戻った！"
+State 176
+ Name "魔物スキル全使用可能"
+ Message1 "の魔物スキルタイプが解放された！"
+ Message2 "の魔物スキルタイプが解放された！"
+ Message4 "のスキルタイプが元に戻った！"
+State 177
+ Name "全スキル使用可能"
+ Message1 "の全スキルタイプが解放された！"
+ Message2 "の全スキルタイプが解放された！"
+ Message4 "のスキルタイプが元に戻った！"
+State 178
+ Name "パーフェクトメイド"
+ Message1 "の全スキルタイプが解放された！"
+ Message2 "の全スキルタイプが解放された！"
+ Message4 "のスキルタイプが元に戻った！"
+State 179
+ Name "捨身撃"
+State 180
+ Name "ノブレス・オブリージュ"
+ Message1 "の刃に高貴な志が宿る！"
+ Message2 "の刃に高貴な志が宿る！"
+ Message4 "の刃は普通に戻った！"
+ Notes "<連続発動タイプ 8-2>"
+State 181
+ Name "裸一貫"
+ Message1 "の刃に鬼神が宿る！"
+ Message2 "の刃に鬼神が宿る！"
+ Message4 "の刃は普通に戻った！"
+ Notes "<連続発動タイプ 9-2>"
+State 182
+ Name "一番槍"
+ Message1 "の刃に騎神が宿る！"
+ Message2 "の刃に騎神が宿る！"
+ Message4 "の刃は普通に戻った！"
+State 183
+ Name "人馬一体"
+ Message1 "の刃に騎神が宿る！"
+ Message2 "の刃に騎神が宿る！"
+ Message4 "の刃は普通に戻った！"
+ Notes "<連続発動タイプ 10-2>"
+State 184
+ Name "イクシオン"
+ Message1 "の刃に騎神が宿る！"
+ Message2 "の刃に騎神が宿る！"
+ Message4 "の刃は普通に戻った！"
+State 185
+ Name "シルフ"
+ Message4 "からシルフの加護がなくなった！"
+ Notes "<属性強化 6-50>\r\n<属性吸収 6>"
+State 186
+ Name "ノーム"
+ Message4 "からノームの加護がなくなった！"
+ Notes "<属性強化 7-50>\r\n<属性吸収 7>"
+State 187
+ Name "ウンディーネ"
+ Message4 "からウンディーネの加護がなくなった！"
+ Notes "<属性強化 8-50>\r\n<属性吸収 8>"
+State 188
+ Name "サラマンダー"
+ Message4 "からサラマンダーの加護がなくなった！"
+ Notes "<属性強化 3-50>\r\n<属性吸収 3>"
+State 189
+ Name "ジルフィ"
+ Message4 "からジルフィの効果がなくなった！"
+State 190
+ Name "ノーマレン"
+ Message4 "からノーマレンの効果がなくなった！"
+State 191
+ Name "グランディーネ"
+ Message4 "からグランディーネの効果がなくなった！"
+State 192
+ Name "ギガマンドラ"
+ Message4 "からギガマンドラの効果がなくなった！"
+State 193
+ Name "霊禹歩"
+ Message1 "に天地の理が加護を与える！"
+ Message2 "に天地の理が加護を与える！"
+ Message4 "の加護が消え去った！"
+State 194
+ Name "神禹歩"
+ Message1 "に天地の理が加護を与える！"
+ Message2 "に天地の理が加護を与える！"
+ Message4 "の加護が消え去った！"
+State 195
+ Name "飛禹歩"
+ Message1 "に天地の理が加護を与える！"
+ Message2 "に天地の理が加護を与える！"
+ Message4 "の加護が消え去った！"
+State 196
+ Name "竜禹歩"
+ Message1 "に天地の理が加護を与える！"
+ Message2 "に天地の理が加護を与える！"
+ Message4 "の加護が消え去った！"
+State 197
+ Name "生命保険"
+ Message1 "が倒れると保険金が支払われる！"
+ Message2 "が倒れると保険金が支払われる！"
+ Notes "<最終反撃 14>"
+State 198
+ Name "ずっと俺のターン"
+ Message1 "のターンが何度も巡ってくる！"
+ Message2 "のターンが何度も巡ってくる！"
+ Message4 "のターンは終わった！"
+State 199
+ Name "カウンター率50%アップ"
+ Message1 "のカウンター率が上がった！"
+ Message2 "のカウンター率が上がった！"
+ Message4 "のカウンター率が元に戻った！"
+State 200
+ Name "カウンター率100%アップ"
+ Message1 "のカウンター率が大幅に上がった！"
+ Message2 "のカウンター率が大幅に上がった！"
+ Message4 "のカウンター率が元に戻った！"
+State 201
+ Name "蛇神の舞い"
+ Message1 "に蛇神の加護が宿る！"
+ Message2 "に蛇神の加護が宿る！"
+ Message4 "から蛇神の加護が消えた！"
+ Notes "<魔法反撃 100%>\r\n<必中反撃 100%>\r\n<反撃強化 100%>"
+State 202
+ Name "最大HP1.5倍"
+ Message1 "の最大HPが一時的に増大した！"
+ Message2 "の最大HPが一時的に増大した！"
+ Message4 "のドーピング効果が切れた！"
+State 203
+ Name "ブリッツクリーグ"
+ Message1 "に機神の加護が宿った！"
+ Message2 "に機神の加護が宿った！"
+ Message4 "から機神の加護が消えた！"
+State 204
+ Name "聖素浸食"
+ Message1 "は聖素に冒され暴走を始めた！"
+ Message2 "は聖素に冒され暴走を始めた！"
+State 205
+ Name "デュラハンツインズ"
+ Message1 "の首と胴が別々に動き始めた！"
+ Message2 "の首と胴が別々に動き始めた！"
+ Message4 "の首が胴体に戻った！"
+State 206
+ Name "デュラハンロンド"
+ Message1 "の首と胴が別々に動き始めた！"
+ Message2 "の首と胴が別々に動き始めた！"
+ Message4 "の首が胴体に戻った！"
+State 208
+ Name "分裂"
+ Message1 "分裂した体が別々に動き出す！"
+ Message2 "分裂した体が別々に動き出す！"
+ Message4 "は一体に戻った！"
+State 209
+ Name "ディバインディステニー"
+ Message1 "分裂した体が別々に動き出す！"
+ Message2 "分裂した体が別々に動き出す！"
+ Message4 "は一体に戻った！"
+State 210
+ Name "究極群体"
+ Message1 "分裂した体が別々に動き出す！"
+ Message2 "分裂した体が別々に動き出す！"
+ Message4 "は一体に戻った！"
+State 211
+ Name "ルナティックハイ"
+ Message1 "は暴走した！"
+ Message2 "は暴走した！"
+ Message4 "の暴走が解けた！"
+State 212
+ Name "ジェノサイドハイ"
+ Message1 "は暴走した！"
+ Message2 "は暴走した！"
+ Message4 "の暴走が解けた！"
+State 213
+ Name "月狂い"
+ Message1 "は暴走した！"
+ Message2 "は暴走した！"
+ Message4 "の暴走が解けた！"
+ Notes "<TP消費率 0%>"
+State 214
+ Name "ぐっすりにゃんこ"
+ Message3 "はぐっすり眠っている……"
+ Message4 "は目を覚ました！"
+State 216
+ Name "軟体ボディ"
+ Message4 "の体が元に戻った！"
+State 217
+ Name "集団行動"
+ Message1 "の仲間達が援護攻撃をしてくれるようだ！"
+ Message2 "の仲間達が援護攻撃をしてくれるようだ！"
+ Message4 "の仲間達は去っていった！"
+ Notes "<連続発動タイプ 57-2>"
+State 218
+ Name "集団支配者"
+ Message1 "の仲間達が援護攻撃をしてくれるようだ！"
+ Message2 "の仲間達が援護攻撃をしてくれるようだ！"
+ Message4 "の仲間達は去っていった！"
+ Notes "<連続発動タイプ 57-3>"
+State 219
+ Name "霊体化"
+ Message1 "は霊体化した！"
+ Message2 "は霊体化した！"
+ Message4 "の霊体化が解けた！"
+State 220
+ Name "ステルス"
+State 221
+ Name "リミッター解除"
+ Message1 "は暴走した！"
+ Message2 "は暴走した！"
+ Message4 "の暴走が解けた！"
+ Notes "<連続発動タイプ 6-2,7-2,8-2,9-2,10-2,11-2,12-2,13-2,14-2,15-2,16-2,17-2,18-2,19-2,20-2,21-2,50-2,51-2,52-2,53-2,54-2,55-2,56-2,57-2,58-2,59-2,60-2,61-2,62-2>"
+State 222
+ Name "魔導暴走"
+ Message1 "は暴走した！"
+ Message2 "は暴走した！"
+ Message4 "の暴走が解けた！"
+State 223
+ Name "深呼吸"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 224
+ Name "戦術的呼吸法"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 225
+ Name "力溜め"
+ Message1 "の攻撃力が一時的に上昇する！"
+ Message2 "の攻撃力が一時的に上昇する！"
+State 226
+ Name "気合い溜め"
+ Message1 "の攻撃力が一時的に上昇する！"
+ Message2 "の攻撃力が一時的に上昇する！"
+State 227
+ Name "全力溜め"
+ Message1 "の攻撃力が次のターンのみ上昇する！"
+ Message2 "の攻撃力が次のターンのみ上昇する！"
+State 228
+ Name "永久変身"
+ Message3 "は変身している……"
+ Message4 "の変身が解けた！"
+State 229
+ Name "ステージタイム"
+ Message4 "のステージタイムが終わった！"
+State 230
+ Name "即死"
+ Message1 "は息絶えた！"
+ Message2 "は息絶えた！"
+ Notes "<即死>"
+State 231
+ Name "昇天"
+ Message1 "は昇天した！"
+ Message2 "は昇天した！"
+ Notes "<即死>"
+State 232
+ Name "絶頂"
+ Message1 "は絶頂した！"
+ Message2 "は絶頂した！"
+ Notes "<即死>\r\n<快楽死亡>"
+State 233
+ Name "即死・昇天・絶頂無効"
+ Message1 "は即死効果を受け付けなくなった！"
+ Message2 "は即死効果を受け付けなくなった！"
+ Message4 "の即死耐性が元に戻った！"
+State 234
+ Name "混沌イベ：力溜め"
+ Message1 "の攻撃力が次のターンのみ上昇する！"
+ Message2 "の攻撃力が次のターンのみ上昇する！"
+ Notes "<表示：力溜め>"
+State 235
+ Name "粘液大量分泌"
+ Message4 "の体が元に戻った！"
+ Notes "<反撃スキル 26,100%>"
+State 236
+ Name "消化粘液浸食"
+ Notes "<ターン終了時発動 1300: 37,100%>"
+State 237
+ Name "ビーナスネペンテス"
+ Notes "<ターン終了時発動 1301: 38,100%>"
+State 238
+ Name "援軍要請"
+ Notes "<ターン終了時発動 1302: 39,100%>"
+State 239
+ Name "支援砲撃"
+ Message1 "の指示によりおさかな号が砲撃準備を始める！"
+ Notes "<ターン終了時発動 1303: 40,100%>"
+State 240
+ Name "カイザーフリート"
+ Message1 "の指示により砲撃態勢が続行する！"
+ Notes "<ターン終了時発動 1303: 41,100%>"
+State 241
+ Name "無敵艦隊一斉砲撃"
+ Message1 "の指示により砲撃態勢が続行する！"
+ Notes "<ターン終了時発動 1303: 42,100%>"
+State 242
+ Name "人魚大砲"
+ Message1 "の指示により砲撃態勢が続行する！"
+ Notes "<ターン終了時発動 1303: 43,100%>"
+State 243
+ Name "集団撃"
+ Notes "<ターン終了時発動 1304: 45,100%>"
+State 244
+ Name "一族総攻撃"
+ Notes "<ターン終了時発動 1304: 46,100%>"
+State 245
+ Name "覇光ノ刃・逆鱗"
+ Notes "<無効化反撃スキル 9019,100%>\r\n<無効化魔法反撃スキル 9019,100%>\r\n<表示：なし>"
+State 246
+ Name "覇光ノ刃・護龍"
+ Notes "<無効化反撃スキル 9021,100%>\r\n<無効化魔法反撃スキル 9021,100%>\r\n<表示：なし>"
+State 247
+ Name "陰陽・魔祓陣"
+ Notes "<無効化魔法反撃スキル 1741,100%>\r\n<表示：なし>"
+State 248
+ Name "陰陽外行・万祓陣"
+ Notes "<無効化魔法反撃スキル 9310,100%>\r\n<表示：なし>"
+State 249
+ Name "当て身光掌"
+ Notes "<無効化反撃スキル 1434,100%>\r\n<無効化魔法反撃スキル 1434,100%>\r\n<表示：なし>"
+State 250
+ Name "ハードジョブモード"
+ Notes "<連続発動タイプ 50-2,51-2,52-2,53-2,54-2,55-2,56-2,57-2,58-2,59-2,60-2,61-2,62-2,63-2>"
+State 251
+ Name "回避率75%アップ"
+State 252
+ Name "明けの明星"
+ Notes "<無効化反撃スキル 9275,100%>\r\n<無効化魔法反撃スキル 9275,100%>\r\n<無効化必中反撃スキル 9275,100%>\r\n<表示：なし>"
+State 254
+ Name "なすがまま"
+ Notes "<表示：なし>"
+State 255
+ Name "あけのみょうじょう"
+ Notes "<無効化反撃スキル 1645,100%>\r\n<表示：なし>"
+State 256
+ Name "武技スキル二連続発動"
+ Message1 "は武技を連続発動するようになった！"
+ Message2 "は武技を連続発動するようになった！"
+ Message4 "は普通に戻った！"
+ Notes "<連続発動タイプ 6-2,7-2,8-2,9-2,10-2,11-2,12-2,13-2,14-2,15-2,16-2,17-2,18-2,19-2,20-2,21-2>"
+State 257
+ Name "魔法スキル二連続発動"
+ Message1 "は魔法を連続発動するようになった！"
+ Message2 "は魔法を連続発動するようになった！"
+ Message4 "は普通に戻った！"
+ Notes "<連続発動タイプ 22-2,23-2,24-2,25-2,26-2,27-2,29-2,40-2,41-2,42-2,67-2>"
+State 258
+ Name "ターンHP・MP・SP大回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 259
+ Name "絶対必中・絶対会心"
+ Message1 "の力がみなぎってきた！"
+ Message2 "の力がみなぎってきた！"
+ Message4 "は元に戻った！"
+ Notes "<命中率 200%>"
+State 260
+ Name "六属性吸収"
+ Message1 "は六属性を吸収するようになった！"
+ Message2 "は六属性を吸収するようになった！"
+ Message4 "の属性耐性が元に戻った！"
+ Notes "<属性吸収 3,4,5,6,7,8>"
+State 261
+ Name "物理属性吸収"
+ Message1 "は物理攻撃を吸収するようになった！"
+ Message2 "は物理攻撃を吸収するようになった！"
+ Message4 "の物理耐性が元に戻った！"
+ Notes "<属性吸収 1>"
+State 262
+ Name "物理・快楽属性反射"
+ Message1 "は物理・快楽攻撃を反射するようになった！"
+ Message2 "は物理・快楽攻撃を反射するようになった！"
+ Message4 "の物理・快楽耐性が元に戻った！"
+ Notes "<属性反射:1,2>"
+State 263
+ Name "万能属性半減"
+ Message1 "の万能耐性が強化された！"
+ Message2 "の万能耐性が強化された！"
+ Message4 "の万能耐性が元に戻った！"
+State 264
+ Name "エクスカリバー"
+ Message1 "は錬成したエクスカリバーを装備した！"
+ Message2 "は錬成したエクスカリバーを装備した！"
+ Notes "<属性強化 9-50>"
+State 265
+ Name "覇光ノ刃・護龍(敵"
+ Notes "<無効化反撃スキル 5740,100%>\r\n<無効化魔法反撃スキル 5740,100%>\r\n<表示：なし>"
+State 266
+ Name "100以下ダメージ無効"
+ Message1 "は100以下のダメージを受けなくなった！"
+ Message4 "のダメージ無効効果が消えた！"
+ Notes "<無効化障壁 100>"
+State 267
+ Name "300以下ダメージ無効"
+ Message1 "は300以下のダメージを受けなくなった！"
+ Message4 "のダメージ無効効果が消えた！"
+ Notes "<無効化障壁 300>"
+State 268
+ Name "1000以下ダメージ無効"
+ Message1 "は1000以下のダメージを受けなくなった！"
+ Message4 "のダメージ無効効果が消えた！"
+ Notes "<無効化障壁 1000>"
+State 269
+ Name "7000以下ダメージ無効"
+ Message1 "は7000以下のダメージを受けなくなった！"
+ Message4 "のダメージ無効効果が消えた！"
+ Notes "<無効化障壁 7000>"
+State 270
+ Name "必中回避率50%アップ"
+ Notes "<必中回避率 50%>"
+State 271
+ Name "スタン1"
+ Message1 "は転んでしまった！"
+ Message2 "は転んでしまった！"
+ Message3 "は転び、もがいている……"
+ Message4 "は起き上がった！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<表示：スタン>"
+State 272
+ Name "スタン2"
+ Message1 "は身をすくませてしまった！"
+ Message2 "は身をすくませてしまった！"
+ Message3 "は身をすくませている……"
+ Message4 "は我に返った！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<表示：スタン>"
+State 273
+ Name "スタン3"
+ Message1 "はつられて踊ってしまった！"
+ Message2 "はつられて踊ってしまった！"
+ Message3 "はつられて踊っている……"
+ Message4 "は我に返った！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<表示：スタン>"
+State 274
+ Name "スタン4"
+ Message1 "はキラッ☆のポーズを取った！"
+ Message2 "はキラッ☆のポーズを取った！"
+ Message3 "はキラッ☆のポーズを取っている……"
+ Message4 "は我に返った！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<表示：スタン>"
+State 275
+ Name "スタン5"
+ Message1 "は思わず笑ってしまった！"
+ Message2 "は思わず笑ってしまった！"
+ Message3 "は笑っている……"
+ Message4 "は我に返った！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<表示：スタン>"
+State 276
+ Name "スタン6"
+ Message1 "は目を奪われてしまった！"
+ Message2 "は目を奪われてしまった！"
+ Message3 "は目を奪われている……"
+ Message4 "は我に返った！"
+ Notes "<回避率 -200%>\r\n<魔法回避率 -200%>\r\n<表示：スタン>"
+State 277
+ Name "王機械技無効化反撃"
+ Notes "<無効化反撃スキル 8818,25%>\r\n<表示：なし>"
+State 278
+ Name "王聖技無効化反撃"
+ Notes "<無効化反撃スキル 8817,25%>\r\n<表示：なし>"
+State 279
+ Name "王魔法無効化反撃"
+ Notes "<無効化反撃スキル 8816,25%>\r\n<表示：なし>"
+State 280
+ Name "王剣技無効化反撃"
+ Notes "<無効化反撃スキル 8815,25%>\r\n<表示：なし>"
+State 281
+ Name "夢幻天舞"
+ Message4 "の動きが元に戻った！"
+ Notes "<回避率 50%>\r\n<魔法回避率 200%>\r\n<必中回避率 33%>\r\n<命中率 200%>"
+State 282
+ Name "堕天舞踏"
+ Message4 "の動きが元に戻った！"
+ Notes "<回避率 200%>\r\n<魔法回避率 50%>\r\n<必中回避率 33%>\r\n<命中率 200%>"
+State 283
+ Name "切り捨て御免"
+ Message1 "の刃に必殺の念が宿った！"
+ Message2 "の刃に必殺の念が宿った！"
+ Message4 "の刃から必殺の念が消えた！"
+State 284
+ Name "幸運の星"
+ Message1 "の頭上に幸運の星が光った！"
+ Message2 "の頭上に幸運の星が光った！"
+ Message4 "の頭上から幸運の星が消えた！"
+State 285
+ Name "戦闘後獲得2倍"
+ Message1 "の獲得経験値とゴールドが2倍になる！"
+ Message2 "の獲得経験値とゴールドが2倍になる！"
+ Notes "<獲得経験値倍率 200%>\r\n<獲得職業経験値倍率 200%>\r\n<獲得金額倍率 200%>"
+State 286
+ Name "全属性弱点"
+ Message1 "は全属性に弱くなった！"
+ Message2 "は全属性に弱くなった！"
+ Message4 "の属性耐性が元に戻った！"
+State 287
+ Name "ターンHP・MP小回復"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 288
+ Name "ハーピーダンス"
+ Message1 "は軽やかに宙を舞った！"
+ Message2 "は軽やかに宙を舞った！"
+ Message4 "は地面に着地した！"
+State 289
+ Name "回避率・魔法回避率100%"
+ Message1 "は無縫の身のこなしとなった！"
+ Message2 "は無縫の身のこなしとなった！"
+ Message4 "の身のこなしが元に戻った！"
+State 290
+ Name "消費MP・SP1/4"
+ Message1 "の消費MPおよびSPが低下した！"
+ Message2 "の消費MPおよびSPが低下した！"
+ Message4 "の消費MPおよびSPが元に戻った！"
+ Notes "<TP消費率 25%>"
+State 291
+ Name "メイドブースト"
+ Message1 "にブーストがかかった！"
+ Message2 "にブーストがかかった！"
+ Message4 "のブーストが切れた！"
+State 292
+ Name "魔法回避率75%アップ"
+State 293
+ Name "テンタクルアップ"
+ Message4 "の触手は普通に戻った！"
+ Notes "<連続発動タイプ 55-2>"
+State 294
+ Name "テンタクルハイアップ"
+ Message4 "の触手は普通に戻った！"
+ Notes "<連続発動タイプ 55-3>"
+State 295
+ Name "テンタクルエクスアップ"
+ Message4 "の触手は普通に戻った！"
+ Notes "<連続発動タイプ 55-4>"
+State 296
+ Name "消費MP・SPなし"
+ Message1 "はMPおよびSPを消費しなくなった！"
+ Message2 "はMPおよびSPを消費しなくなった！"
+ Message4 "の消費MPおよびSPが元に戻った！"
+ Notes "<TP消費率 0%>"
+State 297
+ Name "練気"
+ Message1 "の攻撃力と会心率が上がった！"
+ Message2 "の攻撃力と会心率が上がった！"
+ Message4 "の攻撃力と会心率が元に戻った！"
+State 298
+ Name "裏練気"
+ Message1 "の攻撃力と会心率が上がった！"
+ Message2 "の攻撃力と会心率が上がった！"
+ Message4 "の攻撃力と会心率が元に戻った！"
+State 299
+ Name "竜鋼体"
+ Message1 "の体に竜神の頑強さが宿った！"
+ Message2 "の体に竜神の頑強さが宿った！"
+ Message4 "の体が元に戻った！"
+State 300
+ Name "風の戯れ"
+ Message4 "から風の恩恵がなくなった！"
+State 301
+ Name "疾風の極み"
+ Message4 "から風の恩恵がなくなった！"
+ Notes "<命中率 200%>"
+State 302
+ Name "大地の息吹"
+ Message4 "から土の恩恵がなくなった！"
+State 303
+ Name "荒ぶる大地"
+ Message4 "から土の恩恵がなくなった！"
+State 304
+ Name "明鏡止水"
+ Message4 "の心構えが通常に戻った！"
+ Notes "<命中率 200%>"
+State 306
+ Name "防御力アップ"
+ Message1 "の防御力が上がった！"
+ Message2 "の防御力が上がった！"
+ Message4 "の防御力が元に戻った！"
+ Notes "<必中ダメージ率 75%>"
+State 307
+ Name "精神力アップ"
+ Message1 "の魔法防御力が上がった！"
+ Message2 "の魔法防御力が上がった！"
+ Message4 "の魔法防御力が元に戻った！"
+ Notes "<必中ダメージ率 75%>"
+State 308
+ Name "防御力ダウン"
+ Message1 "の防御力が下がった！"
+ Message2 "の防御力が下がった！"
+ Message4 "の防御力が元に戻った！"
+ Notes "<必中ダメージ率 117%>"
+State 309
+ Name "精神力ダウン"
+ Message1 "の魔法防御力が下がった！"
+ Message2 "の魔法防御力が下がった！"
+ Message4 "の魔法防御力が元に戻った！"
+ Notes "<必中ダメージ率 117%>"
+State 311
+ Name "炎拳付加"
+ Message1 "の拳に炎の力が宿った！"
+ Message4 "の拳から炎の力が消えた！"
+ Notes "<属性強化 3-50>\r\n<表示：炎属性付加>"
+State 312
+ Name "氷拳付加"
+ Message1 "の拳に氷の力が宿った！"
+ Message4 "の拳から氷の力が消えた！"
+ Notes "<属性強化 4-50>\r\n<表示：氷属性付加>"
+State 313
+ Name "雷拳付加"
+ Message1 "の拳に雷の力が宿った！"
+ Message4 "の拳から雷の力が消えた！"
+ Notes "<属性強化 5-50>\r\n<表示：雷属性付加>"
+State 314
+ Name "風拳付加"
+ Message1 "の拳に風の力が宿った！"
+ Message4 "の拳から風の力が消えた！"
+ Notes "<属性強化 6-50>\r\n<表示：風属性付加>"
+State 315
+ Name "土拳付加"
+ Message1 "の拳に土の力が宿った！"
+ Message4 "の拳から土の力が消えた！"
+ Notes "<属性強化 7-50>\r\n<表示：土属性付加>"
+State 316
+ Name "水拳付加"
+ Message1 "の拳に水の力が宿った！"
+ Message4 "の拳から水の力が消えた！"
+ Notes "<属性強化 8-50>\r\n<表示：水属性付加>"
+State 318
+ Name "ベリーイージー用・味方"
+ Notes "<表示：なし>"
+State 319
+ Name "ベリーイージー用・敵"
+ Notes "<表示：なし>"
+State 320
+ Name "防御力アップ短"
+ Message1 "の防御力が上がった！"
+ Message2 "の防御力が上がった！"
+ Message4 "の防御力が元に戻った！"
+ Notes "<表示：防御力アップ>\r\n<必中ダメージ率 75%>"
+State 321
+ Name "精神力アップ短"
+ Message1 "の魔法防御力が上がった！"
+ Message2 "の魔法防御力が上がった！"
+ Message4 "の魔法防御力が元に戻った！"
+ Notes "<表示：精神力アップ>\r\n<必中ダメージ率 75%>"
+State 322
+ Name "刀技二連続発動"
+ Message1 "の刃に剣神が宿る！"
+ Message2 "の刃に剣神が宿る！"
+ Message4 "の刃は普通に戻った！"
+ Notes "<連続発動タイプ 9-2>"
+State 323
+ Name "剣技二連続発動"
+ Message1 "の刃に剣神が宿る！"
+ Message2 "の刃に剣神が宿る！"
+ Message4 "の刃は普通に戻った！"
+ Notes "<連続発動タイプ 7-2>"
+State 324
+ Name "槍技二連続発動"
+ Message1 "の刃に剣神が宿る！"
+ Message2 "の刃に剣神が宿る！"
+ Message4 "の刃は普通に戻った！"
+ Notes "<連続発動タイプ 10-2>"
+State 325
+ Name "ゼロシフト"
+ Notes "<回避率 -500%>\r\n<魔法回避率 -500%>\r\n<会心率 -500%>\r\n<魔法反射率 -500%>\r\n<物理反射率 -500%>"
+State 326
+ Name "混沌イベ：武技封印"
+ Notes "<表示：なし>"
+State 327
+ Name "混沌イベ：魔法封印"
+ Notes "<表示：なし>"
+State 328
+ Name "混沌イベ：職技封印"
+ Notes "<表示：なし>"
+State 329
+ Name "混沌イベ：消費MP半減"
+ Notes "<表示：なし>"
+State 330
+ Name "混沌イベ：消費SP半減"
+ Notes "<TP消費率 50%>\r\n<表示：なし>"
+State 332
+ Name "レベルドレイン+"
+ Notes "<表示：なし>"
+State 333
+ Name "レベルドレイン-"
+ Message1 "は一時的にレベルが下がった！"
+ Notes "<表示：なし>"
+State 335
+ Name "人間特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 11-50>"
+State 336
+ Name "妖魔特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 12-50>"
+State 337
+ Name "亜人特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 13-50>"
+State 338
+ Name "淫魔特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 14-50>"
+State 339
+ Name "吸血鬼特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 15-50>"
+State 340
+ Name "人魚特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 16-50>"
+State 341
+ Name "エルフ特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 17-50>"
+State 342
+ Name "妖精特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 18-50>"
+State 343
+ Name "スライム特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 19-50>"
+State 344
+ Name "魔獣特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 20-50>"
+State 345
+ Name "妖狐特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 21-50>"
+State 346
+ Name "ラミア特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 22-50>"
+State 347
+ Name "スキュラ特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 23-50>"
+State 348
+ Name "ハーピー特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 24-50>"
+State 349
+ Name "ドラゴン特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 25-50>"
+State 350
+ Name "陸棲種特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 26-50>"
+State 351
+ Name "海棲種特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 27-50>"
+State 352
+ Name "虫特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 28-50>"
+State 353
+ Name "植物特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 29-50>"
+State 354
+ Name "ゾンビ特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 30-50>"
+State 355
+ Name "ゴースト特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 31-50>"
+State 356
+ Name "ドール特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 32-50>"
+State 357
+ Name "キメラ特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 33-50>"
+State 358
+ Name "天使特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 34-50>"
+State 359
+ Name "巨人特攻"
+ Message4 "の種族特攻効果が消えた！"
+ Notes "<特殊カテゴリー与ダメージアップ 37-50>"
+State 361
+ Name "アルティメットチャージ"
+ Message1 "の攻撃力が次のターンのみ上昇する！"
+ Message2 "の攻撃力が次のターンのみ上昇する！"
+ Notes "<命中率 200%>"
+State 362
+ Name "魔導暴走"
+ Message1 "の魔力と精神力が次のターンのみ上昇する！"
+ Message2 "の魔力と精神力が次のターンのみ上昇する！"
+ Notes "<命中率 200%>"
+State 363
+ Name "テクニカルバースト"
+ Message1 "の器用さが次のターンのみ上昇する！"
+ Message2 "の器用さが次のターンのみ上昇する！"
+ Notes "<命中率 200%>"
+State 364
+ Name "アクセルクィック"
+ Message1 "の素早さが次のターンのみ上昇する！"
+ Message2 "の素早さが次のターンのみ上昇する！"
+ Notes "<命中率 200%>"
+State 366
+ Name "コスモヒール"
+ Notes "<ターン終了時発動 1305: 9181,100%>"
+State 367
+ Name "必中回避率75%アップ"
+ Notes "<必中回避率 75%>"
+State 368
+ Name "戦闘後獲得5倍"
+ Message1 "の戦闘での獲得経験値とゴールドが5倍になる！"
+ Message2 "の戦闘での獲得経験値とゴールドが5倍になる！"
+ Notes "<獲得経験値倍率 500%>\r\n<獲得職業経験値倍率 500%>\r\n<獲得金額倍率 500%>"
+State 369
+ Name "最大HP2倍"
+ Message1 "の最大HPが一時的に増大した！"
+ Message2 "の最大HPが一時的に増大した！"
+ Message4 "のドーピング効果が切れた！"
+State 370
+ Name "物理・快楽耐性25%"
+ Message1 "の物理・快楽耐性が大幅に上がった！"
+ Message2 "の物理・快楽耐性が大幅に上がった！"
+ Message4 "の物理・快楽耐性が元に戻った！"
+State 371
+ Name "魔法耐性25%"
+ Message1 "の魔法耐性が大幅に上がった！"
+ Message2 "の魔法耐性が大幅に上がった！"
+ Message4 "の魔法耐性が元に戻った！"
+State 372
+ Name "万能耐性50%"
+ Message1 "の万能耐性が上がった！"
+ Message2 "の万能耐性が上がった！"
+ Message4 "の万能耐性が元に戻った！"
+ Notes "<必中ダメージ率 50%>"
+State 373
+ Name "万能耐性25%"
+ Message1 "の万能耐性が大幅に上がった！"
+ Message2 "の万能耐性が大幅に上がった！"
+ Message4 "の万能耐性が元に戻った！"
+ Notes "<必中ダメージ率 25%>"
+State 374
+ Name "万能無効"
+ Message1 "は万能耐性が通じなくなった！"
+ Message2 "は万能耐性が通じなくなった！"
+ Message4 "の万能耐性が元に戻った！"
+ Notes "<必中ダメージ率 0%>"
+State 375
+ Name "四精霊同時召喚"
+ Message1 "は爆発的に行動力を高めた！"
+ Message2 "は爆発的に行動力を高めた！"
+ Message4 "は通常の状態に戻った！"
+State 376
+ Name "イリアスの加護"
+ Message4 "から女神イリアスの加護がなくなった！"
+State 378
+ Name "淫技ダメージ2倍"
+ Notes "<スキルタイプ強化 49-100>"
+State 379
+ Name "魔技ダメージ2倍"
+ Notes "<スキルタイプ強化 50-100>"
+State 380
+ Name "海技ダメージ2倍"
+ Notes "<スキルタイプ強化 51-100>"
+State 381
+ Name "粘技ダメージ2倍"
+ Notes "<スキルタイプ強化 52-100>"
+State 382
+ Name "獣技ダメージ2倍"
+ Notes "<スキルタイプ強化 53-100>"
+State 383
+ Name "蛇技ダメージ2倍"
+ Notes "<スキルタイプ強化 54-100>"
+State 384
+ Name "触手技ダメージ2倍"
+ Notes "<スキルタイプ強化 55-100>"
+State 385
+ Name "翼技ダメージ2倍"
+ Notes "<スキルタイプ強化 56-100>"
+State 386
+ Name "虫技ダメージ2倍"
+ Notes "<スキルタイプ強化 57-100>"
+State 387
+ Name "植物技ダメージ2倍"
+ Notes "<スキルタイプ強化 58-100>"
+State 388
+ Name "屍技ダメージ2倍"
+ Notes "<スキルタイプ強化 59-100>"
+State 389
+ Name "造技ダメージ2倍"
+ Notes "<スキルタイプ強化 60-100>"
+State 390
+ Name "自然感応ダメージ2倍"
+ Notes "<スキルタイプ強化 61-100>"
+State 391
+ Name "ブレスダメージ2倍"
+ Notes "<スキルタイプ強化 62-100>"
+State 392
+ Name "巨技ダメージ2倍"
+ Notes "<スキルタイプ強化 69-100>"
+State 393
+ Name "攻撃力ダウン"
+ Message1 "の攻撃力が下がった！"
+ Message2 "の攻撃力が下がった！"
+ Message4 "の攻撃力が元に戻った！"
+State 394
+ Name "魔力ダウン"
+ Message1 "の魔力が下がった！"
+ Message2 "の魔力が下がった！"
+ Message4 "の魔力が元に戻った！"
+State 395
+ Name "器用さダウン"
+ Message1 "の器用さが下がった！"
+ Message2 "の器用さが下がった！"
+ Message4 "の器用さが元に戻った！"
+State 396
+ Name "素早さダウン"
+ Message1 "の素早さが下がった！"
+ Message2 "の素早さが下がった！"
+ Message4 "の素早さが元に戻った！"
+State 397
+ Name "全能力ダウン"
+ Message1 "の全能力が下がった！"
+ Message2 "の全能力が下がった！"
+ Message4 "の全能力が元に戻った！"
+State 398
+ Name "素早さ大ダウン"
+ Message1 "の素早さが大幅に下がった！"
+ Message2 "の素早さが大幅に下がった！"
+ Message4 "の素早さが元に戻った！"
+State 399
+ Name "攻撃力アップ"
+ Message1 "の攻撃力が上がった！"
+ Message2 "の攻撃力が上がった！"
+ Message4 "の攻撃力が元に戻った！"
+State 400
+ Name "魔力アップ"
+ Message1 "の魔力が上がった！"
+ Message2 "の魔力が上がった！"
+ Message4 "の魔力が元に戻った！"
+State 401
+ Name "器用さアップ"
+ Message1 "の器用さが上がった！"
+ Message2 "の器用さが上がった！"
+ Message4 "の器用さが元に戻った！"
+State 402
+ Name "素早さアップ"
+ Message1 "の素早さが上がった！"
+ Message2 "の素早さが上がった！"
+ Message4 "の素早さが元に戻った！"
+State 403
+ Name "全能力アップ"
+ Message1 "の全能力が上がった！"
+ Message2 "の全能力が上がった！"
+ Message4 "の全能力が元に戻った！"
+ Notes "<必中ダメージ率 75%>"
+State 404
+ Name "全能力大アップ"
+ Message1 "の全能力が上がった！"
+ Message2 "の全能力が上がった！"
+ Message4 "のブースト効果が切れた！"
+ Notes "<必中ダメージ率 75%>"
+State 405
+ Name "全能力大アップ永続"
+ Notes "<必中ダメージ率 75%>\r\n<表示：全能力大アップ>"
+State 406
+ Name "混沌状態異常50"
+ Notes "<表示：なし>"
+State 407
+ Name "混沌状態異常25"
+ Notes "<表示：なし>"
+State 408
+ Name "混沌状態異常1"
+ Notes "<表示：なし>"
+State 409
+ Name "混沌即死50"
+ Notes "<表示：なし>"
+State 410
+ Name "混沌即死25"
+ Notes "<表示：なし>"
+State 411
+ Name "混沌即死1"
+ Notes "<表示：なし>"
+State 412
+ Name "全能力大アップ"
+ Message1 "の全能力が上がった！"
+ Message2 "の全能力が上がった！"
+ Message4 "のブースト効果が切れた！"
+ Notes "<必中ダメージ率 75%>"
+State 413
+ Name "防御攻撃"
+ Message1 "は身を守っている……"
+ Notes "<表示：防御>"
+State 414
+ Name "混沌状態異常1"
+ Notes "<表示：なし>"
+State 415
+ Name "回避攻撃"
+State 416
+ Name "オート魔力集中"
+ Message1 "の魔力と精神力が次のターンのみ上昇する！"
+ Message2 "の魔力と精神力が次のターンのみ上昇する！"
+ Notes "<命中率 200%>\r\n<表示：魔力集中>"
+State 417
+ Name "炎属性耐性"
+State 418
+ Name "氷属性耐性"
+State 419
+ Name "雷属性耐性"
+State 420
+ Name "風属性耐性"
+State 421
+ Name "土属性耐性"
+State 422
+ Name "水属性耐性"
+State 423
+ Name "バイオ属性耐性"
+State 424
+ Name "快楽属性耐性"
+State 425
+ Name "テラ属性耐性"
+State 429
+ Name "支援砲撃反撃"
+ Notes "<反撃スキル 40,50%>\r\n<表示：なし>"
+State 431
+ Name "星の加護"
+ Notes "<属性反射:6,7,8>\r\n<属性強化 6-100,7-100,8-100>"
+State 432
+ Name "陰陽・月詠"
+ Notes "<ターン終了時発動 1306: 1739,100%>\r\n<表示：なし>"
+State 434
+ Name "聖属性強化"
+ Notes "<属性強化 9-30>"
+State 435
+ Name "闇属性強化"
+ Notes "<属性強化 10-30>"
+State 436
+ Name "全属性ガードキル"
+ Message1 "の全属性耐性が無効化した！"
+ Message2 "の全属性耐性が無効化した！"
+ Message4 "の全属性耐性が元に戻った！"
+ Notes "<属性耐性固定 3-0,4-0,5-0,6-0,7-0,8-0,9-0,10-0,43-0,44-0,45-0,46-0,47-0,48-0,49-0,50-0>"
+State 437
+ Name "ワールドエンジン"
+ Message1 "の全属性攻撃が超強化された！"
+ Message2 "の全属性攻撃が超強化された！"
+ Message4 "の属性威力が元に戻った！"
+ Notes "<属性強化 3-100,4-100,5-100,6-100,7-100,8-100,9-100,10-100,43-100,44-100,45-100,46-100,47-100,48-100,49-100,50-100>"
+State 438
+ Name "高揚"
+ Message1 "の器用さと淫技の威力が上がった！"
+ Message2 "の器用さと淫技の威力が上がった！"
+ Message4 "の高揚感は収まった！"
+ Notes "<スキルタイプ強化 49-50>"
+State 439
+ Name "フラッシュカウンター"
+ Notes "<無効化反撃スキル 5832,100%>\r\n<無効化魔法反撃スキル 5832,100%>\r\n<表示：なし>"
+State 440
+ Name "バーサーク"
+ Message1 "はバーサーク状態になった！"
+ Message2 "はバーサーク状態になった！"
+ Message4 "のバーサークは解除された！"
+ Notes "<連続発動タイプ 7-2>"
+State 441
+ Name "ツーハンド"
+ Message1 "の剣技が連続発動する！"
+ Message2 "の剣技が連続発動する！"
+ Message4 "のツーハンドは解除された！"
+ Notes "<連続発動タイプ 7-2>"
+State 442
+ Name "処刑執行"
+ Message1 "はフォーム覚醒した！"
+ Message2 "はフォーム覚醒した！"
+ Message4 "のフォームは解除された！"
+ Notes "<連続発動タイプ 13-2>\r\n<速攻発動スキルタイプ:13>\r\n<拡張回避率 40%>"
+State 443
+ Name "鬼牙解放"
+ Message1 "はフォーム覚醒した！"
+ Message2 "はフォーム覚醒した！"
+ Message4 "のフォームは解除された！"
+ Notes "<スキルタイプ強化 21-50>\r\n<反撃強化 500%>"
+State 444
+ Name "神殺ノ枝"
+ Message1 "はフォーム覚醒した！"
+ Message2 "はフォーム覚醒した！"
+ Message4 "のフォームは解除された！"
+ Notes "<スキルタイプ強化 7-50,23-50,27-50>\r\n<拡張会心率 65%>"
+State 445
+ Name "クールカーム"
+ Message1 "に精神系状態異常は効かなくなった！"
+ Message2 "に精神系状態異常は効かなくなった！"
+ Message4 "の精神系状態異常耐性が元に戻った！"
+State 446
+ Name "ボルテクステップ"
+ Message1 "の特定スキルが速攻発動する！"
+ Message2 "の特定スキルが速攻発動する！"
+ Message4 "のボルテクステップは解除された！"
+ Notes "<速攻発動スキルタイプ:7>\r\n<速攻発動スキルタイプ:19>\r\n<速攻発動スキルタイプ:23>"
+State 447
+ Name "フローズン"
+ Message1 "はフローズン状態になった！"
+ Message2 "はフローズン状態になった！"
+ Message4 "のフローズンは解除された！"
+State 448
+ Name "消費MP・SP1/2"
+ Message1 "の消費MPおよびSPが低下した！"
+ Message2 "の消費MPおよびSPが低下した！"
+ Message4 "の消費MPおよびSPが元に戻った！"
+ Notes "<TP消費率 50%>"
+State 449
+ Name "ライジング"
+ Message1 "はライジング状態になった！"
+ Message2 "はライジング状態になった！"
+ Message4 "のライジングは解除された！"
+State 450
+ Name "ヘル・ブレイク"
+ Message1 "はヘル・ブレイク状態になった！"
+ Message2 "はヘル・ブレイク状態になった！"
+ Message4 "のヘル・ブレイクは解除された！"
+State 451
+ Name "クロスカウンター"
+ Notes "<反撃スキル 5806,100%>"
+State 452
+ Name "アルラウネフォーム"
+ Message1 "はアルラウネフォームに変化した！"
+ Message2 "はアルラウネフォームに変化した！"
+ Message4 "はノーマルフォームに戻った！"
+State 453
+ Name "ビーストフォーム"
+ Message1 "はビーストフォームに変化した！"
+ Message2 "はビーストフォームに変化した！"
+ Message4 "はノーマルフォームに戻った！"
+State 454
+ Name "ジェルフォーム"
+ Message1 "はジェルフォームに変化した！"
+ Message2 "はジェルフォームに変化した！"
+ Message4 "はノーマルフォームに戻った！"
+State 455
+ Name "やまびこの術"
+ Message1 "の術がやまびことなって返ってきた！"
+ Message2 "の術がやまびことなって返ってきた！"
+ Message4 "の術がやまびことなって返ってきた！"
+ Notes "<連続発動タイプ 31-2>"
+State 456
+ Name "ヴァギナクイッケン"
+ Message2 "の動作が超スピードとなった！"
+ Message4 "の動作が通常に戻った！"
+ Notes "<連続発動タイプ 49-2>"
+State 457
+ Name "グリマギルデ"
+ Message1 "の全能力が上がった！"
+ Message2 "の全能力が上がった！"
+ Message4 "の全能力が元に戻った！"
+State 458
+ Name "アドレナリンラッシュ"
+ Message1 "の通常攻撃が強化された！"
+ Message2 "の通常攻撃が強化された！"
+ Message4 "の通常攻撃が元に戻った！"
+ Notes "<通常攻撃強化 0-400,1-400,2-400,3-400,4-400,5-400,6-400,7-400,8-400,9-400,10-400,11-400,12-400,13-400,14-400,15-400,16-400,17-400,18-400,19-400,20-400,21-400,22-400,23-400,24-400,25-400,26-400,27-400,28-400,29-400,30-400,31-400>"
+State 459
+ Name "逆切れ"
+ Notes "<反撃スキル 5888,100%>\r\n<魔法反撃スキル 5888,100%>\r\n<必中反撃スキル 5888,100%>\r\n<表示：なし>"
+State 461
+ Name "サキュバスプリズン"
+ Message1 "の淫術結界が周囲の空間を覆い込む！"
+ Notes "<ターン終了時発動 1307: 5903,100%>\r\n<表示：なし>"
+State 462
+ Name "装備武器スキル封印"
+ Notes "<表示：なし>"
+State 463
+ Name "全攻撃快楽付加"
+ Notes "<全攻撃属性付加 2>"
+State 464
+ Name "全能力アップ3倍"
+ Message1 "の全能力が上がった！"
+ Message2 "の全能力が上がった！"
+ Message4 "のブースト効果が切れた！"
+ Notes "<表示：全能力大アップ>"
+State 465
+ Name "激励"
+ Message1 "の攻撃力と器用さが上がった！"
+ Message2 "の攻撃力と器用さが上がった！"
+ Message4 "は元に戻った！"
+State 466
+ Name "おひつじさま"
+ Notes "<表示：おひつじさま>"
+State 467
+ Name "サイコドレイン"
+ Message4 "の刃から体力吸収の力が消えた！"
+ Notes "<通常攻撃 7>\r\n<属性強化 2-50>"
+State 468
+ Name "状態異常耐性強化"
+ Message1 "に状態異常は効きにくくなった！"
+ Message2 "に状態異常は効きにくくなった！"
+ Message4 "の状態異常耐性が元に戻った！"
+State 469
+ Name "風火輪ブースト"
+ Message1 "の速度がさらにアップした！"
+ Message4 "の風火輪ブーストが停止した！"
+ Notes "<連続発動タイプ 29-2,64-2>"
+State 470
+ Name "全能力アップ2倍"
+ Message1 "の全能力が上がった！"
+ Message2 "の全能力が上がった！"
+ Message4 "のブースト効果が切れた！"
+ Notes "<表示：全能力アップ>"
+State 471
+ Name "ナイチンゲールの神薬"
+ Message1 "の体に神薬が作用した！"
+ Message2 "の体に神薬が作用した！"
+ Message4 "の神薬効果が切れた！"
+ Notes "<死亡時スキル 3264>\r\n<即死時スキル 3264>"
+State 472
+ Name "コンセントレイト"
+ Message1 "の魔力と精神力が一時的に上昇する！"
+ Message2 "の魔力と精神力が一時的に上昇する！"
+ Notes "<命中率 200%>"
+State 473
+ Name "ソフィスティケイト"
+ Message1 "の器用さと素早さが一時的に上昇する！"
+ Message2 "の器用さと素早さが一時的に上昇する！"
+ Notes "<命中率 200%>"
+State 474
+ Name "オブリージュ・アンフィニ"
+ Message1 "の刃に高貴な志が宿る！"
+ Message2 "の刃に高貴な志が宿る！"
+ Message4 "の刃は普通に戻った！"
+ Notes "<連続発動タイプ 8-3>"
+State 475
+ Name "チタン装甲"
+ Message4 "のチタン装甲が効果を失った！"
+ Notes "<必中ダメージ率 50%>"
+State 476
+ Name "フルシールド"
+ Message4 "のフルシールドが効果を失った！"
+ Notes "<必中ダメージ率 25%>"
+State 477
+ Name "メガビームシールド"
+ Message4 "のメガビームシールドが効果を失った！"
+ Notes "<必中ダメージ率 10%>"
+State 478
+ Name "量子化"
+ Message4 "の無敵化が解除された！"
+ Notes "<必中ダメージ率 0%>"
+State 479
+ Name "加速装置"
+ Message4 "の加速装置の効果が切れた！"
+State 480
+ Name "魔王の本気"
+ Message1 "は本気を出した！"
+ Message2 "は本気を出してきた！"
+ Notes "<表示：なし>"
+State 481
+ Name "自爆準備"
+ Message2 "は核融合反応を始めた！"
+ Message3 "は核融合反応を維持している……"
+ Notes "<属性強化 39-1000>"
+State 482
+ Name "快楽状態異常ガードキル"
+ Message1 "の快楽状態異常耐性が無効化された！"
+ Message2 "の快楽状態異常耐性が無効化された！"
+ Message4 "の快楽状態異常耐性が元に戻った！"
+ Notes "<ステート耐性固定 24-100,25-100,26-100,27-100>"
+State 483
+ Name "激怒"
+ Message2 "は激怒した！"
+ Notes "<反撃スキル 1428,50%>\r\n<魔法反撃スキル 1428,50%>\r\n<必中反撃スキル 1428,30%>\r\n<表示：なし>"
+State 484
+ Name "沈黙耐性"
+ Message1 "は沈黙への耐性を獲得した！"
+ Message2 "は沈黙への耐性を獲得した！"
+State 485
+ Name "スロウ耐性"
+ Message1 "はスロウへの耐性を獲得した！"
+ Message2 "はスロウへの耐性を獲得した！"
+State 486
+ Name "ストップ耐性"
+ Message1 "はストップへの耐性を獲得した！"
+ Message2 "はストップへの耐性を獲得した！"
+State 487
+ Name "拘束耐性"
+ Message1 "は拘束への耐性を獲得した！"
+ Message2 "は拘束への耐性を獲得した！"
+State 488
+ Name "力溜め（二重用）"
+ Message1 "の攻撃力が一時的に上昇する！"
+ Message2 "の攻撃力が一時的に上昇する！"
+ Notes "<表示：なし>"
+State 489
+ Name "魔力集中（二重用）"
+ Message1 "の魔力と精神力が一時的に上昇する！"
+ Message2 "の魔力と精神力が一時的に上昇する！"
+ Notes "<命中率 200%>\r\n<表示：なし>"
+State 490
+ Name "精神集中（二重用）"
+ Message1 "の器用さと素早さが一時的に上昇する！"
+ Message2 "の器用さと素早さが一時的に上昇する！"
+ Notes "<命中率 200%>\r\n<表示：なし>"
+State 491
+ Name "シールドアッセンブル"
+ Message1 "はくじけない心を抱いた！"
+ Message2 "はくじけない心を抱いた！"
+ Message4 "は平常に戻った……"
+ Notes "<必中ダメージ率 50%>\r\n<踏みとどまり 10%>\r\n<死亡時スキル 3264>\r\n<即死時スキル 3264>"
+State 492
+ Name "シールドガード"
+ Notes "<物理反射率 75%>"
+State 493
+ Name "アルティメットリフレクト"
+ Notes "<物理反射率 90%>\r\n<必中反射率 50%>"
+State 494
+ Name "魔力・精神力アップ"
+ Message1 "の魔力と精神力が上がった！"
+ Message2 "の魔力と精神力が上がった！"
+ Message4 "の魔力と精神力が元に戻った！"
+State 495
+ Name "量子化"
+ Message4 "の無敵化が解除された！"
+ Notes "<必中ダメージ率 0%>"
+State 496
+ Name "アルテマガード"
+ Message1 "は偉大なる守護者の加護を受けた！"
+ Message2 "は偉大なる守護者の加護を受けた！"
+ Message4 "から偉大なる守護者の加護が消えた！"
+ Notes "<必中ダメージ率 50%>"
+State 497
+ Name "ワールドアッセンブル"
+ Message1 "はくじけない心を抱いた！"
+ Message2 "はくじけない心を抱いた！"
+ Message4 "は平常に戻った……"
+ Notes "<必中ダメージ率 50%>\r\n<踏みとどまり 10%>\r\n<死亡時スキル 3264>\r\n<即死時スキル 3264>"
+State 498
+ Name "全行動速攻"
+ Message1 "の行動が最速になった！"
+ Message2 "の行動が最速になった！"
+ Message4 "の行動が最速ではなくなった！"
+ Notes "<全行動速攻>"
+State 499
+ Name "全行動遅攻"
+ Message1 "の行動が最遅になった！"
+ Message2 "の行動が最遅になった！"
+ Message4 "の行動が最遅ではなくなった！"
+ Notes "<全行動遅攻>"
+State 500
+ Name "神禹歩"
+ Message1 "に天地の理が加護を与える！"
+ Message2 "に天地の理が加護を与える！"
+ Message4 "の加護が消え去った！"
+State 501
+ Name "禁断兵器・核熱砲撃"
+ Message1 "の指示により砲撃態勢が続行する！"
+ Notes "<ターン終了時発動 1303: 44,100%>"
+State 502
+ Name "銀河属性二倍"
+ Message4 "の刃から炎の力が消えた！"
+ Notes "<属性強化 41-100>"
+State 503
+ Name "消費MP・SPなし"
+ Message1 "のMPとSPが消費されなくなった！"
+ Message2 "のMPとSPが消費されなくなった！"
+ Message4 "の消費MPおよびSPが元に戻った！"
+ Notes "<TP消費率 0%>"
+State 504
+ Name "清めの神舞"
+ Notes "<ターン終了時発動 1308: 8800,100%>"
+State 505
+ Name "究極からくり舞い"
+ Notes "<ターン終了時発動 1309: 8801,100%>"
+State 506
+ Name "連撃スキル4アップ"
+ Notes "<スキルタイプ攻撃回数アップ 6-4,7-4,8-4,9-4,0-4,11-4,12-4,13-4,14-4,15-4,16-4,17-4,18-4,19-4,20-4,21-4,22-4,23-4,24-4,25-4,26-4,27-4,28-4,29-4,30-4,31-4,32-4,33-4,34-4,35-4,36-4,37-4,38-4,39-4,40-4,41-4,42-4,43-4,44-4,45-4,46-4,47-4,48-4,49-4,50-4,51-4,52-4,53-4,54-4,55-4,56-4,57-4,58-4,59-4,60-4,61-4,62-4,63-4,64-4,67-4,68-4,69-4>"
+State 507
+ Name "銀河の守り"
+ Message1 "は銀河属性ダメージを受けなくなった！"
+ Message2 "は銀河属性ダメージを受けなくなった！"
+ Message4 "の耐性が元に戻った！"
+State 508
+ Name "2回行動1ターン"
+ Message1 "は二回行動になった！"
+ Message2 "は二回行動になった！"
+ Notes "<表示：二回行動>"
+State 509
+ Name "銀河属性付加"
+ Message4 "の刃から銀河の力が消えた！"
+ Notes "<属性強化 41-50>"
+State 510
+ Name "ドロップ全取得"
+ Notes "<ドロップ全取得>"
+State 511
+ Name "SOL"
+ Notes "<ターン終了時発動 1310: 9476,100%>"
+State 512
+ Name "最大HP3倍"
+ Message1 "の最大HPが爆発的に増大した！"
+ Message2 "の最大HPが爆発的に増大した！"
+ Message4 "のドーピング効果が切れた！"
+ Notes "<最大TP減少 0%>"
+State 513
+ Name "華音の吐息"
+ Notes "<ターン終了時発動 1311: 9628,100%>"
+State 514
+ Name "リライズブレス"
+ Message1 "の新陳代謝が活性化した！"
+ Message2 "の新陳代謝が活性化した！"
+ Message4 "の新陳代謝が元に戻った！"
+State 515
+ Name "究極ヒーロー"
+ Message3 "は変身している……"
+ Message4 "の変身が解けた！"
+ Notes "<TP消費率 50%>\r\n<物理反射率 50%>"
+State 516
+ Name "アルティメット魔法少女"
+ Message3 "は変身している……"
+ Message4 "の変身が解けた！"
+ Notes "<魔法会心率 50%>"
+State 517
+ Name "3回行動1ターン"
+ Notes "<表示：三回行動>"
+State 518
+ Name "明星塵煌"
+ Notes "<無効化反撃スキル 9278,100%>\r\n<無効化魔法反撃スキル 9278,100%>\r\n<無効化必中反撃スキル 9278,100%>\r\n<表示：なし>"
+State 519
+ Name "凍てつかない波動"
+ Message4 "の凍てつかない波動の効果が消えた！"
+ Notes "<スキル無効化反撃 9426,965,1489,1490,1583,2043,2734,3183,4535,5736,5754,5760,5797,9024,9294>"
+State 520
+ Name "滅捨身撃"
+ Notes "<必中ダメージ率 200%>"
+State 521
+ Name "魔法剣炎追撃"
+ Notes "<スキルタイプコンボ 7-1499>"
+State 522
+ Name "魔法剣氷追撃"
+ Notes "<スキルタイプコンボ 7-1505>"
+State 523
+ Name "魔法剣雷追撃"
+ Notes "<スキルタイプコンボ 7-1511>"
+State 524
+ Name "魔法剣風追撃"
+ Notes "<スキルタイプコンボ 7-1515>"
+State 525
+ Name "魔法剣土追撃"
+ Notes "<スキルタイプコンボ 7-1518>"
+State 526
+ Name "魔法剣水追撃"
+ Notes "<スキルタイプコンボ 7-1521>"
+State 527
+ Name "魔法剣聖追撃"
+ Notes "<スキルタイプコンボ 7-1635>"
+State 528
+ Name "魔法剣闇追撃"
+ Notes "<スキルタイプコンボ 7-1674>"
+State 529
+ Name "属性ルーレット：炎"
+ Notes "<属性強化 3-100>"
+State 530
+ Name "属性ルーレット：氷"
+ Notes "<属性強化 4-100>"
+State 531
+ Name "属性ルーレット：雷"
+ Notes "<属性強化 5-100>"
+State 532
+ Name "属性ルーレット：風"
+ Notes "<属性強化 6-100>"
+State 533
+ Name "属性ルーレット：土"
+ Notes "<属性強化 7-100>"
+State 534
+ Name "属性ルーレット：水"
+ Notes "<属性強化 8-100>"
+State 535
+ Name "属性ルーレット：聖"
+ Notes "<属性強化 9-100>"
+State 536
+ Name "属性ルーレット：闇"
+ Notes "<属性強化 10-100>"
+State 537
+ Name "核熱属性付加"
+ Notes "<属性強化 43-50>"
+State 538
+ Name "量子属性付加"
+ Notes "<属性強化 44-50>"
+State 539
+ Name "イオン属性付加"
+ Notes "<属性強化 45-50>"
+State 540
+ Name "ハドロン属性付加"
+ Notes "<属性強化 46-50>"
+State 541
+ Name "テラ属性付加"
+ Notes "<属性強化 47-50>"
+State 542
+ Name "ナノ属性付加"
+ Notes "<属性強化 48-50>"
+State 543
+ Name "永劫属性付加"
+ Notes "<属性強化 49-50>"
+State 544
+ Name "終焉属性付加"
+ Notes "<属性強化 50-50>"
+State 545
+ Name "核動力"
+State 546
+ Name "最大MP1.5倍"
+ Message1 "の最大MPが一時的に増大した！"
+ Message2 "の最大MPが一時的に増大した！"
+ Message4 "のドーピング効果が切れた！"
+State 547
+ Name "最大MP2.0倍"
+ Message1 "の最大MPが一時的に増大した！"
+ Message2 "の最大MPが一時的に増大した！"
+ Message4 "のドーピング効果が切れた！"
+State 548
+ Name "最大MP1.5倍"
+ Message1 "の最大SPが一時的に増大した！"
+ Message2 "の最大SPが一時的に増大した！"
+ Message4 "のドーピング効果が切れた！"
+ Notes "<最大TP増加 50%>"
+State 549
+ Name "最大MP2.0倍"
+ Message1 "の最大SPが一時的に増大した！"
+ Message2 "の最大SPが一時的に増大した！"
+ Message4 "のドーピング効果が切れた！"
+ Notes "<最大TP増加 100%>"
+State 550
+ Name "麒麟"
+ Message4 "から麒麟の加護がなくなった！"
+ Notes "<属性強化 5-50>\r\n<属性吸収 5>\r\n<全行動速攻>"
+State 551
+ Name "氷帰蝶"
+ Message4 "から氷帰蝶の加護がなくなった！"
+ Notes "<属性強化 4-50>\r\n<属性吸収 4>\r\n<拡張物理反射率 50%>"
+State 552
+ Name "四回行動"
+State 553
+ Name "闇の衣"
+ Message4 "の闇の衣が消滅した！"
+ Notes "<物理ダメージ率 50%>\r\n<魔法ダメージ率 25%>\r\n<必中ダメージ率 75%>"
+State 554
+ Name "剣技無効化"
+ Notes "<スキルタイプ無効化反撃 1381,6,7,8,9>"
+State 555
+ Name "槍技・翼技無効化"
+ Notes "<スキルタイプ無効化反撃 1080,10,56>"
+State 556
+ Name "斧技・棍技・鉄球技無効化"
+ Notes "<スキルタイプ無効化反撃 9121,11,12,17>"
+State 557
+ Name "弓技・投擲技・銃技無効化"
+ Notes "<スキルタイプ無効化反撃 1355,14,16,19>"
+State 558
+ Name "鎌技・鞭技無効化"
+ Notes "<スキルタイプ無効化反撃 1023,13,15>"
+State 559
+ Name "格闘無効化"
+ Notes "<スキルタイプ無効化反撃 1425,21>"
+State 560
+ Name "魔法無効化"
+ Notes "<スキルタイプ無効化反撃 959,22,23,24,25>"
+State 561
+ Name "刀技・陰陽術・忍術無効化"
+ Notes "<スキルタイプ無効化反撃 1792,9,29,31>"
+State 562
+ Name "海賊技・海技無効化"
+ Notes "<スキルタイプ無効化反撃 1828,32,51>"
+State 563
+ Name "踊り無効化"
+ Notes "<スキルタイプ無効化反撃 2078,18,37>"
+State 564
+ Name "歌無効化"
+ Notes "<スキルタイプ無効化反撃 2025,38>"
+State 565
+ Name "マキナ・造技無効化"
+ Notes "<スキルタイプ無効化反撃 2143,43,60>"
+State 566
+ Name "魔技無効化"
+ Notes "<スキルタイプ無効化反撃 5812,50>"
+State 567
+ Name "粘液技無効化"
+ Notes "<スキルタイプ無効化反撃 2641,52>"
+State 568
+ Name "獣技無効化"
+ Notes "<スキルタイプ無効化反撃 1243,53>"
+State 569
+ Name "蛇技無効化"
+ Notes "<スキルタイプ無効化反撃 2781,54>"
+State 570
+ Name "触手技無効化"
+ Notes "<スキルタイプ無効化反撃 2742,55>"
+State 571
+ Name "植物技無効化"
+ Notes "<スキルタイプ無効化反撃 2909,57>"
+State 572
+ Name "虫技無効化"
+ Notes "<スキルタイプ無効化反撃 2861,58>"
+State 573
+ Name "屍技無効化"
+ Notes "<スキルタイプ無効化反撃 1638,59>"
+State 574
+ Name "自然感応無効化"
+ Notes "<スキルタイプ無効化反撃 48,61>"
+State 575
+ Name "ブレス無効化"
+ Notes "<スキルタイプ無効化反撃 8799,62>"
+State 576
+ Name "残心"
+ Notes "<反撃スキル 8790,100%>\r\n<魔法反撃スキル 8790,100%>\r\n<必中反撃スキル 8790,100%>\r\n<表示：なし>"
+State 577
+ Name "不見の覚醒"
+ Notes "<スキルタイプ強化 22-30,23-30,24-30,25-30,29-30>"
+State 578
+ Name "不言の覚醒"
+ Notes "<スキルタイプ強化 6-30,7-30,8-30,9-30,10-30,11-30,12-30,13-30,14-30,15-30,16-30,17-30,18-30,19-30,20-30,21-30>"
+State 579
+ Name "リピートメテオ"
+ Notes "<ターン終了時発動 1312: 1560,100%>"
+State 580
+ Name "則天去私"
+ Message4 "の心構えが通常に戻った！"
+ Notes "<命中率 200%>\r\n<会心ダメージ増加:50>"
+State 581
+ Name "魔法剣カーズ"
+ Message4 "の刃から呪いの力が消えた！"
+ Notes "<属性強化 36-50>"
+State 582
+ Name "巨神の守り"
+ Notes "<無効化反撃スキル 9733,100%>\r\n<表示：なし>"
+State 583
+ Name "オールトの守り"
+ Notes "<無効化魔法反撃スキル 9734,100%>\r\n<無効化必中反撃スキル 9734,100%>\r\n<表示：なし>"
+State 584
+ Name "最終奥義"
+ Notes "<会心ダメージ増加:50>"
+State 585
+ Name "最終練気"
+ Message1 "の攻撃力と会心率が上がった！"
+ Message2 "の攻撃力と会心率が上がった！"
+ Message4 "の攻撃力と会心率が元に戻った！"
+ Notes "<会心ダメージ増加:50>"
+State 586
+ Name "武技収束"
+ Message4 "は収束の構えを解いた！"
+ Notes "<スキルタイプ単体化 6-50,7-50,8-50,9-50,10-50,11-50,12-50,13-50,14-50,15-50,16-50,17-50,18-50,19-50,20-50,21-50>"
+State 587
+ Name "武技拡散"
+ Message4 "は収束の構えを解いた！"
+ Notes "<スキルタイプ全体化 6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21>"
+State 588
+ Name "職技収束"
+ Message4 "は収束の構えを解いた！"
+ Notes "<スキルタイプ単体化 30-50,31-50,32-50,33-50,34-50,35-50,36-50,37-50,38-50,39-50,43-50,44-50,45-50,46-50,47-50,48-50,49-50>"
+State 589
+ Name "職技拡散"
+ Message4 "は収束の構えを解いた！"
+ Notes "<スキルタイプ全体化 30,31,32,33,34,35,36,37,38,39,43,44,45,46,47,48,49>"
+State 590
+ Name "魔法収束"
+ Message4 "は収束の構えを解いた！"
+ Notes "<スキルタイプ単体化 22-50,23-50,24-50,25-50,26-50,27-50,28-50,29-50,40-50,41-50,42-50,67-50,70-50>\r\n<スキル単体化 3106-50,3107-50,3108-50,3109-50,3110-50,3111-50,9799-50,9800-50,9801-50,9802-50,9803-50,9804-50,9805-50,9806-50>"
+State 591
+ Name "魔法拡散"
+ Message4 "は収束の構えを解いた！"
+ Notes "<スキルタイプ全体化 22,23,24,25,26,27,28,29,40,41,42,67,70>"
+State 592
+ Name "魔物技収束"
+ Message4 "は収束の構えを解いた！"
+ Notes "<50-50,51-50,52-50,53-50,54-50,55-50,56-50,57-50,58-50,59-50,60-50,61-50,62-50,68-50,69-50>"
+State 593
+ Name "魔物技拡散"
+ Message4 "は収束の構えを解いた！"
+ Notes "<スキルタイプ全体化 50,51,52,53,54,55,56,57,58,59,60,61,62,68,69>"
+State 594
+ Name "くのいちの極み"
+ Message4 "の攻撃から快楽属性の効果が消えた！"
+ Notes "<全攻撃属性付加 2>"
+State 595
+ Name "暗黒輪舞"
+ Notes "<ターン後ステート発動 3-1>"
+State 598
+ Name "短剣技ダメージ2倍"
+ Notes "<スキルタイプ強化 6-100>"
+State 599
+ Name "剣技ダメージ2倍"
+ Notes "<スキルタイプ強化 7-100>"
+State 600
+ Name "尖剣技ダメージ2倍"
+ Notes "<スキルタイプ強化 8-100>"
+State 601
+ Name "刀技ダメージ2倍"
+ Notes "<スキルタイプ強化 9-100>"
+State 602
+ Name "槍技ダメージ2倍"
+ Notes "<スキルタイプ強化 10-100>"
+State 603
+ Name "斧技ダメージ2倍"
+ Notes "<スキルタイプ強化 11-100>"
+State 604
+ Name "棍技ダメージ2倍"
+ Notes "<スキルタイプ強化 12-100>"
+State 605
+ Name "鎌技ダメージ2倍"
+ Notes "<スキルタイプ強化 13-100>"
+State 606
+ Name "弓技ダメージ2倍"
+ Notes "<スキルタイプ強化 14-100>"
+State 607
+ Name "鞭技ダメージ2倍"
+ Notes "<スキルタイプ強化 15-100>"
+State 608
+ Name "投擲技ダメージ2倍"
+ Notes "<スキルタイプ強化 16-100>"
+State 609
+ Name "鉄球技ダメージ2倍"
+ Notes "<スキルタイプ強化 17-100>"
+State 610
+ Name "扇技ダメージ2倍"
+ Notes "<スキルタイプ強化 18-100>"
+State 611
+ Name "銃技ダメージ2倍"
+ Notes "<スキルタイプ強化 19-100>"
+State 612
+ Name "多武器技ダメージ2倍"
+ Notes "<スキルタイプ強化 20-100>"
+State 613
+ Name "格闘ダメージ2倍"
+ Notes "<スキルタイプ強化 21-100>"
+State 614
+ Name "白魔法ダメージ2倍"
+ Notes "<スキルタイプ強化 22-100>"
+State 615
+ Name "黒魔法ダメージ2倍"
+ Notes "<スキルタイプ強化 23-100>"
+State 616
+ Name "時魔法ダメージ2倍"
+ Notes "<スキルタイプ強化 24-100>"
+State 617
+ Name "召喚ダメージ2倍"
+ Notes "<スキルタイプ強化 25-100>"
+State 618
+ Name "聖技ダメージ2倍"
+ Notes "<スキルタイプ強化 26-100>"
+State 619
+ Name "闇技ダメージ2倍"
+ Notes "<スキルタイプ強化 27-100>"
+State 620
+ Name "陰陽術ダメージ2倍"
+ Notes "<スキルタイプ強化 29-100>"
+State 621
+ Name "忍術ダメージ2倍"
+ Notes "<スキルタイプ強化 31-100>"
+State 622
+ Name "海賊技ダメージ2倍"
+ Notes "<スキルタイプ強化 32-100>"
+State 623
+ Name "ヒーロー技ダメージ2倍"
+ Notes "<スキルタイプ強化 33-100>"
+State 624
+ Name "オラクルダメージ2倍"
+ Notes "<スキルタイプ強化 36-100>"
+State 625
+ Name "踊るダメージ2倍"
+ Notes "<スキルタイプ強化 37-100>"
+State 626
+ Name "歌うダメージ2倍"
+ Notes "<スキルタイプ強化 38-100>"
+State 627
+ Name "魔導科学ダメージ2倍"
+ Notes "<スキルタイプ強化 40-100>"
+State 628
+ Name "魔本術ダメージ2倍"
+ Notes "<スキルタイプ強化 42-100>"
+State 629
+ Name "マキナダメージ2倍"
+ Notes "<スキルタイプ強化 43-100>"
+State 630
+ Name "医術ダメージ2倍"
+ Notes "<スキルタイプ強化 45-100>"
+State 631
+ Name "御奉仕ダメージ2倍"
+ Notes "<スキルタイプ強化 46-100>"
+State 632
+ Name "王技ダメージ2倍"
+ Notes "<スキルタイプ強化 47-100>"
+State 633
+ Name "勇者技ダメージ2倍"
+ Notes "<スキルタイプ強化 48-100>"
+State 634
+ Name "淫技ダメージ2倍"
+ Notes "<スキルタイプ強化 49-100>"
+State 635
+ Name "サイコダメージ2倍"
+ Notes "<スキルタイプ強化 67-100>"
+State 636
+ Name "妖術ダメージ2倍"
+ Notes "<スキルタイプ強化 68-100>"
+State 638
+ Name "炎ガードキル"
+ Message1 "の炎耐性が失われた！"
+ Message2 "の炎耐性が失われた！"
+ Notes "<属性耐性固定 3-100>"
+State 639
+ Name "氷ガードキル"
+ Message1 "の氷耐性が失われた！"
+ Message2 "の氷耐性が失われた！"
+ Notes "<属性耐性固定 4-100>"
+State 640
+ Name "雷ガードキル"
+ Message1 "の雷耐性が失われた！"
+ Message2 "の雷耐性が失われた！"
+ Notes "<属性耐性固定 5-100>"
+State 641
+ Name "風ガードキル"
+ Message1 "の風耐性が失われた！"
+ Message2 "の風耐性が失われた！"
+ Notes "<属性耐性固定 6-100>"
+State 642
+ Name "土ガードキル"
+ Message1 "の土耐性が失われた！"
+ Message2 "の土耐性が失われた！"
+ Notes "<属性耐性固定 7-100>"
+State 643
+ Name "水ガードキル"
+ Message1 "の水耐性が失われた！"
+ Message2 "の水耐性が失われた！"
+ Notes "<属性耐性固定 8-100>"
+State 644
+ Name "聖ガードキル"
+ Message1 "の聖耐性が失われた！"
+ Message2 "の聖耐性が失われた！"
+ Notes "<属性耐性固定 9-100>"
+State 645
+ Name "闇ガードキル"
+ Message1 "の闇耐性が失われた！"
+ Message2 "の闇耐性が失われた！"
+ Notes "<属性耐性固定 10-100>"
+State 646
+ Name "音波ガードキル"
+ Message1 "の音波耐性が失われた！"
+ Message2 "の音波耐性が失われた！"
+ Notes "<属性耐性固定 35-100>"
+State 647
+ Name "バイオガードキル"
+ Message1 "のバイオ耐性が失われた！"
+ Message2 "のバイオ耐性が失われた！"
+ Notes "<属性耐性固定 36-100>"
+State 648
+ Name "聖杯の奇跡"
+ Message1 "は聖杯の加護を受けた！"
+ Message2 "は聖杯の加護を受けた！"
+ Message4 "から聖杯の加護が失われた！"
+ Notes "<ターン終了時発動 1313: 8762,100%,3,1>\r\n<ターン終了時発動 1314: 5789,100%,3,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,42,43,48,52,76,77,78,79,80,81,82,83,84,85,86,87,308,309,393,394,395,396,397,398>"
+State 649
+ Name "アンブロシア"
+ Message4 "からアンブロシアの効果がなくなった！"
+ Notes "<属性耐性固定 6-150>"
+State 650
+ Name "ロア"
+ Message4 "からロアの効果がなくなった！"
+ Notes "<属性耐性固定 7-150>"
+State 651
+ Name "ガタノソア"
+ Message4 "からガタノソアの効果がなくなった！"
+ Notes "<属性耐性固定 8-150>"
+State 652
+ Name "グリモワール"
+ Message4 "からグリモワールの効果がなくなった！"
+ Notes "<属性耐性固定 3-150>"
+State 653
+ Name "無限蛇の踊り"
+ Message1 "は拘束を受け付けなくなった！"
+ Message2 "は拘束を受け付けなくなった！"
+ Message4 "の拘束無効が解除された！"
+State 654
+ Name "全能力アップ・瀕死時用"
+ Message1 "の全能力が上がった！"
+ Message2 "の全能力が上がった！"
+ Message4 "の全能力が元に戻った！"
+ Notes "<必中ダメージ率 75%>\r\n<表示：全能力アップ>"
